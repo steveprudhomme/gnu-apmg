@@ -1,0 +1,10 @@
+* text=auto
+*.md text eol=lf
+*.py text eol=lf
+*.ttl text eol=lf
+*.yml text eol=lf
+*.json text eol=lf
+COPYING text eol=lf
+*.sql text eol=lf
+*.svg text eol=lf
+*.toml text eol=lf

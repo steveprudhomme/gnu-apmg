@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 650" role="img" aria-label="Schéma relationnel simple des tables d'inventaire GNU APMG">
+  <rect width="1200" height="650" rx="20" fill="#f7f9fd"/>
+  <text x="45" y="58" font-size="32" font-weight="bold" font-family="Arial, sans-serif" fill="#18283b">SQLite · distinguer le contenu, le chemin et le scan</text>
+  <g font-family="Arial, sans-serif">
+    <rect x="45" y="118" width="315" height="160" rx="14" fill="#e2edf9" stroke="#6d9abf" stroke-width="2"/>
+    <text x="65" y="158" font-size="25" font-weight="bold" fill="#194265">assets</text>
+    <text x="65" y="194" font-size="20" fill="#315a76">sha256 (clé)</text>
+    <text x="65" y="228" font-size="20" fill="#315a76">size_bytes · first_seen</text>
+    <rect x="440" y="118" width="325" height="160" rx="14" fill="#fff" stroke="#9fb4c9" stroke-width="2"/>
+    <text x="460" y="158" font-size="25" font-weight="bold" fill="#183447">file_locations</text>
+    <text x="460" y="194" font-size="20" fill="#526677">path_local (clé)</text>
+    <text x="460" y="228" font-size="20" fill="#526677">asset_sha256 · mtime_ns</text>
+    <rect x="845" y="118" width="312" height="160" rx="14" fill="#dff2e7" stroke="#78ae8d" stroke-width="2"/>
+    <text x="865" y="158" font-size="25" font-weight="bold" fill="#1b603c">source_metadata</text>
+    <text x="865" y="194" font-size="20" fill="#397455">asset_sha256 · tag</text>
+    <text x="865" y="228" font-size="20" fill="#397455">value_json · version</text>
+    <path d="M360 192 H438" stroke="#5b829f" stroke-width="4" stroke-dasharray="8 7"/>
+    <path d="M765 192 H843" stroke="#5b997c" stroke-width="4" stroke-dasharray="8 7"/>
+    <rect x="210" y="356" width="320" height="157" rx="14" fill="#fff" stroke="#9fb4c9" stroke-width="2"/>
+    <text x="230" y="398" font-size="25" font-weight="bold" fill="#183447">scans</text>
+    <text x="230" y="432" font-size="20" fill="#526677">scan_id (clé)</text>
+    <text x="230" y="465" font-size="20" fill="#526677">status · started_at</text>
+    <rect x="670" y="356" width="330" height="157" rx="14" fill="#fff" stroke="#9fb4c9" stroke-width="2"/>
+    <text x="690" y="398" font-size="25" font-weight="bold" fill="#183447">scan_items</text>
+    <text x="690" y="432" font-size="20" fill="#526677">scan_id · path_local</text>
+    <text x="690" y="465" font-size="20" fill="#526677">status · error_code</text>
+    <path d="M530 427 H668" stroke="#5b829f" stroke-width="4" stroke-dasharray="8 7"/>
+    <path d="M820 356 V318 H205 V278" stroke="#5b829f" stroke-width="3" stroke-dasharray="7 8" fill="none"/>
+    <text x="45" y="578" font-size="22" fill="#445970">Deux chemins différents peuvent pointer vers le même SHA-256.</text>
+    <text x="45" y="610" font-size="18" fill="#667b8f">Les liens représentent des références logiques ; schéma simplifié pour la lecture.</text>
+  </g>
+</svg>

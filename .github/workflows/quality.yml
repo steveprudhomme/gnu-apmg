@@ -1,0 +1,30 @@
+name: quality-phase-1
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  policies:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Structure et exclusion de fichiers sensibles
+        run: python scripts/check_repository.py
+      - name: Tests unitaires et intégration synthétique Phase 1
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Cohérence des notices
+        run: python scripts/generate_notice.py --check
+      # TODO: Gitleaks/secret scanning avec historique, REUSE, SBOM CycloneDX,
+      # ScanCode/ORT et vérification des licences pour distributions exécutables.
+      # Les actions doivent être épinglées à des SHA de commit avant la 1re release.

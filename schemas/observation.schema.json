@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:photosemantique:schema:observation:v0",
+  "title": "Observation photographique — contrat préliminaire",
+  "type": "object",
+  "required": ["observation_id", "photo_id", "type", "status", "origin", "created_at"],
+  "properties": {
+    "observation_id": {"type": "string", "minLength": 1},
+    "photo_id": {"type": "string", "pattern": "^sha256:"},
+    "type": {"type": "string"},
+    "literal": {"type": ["string", "null"]},
+    "concept_uri": {"type": ["string", "null"]},
+    "status": {"enum": ["suggested", "validated", "rejected", "inferred"]},
+    "origin": {"enum": ["human", "model", "ocr", "exif", "rule"]},
+    "created_at": {"type": "string", "format": "date-time"},
+    "model_digest": {"type": ["string", "null"]},
+    "confidence": {"type": ["number", "null"], "minimum": 0, "maximum": 1},
+    "bbox": {"type": ["array", "null"], "items": {"type": "number"}},
+    "evidence": {"type": ["array", "null"], "items": {"type": "string"}}
+  },
+  "additionalProperties": false
+}

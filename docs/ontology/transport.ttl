@@ -1,0 +1,7 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix ex: <urn:photosemantique:concept:> .
+
+ex:transport a skos:Concept ; skos:prefLabel "Transport"@fr, "Transport"@en .
+ex:air-transport a skos:Concept ; skos:prefLabel "Transport aérien"@fr, "Air transport"@en ; skos:broader ex:transport .
+ex:aircraft a skos:Concept ; skos:prefLabel "Avion"@fr, "Airplane"@en ; skos:broader ex:air-transport .
+ex:glider a skos:Concept ; skos:prefLabel "Planeur"@fr, "Glider"@en ; skos:broader ex:air-transport .

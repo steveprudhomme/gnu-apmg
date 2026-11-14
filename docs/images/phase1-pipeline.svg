@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 610" role="img" aria-label="Flux de Phase 1 : photos lues exclusivement, analyse locale et sortie SQLite à l'extérieur du dossier source">
+  <rect width="1200" height="610" fill="#f5f8fc" rx="20"/>
+  <text x="50" y="65" fill="#172638" font-size="34" font-family="Arial, sans-serif" font-weight="bold">Phase 1 · un inventaire local, réversible par conception</text>
+  <text x="50" y="101" fill="#536579" font-size="20" font-family="Arial, sans-serif">Les photographies sont ouvertes uniquement pour lecture. Aucune écriture IPTC/XMP.</text>
+  <rect x="50" y="155" width="270" height="150" rx="18" fill="#e2edf9" stroke="#779fc4" stroke-width="2"/>
+  <text x="185" y="200" font-family="Arial, sans-serif" font-weight="bold" font-size="25" text-anchor="middle" fill="#173b5c">Photos source</text>
+  <text x="185" y="237" font-family="Arial, sans-serif" font-size="19" text-anchor="middle" fill="#315979">Dossiers imbriqués</text>
+  <text x="185" y="267" font-family="Arial, sans-serif" font-size="19" text-anchor="middle" fill="#315979">Lecture seule</text>
+  <path d="M320 230 H400" stroke="#477bad" stroke-width="5" fill="none"/>
+  <path d="M400 230 l-17 -10 v20 z" fill="#477bad"/>
+  <rect x="410" y="155" width="310" height="150" rx="18" fill="#fff" stroke="#a6b9cb" stroke-width="2"/>
+  <text x="565" y="197" font-family="Arial, sans-serif" font-weight="bold" font-size="24" text-anchor="middle" fill="#172638">Inventaire Python</text>
+  <text x="565" y="233" font-family="Arial, sans-serif" font-size="19" text-anchor="middle" fill="#536579">SHA-256 + doublons</text>
+  <text x="565" y="264" font-family="Arial, sans-serif" font-size="19" text-anchor="middle" fill="#536579">ExifTool (optionnel)</text>
+  <path d="M720 230 H798" stroke="#477bad" stroke-width="5" fill="none"/>
+  <path d="M798 230 l-17 -10 v20 z" fill="#477bad"/>
+  <rect x="806" y="155" width="340" height="150" rx="18" fill="#dff2e7" stroke="#6ca88a" stroke-width="2"/>
+  <text x="976" y="200" font-family="Arial, sans-serif" font-weight="bold" font-size="25" text-anchor="middle" fill="#1a5b3b">État local SQLite</text>
+  <text x="976" y="237" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#357254">Hors du dossier photo</text>
+  <text x="976" y="267" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="#357254">Journal + emplacements</text>
+  <rect x="50" y="355" width="1096" height="182" rx="18" fill="#152537"/>
+  <text x="83" y="401" font-family="Arial, sans-serif" font-size="23" font-weight="bold" fill="#f1f7fc">Garanties à tester</text>
+  <text x="83" y="444" font-family="Arial, sans-serif" font-size="21" fill="#bfebd7">✓  SHA-256 avant / après identiques</text>
+  <text x="83" y="481" font-family="Arial, sans-serif" font-size="21" fill="#bfebd7">✓  Doublons identiques rassemblés sans fusionner les chemins</text>
+  <text x="83" y="518" font-family="Arial, sans-serif" font-size="21" fill="#bfebd7">✓  Erreurs signalées et deuxième balayage sans duplication</text>
+  <text x="50" y="578" font-family="Arial, sans-serif" font-size="17" fill="#52677d">Schéma d'architecture (illustration, non capture d'écran).</text>
+</svg>

@@ -1,0 +1,54 @@
+NOTICE — GNU APMG
+
+Ce fichier est généré. Référence des composants envisagés : AUCUN n'est fourni
+avec le blueprint ; il NE CONSTITUE PAS un SBOM de distribution.
+
+Voir COPYING pour la GNU GPL v3 du code original du projet.
+
+- ExifTool
+  Licence : Artistic-or-GPL (Perl terms)
+  Source : https://exiftool.org/
+  Embarqué : non
+  Réserve : local CLI prerequisite
+
+- Nominatim
+  Licence : mixed GPL-3.0-or-later / GPL-2.0 / Apache-2.0 by component
+  Source : https://github.com/osm-search/Nominatim
+  Embarqué : non
+  Réserve : optional future self-hosted service; audit first
+
+- Ollama
+  Licence : MIT
+  Source : https://github.com/ollama/ollama/blob/main/LICENSE
+  Embarqué : non
+  Réserve : local service prerequisite
+
+- OpenStreetMap data
+  Licence : ODbL-1.0
+  Source : https://www.openstreetmap.org/copyright
+  Embarqué : non
+  Réserve : optional local data, separate attribution
+
+- PaddleOCR
+  Licence : Apache-2.0
+  Source : https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE
+  Embarqué : non
+  Réserve : candidate; audit transitive deps
+
+- Python
+  Licence : PSF-2.0
+  Source : https://docs.python.org/3/license.html
+  Embarqué : non
+  Réserve : platform-prerequisite
+
+- Qwen3-VL-8B-Instruct (official)
+  Licence : Apache-2.0
+  Source : https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
+  Embarqué : non
+  Réserve : candidate; verify exact weights
+
+- SQLite
+  Licence : Public-Domain
+  Source : https://sqlite.org/copyright.html
+  Embarqué : non
+  Réserve : platform library

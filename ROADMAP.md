@@ -1,8 +1,8 @@
 # GNU APMG — feuille de route
 
-Nom complet : GNU Automatic Picture Metadata generator. Ancien nom : PhotoSémantique. Dépôt public créé : `steveprudhomme/gnu-apmg`. Les commits documentaires initiaux ont été publiés sur main.
+Nom complet : GNU Automatic Picture Metadata generator. Ancien nom : GNU APMG. Dépôt public créé : `steveprudhomme/gnu-apmg`. Les commits documentaires initiaux ont été publiés sur main.
 
-État vérifié le 13 novembre 2026 : reprise documentaire, développement en attente des sources.
+État vérifié le 14 novembre 2026 : sources Phase 1 restaurées et adaptées à GNU APMG ; validation synthétique Windows réussie. ExifTool réel et pilote privé restent à valider.
 
 ## 0. Reprendre le projet avant toute modification du code
 
@@ -53,12 +53,12 @@ Les deux archives fournies ont été inventoriées avant extraction : chemins re
 | ID | Sous-étape supplémentaire | Critère de sortie | État |
 | --- | --- | --- | --- |
 | R1 | Examiner archives et exigences | Liste des fichiers, contrôle des chemins et empreintes des ZIP | Fait |
-| R2 | Importer Phase 1 sans écraser les documents de reprise | Conserver l'historique local et les documents initiaux ; archiver la feuille de route précédente comme référence | À faire |
-| R3 | Adapter l'identité GNU APMG | README, installation, CLI et distribution cohérents ; conserver le module Python photosemantique pour compatibilité | À faire |
-| R4 | Exécuter la validation de départ Windows | Tests synthétiques, contrôles de structure et notices ; résultats mesurés | À faire |
-| R5 | Corriger les défauts constatés | Régressions pertinentes ; vérifier notamment les collisions entre sorties et l'intégrité source | À faire |
-| R6 | Vérifier un parcours CLI synthétique | Trois fichiers, deux contenus, un groupe de doublons ; hash avant/après identique ; deuxième scan idempotent | À faire |
-| R7 | Synchroniser les documents et publier | Journal réel, limites ExifTool/pilote explicites, sélection de fichiers sans données privées, commit puis vérification distante | À faire |
+| R2 | Importer Phase 1 sans écraser les documents de reprise | Conserver l'historique local et les documents initiaux ; archiver la feuille de route précédente comme référence | Fait |
+| R3 | Adapter l'identité GNU APMG | README, installation, CLI et distribution cohérents ; conserver le module Python photosemantique pour compatibilité | Fait |
+| R4 | Exécuter la validation de départ Windows | Tests synthétiques, contrôles de structure et notices ; résultats mesurés | Fait |
+| R5 | Corriger les défauts constatés | Régressions pertinentes ; vérifier notamment les collisions entre sorties et l'intégrité source | Fait |
+| R6 | Vérifier un parcours CLI synthétique | Trois fichiers, deux contenus, un groupe de doublons ; hash avant/après identique ; deuxième scan idempotent | Fait |
+| R7 | Synchroniser les documents et publier | Journal réel, limites ExifTool/pilote explicites, sélection de fichiers sans données privées, commit puis vérification distante | Fait |
 
 OBJECTIVE : rendre le socle Phase 1 récupéré utilisable sous GNU APMG. GOAL : inventaire local en lecture seule et résultats reproductibles. SUCCESS CRITERIA : contrôles automatisés réussis et intégrité synthétique conservée. IMPLEMENTATION PLAN : R1 à R7 dans cet ordre. OWNER : mainteneur du projet, assisté par Codex.
 
@@ -67,3 +67,17 @@ Le pilote privé 100–200 photos et l'extraction via un véritable ExifTool res
 - SHA-256 `PhotoSemantique-Architecture.zip` : `bad8019dd1c9ad5a4f4ea2734e3ca1f295a2502b3a05993018ff91f9d94478d6`.
 
 - SHA-256 `PhotoSemantique-Phase1.zip` : `6b68dc9949ec381fd16cbf3286a5575a4dde05fabbfe4adbbb1ab20767ad17fe`.
+
+
+### Résultats de la reprise
+
+- Plan préalable enregistré dans le commit `2df59b6`, avant import et modification du code.
+- Phase 1 importée ; documents initiaux conservés dans `docs/archive/`. L'archive Architecture a été inventoriée comme référence antérieure, sans écraser les versions plus récentes de Phase 1.
+- Distribution nommée `gnu-apmg`, commande installable `gnu-apmg` ; ancienne commande et module Python `photosemantique` conservés. Aucun rattachement officiel au projet GNU n'est revendiqué par le nom.
+- 19 tests exécutés : 17 réussis, 2 ignorés (création de liens symboliques non autorisée). Corrections Windows : fermeture explicite des connexions dans les tests et encodage UTF-8 des sous-processus.
+- Protections supplémentaires : refus d'une base ayant des liens physiques et des manifestes visant la base ou ses fichiers SQLite de journalisation.
+- Deux scans CLI synthétiques : trois fichiers, deux contenus, un groupe de doublons, zéro erreur, empreintes source inchangées.
+- ExifTool absent du PATH : extraction réelle non exécutée. Les tests ExifTool utilisent un processus simulé. Pas de test GPU, IA, reconnaissance faciale ou pilote privé.
+- Audit des licences transitives, verrouillage des actions CI, couverture, signatures et empaquetage de release restent à réaliser ; NOTICE est une liste des composants envisagés, pas un audit de distribution.
+
+La feuille de route historique détaillée des phases est conservée dans [docs/archive/phase1-roadmap.md](docs/archive/phase1-roadmap.md). Ses résultats antérieurs ne remplacent pas le présent journal.

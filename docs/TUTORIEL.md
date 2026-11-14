@@ -1,6 +1,6 @@
 # Tutoriel illustré de reprise
 
-Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement PhotoSémantique.
+Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement GNU APMG.
 
 Le nom est mis à jour dans README.md, ROADMAP.md et ce tutoriel. Les références historiques au bundle et à l'ancien dépôt sont conservées pour retrouver les sources.
 
@@ -56,3 +56,10 @@ Placer les livrables récupérés dans le dossier parent du projet ou fournir le
 La prochaine étape consiste à récupérer les exigences et à détailler les fonctions attendues dans ROADMAP.md. Le développement commencera après le commit de ce plan confirmé.
 
 Les illustrations des futures fonctions utiliseront des données synthétiques. Aucune capture de photo privée ni de contenu d'authentification ne sera intégrée.
+
+
+## Mise à jour du 14 novembre 2026
+
+Les archives ont été reçues, inspectées puis restaurées après le commit documentaire `2df59b6`. Les étapes « sources manquantes » ci-dessus décrivent uniquement l'état du 13 novembre. La procédure actuelle et les illustrations se trouvent dans le [tutoriel Phase 1](tutorial/phase-1.md).
+
+La feuille de route, le README initial et l'historique Git local ont été préservés. Aucun bundle Git n'a été fourni. Les prompts fondateurs ont été lus, sans être copiés dans le dépôt public.

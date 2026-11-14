@@ -1,0 +1,62 @@
+{
+  "updated": "2026-11-13",
+  "scope": "architecture-plan-only",
+  "components": [
+    {
+      "name": "Python",
+      "license": "PSF-2.0",
+      "source": "https://docs.python.org/3/license.html",
+      "bundled": false,
+      "status": "platform-prerequisite"
+    },
+    {
+      "name": "Qwen3-VL-8B-Instruct (official)",
+      "license": "Apache-2.0",
+      "source": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct",
+      "bundled": false,
+      "status": "candidate; verify exact weights"
+    },
+    {
+      "name": "PaddleOCR",
+      "license": "Apache-2.0",
+      "source": "https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE",
+      "bundled": false,
+      "status": "candidate; audit transitive deps"
+    },
+    {
+      "name": "ExifTool",
+      "license": "Artistic-or-GPL (Perl terms)",
+      "source": "https://exiftool.org/",
+      "bundled": false,
+      "status": "local CLI prerequisite"
+    },
+    {
+      "name": "SQLite",
+      "license": "Public-Domain",
+      "source": "https://sqlite.org/copyright.html",
+      "bundled": false,
+      "status": "platform library"
+    },
+    {
+      "name": "OpenStreetMap data",
+      "license": "ODbL-1.0",
+      "source": "https://www.openstreetmap.org/copyright",
+      "bundled": false,
+      "status": "optional local data, separate attribution"
+    },
+    {
+      "name": "Nominatim",
+      "license": "mixed GPL-3.0-or-later / GPL-2.0 / Apache-2.0 by component",
+      "source": "https://github.com/osm-search/Nominatim",
+      "bundled": false,
+      "status": "optional future self-hosted service; audit first"
+    },
+    {
+      "name": "Ollama",
+      "license": "MIT",
+      "source": "https://github.com/ollama/ollama/blob/main/LICENSE",
+      "bundled": false,
+      "status": "local service prerequisite"
+    }
+  ]
+}

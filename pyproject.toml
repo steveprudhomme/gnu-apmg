@@ -1,0 +1,25 @@
+# SPDX-FileCopyrightText: 2026 PhotoSémantique contributors
+# SPDX-License-Identifier: GPL-3.0-only
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gnu-apmg"
+version = "0.2.0a1"
+description = "Inventaire photographique local et documentaire, lecture seule"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "GPL-3.0-only"
+keywords = ["photography", "metadata", "exif", "sqlite", "local-first"]
+dependencies = []
+
+[project.scripts]
+gnu-apmg = "photosemantique.cli:main"
+photosemantique = "photosemantique.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["photosemantique*"]
+
+[tool.setuptools.package-data]
+photosemantique = ["migrations/*.sql"]
