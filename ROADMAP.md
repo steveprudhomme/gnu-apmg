@@ -99,3 +99,17 @@ OBJECTIVE : valider la lecture documentaire réelle avant tout pilote privé. GO
 | E8 | Documenter et publier | Tutoriel illustré avec schéma honnête, INSTALL/README/ROADMAP synchronisés, rapport agrégé sans chemins privés, commits et contrôles CI | À faire |
 
 Le traitement des photos privées attend leur emplacement précis. Il ne sera pas lancé sur un dossier choisi arbitrairement. Les binaires téléchargés, images synthétiques générées et bases restent hors des fichiers versionnés. Le test ExifTool doit être facultatif en CI si aucun outil réel n'y est installé, avec indication explicite du saut.
+
+
+### Complément E6/E7 — HEIC et avertissements ExifTool
+
+Avant correction du lecteur et lancement privé :
+
+- Distinguer explicitement un avertissement ExifTool (parfois code retour 0) d'une extraction complète. Politique conservatrice de cette phase : résultat metadata_failed avec diagnostic générique si un tag Warning est retourné, tout en conservant le SHA-256 et en poursuivant les autres fichiers.
+- Ajouter une régression simulée et le cas réel JPEG tronqué ; un simple texte avec extension JPG n'est pas nécessairement reconnu comme corrompu par ExifTool.
+- Le dossier proposé contient 2 118 images éligibles, au-delà du pilote prévu. Constituer un échantillon déterministe d'au plus 200 copies privées, en incluant HEIC/HEIF et les autres formats présents ; conserver la liste des sources uniquement dans l'état privé.
+- Contrôler empreintes originales avant copie, copies avant/après scan et originaux après scan. Vérifier les tags et les statuts HEIC séparément ; ne pas confondre lecture de métadonnées et décodage des pixels pour l'IA.
+- Les indicateurs OneDrive signalent des fichiers potentiellement dématérialisés : leur lecture peut entraîner un téléchargement par OneDrive. Le programme n'envoie aucun média à une API ; aucune garantie d'absence de trafic du client de synchronisation n'est revendiquée.
+- Consigner uniquement des métriques agrégées dans Git ; conserver noms, chemins, empreintes, GPS et diagnostics détaillés hors Git.
+
+Le manque de place initial a été résolu par l'utilisateur. ExifTool portable 13.63 a ensuite été extrait et sa version exécutée avec succès. Le test de corruption reste à corriger avant le pilote.
