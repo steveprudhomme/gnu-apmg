@@ -44,3 +44,26 @@ Le contenu fonctionnel de cette phase n'est pas présent dans les échanges réc
 - [ ] Rétablir l'accès GitHub, vérifier le dépôt cible et l'autorisation de publication, puis publier et contrôler le commit distant.
 
 Les « 17 tests réussis » évoqués dans l'ancienne conversation ne sont pas des tests exécutés dans cet espace.
+
+
+## Reprise depuis les archives — 14 novembre 2026
+
+Les deux archives fournies ont été inventoriées avant extraction : chemins relatifs vérifiés, aucune traversée de répertoire ni lien symbolique. Les deux prompts fondateurs servent de référence aux exigences ; leurs anciennes demandes de réponse ne remplacent pas la tâche actuelle. Aucun bundle Git fourni : les anciens commits ne sont pas récupérables depuis ces ZIP.
+
+| ID | Sous-étape supplémentaire | Critère de sortie | État |
+| --- | --- | --- | --- |
+| R1 | Examiner archives et exigences | Liste des fichiers, contrôle des chemins et empreintes des ZIP | Fait |
+| R2 | Importer Phase 1 sans écraser les documents de reprise | Conserver l'historique local et les documents initiaux ; archiver la feuille de route précédente comme référence | À faire |
+| R3 | Adapter l'identité GNU APMG | README, installation, CLI et distribution cohérents ; conserver le module Python photosemantique pour compatibilité | À faire |
+| R4 | Exécuter la validation de départ Windows | Tests synthétiques, contrôles de structure et notices ; résultats mesurés | À faire |
+| R5 | Corriger les défauts constatés | Régressions pertinentes ; vérifier notamment les collisions entre sorties et l'intégrité source | À faire |
+| R6 | Vérifier un parcours CLI synthétique | Trois fichiers, deux contenus, un groupe de doublons ; hash avant/après identique ; deuxième scan idempotent | À faire |
+| R7 | Synchroniser les documents et publier | Journal réel, limites ExifTool/pilote explicites, sélection de fichiers sans données privées, commit puis vérification distante | À faire |
+
+OBJECTIVE : rendre le socle Phase 1 récupéré utilisable sous GNU APMG. GOAL : inventaire local en lecture seule et résultats reproductibles. SUCCESS CRITERIA : contrôles automatisés réussis et intégrité synthétique conservée. IMPLEMENTATION PLAN : R1 à R7 dans cet ordre. OWNER : mainteneur du projet, assisté par Codex.
+
+Le pilote privé 100–200 photos et l'extraction via un véritable ExifTool restent des validations distinctes. Aucun lancement de l'IA, OCR ou reconnaissance faciale durant cette reprise.
+
+- SHA-256 `PhotoSemantique-Architecture.zip` : `bad8019dd1c9ad5a4f4ea2734e3ca1f295a2502b3a05993018ff91f9d94478d6`.
+
+- SHA-256 `PhotoSemantique-Phase1.zip` : `6b68dc9949ec381fd16cbf3286a5575a4dde05fabbfe4adbbb1ab20767ad17fe`.
