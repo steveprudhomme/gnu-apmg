@@ -1,6 +1,6 @@
 # GNU APMG — feuille de route
 
-Nom complet : GNU Automatic Picture Metadata generator. Ancien nom : PhotoSémantique. Dépôt cible demandé : `steveprudhomme/gnu-apmg` ; sa création reste à vérifier.
+Nom complet : GNU Automatic Picture Metadata generator. Ancien nom : PhotoSémantique. Dépôt public créé : `steveprudhomme/gnu-apmg`. Les commits documentaires initiaux ont été publiés sur main.
 
 État vérifié le 13 novembre 2026 : reprise documentaire, développement en attente des sources.
 

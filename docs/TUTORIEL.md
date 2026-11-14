@@ -2,7 +2,24 @@
 
 Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement PhotoSémantique.
 
-Le nom est mis à jour dans README.md, ROADMAP.md et ce tutoriel. Les références historiques au bundle et à l'ancien dépôt sont conservées pour retrouver les sources. La création du dépôt `steveprudhomme/gnu-apmg` a été demandée ; son résultat sera consigné après vérification.
+Le nom est mis à jour dans README.md, ROADMAP.md et ce tutoriel. Les références historiques au bundle et à l'ancien dépôt sont conservées pour retrouver les sources.
+
+## Création du dépôt GNU APMG
+
+Le commit `ba484a5` enregistre le nouveau nom. La commande suivante a ensuite créé le dépôt public et publié les documents :
+
+```powershell
+gh repo create steveprudhomme/gnu-apmg --public --description "GNU Automatic Picture Metadata generator (GNU APMG)" --source . --remote origin --push
+```
+
+Résultat observé : URL du dépôt retournée, branche main publiée et suivi origin/main configuré. La commande a réussi avec l'accès réseau autorisé, malgré le diagnostic d'authentification initial dans l'environnement restreint. Aucun renouvellement de jeton n'a été nécessaire.
+
+```mermaid
+flowchart LR
+    A[Documents locaux] --> B[Commit du nouveau nom]
+    B --> C[Dépôt GitHub public gnu-apmg]
+    C --> D[Branche main publiée]
+```
 
 ## Parcours
 
