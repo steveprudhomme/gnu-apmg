@@ -1,4 +1,6 @@
-# PhotoSémantique — feuille de route
+# GNU APMG — feuille de route
+
+Nom complet : GNU Automatic Picture Metadata generator. Ancien nom : PhotoSémantique. Dépôt cible demandé : `steveprudhomme/gnu-apmg` ; sa création reste à vérifier.
 
 État vérifié le 13 novembre 2026 : reprise documentaire, développement en attente des sources.
 
@@ -11,7 +13,7 @@
 - [x] Vérifier les outils : Git 2.50.1, GitHub CLI 2.103.3, Python 3.13.6.
 - [x] Vérifier l'authentification locale GitHub : jeton signalé invalide, sans lecture ni copie de sa valeur.
 - [x] Rechercher les sources dans les deux espaces de travail et les archives à la racine de Téléchargements : aucun livrable correspondant trouvé. La recherche récursive générale dans Téléchargements a été interrompue ; elle ne constitue pas un inventaire complet du PC.
-- [ ] Créer et vérifier le commit documentaire distinct contenant cette feuille de route avant tout changement du code.
+- [x] Créer et vérifier le commit documentaire distinct contenant cette feuille de route avant tout changement du code : `84cc913`.
 
 ## 1. Récupérer et contrôler les livrables
 

@@ -1,4 +1,6 @@
-# PhotoSémantique
+# GNU Automatic Picture Metadata generator (GNU APMG)
+
+Ancien nom du projet : PhotoSémantique. Nom prévu du dépôt GitHub : `steveprudhomme/gnu-apmg`.
 
 Espace local de reprise du projet. Aucun code de la Phase 1 n'a encore été récupéré, développé ou testé ici.
 

@@ -1,5 +1,9 @@
 # Tutoriel illustré de reprise
 
+Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement PhotoSémantique.
+
+Le nom est mis à jour dans README.md, ROADMAP.md et ce tutoriel. Les références historiques au bundle et à l'ancien dépôt sont conservées pour retrouver les sources. La création du dépôt `steveprudhomme/gnu-apmg` a été demandée ; son résultat sera consigné après vérification.
+
 ## Parcours
 
 ```mermaid
