@@ -81,3 +81,21 @@ Le pilote privé 100–200 photos et l'extraction via un véritable ExifTool res
 - Audit des licences transitives, verrouillage des actions CI, couverture, signatures et empaquetage de release restent à réaliser ; NOTICE est une liste des composants envisagés, pas un audit de distribution.
 
 La feuille de route historique détaillée des phases est conservée dans [docs/archive/phase1-roadmap.md](docs/archive/phase1-roadmap.md). Ses résultats antérieurs ne remplacent pas le présent journal.
+
+
+## Jalon E — ExifTool réel et préparation du pilote privé (14 novembre 2026)
+
+OBJECTIVE : valider la lecture documentaire réelle avant tout pilote privé. GOAL : extraction UTF-8 reproductible, originaux intacts, données privées hors Git. SUCCESS CRITERIA : images synthétiques valides avec tags connus, erreurs explicites sur corruption, deuxième scan stable, tests locaux et CI réussis. OWNER : mainteneur avec assistance Codex.
+
+| ID | Nouvelle sous-étape | Critère de sortie | État |
+| --- | --- | --- | --- |
+| E1 | Enregistrer ce plan avant travail | Commit documentaire préalable | En cours |
+| E2 | Vérifier la distribution officielle Windows ExifTool | URL officielle, version et SHA-256 local consignés ; distinguer empreinte locale et signature officielle | À faire |
+| E3 | Installer sans privilèges administrateur | Outil portable dans un espace local exclu de Git ; exécuter -ver ; aucun changement global du PATH | À faire |
+| E4 | Générer un corpus synthétique valide | PNG contenant des champs documentaires connus, noms Unicode, copie exacte, fichier corrompu ; aucun média privé | À faire |
+| E5 | Tester l'extraction réelle | Tags attendus retrouvés dans SQLite, erreurs de corruption séparées, SHA-256 source avant/après identiques ; scan répété stable | À faire |
+| E6 | Corriger les défauts réels | Régression automatisée si défaut ; ne pas masquer les erreurs ni altérer les originaux | À faire |
+| E7 | Préparer le pilote 100–200 photos | Procédure explicite, source fournie par l'utilisateur, sorties privées hors Git, contrôle indépendant avant/après et seuils d'arrêt | À faire |
+| E8 | Documenter et publier | Tutoriel illustré avec schéma honnête, INSTALL/README/ROADMAP synchronisés, rapport agrégé sans chemins privés, commits et contrôles CI | À faire |
+
+Le traitement des photos privées attend leur emplacement précis. Il ne sera pas lancé sur un dossier choisi arbitrairement. Les binaires téléchargés, images synthétiques générées et bases restent hors des fichiers versionnés. Le test ExifTool doit être facultatif en CI si aucun outil réel n'y est installé, avec indication explicite du saut.
