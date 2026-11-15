@@ -97,3 +97,10 @@ Le digest Qwen3-VL est `9cf69da2b16d097f7def535917c4b55a95d6c7ee5700eb69ab86b01b
 La suite comprend notamment orientation, retrait de métadonnées, non-écrasement, sorties hors sources/Git, altération du dérivé, refus de modèle distant/absent, réponse non conforme, réponse tronquée et provenance. Les deux sauts locaux concernent les liens symboliques.
 
 Les résultats montrent un fonctionnement technique préliminaire, pas une précision établie. La prochaine étape est de relire localement un échantillon, transcrire la vérité terrain et distinguer omissions, inventions et lectures incorrectes. Aucun score CER/WER ou précision/rappel n'est calculé sans cette référence. Le pilote de vision n'est pas déclaré complètement réussi.
+
+
+## 7. Publication et suite
+
+Code publié dans le commit `e96cdd0`. Les [contrôles GitHub Windows et Linux](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43691215711) ont réussi, avec les bibliothèques de préparation et les tests sans modèles. Les essais réels de vision/OCR restent ceux du PC local. Aucun binaire modèle, image privée ou JSONL de propositions n’a été versionné.
+
+La prochaine étape est une revue humaine privée des propositions avant élargissement du pilote, puis le traitement du cas de génération tronquée. Cette phase reste expérimentale ; le succès de la CI ne valide pas la qualité des descriptions.

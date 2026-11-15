@@ -147,7 +147,7 @@ OBJECTIVE : produire des propositions documentaires locales traçables, sans cha
 | P2E | OCR PaddleOCR CPU | Installation isolée selon wheels disponibles, modèles locaux explicites, pas de téléchargement durant analyse ; texte/boîtes et score brut distinct de confidence ; échec clair si indisponible | Fonctionnel sur CPU |
 | P2F | Reprise et protections | Empreinte source avant/après préparation, paramètres de cache versionnés ou nouvelle sortie ; erreurs partielles visibles et aucun média privé publié | Protections testées, nouvelles sorties par run |
 | P2G | Tests et petit pilote | Images synthétiques avec texte connu, tests unitaires sans IA et essais réels séparés ; quelques copies HEIC du pilote privé ; mémoire et temps observés ; qualité humaine encore à annoter | Essais techniques faits, qualité humaine à annoter |
-| P2H | Scripts utilisateur et documentation | Scripts relançables, tutoriel illustré Phase 2, README/INSTALL/contrats/FAQ/manifestes mis à jour, commits et publication vérifiée | Documentation et scripts prêts, publication en cours |
+| P2H | Scripts utilisateur et documentation | Scripts relançables, tutoriel illustré Phase 2, README/INSTALL/contrats/FAQ/manifestes mis à jour, commits et publication vérifiée | Fait pour ce jalon pré-alpha |
 
 Constats préalables : Ollama 0.40.13 disponible, RTX 4070 12 Go détectée ; Qwen3-VL 8B absent, Qwen3.5 9B déjà présent. Python 3.13 et Pillow 12.0 sont disponibles ; paddleocr/paddlepaddle/pillow-heif absents. Environ 9 Go libres sur C: lors du contrôle. Ne pas déduire la compatibilité GPU ou Python des seuls noms ; tester les paquets exacts. Pas de reconnaissance faciale, géocodage ni export XMP à ce jalon.
 
@@ -177,3 +177,5 @@ Ce complément est commité avant la reprise du travail. Environ 18,5 Go libres 
 - Tests locaux : 29 exécutés, 27 réussis, 2 ignorés (permissions liens symboliques). Schéma présent dans la wheel construite ; aucune release publiée. Scripts PowerShell analysés ; préparation du script utilisateur exécutée sur la mire. Les commandes d'analyse sont testées séparément.
 - Les données, descriptions, textes OCR, empreintes privées et images restent hors Git. Seuls ces nombres et les versions sont destinés au dépôt public.
 - Étape suivante obligatoire : revue humaine privée et vérité terrain pour CER/WER, objets et hallucinations ; ensuite décider du budget/modèle pour les cas tronqués avant élargissement. Pas d'interface de validation, pas de recherche vectorielle ni d'export à ce jalon.
+
+Publication Phase 2 : commit `e96cdd0`. [Contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43691215711), incluant les tests légers de préparation Phase 2. Les modèles OCR/vision réels ne sont testés que localement, pas en CI. Les limites de qualité et le cas tronqué restent ouverts.
