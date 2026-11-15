@@ -59,3 +59,6 @@ Sources : [IPTC Media Topics](https://iptc.org/standards/media-topics/), [SKOS W
 
 
 Bilan local : 35 tests exécutés, 33 réussis, 2 ignorés (liens symboliques). Le catalogue contient 1 394 lignes et 17 vues ; sa structure HTML et la syntaxe de son JavaScript ont été contrôlées, sans prétendre à une inspection visuelle dans un navigateur. Les 17 sommets officiels sont préservés à partir des métadonnées du schéma, sans transformer un concept sans parent en nouvelle racine.
+
+
+Publication : commit `76552d3`. Les [contrôles GitHub Windows et Linux](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43694140453) ont réussi. Les attributs Git préservent les octets des sources publiques, y compris leurs espaces de fin de ligne, afin de ne pas invalider les empreintes d’origine lors du clonage. Les cinq fichiers sources indexés ont été vérifiés contre la provenance.

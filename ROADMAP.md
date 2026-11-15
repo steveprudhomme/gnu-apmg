@@ -192,7 +192,7 @@ OBJECTIVE : couvrir les situations de vie en réutilisant un vocabulaire éprouv
 | T3 | Organiser la lecture personnelle | Guide par situations de vie et facettes ; distinguer thèmes, objets, activités, événements, lieux et personnes privées | Fait |
 | T4 | Précision spécialisée | Examiner animaux/plantes/architecture/transports ; pas de mapping exactMatch inventé ni de fausse identification d'espèce | Fait |
 | T5 | Contrôler et expliquer | Tests sur références et relations, tutoriel illustré, catalogue consultable ; aucun étiquetage automatique de photos ni géocodage à ce jalon | Fait |
-| T6 | Mettre à jour et publier | ROADMAP/README/ontologie/NOTICE si nécessaire, commits après vérifications, publication et CI | Planifié |
+| T6 | Mettre à jour et publier | ROADMAP/README/ontologie/NOTICE si nécessaire, commits après vérifications, publication et CI | Fait |
 
 SUCCESS CRITERIA : termes officiels identifiables, provenance/version conservées, absence de cycles ou références cassées dans la hiérarchie exploitée, limites de couverture explicites. Les personnes, adresses et événements propres à la famille sont des entités privées, pas des ajouts au vocabulaire public. La liaison automatique des sorties de vision aux concepts et l'export IPTC/XMP restent des travaux ultérieurs. Les identifiants locaux éventuels ne seront pas présentés comme des termes IPTC/Getty.
 
@@ -208,3 +208,5 @@ SUCCESS CRITERIA : termes officiels identifiables, provenance/version conservée
 - Suite locale : 35 tests exécutés, 33 réussis, 2 ignorés pour permissions de liens symboliques. Aucun média ni donnée privée nécessaire à ce jalon.
 
 Travaux suivants distincts : catalogue biologique plus détaillé, extension contrôlée des objets Getty, liaison des propositions IA aux concepts, interface de validation, géocodage et export IPTC/XMP. Ne pas déclarer ces fonctions déjà implémentées.
+
+Publication du jalon T : commit `76552d3`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43694140453). Les snapshots externes sont préservés octet pour octet par les attributs Git ; les cinq empreintes des fichiers indexés ont été confrontées à la provenance avant publication.
