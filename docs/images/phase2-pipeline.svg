@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 440" role="img" aria-labelledby="title desc">
+<title id="title">GNU APMG Phase 2 — préparation et propositions locales</title>
+<desc id="desc">Schéma sans photo privée. Les HEIC restent inchangés ; un dérivé RGB sans métadonnées alimente séparément Qwen3-VL et PaddleOCR. Les observations sont des propositions à relire.</desc>
+<rect width="1100" height="440" rx="20" fill="#101c30"/>
+<g font-family="Arial,sans-serif" fill="#edf4ff">
+<text x="35" y="48" font-size="27">GNU APMG · Phase 2 locale</text>
+<text x="35" y="80" font-size="17">Illustration de fonctionnement · aucune image du pilote publiée</text>
+<g fill="#233d59" stroke="#7599bf" stroke-width="2">
+<rect x="35" y="140" width="210" height="105" rx="12"/>
+<rect x="285" y="140" width="240" height="105" rx="12"/>
+<rect x="575" y="110" width="210" height="75" rx="12"/>
+<rect x="575" y="225" width="210" height="75" rx="12"/>
+<rect x="835" y="140" width="230" height="105" rx="12"/>
+</g>
+<g font-size="18" text-anchor="middle">
+<text x="140" y="178">HEIC / JPG / PNG</text><text x="140" y="209">Sources en lecture seule</text>
+<text x="405" y="174">PNG RGB · 1 600 px max.</text><text x="405" y="204">Orientation · sans EXIF/GPS</text>
+<text x="680" y="140">Qwen3-VL 8B</text><text x="680" y="166">Ollama · GPU local</text>
+<text x="680" y="255">PaddleOCR · CPU</text><text x="680" y="282">Modèles latins locaux</text>
+<text x="950" y="178">Observations privées</text><text x="950" y="210">suggested · confidence null</text>
+</g>
+<g stroke="#b0c9e0" stroke-width="2" fill="none"><path d="M245 190H285 M525 170L575 147 M525 212L575 260 M785 147L835 177 M785 260L835 210"/></g>
+<text x="35" y="355" font-size="19" fill="#ffd393">Provenance : empreinte source + dérivé + modèle + version + prompt</text>
+<text x="35" y="392" font-size="17">Dix HEIC décodés · OCR synthétique vérifié · qualité réelle à annoter par un humain</text>
+</g>
+</svg>

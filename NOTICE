@@ -1,7 +1,7 @@
 NOTICE — GNU APMG
 
-Ce fichier est généré. Référence des composants envisagés : AUCUN n'est fourni
-avec le blueprint ; il NE CONSTITUE PAS un SBOM de distribution.
+Ce fichier est généré. Référence des composants envisagés ou installés séparément : AUCUN binaire tiers fourni
+par le dépôt ; ce fichier NE CONSTITUE PAS un SBOM de distribution.
 
 Voir COPYING pour la GNU GPL v3 du code original du projet.
 
@@ -10,6 +10,12 @@ Voir COPYING pour la GNU GPL v3 du code original du projet.
   Source : https://exiftool.org/
   Embarqué : non
   Réserve : local CLI prerequisite
+
+- jsonschema
+  Licence : MIT
+  Source : https://github.com/python-jsonschema/jsonschema
+  Embarqué : non
+  Réserve : optional runtime installed separately; transitive/native/model license audit pending
 
 - Nominatim
   Licence : mixed GPL-3.0-or-later / GPL-2.0 / Apache-2.0 by component
@@ -34,6 +40,24 @@ Voir COPYING pour la GNU GPL v3 du code original du projet.
   Source : https://github.com/PaddlePaddle/PaddleOCR/blob/main/LICENSE
   Embarqué : non
   Réserve : candidate; audit transitive deps
+
+- PaddlePaddle
+  Licence : Apache-2.0
+  Source : https://github.com/PaddlePaddle/Paddle
+  Embarqué : non
+  Réserve : optional runtime installed separately; transitive/native/model license audit pending
+
+- Pillow
+  Licence : MIT-CMU
+  Source : https://pillow.readthedocs.io/en/stable/about.html
+  Embarqué : non
+  Réserve : optional runtime installed separately; transitive/native/model license audit pending
+
+- pillow-heif
+  Licence : BSD-3-Clause
+  Source : https://github.com/bigcat88/pillow_heif
+  Embarqué : non
+  Réserve : optional runtime installed separately; transitive/native/model license audit pending
 
 - Python
   Licence : PSF-2.0

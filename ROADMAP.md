@@ -140,14 +140,14 @@ OBJECTIVE : produire des propositions documentaires locales traçables, sans cha
 
 | ID | Sous-étape avant implémentation | Critère de sortie | État |
 | --- | --- | --- | --- |
-| P2A | Plan et environnement | Commit préalable, dépendances optionnelles isolées, espace disque contrôlé | Planifié |
-| P2B | Décodage HEIC et préparation | Pillow/pillow-heif ; image principale, orientation appliquée une fois, copie RGB réduite hors sources/Git sans EXIF/GPS ; ICC converti vers sRGB si disponible ; limites HDR/couleurs explicites | Planifié |
-| P2C | Contrat des observations | Schéma JSON strict, provenance version/prompt/digest, statut suggested, confiance non calibrée null ; stockage privé append-only, pas de promotion humaine automatique | Planifié |
-| P2D | Vision Ollama locale | Endpoint de boucle locale fixe, pas de redirection/proxy externe, aucun téléchargement implicite ; images réduites ; modèle existant ou choix confirmé ; réponse structurée bornée et validée | Planifié |
-| P2E | OCR PaddleOCR CPU | Installation isolée selon wheels disponibles, modèles locaux explicites, pas de téléchargement durant analyse ; texte/boîtes et score brut distinct de confidence ; échec clair si indisponible | Planifié |
-| P2F | Reprise et protections | Empreinte source avant/après préparation, paramètres de cache versionnés ou nouvelle sortie ; erreurs partielles visibles et aucun média privé publié | Planifié |
-| P2G | Tests et petit pilote | Images synthétiques avec texte connu, tests unitaires sans IA et essais réels séparés ; quelques copies HEIC du pilote privé ; mémoire et temps observés ; qualité humaine encore à annoter | Planifié |
-| P2H | Scripts utilisateur et documentation | Scripts relançables, tutoriel illustré Phase 2, README/INSTALL/contrats/FAQ/manifestes mis à jour, commits et publication vérifiée | Planifié |
+| P2A | Plan et environnement | Commit préalable, dépendances optionnelles isolées, espace disque contrôlé | Fait |
+| P2B | Décodage HEIC et préparation | Pillow/pillow-heif ; image principale, orientation appliquée une fois, copie RGB réduite hors sources/Git sans EXIF/GPS ; ICC converti vers sRGB si disponible ; limites HDR/couleurs explicites | Implémenté, 10 HEIC vérifiés |
+| P2C | Contrat des observations | Schéma JSON strict, provenance version/prompt/digest, statut suggested, confiance non calibrée null ; stockage privé append-only, pas de promotion humaine automatique | Implémenté, v1 suggested |
+| P2D | Vision Ollama locale | Endpoint de boucle locale fixe, pas de redirection/proxy externe, aucun téléchargement implicite ; images réduites ; modèle existant ou choix confirmé ; réponse structurée bornée et validée | Fonctionnel, 1/3 essai HEIC refusé |
+| P2E | OCR PaddleOCR CPU | Installation isolée selon wheels disponibles, modèles locaux explicites, pas de téléchargement durant analyse ; texte/boîtes et score brut distinct de confidence ; échec clair si indisponible | Fonctionnel sur CPU |
+| P2F | Reprise et protections | Empreinte source avant/après préparation, paramètres de cache versionnés ou nouvelle sortie ; erreurs partielles visibles et aucun média privé publié | Protections testées, nouvelles sorties par run |
+| P2G | Tests et petit pilote | Images synthétiques avec texte connu, tests unitaires sans IA et essais réels séparés ; quelques copies HEIC du pilote privé ; mémoire et temps observés ; qualité humaine encore à annoter | Essais techniques faits, qualité humaine à annoter |
+| P2H | Scripts utilisateur et documentation | Scripts relançables, tutoriel illustré Phase 2, README/INSTALL/contrats/FAQ/manifestes mis à jour, commits et publication vérifiée | Documentation et scripts prêts, publication en cours |
 
 Constats préalables : Ollama 0.40.13 disponible, RTX 4070 12 Go détectée ; Qwen3-VL 8B absent, Qwen3.5 9B déjà présent. Python 3.13 et Pillow 12.0 sont disponibles ; paddleocr/paddlepaddle/pillow-heif absents. Environ 9 Go libres sur C: lors du contrôle. Ne pas déduire la compatibilité GPU ou Python des seuls noms ; tester les paquets exacts. Pas de reconnaissance faciale, géocodage ni export XMP à ce jalon.
 
@@ -164,3 +164,16 @@ La validation de qualité finale exige une vérité terrain privée et une revue
 - Finaliser les scripts PowerShell et leur documentation illustrée, puis publier le code seulement après les tests locaux et contrôles de confidentialité ; suivre la CI.
 
 Ce complément est commité avant la reprise du travail. Environ 18,5 Go libres sur C: au contrôle ; aucun autre nettoyage ni déplacement d'installation n'est prévu.
+
+
+### Bilan Phase 2 pré-alpha — 15 novembre 2026
+
+- Plans préalables `b64dd71` et `0417114`. Environnement isolé déplacé sur D: avec jonction conservant les chemins des scripts ; imports et exécution vérifiés. Installation globale Python inchangée.
+- Qwen3-VL 8B téléchargé selon le choix utilisateur. Digest local : `9cf69da2b16d097f7def535917c4b55a95d6c7ee5700eb69ab86b01b3cfca487`. Service Ollama 0.40.13, uniquement boucle locale.
+- Préparation : 10/10 copies HEIC décodées ; empreintes source inchangées, dérivés RGB sans métadonnées et grand côté <= 1 600 pixels. Pas de garantie de fidélité HDR ni de revue colorimétrique humaine.
+- OCR : le texte attendu de la mire est retrouvé. Trois dérivés HEIC traités, 37 propositions au total. Essai synthétique réussi avec sockets Python bloquées. Désactivation oneDNN nécessaire sur PaddlePaddle 3.3.1 / Windows observé.
+- Vision : mire synthétique réussie ; 2/3 dérivés HEIC produisent des observations structurées. Le troisième est refusé car le budget de 2 048 tokens est épuisé sans réponse finale. Ne pas annoncer une réussite complète du pilote de vision. Aucun JSONL d'observations créé pour ce cas.
+- Mémoire GPU totale échantillonnée chaque seconde : pic observé de 8 693 MiB, incluant les autres usages GPU. Durées des deux essais privés acceptés : 30,25 et 16,43 secondes ; troisième essai refusé : 32,05 secondes. Pas de benchmark généralisable ni de taux de précision établi.
+- Tests locaux : 29 exécutés, 27 réussis, 2 ignorés (permissions liens symboliques). Schéma présent dans la wheel construite ; aucune release publiée. Scripts PowerShell analysés ; préparation du script utilisateur exécutée sur la mire. Les commandes d'analyse sont testées séparément.
+- Les données, descriptions, textes OCR, empreintes privées et images restent hors Git. Seuls ces nombres et les versions sont destinés au dépôt public.
+- Étape suivante obligatoire : revue humaine privée et vérité terrain pour CER/WER, objets et hallucinations ; ensuite décider du budget/modèle pour les cas tronqués avant élargissement. Pas d'interface de validation, pas de recherche vectorielle ni d'export à ce jalon.

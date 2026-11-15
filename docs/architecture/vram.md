@@ -7,3 +7,8 @@ Stratégie pilote : analyse **séquentielle**, pas de parallélisme vision + OCR
 Mesurer pour chaque lot : VRAM avant/après, durée p50/p95 par photo, échecs OOM, consommation RAM et reprise sur interruption. Ne pas déclarer 8B « garanti » sur 12 Go sans mesure réelle ; même une taille de fichier de poids inférieure à 12 Go ne constitue pas une preuve.
 
 Ne lancer ni le moteur facial ni les calculs vectoriels pendant les phases 1/2. Garder des images de test redimensionnées de manière déterministe et conserver le lien vers l'original par son hash.
+
+
+## Mesure préliminaire du 15 novembre 2026
+
+Qwen3-VL 8B sous Ollama 0.40.13 : pic de mémoire GPU totale observé de 8 693 MiB (sondage à la seconde, autres usages inclus), contexte 4 096 et budget de génération 2 048. Les durées privées acceptées étaient 30,25 et 16,43 s ; un troisième essai a été refusé pour budget épuisé. Chargement/déchargement inclus (`keep_alive=0`). L’OCR est exécuté séparément sur CPU. Cette mesure ne garantit pas la mémoire de toutes les images, contextes ou modèles ; aucun p95 significatif sur si peu d’essais.

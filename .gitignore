@@ -42,6 +42,7 @@ backups/
 *.asc
 *.gpg
 .venv/
+.venv*/
 venv/
 __pycache__/
 .pytest_cache/

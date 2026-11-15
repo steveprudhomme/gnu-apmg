@@ -68,3 +68,8 @@ La feuille de route, le README initial et l'historique Git local ont été prés
 ## Mise à jour du 15 novembre 2026
 
 ExifTool réel et le pilote privé de 200 copies (dont 100 HEIC) sont maintenant vérifiés. Le [tutoriel Phase 1](tutorial/phase-1.md) consigne l’installation, le manque de place résolu, les corrections Unicode/avertissements, les tests, le script PowerShell et le bilan illustré. Les données privées restent hors Git.
+
+
+## Phase 2 expérimentale
+
+Le [tutoriel illustré Phase 2](tutorial/phase-2.md) décrit les plans préalables, l’environnement déplacé, les modèles, les corrections CPU et de génération, les essais HEIC, les scripts et les limites observées. Les résultats restent des propositions privées à relire.

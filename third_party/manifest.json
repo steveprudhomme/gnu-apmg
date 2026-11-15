@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-13",
-  "scope": "architecture-plan-only",
+  "scope": "architecture-and-optional-runtime-references; no third-party binaries bundled",
   "components": [
     {
       "name": "Python",
@@ -57,6 +57,34 @@
       "source": "https://github.com/ollama/ollama/blob/main/LICENSE",
       "bundled": false,
       "status": "local service prerequisite"
+    },
+    {
+      "name": "Pillow",
+      "license": "MIT-CMU",
+      "source": "https://pillow.readthedocs.io/en/stable/about.html",
+      "bundled": false,
+      "status": "optional runtime installed separately; transitive/native/model license audit pending"
+    },
+    {
+      "name": "pillow-heif",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/bigcat88/pillow_heif",
+      "bundled": false,
+      "status": "optional runtime installed separately; transitive/native/model license audit pending"
+    },
+    {
+      "name": "jsonschema",
+      "license": "MIT",
+      "source": "https://github.com/python-jsonschema/jsonschema",
+      "bundled": false,
+      "status": "optional runtime installed separately; transitive/native/model license audit pending"
+    },
+    {
+      "name": "PaddlePaddle",
+      "license": "Apache-2.0",
+      "source": "https://github.com/PaddlePaddle/Paddle",
+      "bundled": false,
+      "status": "optional runtime installed separately; transitive/native/model license audit pending"
     }
   ]
 }

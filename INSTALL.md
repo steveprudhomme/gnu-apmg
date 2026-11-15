@@ -107,3 +107,25 @@ python -X utf8 -m unittest discover -s tests -p 'test_*.py' -v
 Sans exécutable détecté ni variable définie, le test réel est explicitement ignoré. Sur le PC vérifié : 21 tests, 19 réussis, 2 ignorés pour restrictions sur les liens symboliques. Installation du paquet Python et décodage HEIC restent non testés ; utilisation depuis les sources vérifiée.
 
 Distribution et sommes de contrôle : [site officiel](https://exiftool.org/), [checksums 13.63](https://exiftool.org/checksums-13.63.txt). Le ZIP téléchargé doit correspondre à la somme officielle avant extraction. La version locale a été vérifiée avec `-ver`.
+
+
+## Phase 2 expérimentale — 15 novembre 2026
+
+Les sections précédentes décrivent les états historiques. La préparation HEIC, la vision et l'OCR CPU sont désormais disponibles depuis les sources : [guide détaillé](docs/tutorial/phase-2.md). Elles sont optionnelles et n'ajoutent aucune dépendance obligatoire à la Phase 1.
+
+```powershell
+& .\scripts\Setup-Phase2.ps1 -DownloadVisionModel -DownloadOcrModels
+& .\scripts\Invoke-Phase2.ps1 -SourceFile 'D:\Photos\essai.heic' -OutputDirectory 'D:\EtatPrive\essai-001' -Vision -Ocr
+```
+
+Adapter ces chemins fictifs. Le script d'analyse exige un nouveau dossier privé, hors sources et Git. Sans `-Vision -Ocr`, il effectue uniquement la préparation. Les options d'installation peuvent télécharger plusieurs Go ; vérifier l'espace libre avant de les lancer. Sur ce PC, `.venv-phase2` pointe vers l'environnement du projet sur D:. Ne pas supprimer sa cible en pensant supprimer un simple cache.
+
+Versions observées Windows/CPython 3.13 : Pillow 13.0.0, pillow-heif 1.8.1, jsonschema 4.26.0, PaddleOCR 3.7.0 et PaddlePaddle 3.3.1. `requirements-phase2-windows.lock.txt` liste les versions transitives observées. Ce fichier ne prouve ni compatibilité multiplateforme ni audit complet des licences. La CI installe seulement les dépendances légères de préparation ; les modèles IA/OCR ne sont pas téléchargés en CI.
+
+Tests dans cet environnement :
+
+```powershell
+& .\scripts\Test-ExifTool.ps1 -Python '.\.venv-phase2\Scripts\python.exe'
+```
+
+29 tests exécutés localement : 27 réussis, 2 ignorés. OCR CPU : `enable_mkldnn=False` contourne l'erreur oneDNN observée. La wheel de développement a été construite avec le schéma embarqué ; aucune release ni installation globale du paquet n'a été effectuée.

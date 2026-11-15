@@ -10,7 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 def render():
     manifest = json.loads((ROOT / "third_party/manifest.json").read_text(encoding="utf-8"))
-    lines = ["NOTICE — GNU APMG", "", "Ce fichier est généré. Référence des composants envisagés : AUCUN n'est fourni", "avec le blueprint ; il NE CONSTITUE PAS un SBOM de distribution.", "", "Voir COPYING pour la GNU GPL v3 du code original du projet.", ""]
+    lines = ["NOTICE — GNU APMG", "", "Ce fichier est généré. Référence des composants envisagés ou installés séparément : AUCUN binaire tiers fourni", "par le dépôt ; ce fichier NE CONSTITUE PAS un SBOM de distribution.", "", "Voir COPYING pour la GNU GPL v3 du code original du projet.", ""]
     for component in sorted(manifest["components"], key=lambda c: c["name"].casefold()):
         lines += [f"- {component['name']}", f"  Licence : {component['license']}", f"  Source : {component['source']}", f"  Embarqué : {'oui' if component['bundled'] else 'non'}", f"  Réserve : {component['status']}", ""]
     return "\n".join(lines).rstrip() + "\n"

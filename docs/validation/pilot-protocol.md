@@ -36,3 +36,8 @@ Validation exige un rapport des erreurs, une revue qualitative représentative, 
 - **Tests pilotes réels encore non effectués.** L'outil ExifTool réel n'était pas installé dans l'environnement de construction ; effectuer la validation Windows 11 avant tout avis d'interopérabilité EXIF/IPTC/XMP.
 - Avant/après du SHA-256 à faire indépendamment avec la procédure PowerShell du [tutoriel illustré](../tutorial/phase-1.md).
 - Critère de sortie P1.9 : revue d'erreurs, comparaison d'empreintes et validation du mainteneur. Tant que cela n'est pas fait, la Phase 1 reste **pré-alpha**.
+
+
+## État au 15 novembre 2026
+
+Les assertions « encore non effectué » ci-dessus décrivent le 13 novembre. La Phase 1 a depuis été testée sur 200 copies, dont 100 HEIC, sans erreur et avec empreintes inchangées. La Phase 2 pré-alpha prépare 10 HEIC et teste OCR/vision sur 3 dérivés ; vision acceptée sur 2/3 et réponse tronquée refusée sur 1/3. Cela ne valide pas la qualité sémantique. La vérité terrain humaine, CER/WER, hallucinations et métriques sur un corpus représentatif restent à établir avant élargissement. Voir les deux tutoriels.

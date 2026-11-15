@@ -1,6 +1,6 @@
 # GNU Automatic Picture Metadata generator (GNU APMG)
 
-> **Pré-alpha 0.2.0a1 : premier moteur d’inventaire disponible.** La Phase 1 est implémentée et testée sur des données fictives ; un pilote de 200 copies privées a été validé en lecture seule, dont 100 HEIC. La Phase 2 (vision/OCR) n’est pas implémentée.
+> **Pré-alpha 0.2.0a1 : premier moteur d’inventaire disponible.** La Phase 1 est implémentée et testée sur des données fictives ; un pilote de 200 copies privées a été validé en lecture seule, dont 100 HEIC. La Phase 2 dispose de commandes expérimentales de préparation, vision locale et OCR CPU ; sa qualité reste à évaluer humainement.
 
 **Licence : [GNU General Public License version 3 (GPL-3.0-only)](COPYING).** Projet public dès son premier commit ; aucun fichier privé ou photographie personnelle dans Git.
 
@@ -10,6 +10,12 @@ Dépôt : [steveprudhomme/gnu-apmg](https://github.com/steveprudhomme/gnu-apmg).
 Validation du 15 novembre 2026 : **ExifTool 13.63 réel**, 19 tests réussis et 2 ignorés. Deux scans sur **100 HEIC, 50 JPG et 50 PNG** : zéro erreur et empreintes originales inchangées. La compatibilité HEIC concerne ici les métadonnées et le hachage ; affichage, conversion et analyse IA restent à valider.
 
 Relancer les tests : `& .\scripts\Test-ExifTool.ps1` depuis PowerShell à la racine du dépôt. [Résultats et tutoriel](docs/tutorial/phase-1.md).
+
+## Phase 2 expérimentale
+
+Préparation HEIC vérifiée sur 10 copies. OCR réel testé sur une mire et 3 dérivés HEIC. Vision Qwen3-VL 8B : 2 dérivés HEIC sur 3 acceptés ; une réponse tronquée est explicitement refusée. Toutes les observations restent des propositions. **29 tests locaux : 27 réussis, 2 ignorés.**
+
+[Guide illustré et scripts Phase 2](docs/tutorial/phase-2.md). Les modèles et dépendances optionnelles sont installés séparément ; aucun média ni modèle binaire dans Git.
 
 ## Mission
 
@@ -25,7 +31,7 @@ Inventorier récursivement des photographies en lecture seule, analyser localeme
 
 ## Cible technique
 
-Windows 11, Python **3.12+** et ExifTool pour la Phase 1. La CLI d’inventaire s’exécute également sur d’autres systèmes avec Python ; les tests automatiques ciblent Windows et Linux. Phase 2 (future) : Ollama et NVIDIA RTX 4070 / 12 Go VRAM, description locale (Qwen3-VL 8B quantifié) et OCR PaddleOCR. Les versions de ces outils devront être verrouillées avant leur distribution.
+Windows 11, Python **3.12+** et ExifTool pour la Phase 1. La CLI d’inventaire s’exécute également sur d’autres systèmes avec Python ; les tests automatiques ciblent Windows et Linux. Phase 2 expérimentale : Ollama et NVIDIA RTX 4070 / 12 Go VRAM, description locale (Qwen3-VL 8B quantifié) et OCR PaddleOCR. Les versions de ces outils devront être verrouillées avant leur distribution.
 
 ## Architecture en bref
 

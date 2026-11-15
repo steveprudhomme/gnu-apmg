@@ -16,3 +16,8 @@
 ## Les HEIC sont-ils compatibles ?
 
 La Phase 1 inventorie et extrait les métadonnées des HEIC via ExifTool. Le pilote a validé 100 HEIC avec empreintes originales inchangées. Cela ne garantit pas encore le décodage pour affichage, miniatures, OCR ou vision, ni tous les fichiers HEIC/HEIF possibles. Voir le tutoriel Phase 1 pour les résultats et limites.
+
+
+## Les HEIC peuvent-ils servir à la Phase 2 ?
+
+Dix copies ont été décodées en dérivés RGB réduits sans métadonnées. Trois ont servi aux essais OCR et vision ; une réponse de vision tronquée a été refusée. HDR, couleur et qualité sémantique nécessitent encore une validation humaine. Voir le tutoriel Phase 2.
