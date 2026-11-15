@@ -224,7 +224,7 @@ OBJECTIVE : transformer les observations existantes en propositions de concepts 
 | V4 | Journal des décisions | Export JSON depuis navigateur puis import explicite ; identifiant de session, révision anti-écrasement, acteur déclaré, horodatage et historique append-only SQLite | Fait |
 | V5 | Reprise et tests | Rejet des modifications d'identité, concepts inconnus/retirés, décisions contradictoires ou obsolètes ; transaction atomique, rejouabilité contrôlée ; tests synthétiques | Fait |
 | V6 | Pilote privé existant | Construire une session depuis les analyses déjà présentes, aucune identité/personne/GPS publiée ; aucune décision humaine prise à la place de l'utilisateur | Fait |
-| V7 | Documentation et livraison | Tutoriel illustré, README/INSTALL/contrats/ROADMAP à jour, scripts utilisateur, commits et contrôles GitHub | Planifié |
+| V7 | Documentation et livraison | Tutoriel illustré, README/INSTALL/contrats/ROADMAP à jour, scripts utilisateur, commits et contrôles GitHub | Fait |
 
 Les descriptions et textes OCR sont du contexte de revue ; seules les observations d'objets déclenchent le rapprochement lexical automatique initial. Les thèmes sensibles restent en choix manuel. Une similarité lexicale n'est pas une probabilité et ne crée pas d'exactMatch entre vocabulaires. La validation humaine porte sur le lien photo–concept proposé, pas sur une réécriture du texte d'origine. Les résultats validés restent dans l'état privé ; aucun export dans les images ou sidecars à ce jalon. Le HTML n'héberge pas de serveur, ne charge aucun CDN et ne transmet aucun média ; le transfert des décisions passe par un fichier choisi explicitement par l'utilisateur.
 
@@ -239,3 +239,5 @@ Les descriptions et textes OCR sont du contexte de revue ; seules les observatio
 - Navigateur de test indisponible au lancement ; aucune inspection visuelle réelle n'est revendiquée. jsdom est seulement un outil de test hors dépôt.
 - Suite locale : 47 tests, 45 réussis, 2 ignorés pour permissions de liens symboliques. Scripts de création/import exécutés, modèle HTML embarqué et vérifié dans la wheel construite (aucune release publiée).
 - Limites : pas d'export vers photos/XMP, pas de migration inter-catalogues, pas de reprise de brouillons non exportés après fermeture du navigateur, pas d'authentification ni d'inaltérabilité cryptographique de l'acteur/journal.
+
+Publication du jalon V : commit `acca1b7`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43696176557). La page de revue réelle, ses aperçus, la base et les décisions restent hors Git ; zéro décision réelle enregistrée lors de la livraison.

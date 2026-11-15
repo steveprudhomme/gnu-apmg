@@ -87,3 +87,6 @@ Les mots-clés ne sont pas encore écrits dans les images ou sidecars XMP. L'exp
 
 
 Suite locale complète : **47 tests exécutés, 45 réussis, 2 ignorés** pour restrictions de liens symboliques. Les tests de décisions n’utilisent que des données synthétiques.
+
+
+Publication : commit `acca1b7`. Les [contrôles GitHub Windows et Linux](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43696176557) ont réussi. Le modèle HTML et le module de revue sont présents dans la wheel de développement construite, sans publication de release. La page réelle et ses données privées ne figurent dans aucun commit.
