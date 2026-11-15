@@ -1,12 +1,15 @@
 # GNU Automatic Picture Metadata generator (GNU APMG)
 
-> **Pré-alpha 0.2.0a1 : premier moteur d’inventaire disponible.** La Phase 1 est implémentée et testée sur des données fictives ; aucun pilote de 100–200 photos réelles n’a encore été validé. La Phase 2 (vision/OCR) n’est pas implémentée.
+> **Pré-alpha 0.2.0a1 : premier moteur d’inventaire disponible.** La Phase 1 est implémentée et testée sur des données fictives ; un pilote de 200 copies privées a été validé en lecture seule, dont 100 HEIC. La Phase 2 (vision/OCR) n’est pas implémentée.
 
 **Licence : [GNU General Public License version 3 (GPL-3.0-only)](COPYING).** Projet public dès son premier commit ; aucun fichier privé ou photographie personnelle dans Git.
 
 Dépôt : [steveprudhomme/gnu-apmg](https://github.com/steveprudhomme/gnu-apmg). Ancien nom : PhotoSémantique. Le module Python conserve ce nom pour compatibilité. Le nom du projet ne revendique aucun rattachement officiel à GNU.
 
-Validation du 14 novembre 2026 sur Windows / Python 3.13.6 : **17 tests réussis, 2 ignorés** (liens symboliques non autorisés). Deux scans CLI synthétiques confirment les doublons et l’intégrité source. ExifTool réel est absent du PATH ; son intégration et le pilote privé restent à valider.
+
+Validation du 15 novembre 2026 : **ExifTool 13.63 réel**, 19 tests réussis et 2 ignorés. Deux scans sur **100 HEIC, 50 JPG et 50 PNG** : zéro erreur et empreintes originales inchangées. La compatibilité HEIC concerne ici les métadonnées et le hachage ; affichage, conversion et analyse IA restent à valider.
+
+Relancer les tests : `& .\scripts\Test-ExifTool.ps1` depuis PowerShell à la racine du dépôt. [Résultats et tutoriel](docs/tutorial/phase-1.md).
 
 ## Mission
 

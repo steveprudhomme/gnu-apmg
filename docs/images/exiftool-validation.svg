@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" role="img" aria-labelledby="title desc">
+  <title id="title">GNU APMG — validation ExifTool avant le pilote privé</title>
+  <desc id="desc">Schéma de procédure, pas une capture : télécharger et vérifier l'outil, tester les images synthétiques, comparer les empreintes, puis lancer le pilote autorisé. Installation et pilote terminés : 200 images dont 100 HEIC, zéro erreur et aucune empreinte modifiée.</desc>
+  <rect width="1000" height="360" rx="20" fill="#101c30"/>
+  <g font-family="Arial, sans-serif" fill="#eef4ff">
+    <text x="36" y="48" font-size="26">GNU APMG · ExifTool réel → pilote privé</text>
+    <text x="36" y="78" font-size="16">Schéma de procédure · état observé le 15 novembre 2026</text>
+    <g fill="#223956" stroke="#6689b2" stroke-width="2">
+      <rect x="36" y="112" width="210" height="100" rx="12"/>
+      <rect x="276" y="112" width="210" height="100" rx="12"/>
+      <rect x="516" y="112" width="210" height="100" rx="12"/>
+      <rect x="756" y="112" width="208" height="100" rx="12"/>
+    </g>
+    <g font-size="18" text-anchor="middle">
+      <text x="141" y="151">ZIP officiel</text><text x="141" y="179">SHA-256 vérifié ✓</text>
+      <text x="381" y="151">Installation portable</text><text x="381" y="179">Version 13.63 vérifiée</text>
+      <text x="621" y="151">Corpus synthétique</text><text x="621" y="179">19 tests réussis</text>
+      <text x="860" y="151">100 HEIC · 50 JPG</text><text x="860" y="179">50 PNG · 0 erreur</text>
+    </g>
+    <g font-size="24"><text x="252" y="167">→</text><text x="492" y="167">→</text><text x="732" y="167">→</text></g>
+    <text x="36" y="265" font-size="19" fill="#ffd294">Bilan : deux scans complets · 200 originaux et copies inchangés</text>
+    <text x="36" y="302" font-size="17">Originaux en lecture seule · SQLite et rapports privés hors Git · aucun traitement IA</text>
+  </g>
+</svg>

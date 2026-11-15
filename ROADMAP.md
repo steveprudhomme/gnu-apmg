@@ -89,13 +89,13 @@ OBJECTIVE : valider la lecture documentaire réelle avant tout pilote privé. GO
 
 | ID | Nouvelle sous-étape | Critère de sortie | État |
 | --- | --- | --- | --- |
-| E1 | Enregistrer ce plan avant travail | Commit documentaire préalable | En cours |
-| E2 | Vérifier la distribution officielle Windows ExifTool | URL officielle, version et SHA-256 local consignés ; distinguer empreinte locale et signature officielle | À faire |
-| E3 | Installer sans privilèges administrateur | Outil portable dans un espace local exclu de Git ; exécuter -ver ; aucun changement global du PATH | À faire |
-| E4 | Générer un corpus synthétique valide | PNG contenant des champs documentaires connus, noms Unicode, copie exacte, fichier corrompu ; aucun média privé | À faire |
-| E5 | Tester l'extraction réelle | Tags attendus retrouvés dans SQLite, erreurs de corruption séparées, SHA-256 source avant/après identiques ; scan répété stable | À faire |
-| E6 | Corriger les défauts réels | Régression automatisée si défaut ; ne pas masquer les erreurs ni altérer les originaux | À faire |
-| E7 | Préparer le pilote 100–200 photos | Procédure explicite, source fournie par l'utilisateur, sorties privées hors Git, contrôle indépendant avant/après et seuils d'arrêt | À faire |
+| E1 | Enregistrer ce plan avant travail | Commit documentaire préalable | Fait |
+| E2 | Vérifier la distribution officielle Windows ExifTool | URL officielle, version et SHA-256 local consignés ; distinguer empreinte locale et signature officielle | Fait |
+| E3 | Installer sans privilèges administrateur | Outil portable dans un espace local exclu de Git ; exécuter -ver ; aucun changement global du PATH | Fait |
+| E4 | Générer un corpus synthétique valide | PNG contenant des champs documentaires connus, noms Unicode, copie exacte, fichier corrompu ; aucun média privé | Fait |
+| E5 | Tester l'extraction réelle | Tags attendus retrouvés dans SQLite, erreurs de corruption séparées, SHA-256 source avant/après identiques ; scan répété stable | Fait |
+| E6 | Corriger les défauts réels | Régression automatisée si défaut ; ne pas masquer les erreurs ni altérer les originaux | Fait |
+| E7 | Préparer le pilote 100–200 photos | Procédure explicite, source fournie par l'utilisateur, sorties privées hors Git, contrôle indépendant avant/après et seuils d'arrêt | Fait |
 | E8 | Documenter et publier | Tutoriel illustré avec schéma honnête, INSTALL/README/ROADMAP synchronisés, rapport agrégé sans chemins privés, commits et contrôles CI | À faire |
 
 Le traitement des photos privées attend leur emplacement précis. Il ne sera pas lancé sur un dossier choisi arbitrairement. Les binaires téléchargés, images synthétiques générées et bases restent hors des fichiers versionnés. Le test ExifTool doit être facultatif en CI si aucun outil réel n'y est installé, avec indication explicite du saut.
@@ -113,3 +113,20 @@ Avant correction du lecteur et lancement privé :
 - Consigner uniquement des métriques agrégées dans Git ; conserver noms, chemins, empreintes, GPS et diagnostics détaillés hors Git.
 
 Le manque de place initial a été résolu par l'utilisateur. ExifTool portable 13.63 a ensuite été extrait et sa version exécutée avec succès. Le test de corruption reste à corriger avant le pilote.
+
+
+### Bilan E — 15 novembre 2026
+
+- Plans préalables : `136e287`, puis complément HEIC `940289a`, tous deux avant les modifications correspondantes.
+- ExifTool portable 13.63 installé hors Git et sans changement du PATH. ZIP Windows 64 bits : SHA-256 `7a4bff4b1d6ee15adef882837847f76c0ed23228d294feed285939b6c9b293bd`, identique au fichier officiel de sommes de contrôle. Aucune signature numérique indépendante vérifiée.
+- Les premières adresses SourceForge ont renvoyé du HTML, rejeté ; le lien direct fourni par la page a permis le téléchargement vérifié. Extraction initiale interrompue par disque plein, puis fichiers incomplets nettoyés ; l'utilisateur a libéré l'espace avant installation complète.
+- Lecture des noms Unicode corrigée avec un fichier d'arguments UTF-8 sur stdin (`-charset filename=UTF8 -@ -`). Aucun fichier temporaire d'arguments dans les sources. Les noms contenant un saut de ligne sont refusés explicitement.
+- Les tags Warning sont traités prudemment en échec de métadonnées, même avec un code ExifTool 0 ; le hachage reste conservé. Cela peut inclure des avertissements bénins : diagnostic humain nécessaire, pas preuve automatique de corruption.
+- Tests par `scripts/Test-ExifTool.ps1` : 21 exécutés, 19 réussis, 2 ignorés (liens symboliques interdits). Test réel : PNG valides avec titres et descriptions UTF-8, doublons, JPEG tronqué, deux scans et empreintes inchangées.
+- Pilote privé : 200 copies (100 HEIC, 50 JPG, 50 PNG), deux scans, 200 indexées à chaque scan, zéro erreur, 200 contenus uniques, 24 035 tags stockés au total. Cent valeurs FileType HEIC confirmées. SQLite intègre et aucune violation de clé étrangère.
+- Empreintes des 200 sources et des copies vérifiées avant/après : zéro changement. Sélection ordonnée par format, non aléatoire ; résultat limité à ces fichiers, sans garantie sur tous les HEIC/HEIF.
+- Durée de la partie deux scans et vérification finale : 79,7 secondes, hors préparation des copies ; pas une mesure de débit généralisable.
+- État privé conservé hors Git : copies, correspondances source/copie, empreintes, base et manifeste. La documentation publique ne contient que des nombres agrégés.
+- HEIC : lecture des métadonnées et hachage validés ; décodage des pixels, miniatures, conversion, OCR, vision et export encore non validés. Aucun traitement IA ou écriture documentaire sur les sources.
+
+Voir [le tutoriel](docs/tutorial/phase-1.md#11-exiftool-réel-et-pilote-heic--bilan-du-15-novembre-2026) et [le protocole de relance privée](docs/validation/pilot-runbook.md).

@@ -146,3 +146,57 @@ Les empreintes SHA-256 calculées indépendamment avant et après sont identique
 Les trois SVG sont des illustrations schématiques fournies avec l'archive, adaptées au nouveau nom ; ce ne sont pas des captures d'écran de ce PC. Le rapport JSON ci-dessus correspond au parcours réellement exécuté durant cette reprise.
 
 ExifTool réel est absent du PATH. L'extraction EXIF n'est couverte ici que par des processus simulés ; elle reste à tester sur des images synthétiques valides puis sur le pilote privé. Le paquet installable, le GPU et la Phase 2 n'ont pas été testés.
+
+
+## 11. ExifTool réel et pilote HEIC — bilan du 15 novembre 2026
+
+### Préparer et installer
+
+Les plans ont été enregistrés dans ROADMAP.md avant modification du code (commits `136e287` et `940289a`). La distribution Windows ExifTool 13.63 a été choisie depuis le site officiel, puis son SHA-256 comparé à `checksums-13.63.txt` :
+
+```text
+7a4bff4b1d6ee15adef882837847f76c0ed23228d294feed285939b6c9b293bd
+```
+
+Plusieurs liens SourceForge ont retourné une page HTML : ces réponses ont été rejetées. Le lien direct indiqué par la page a permis le téléchargement correct. La première extraction a échoué faute d'espace ; seuls les fichiers incomplets de cette tentative ont été supprimés. Après nettoyage du disque par l'utilisateur, l'archive a été extraite hors du dépôt. `exiftool(-k).exe` a été renommé `exiftool.exe`, en conservant son dossier `exiftool_files`. La commande `-ver` a retourné `13.63`. Le PATH global est inchangé.
+
+### Vérifier avant les photos privées
+
+Le nouveau test `tests/test_exiftool_real.py` construit trois PNG d'un pixel contenant un titre connu et une description UTF-8, ainsi qu'un JPEG volontairement tronqué. Il contrôle deux scans, les doublons, les tags attendus, les échecs et l'intégrité des octets.
+
+Le premier essai réel a révélé deux comportements : un texte renommé JPG peut être reconnu comme texte, et un JPEG tronqué peut produire un tag Warning malgré un code de sortie 0. Le test utilise maintenant une vraie structure JPEG tronquée ; le lecteur marque les avertissements comme `metadata_failed` sans perdre l'empreinte du contenu. Cette politique conservatrice peut aussi signaler des avertissements bénins.
+
+Les accents des noms Windows provoquaient un avertissement d'encodage. Le chemin est désormais transmis via l'entrée standard en UTF-8, avec `-charset filename=UTF8 -@ -`, plutôt que par l'encodage implicite de la ligne de commande. Un nom contenant un saut de ligne est refusé pour éviter toute ambiguïté dans ce format d'arguments. La documentation officielle décrit [l'encodage des noms](https://exiftool.org/exiftool_pod.html).
+
+Pour relancer vous-même, depuis PowerShell à la racine du dépôt :
+
+```powershell
+& .\scripts\Test-ExifTool.ps1
+```
+
+Script exécuté et vérifié : **21 tests, 19 réussis, 2 ignorés**, dont le test ExifTool réel réussi. Les deux sauts concernent les permissions de liens symboliques. Le script traite seulement des données synthétiques et restitue le code de sortie des tests.
+
+### Pilote privé et résultat agrégé
+
+Le dossier indiqué par l'utilisateur a été inventorié sans afficher ses noms : 2 118 images éligibles, dont 1 335 HEIC. Pour respecter la taille du pilote, les premiers fichiers ordonnés par chemin relatif ont été retenus par format : 100 HEIC, 50 JPG et 50 PNG. Ce choix n'est pas un échantillonnage aléatoire.
+
+Les originaux ont été hachés, copiés dans un état privé hors Git puis les copies vérifiées. Deux scans ont analysé ces copies avec le véritable ExifTool. Les originaux et les copies ont ensuite été rehachés indépendamment. Les fichiers OneDrive peuvent être téléchargés par le client de synchronisation lors de leur lecture ; le moteur n'a envoyé aucune image à une API.
+
+| Format | Copies analysées | Indexées par scan | Erreurs |
+| --- | ---: | ---: | ---: |
+| HEIC | 100 | 100 | 0 |
+| JPG | 50 | 50 | 0 |
+| PNG | 50 | 50 | 0 |
+| Total | 200 | 200 | 0 |
+
+Deux scans terminés ; 200 contenus uniques ; aucun doublon exact dans cet échantillon ; 24 035 tags stockés. Cent tags de type de fichier HEIC confirmés. Contrôles SQLite `integrity_check` et clés étrangères réussis. **Zéro empreinte modifiée** sur les originaux et les copies. La partie scans et contrôle final a pris 79,7 secondes, hors préparation des copies.
+
+![Bilan agrégé du pilote et étapes réellement vérifiées](../images/exiftool-validation.svg)
+
+Illustration vectorielle fondée uniquement sur ces métriques : elle ne contient aucune photo et ne constitue pas une capture de l'écran de l'utilisateur. Les copies, chemins, empreintes et données EXIF restent dans l'état privé ; ils ne sont pas versionnés.
+
+### Portée de la compatibilité HEIC
+
+La lecture de métadonnées et le hachage sont vérifiés pour ces 100 fichiers. Cela ne valide ni tous les HEIC/HEIF, ni leur décodage visuel, ni les miniatures, ni l'OCR/vision ou l'export. ExifTool répertorie HEIC/HEIF parmi les [formats pris en charge](https://exiftool.org/). Les étapes futures devront tester le décodage et traiter correctement orientation, couleurs et éventuelles images multiples.
+
+Le [guide du pilote privé](../validation/pilot-runbook.md) décrit les conditions de relance ; aucune nouvelle analyse privée n'est déclenchée par le script de tests.

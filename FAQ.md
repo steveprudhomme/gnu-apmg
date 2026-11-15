@@ -11,3 +11,8 @@
 **Les résultats IA sont-ils vrais ?** Non, ce sont des observations avec provenance et état de vérification. Seul un contrôle humain approprié transforme un candidat en donnée confirmée.
 
 **Puis-je distribuer commercialement ?** La GPL 3 l'autorise, sous réserve de respecter ses obligations et celles des tiers. Une analyse juridique reste nécessaire pour un paquet binaire final.
+
+
+## Les HEIC sont-ils compatibles ?
+
+La Phase 1 inventorie et extrait les métadonnées des HEIC via ExifTool. Le pilote a validé 100 HEIC avec empreintes originales inchangées. Cela ne garantit pas encore le décodage pour affichage, miniatures, OCR ou vision, ni tous les fichiers HEIC/HEIF possibles. Voir le tutoriel Phase 1 pour les résultats et limites.

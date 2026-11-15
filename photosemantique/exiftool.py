@@ -30,11 +30,14 @@ class ExifToolReader:
         self.version = completed.stdout.strip().splitlines()[0]
 
     def read(self, path: Path) -> dict[str, Any]:
-        # -- évite qu'un nom de fichier commençant par - soit lu comme option.
-        args = [self.executable, "-j", "-G1:4", "-a", "-s", "--", str(path)]
+        # UTF-8 stdin argfile avoids Windows command-line filename encoding loss.
+        # -- prevents a filename from being interpreted as an option.
+        if "\n" in str(path) or "\r" in str(path):
+            raise ExifToolError("Nom de fichier avec saut de ligne non pris en charge")
+        args = [self.executable, "-charset", "filename=UTF8", "-j", "-G1:4", "-a", "-s", "-@", "-"]
         try:
-            completed = subprocess.run(args, capture_output=True, text=True, timeout=self.timeout_seconds, check=False, encoding="utf-8", errors="replace")
-        except (OSError, subprocess.TimeoutExpired) as exc:
+            completed = subprocess.run(args, input="--\n" + str(path) + "\n", capture_output=True, text=True, timeout=self.timeout_seconds, check=False, encoding="utf-8", errors="strict")
+        except (OSError, subprocess.TimeoutExpired, UnicodeError) as exc:
             raise ExifToolError("ExifTool indisponible ou délai dépassé") from exc
         if completed.returncode != 0:
             raise ExifToolError(f"ExifTool a retourné le code {completed.returncode} (vérifier le fichier)")
@@ -48,4 +51,6 @@ class ExifToolReader:
         data = {k: v for k, v in result[0].items() if k != "SourceFile" and not k.endswith(":SourceFile")}
         if any(k == "Error" or k.endswith(":Error") for k in data):
             raise ExifToolError("ExifTool signale une erreur dans les métadonnées")
+        if any(k == "Warning" or k.endswith(":Warning") for k in data):
+            raise ExifToolError("ExifTool signale un avertissement ; extraction à vérifier")
         return data

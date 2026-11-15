@@ -63,3 +63,8 @@ Les illustrations des futures fonctions utiliseront des données synthétiques. 
 Les archives ont été reçues, inspectées puis restaurées après le commit documentaire `2df59b6`. Les étapes « sources manquantes » ci-dessus décrivent uniquement l'état du 13 novembre. La procédure actuelle et les illustrations se trouvent dans le [tutoriel Phase 1](tutorial/phase-1.md).
 
 La feuille de route, le README initial et l'historique Git local ont été préservés. Aucun bundle Git n'a été fourni. Les prompts fondateurs ont été lus, sans être copiés dans le dépôt public.
+
+
+## Mise à jour du 15 novembre 2026
+
+ExifTool réel et le pilote privé de 200 copies (dont 100 HEIC) sont maintenant vérifiés. Le [tutoriel Phase 1](tutorial/phase-1.md) consigne l’installation, le manque de place résolu, les corrections Unicode/avertissements, les tests, le script PowerShell et le bilan illustré. Les données privées restent hors Git.

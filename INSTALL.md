@@ -79,3 +79,31 @@ Ollama local et Qwen3-VL 8B quantifié sont des cibles de conception pour la RTX
 La distribution Python porte le nom `gnu-apmg`. Après installation, `gnu-apmg` et l'alias historique `photosemantique` utilisent la même CLI. Sans installation, `python -m photosemantique` fonctionne depuis la racine. L'installation du paquet n'a pas été vérifiée lors de cette reprise ; le parcours depuis les sources l'a été.
 
 Sur Windows avec Python 3.13.6 : 19 tests exécutés, 17 réussis et 2 ignorés (liens symboliques). ExifTool n'est pas présent dans le PATH ; son exécutable doit être installé puis indiqué avec `--exiftool` pour le pilote EXIF réel. Aucun téléchargement d'outil ni de modèle n'a été effectué.
+
+
+## Validation ExifTool réelle — mise à jour du 15 novembre 2026
+
+ExifTool portable **13.63** est installé dans le dossier frère `../outils-locaux/exiftool-13.63/exiftool-13.63_64/`. Conserver `exiftool_files` à côté de `exiftool.exe`. Aucun binaire n'est distribué par Git et aucun changement global du PATH n'a été effectué. L'état « ExifTool absent » des sections datées précédentes est historique.
+
+Depuis la racine du projet, ouvrir PowerShell et exécuter :
+
+```powershell
+& .\scripts\Test-ExifTool.ps1
+```
+
+Si votre outil est ailleurs :
+
+```powershell
+& .\scripts\Test-ExifTool.ps1 -ExifTool 'C:\Outils\ExifTool\exiftool.exe'
+```
+
+Le script lance uniquement les tests synthétiques, utilise le vrai outil et restaure sa variable d'environnement à la sortie. Il ne lance jamais le pilote privé. Il retourne le code de sortie de la suite de tests ; un échec n'est pas masqué. Si PowerShell bloque l'exécution selon votre politique locale, ne changez pas la politique globale ; les commandes Python ci-dessous constituent une alternative :
+
+```powershell
+$env:GNU_APMG_EXIFTOOL = 'C:\Outils\ExifTool\exiftool.exe'
+python -X utf8 -m unittest discover -s tests -p 'test_*.py' -v
+```
+
+Sans exécutable détecté ni variable définie, le test réel est explicitement ignoré. Sur le PC vérifié : 21 tests, 19 réussis, 2 ignorés pour restrictions sur les liens symboliques. Installation du paquet Python et décodage HEIC restent non testés ; utilisation depuis les sources vérifiée.
+
+Distribution et sommes de contrôle : [site officiel](https://exiftool.org/), [checksums 13.63](https://exiftool.org/checksums-13.63.txt). Le ZIP téléchargé doit correspondre à la somme officielle avant extraction. La version locale a été vérifiée avec `-ver`.

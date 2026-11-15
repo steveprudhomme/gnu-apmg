@@ -151,6 +151,10 @@ class Phase1Tests(unittest.TestCase):
         with patch("photosemantique.exiftool.shutil.which", return_value="exiftool"), patch("photosemantique.exiftool.subprocess.run", side_effect=mocked_run) as proc:
             result = scan(root=self.source, db_path=self.db)
             self.assertTrue(any("-G1:4" in c.args[0] for c in proc.call_args_list))
+            reads = [c for c in proc.call_args_list if "-G1:4" in c.args[0]]
+            self.assertTrue(all("filename=UTF8" in c.args[0] for c in reads))
+            self.assertTrue(all(c.kwargs["input"].startswith("--\n") for c in reads))
+            self.assertTrue(any("école_avion.JPG" in c.kwargs["input"] for c in reads))
         self.assertEqual(result["indexed"], 3)
         with closing(connect(self.db)) as db:
             self.assertEqual(summary(db)["metadata_tags"], 3 * 2)  # 2 contenus distincts
@@ -168,6 +172,18 @@ class Phase1Tests(unittest.TestCase):
         with closing(connect(self.db)) as db:
             self.assertEqual(summary(db)["unique_assets"], 2)
             self.assertEqual(db.execute("SELECT count(*) FROM scan_items WHERE status='metadata_failed'").fetchone()[0], 3)
+
+    def test_exiftool_warning_with_success_exit_is_not_silent_success(self):
+        def mocked_run(argv, **_):
+            if "-ver" in argv:
+                return subprocess.CompletedProcess(argv, 0, "13.63\n", "")
+            return subprocess.CompletedProcess(argv, 0, '[{"ExifTool:Warning":"JPEG format error"}]', "")
+        with patch("photosemantique.exiftool.shutil.which", return_value="exiftool"), patch("photosemantique.exiftool.subprocess.run", side_effect=mocked_run):
+            result = scan(root=self.source, db_path=self.db)
+        self.assertEqual(result["status"], "partial")
+        self.assertEqual(result["errors"], 3)
+        with closing(connect(self.db)) as db:
+            self.assertEqual(summary(db)["unique_assets"], 2)
 
     def test_interrupted_scan_is_marked_and_can_be_restarted(self):
         from photosemantique.inventory import save_item as real_save
