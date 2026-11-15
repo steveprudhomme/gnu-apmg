@@ -132,3 +132,23 @@ Le manque de place initial a été résolu par l'utilisateur. ExifTool portable 
 Voir [le tutoriel](docs/tutorial/phase-1.md#11-exiftool-réel-et-pilote-heic--bilan-du-15-novembre-2026) et [le protocole de relance privée](docs/validation/pilot-runbook.md).
 
 Publication vérifiée : commit de code `56bc201`. [Contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43687539029). Le présent complément est exclusivement documentaire ; les tests ExifTool réels restent vérifiés localement, et peuvent être ignorés en CI lorsque l’exécutable est absent.
+
+
+## Phase 2 — préparation HEIC, vision locale et OCR (15 novembre 2026)
+
+OBJECTIVE : produire des propositions documentaires locales traçables, sans changer les originaux. GOAL : préparation HEIC vérifiée puis premiers essais vision/OCR séparés. OWNER : mainteneur assisté de Codex. SUCCESS CRITERIA : tests synthétiques, intégrité privée, provenance de modèle, sorties explicitement suggested et bilan honnête de qualité.
+
+| ID | Sous-étape avant implémentation | Critère de sortie | État |
+| --- | --- | --- | --- |
+| P2A | Plan et environnement | Commit préalable, dépendances optionnelles isolées, espace disque contrôlé | Planifié |
+| P2B | Décodage HEIC et préparation | Pillow/pillow-heif ; image principale, orientation appliquée une fois, copie RGB réduite hors sources/Git sans EXIF/GPS ; ICC converti vers sRGB si disponible ; limites HDR/couleurs explicites | Planifié |
+| P2C | Contrat des observations | Schéma JSON strict, provenance version/prompt/digest, statut suggested, confiance non calibrée null ; stockage privé append-only, pas de promotion humaine automatique | Planifié |
+| P2D | Vision Ollama locale | Endpoint de boucle locale fixe, pas de redirection/proxy externe, aucun téléchargement implicite ; images réduites ; modèle existant ou choix confirmé ; réponse structurée bornée et validée | Planifié |
+| P2E | OCR PaddleOCR CPU | Installation isolée selon wheels disponibles, modèles locaux explicites, pas de téléchargement durant analyse ; texte/boîtes et score brut distinct de confidence ; échec clair si indisponible | Planifié |
+| P2F | Reprise et protections | Empreinte source avant/après préparation, paramètres de cache versionnés ou nouvelle sortie ; erreurs partielles visibles et aucun média privé publié | Planifié |
+| P2G | Tests et petit pilote | Images synthétiques avec texte connu, tests unitaires sans IA et essais réels séparés ; quelques copies HEIC du pilote privé ; mémoire et temps observés ; qualité humaine encore à annoter | Planifié |
+| P2H | Scripts utilisateur et documentation | Scripts relançables, tutoriel illustré Phase 2, README/INSTALL/contrats/FAQ/manifestes mis à jour, commits et publication vérifiée | Planifié |
+
+Constats préalables : Ollama 0.40.13 disponible, RTX 4070 12 Go détectée ; Qwen3-VL 8B absent, Qwen3.5 9B déjà présent. Python 3.13 et Pillow 12.0 sont disponibles ; paddleocr/paddlepaddle/pillow-heif absents. Environ 9 Go libres sur C: lors du contrôle. Ne pas déduire la compatibilité GPU ou Python des seuls noms ; tester les paquets exacts. Pas de reconnaissance faciale, géocodage ni export XMP à ce jalon.
+
+La validation de qualité finale exige une vérité terrain privée et une revue humaine. Une réponse JSON valide et un test de fonctionnement ne constituent pas une preuve de précision OCR/vision ni de décodage HDR fidèle. Les photos du pilote ne seront envoyées qu'au service local explicitement vérifié.
