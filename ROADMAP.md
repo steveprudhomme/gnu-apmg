@@ -179,3 +179,19 @@ Ce complément est commité avant la reprise du travail. Environ 18,5 Go libres 
 - Étape suivante obligatoire : revue humaine privée et vérité terrain pour CER/WER, objets et hallucinations ; ensuite décider du budget/modèle pour les cas tronqués avant élargissement. Pas d'interface de validation, pas de recherche vectorielle ni d'export à ce jalon.
 
 Publication Phase 2 : commit `e96cdd0`. [Contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43691215711), incluant les tests légers de préparation Phase 2. Les modèles OCR/vision réels ne sont testés que localement, pas en CI. Les limites de qualité et le cas tronqué restent ouverts.
+
+
+## Jalon T — taxonomie de photographies personnelles fondée sur des standards
+
+OBJECTIVE : couvrir les situations de vie en réutilisant un vocabulaire éprouvé plutôt qu'en inventant une ontologie générale. GOAL : base thématique officielle, bilingue, traçable et exploitable localement. OWNER : mainteneur assisté de Codex.
+
+| ID | Sous-étape avant travail | Critère de sortie | État |
+| --- | --- | --- | --- |
+| T1 | Vérifier sources et réutilisation | IPTC Media Topics officiel, licence/attribution, version et empreinte ; Getty AAT comme complément spécialisé | Planifié |
+| T2 | Importer la base officielle | Identifiants et hiérarchie d'origine préservés, FR/EN, source figée et conversion locale reproductible | Planifié |
+| T3 | Organiser la lecture personnelle | Guide par situations de vie et facettes ; distinguer thèmes, objets, activités, événements, lieux et personnes privées | Planifié |
+| T4 | Précision spécialisée | Examiner animaux/plantes/architecture/transports ; pas de mapping exactMatch inventé ni de fausse identification d'espèce | Planifié |
+| T5 | Contrôler et expliquer | Tests sur références et relations, tutoriel illustré, catalogue consultable ; aucun étiquetage automatique de photos ni géocodage à ce jalon | Planifié |
+| T6 | Mettre à jour et publier | ROADMAP/README/ontologie/NOTICE si nécessaire, commits après vérifications, publication et CI | Planifié |
+
+SUCCESS CRITERIA : termes officiels identifiables, provenance/version conservées, absence de cycles ou références cassées dans la hiérarchie exploitée, limites de couverture explicites. Les personnes, adresses et événements propres à la famille sont des entités privées, pas des ajouts au vocabulaire public. La liaison automatique des sorties de vision aux concepts et l'export IPTC/XMP restent des travaux ultérieurs. Les identifiants locaux éventuels ne seront pas présentés comme des termes IPTC/Getty.
