@@ -241,3 +241,20 @@ Les descriptions et textes OCR sont du contexte de revue ; seules les observatio
 - Limites : pas d'export vers photos/XMP, pas de migration inter-catalogues, pas de reprise de brouillons non exportés après fermeture du navigateur, pas d'authentification ni d'inaltérabilité cryptographique de l'acteur/journal.
 
 Publication du jalon V : commit `acca1b7`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43696176557). La page de revue réelle, ses aperçus, la base et les décisions restent hors Git ; zéro décision réelle enregistrée lors de la livraison.
+
+
+## Jalon X — export XMP réversible sur copies
+
+OBJECTIVE : rendre les mots-clés humainement validés portables sans écrire les originaux. GOAL : lot privé autonome comprenant copies inchangées, sidecars et journal d'annulation. OWNER : mainteneur assisté de Codex.
+
+| ID | Sous-étape avant travail | Critère de sortie | État |
+| --- | --- | --- | --- |
+| X1 | Contrat et commit préalable | Décisions courantes accept/correct uniquement ; aucune description/OCR/note/GPS ajouté ; sorties hors sources/Git | Planifié |
+| X2 | Simulation privée | Plan lisible avec photos résolues par SHA-256, concepts et champs futurs ; aucune écriture source | Planifié |
+| X3 | Correspondances standards | dc:subject pour libellés ; lr:hierarchicalSubject pour navigation (extension Adobe), AboutCvTerm IPTC pour URI/schéma/nom ; pas de faux SubjectCode | Planifié |
+| X4 | Écriture sur copies | Nouveau lot exclusif, copies identiques, nom image.ext.xmp, XML valide ; préserver les champs d'un sidecar existant et sauvegarder ses octets ; refuser ambiguïtés/collisions | Planifié |
+| X5 | Vérification et annulation | Journal avec empreintes, source/révision/vocabulaire ; relecture réelle ExifTool, intégrité avant/après ; rollback seulement des sidecars de ce lot et refus si modifiés depuis | Planifié |
+| X6 | Tests et pilote HEIC | Tests synthétiques déduplication/fusion/XML/annulation ; copie des deux photos validées ; digiKam seulement si disponible, jamais prétendre à une validation GUI absente | Planifié |
+| X7 | Documentation et publication | Tutoriel illustré, scripts, README/INSTALL/contrats/ROADMAP ; aucune image, XMP ou décision privée dans Git ; commits puis CI | Planifié |
+
+Les huit décisions importées sont la source humaine ; elles concernent des liens photo–concept, pas les phrases du modèle. Le lot exporté peut être supprimé manuellement mais le rollback applicatif n'efface pas les copies de photos : il retire les sidecars neufs ou restaure les sidecars antérieurs dans ce lot privé. Aucune annulation sur les sources originales. Les lieux/GPS et identités ne font pas partie de cet export. Un sidecar peut ne pas être lu automatiquement par tous les logiciels : relecture ExifTool distincte du test digiKam. Les hiérarchies Getty incomplètes restent limitées au fragment connu, sans parents inventés.
