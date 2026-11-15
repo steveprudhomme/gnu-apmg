@@ -273,3 +273,19 @@ Les huit décisions importées sont la source humaine ; elles concernent des lie
 Prochaine porte distincte : test manuel sur copies dans digiKam si installé, puis décision de convention d'export/de fusion avant toute écriture auprès des originaux. Ce jalon n'autorise pas une écriture intégrée dans les photos.
 
 Publication X : commit `6da22a7`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43764456464). Les deux copies, XMP, sauvegardes éventuelles et journaux restent privés ; aucune écriture sur les originaux. Le test digiKam reste ouvert.
+
+
+## Jalon D — interopérabilité digiKam sur collection isolée
+
+OBJECTIVE : vérifier l'association HEIC/XMP, les mots-clés et l'aller-retour dans un consommateur réel. GOAL : protocole reproductible sans toucher aux originaux ni au lot XMP de référence. OWNER : mainteneur assisté de Codex.
+
+| ID | Sous-étape avant travail | Critère de sortie | État |
+| --- | --- | --- | --- |
+| D1 | Inventorier et choisir la version | Installation existante vérifiée ; sinon paquet officiel stable/portable, version, espace, empreintes et disponibilité du contrôle UI | Planifié |
+| D2 | Préparer un laboratoire privé | Copies supplémentaires du lot XMP, collection/base/configuration séparées, empreintes de référence ; aucune photothèque personnelle ajoutée | Planifié |
+| D3 | Vérifier la lecture | Reconnaissance HEIC et sidecar image.ext.xmp, libellés et hiérarchie ; noter ce que l'interface expose ou non des URI AboutCvTerm | Planifié |
+| D4 | Tester l'aller-retour | Écriture des métadonnées seulement dans les compagnons du laboratoire, comparaison avant/après des champs et des octets images ; aucun résultat déduit d'une simple relecture ExifTool | Planifié |
+| D5 | Analyser et corriger si nécessaire | Comparaison sémantique et diagnostic des pertes ; modifier le code seulement si défaut vérifié et test de régression pertinent | Planifié |
+| D6 | Documenter et publier | Tutoriel illustré sans photos privées, MD synchronisés, scripts/protocole de relance, résultats/limites vérifiés, commits et CI | Planifié |
+
+Constats initiaux : digiKam non trouvé dans le PATH, les emplacements Windows courants et les clés de désinstallation consultées. Un contrôle supplémentaire via les apps accessibles précédera toute installation. Environ 17,6 Go libres sur C: et 27,3 Go sur D:. Préférer une distribution portable officielle et un profil isolé. Si le contrôle GUI est indisponible, préparer le laboratoire et le script utilisateur, consigner le blocage et ne pas déclarer un test digiKam réussi. Les captures publiques doivent utiliser uniquement des données synthétiques ; les observations détaillées du laboratoire privé restent locales. Pas de reconnaissance faciale, géocodage, synchronisation distante ou écritures sur les originaux.
