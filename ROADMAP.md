@@ -210,3 +210,20 @@ SUCCESS CRITERIA : termes officiels identifiables, provenance/version conservée
 Travaux suivants distincts : catalogue biologique plus détaillé, extension contrôlée des objets Getty, liaison des propositions IA aux concepts, interface de validation, géocodage et export IPTC/XMP. Ne pas déclarer ces fonctions déjà implémentées.
 
 Publication du jalon T : commit `76552d3`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43694140453). Les snapshots externes sont préservés octet pour octet par les attributs Git ; les cinq empreintes des fichiers indexés ont été confrontées à la provenance avant publication.
+
+
+## Jalon V — rapprochement et validation humaine des mots-clés
+
+OBJECTIVE : transformer les observations existantes en propositions de concepts vérifiables, puis conserver les décisions humaines sans modifier les analyses ni les photos. GOAL : session de revue privée utilisable hors ligne, aucune relance IA. OWNER : mainteneur assisté de Codex.
+
+| ID | Sous-étape avant implémentation | Critère de sortie | État |
+| --- | --- | --- | --- |
+| V1 | Contrats et protections | Commit préalable ; entrées JSONL validées et identités stables ; sorties privées hors sources/Git ; aucune approbation automatique | Planifié |
+| V2 | Candidats déterministes | Correspondances lexicales bornées, quelques alias explicites révisés, termes IPTC retirés exclus ; homonymes et absence de candidat visibles | Planifié |
+| V3 | Présentation humaine | Rapport HTML local privé : aperçu réduit si fourni, texte source, concepts/définitions/provenance ; accepter/corriger/rejeter avec recherche manuelle | Planifié |
+| V4 | Journal des décisions | Export JSON depuis navigateur puis import explicite ; identifiant de session, révision anti-écrasement, acteur déclaré, horodatage et historique append-only SQLite | Planifié |
+| V5 | Reprise et tests | Rejet des modifications d'identité, concepts inconnus/retirés, décisions contradictoires ou obsolètes ; transaction atomique, rejouabilité contrôlée ; tests synthétiques | Planifié |
+| V6 | Pilote privé existant | Construire une session depuis les analyses déjà présentes, aucune identité/personne/GPS publiée ; aucune décision humaine prise à la place de l'utilisateur | Planifié |
+| V7 | Documentation et livraison | Tutoriel illustré, README/INSTALL/contrats/ROADMAP à jour, scripts utilisateur, commits et contrôles GitHub | Planifié |
+
+Les descriptions et textes OCR sont du contexte de revue ; seules les observations d'objets déclenchent le rapprochement lexical automatique initial. Les thèmes sensibles restent en choix manuel. Une similarité lexicale n'est pas une probabilité et ne crée pas d'exactMatch entre vocabulaires. La validation humaine porte sur le lien photo–concept proposé, pas sur une réécriture du texte d'origine. Les résultats validés restent dans l'état privé ; aucun export dans les images ou sidecars à ce jalon. Le HTML n'héberge pas de serveur, ne charge aucun CDN et ne transmet aucun média ; le transfert des décisions passe par un fichier choisi explicitement par l'utilisateur.
