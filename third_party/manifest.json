@@ -85,6 +85,30 @@
       "source": "https://github.com/PaddlePaddle/Paddle",
       "bundled": false,
       "status": "optional runtime installed separately; transitive/native/model license audit pending"
+    },
+    {
+      "name": "IPTC Media Topics snapshot (2026-09-30)",
+      "kind": "data",
+      "license": "CC-BY-4.0",
+      "source": "https://cv.iptc.org/newscodes/mediatopic/",
+      "bundled": true,
+      "status": "attributed public vocabulary snapshot; FR/EN transformed outputs; see third_party/vocabularies/README.md"
+    },
+    {
+      "name": "Getty AAT selected public records (2026-11-15)",
+      "kind": "data",
+      "license": "ODC-By-1.0",
+      "source": "https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/",
+      "bundled": true,
+      "status": "restricted attributed selection; editorial French display labels separate; see third_party/vocabularies/README.md"
+    },
+    {
+      "name": "RDFLib",
+      "kind": "software",
+      "license": "BSD-3-Clause",
+      "source": "https://github.com/RDFLib/rdflib",
+      "bundled": false,
+      "status": "optional validation dependency, 7.6.0 observed; not bundled in code repository"
     }
   ]
 }

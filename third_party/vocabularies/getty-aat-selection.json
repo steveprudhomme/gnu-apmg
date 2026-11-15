@@ -1,0 +1,408 @@
+{
+  "head" : {
+    "vars" : [ "s", "label" ]
+  },
+  "results" : {
+    "bindings" : [ {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387598"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "forests (plant communities)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387705"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "vegetation features"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300375751"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "birds (motifs)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300266711"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "buildings archaeology"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300266061"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "vegetation"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300132399"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "flowers (plant components)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300209252"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bridges (chordophone components)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300132410"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "trees (woody plants)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300008680"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "lakes (bodies of water)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300008707"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "rivers"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300008863"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "forests (cultural landscapes)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300008795"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountains (landforms)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300004792"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "buildings (structures)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300007836"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bridges (built works)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300164278"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gliders (furniture)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300024149"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dogs (devices for wood)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300235725"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "bridges (hand rests)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300211102"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "gliders (aircraft)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300178749"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "boats"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300178739"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "automobiles"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300212616"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "airplanes"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300249525"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "animals (general term)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300312112"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "trees of life (ornaments)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387705"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "vegetation feature"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300391341"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cats o' nine tails"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300375563"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "flowers (motif)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300265996"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "mountains zebra (species)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300265716"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cats (Felidae)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300264247"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "flowers (plant materials)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300249395"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "animals (kingdom)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300250055"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "birds of prey"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300250130"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "dogs (species)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300211235"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "birds (sports equipment)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300266506"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "birds (animals)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300122164"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "buildings for university or college"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300132360"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "plants (living organisms)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300265960"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "cats (species, domestic cats)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300265645"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "plants (industrial buildings)"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300012242"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "birds eye maple"
+      }
+    }, {
+      "s" : {
+        "type" : "uri",
+        "value" : "http://vocab.getty.edu/aat/300387708"
+      },
+      "label" : {
+        "xml:lang" : "en",
+        "type" : "literal",
+        "value" : "vegetation features, man-made"
+      }
+    } ]
+  }
+}

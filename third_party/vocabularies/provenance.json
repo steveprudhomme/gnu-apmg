@@ -1,0 +1,45 @@
+{
+  "retrieved": "2026-11-15",
+  "sources": [
+    {
+      "file": "iptc-mediatopics.json",
+      "sha256": "16216d085254db34ae4c6f620fd27ac0fa67f58caf6da537b5306ba99d2166e8",
+      "source": "http://cv.iptc.org/newscodes/mediatopic/?format=json&lang=x-all",
+      "license": "CC-BY-4.0",
+      "copyright": "IPTC",
+      "notes": "Official HTTP endpoint used after HTTPS connections were reset; locally pinned hash, no publisher digital signature verified."
+    },
+    {
+      "file": "getty-aat-selection.json",
+      "sha256": "a64d2ff8302ec69b67a9cadb753dafcd7bcd6975bb7bb98848b32f56e8cca191",
+      "source": "https://vocab.getty.edu/sparql",
+      "license": "ODC-By-1.0",
+      "copyright": "J. Paul Getty Trust, Getty Research Institute",
+      "notes": "SPARQL query/response, restricted snapshot; not an exhaustive AAT export."
+    },
+    {
+      "file": "getty-aat-details.json",
+      "sha256": "6aa7e2290dce91bd257ad4d2b442db13147947cbf002a9e228e7d5cdd99bedbb",
+      "source": "https://vocab.getty.edu/sparql",
+      "license": "ODC-By-1.0",
+      "copyright": "J. Paul Getty Trust, Getty Research Institute",
+      "notes": "SPARQL query/response, restricted snapshot; not an exhaustive AAT export."
+    },
+    {
+      "file": "getty-aat-query.rq",
+      "sha256": "5ddc507755ddab70b1f4690f66142e72dc3d4dbaf836af734bc44ccb52e3975c",
+      "source": "https://vocab.getty.edu/sparql",
+      "license": "ODC-By-1.0",
+      "copyright": "J. Paul Getty Trust, Getty Research Institute",
+      "notes": "SPARQL query/response, restricted snapshot; not an exhaustive AAT export."
+    },
+    {
+      "file": "getty-aat-details-query.rq",
+      "sha256": "66c11702f3955e27877c810766d97c3293aff5a6f306c852fd2cd94870a3d2f9",
+      "source": "https://vocab.getty.edu/sparql",
+      "license": "ODC-By-1.0",
+      "copyright": "J. Paul Getty Trust, Getty Research Institute",
+      "notes": "SPARQL query/response, restricted snapshot; not an exhaustive AAT export."
+    }
+  ]
+}

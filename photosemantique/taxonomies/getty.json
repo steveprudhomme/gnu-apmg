@@ -1,0 +1,341 @@
+{
+  "source": "Getty AAT restricted selection",
+  "license": "https://opendatacommons.org/licenses/by/1-0/",
+  "attribution": "Contains information from the J. Paul Getty Trust, Getty Research Institute, Art & Architecture Thesaurus, which is made available under the ODC Attribution License",
+  "note": "French display labels are GNU APMG editorial translations; external broader references retained. Not a closed hierarchy or full AAT.",
+  "concepts": [
+    {
+      "uri": "http://vocab.getty.edu/aat/300004792",
+      "labels": {
+        "en": "buildings (structures)"
+      },
+      "editorial_label_fr": "Bâtiments",
+      "broader": [
+        "http://vocab.getty.edu/aat/300004794"
+      ],
+      "definitions": {
+        "en": "Structures, generally enclosed, that are used or intended to be used for sheltering an activity or occupancy."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300007836",
+      "labels": {
+        "en": "bridges (built works)"
+      },
+      "editorial_label_fr": "Ponts",
+      "broader": [
+        "http://vocab.getty.edu/aat/300120693"
+      ],
+      "definitions": {
+        "en": "Structures spanning and providing passage over waterways, topographic depressions, transportation routes, or similar circulation barriers."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008680",
+      "labels": {
+        "en": "lakes (bodies of water)"
+      },
+      "editorial_label_fr": "Lacs",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132301"
+      ],
+      "definitions": {
+        "en": "Bodies of fresh or salt water surrounded by land."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008707",
+      "labels": {
+        "en": "rivers"
+      },
+      "editorial_label_fr": "Rivières",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132312"
+      ],
+      "definitions": {
+        "en": "Bodies of water flowing in direct course or a series of divergents or converging channels."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008795",
+      "labels": {
+        "en": "mountains (landforms)"
+      },
+      "editorial_label_fr": "Montagnes",
+      "broader": [
+        "http://vocab.getty.edu/aat/300266060"
+      ],
+      "definitions": {
+        "en": "Prominent landforms rising considerably above the surrounding area, typically having steep slopes, a sharp summit area, and large mass. Mountains rarely occur individually, and in most cases, are found in ranges, chains, or systems."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008863",
+      "labels": {
+        "en": "forests (cultural landscapes)"
+      },
+      "editorial_label_fr": "Forêts (paysages culturels)",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132449"
+      ],
+      "definitions": {
+        "en": "Historically, refers to wilderness areas outside the scope of common law but within the legislation of kings and reserved for royal activities; more recently, used to designate extensive wooded areas, whether maintained for the production of timber or unmanaged and preserving a wilderness of dense growth and wild animal habitats. For forests in the context of a plant community rather than as a cultural landscape, use \"forests (plant communities).\""
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132360",
+      "labels": {
+        "en": "Plantae (kingdom)"
+      },
+      "editorial_label_fr": "Plantes vivantes",
+      "broader": [
+        "http://vocab.getty.edu/aat/300265677",
+        "http://vocab.getty.edu/aat/300266061"
+      ],
+      "definitions": {
+        "en": "Multicellular eukaryotic life forms characterized by photosynthesis, in which chemical energy is produced from water, minerals, and carbon dioxide with the aid of pigments and the radiant energy of the Sun. However, also included in the kingdom are plants that do not produce their food by photosynthesis, but rather are parasitic and live off of other living plants. Other plants are saprophytic, obtaining their food from dead organic matter. Plants have cells that contain cellulose in their walls and are therefore to some extent rigid. There is also an absence of organs of locomotion, resulting in a more or less stationary existence as well as no sensory and nervous systems. There are over 300,000 living species of plants."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132399",
+      "labels": {
+        "en": "flowers (plant components)"
+      },
+      "editorial_label_fr": "Fleurs (organes végétaux)",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132375",
+        "http://vocab.getty.edu/aat/300375171"
+      ],
+      "definitions": {
+        "en": "The reproductive portions of any plant in the division Angiospermae, flowering plants. As popularly used, the term \"flower\" especially applies when part or all of the reproductive structure is distinctive in color and form."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132410",
+      "labels": {
+        "en": "trees (woody plants)"
+      },
+      "editorial_label_fr": "Arbres",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132372"
+      ],
+      "definitions": {
+        "en": "Woody, perennial plants usually with a single, long, self-supporting stem or trunk, and which grow to a considerable height."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300178739",
+      "labels": {
+        "en": "automobiles"
+      },
+      "editorial_label_fr": "Automobiles",
+      "broader": [
+        "http://vocab.getty.edu/aat/300227816"
+      ],
+      "definitions": {
+        "en": "Self-propelled vehicles designed primarily to transport passengers over ordinary roads."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300178749",
+      "labels": {
+        "en": "boats"
+      },
+      "editorial_label_fr": "Bateaux",
+      "broader": [
+        "http://vocab.getty.edu/aat/300042940"
+      ],
+      "definitions": {
+        "en": "Watercraft generally smaller and less seaworthy than ships and generally not designed to cross large open waters."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300211102",
+      "labels": {
+        "en": "gliders (aircraft)"
+      },
+      "editorial_label_fr": "Planeurs",
+      "broader": [
+        "http://vocab.getty.edu/aat/300220417"
+      ],
+      "definitions": {
+        "en": "Motorless heavier than air aircraft using air currents to soar from lower to higher altitudes and gravity to descend."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300212616",
+      "labels": {
+        "en": "airplanes"
+      },
+      "editorial_label_fr": "Avions",
+      "broader": [
+        "http://vocab.getty.edu/aat/300220417"
+      ],
+      "definitions": {
+        "en": "Nontechnical term for heavier than air fixed-wing aircraft designed to utilize the pressures created by their motion through the air to lift and transport people and cargo; if possible use a more precise term."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300249395",
+      "labels": {
+        "en": "Animalia (kingdom)"
+      },
+      "editorial_label_fr": "Règne animal",
+      "broader": [
+        "http://vocab.getty.edu/aat/300265677"
+      ],
+      "definitions": {
+        "en": "Kingdom containing multicellular organisms having cells bound by a plasma membrane and organized into tissue and specialized tissue systems that permit them to either move about in search of food or to draw food toward themselves. Unable to make their own food within themselves, as photosynthetic plants do, they rely on consuming preformed food. They possess a nervous system with sensory and motor nerves, enabling them to receive environmental stimuli and to respond with specialized movements."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300249525",
+      "labels": {
+        "en": "animals (general term)"
+      },
+      "editorial_label_fr": "Animaux (terme général)",
+      "broader": [
+        "http://vocab.getty.edu/aat/300249395"
+      ],
+      "definitions": {
+        "en": "Any living organisms, including human beings; may be real or fictional, including mythical or legendary creatures."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300250055",
+      "labels": {
+        "en": "raptors (birds)"
+      },
+      "editorial_label_fr": "Rapaces",
+      "broader": [
+        "http://vocab.getty.edu/aat/300266506"
+      ],
+      "definitions": {
+        "en": "General term referring to all birds of prey of either Falconiformes or Strigiformes orders, including hawks, eagles, vultures, falcons, and owls, having in common a hooked beak, sharp talons, and keen eyesight."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300250130",
+      "labels": {
+        "en": "Canis familiaris (species)"
+      },
+      "editorial_label_fr": "Chiens",
+      "broader": [
+        "http://vocab.getty.edu/aat/300265714"
+      ],
+      "definitions": {
+        "en": "Domesticated species of Canis, formerly believed to be descended from Canis lupus, gray wolves; however, recent studies suggest that gray wolves and domestic dogs instead have a common ancestor, now extinct. Dogs come in a variety of shapes, and sizes and over 400 distinct breeds. All domestic or feral dogs are descended from a single common ancestral species. For more than 12,000 years, it has lived with humans as a hunting companion, protector, and as herders and guardians of sheep, goats, and cattle. Today, dogs are employed as aids to the blind and disabled, or for police work. In Western art, dogs have generally come to symbolize faithfulness and loyalty, however, in other cultures they can symbolizes a varity of traits, ranging from unclean to seducer."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300265716",
+      "labels": {
+        "en": "Felidae (family)"
+      },
+      "editorial_label_fr": "Félidés",
+      "broader": [
+        "http://vocab.getty.edu/aat/300310328"
+      ],
+      "definitions": {
+        "en": "Family of mammals containing 37 species in 18 genera representing the cheetah, puma, jaguar, leopard, lion, lynx, tiger, domestic cat, and others, descended from a common ancestor about 10.8 million years ago. According to a 2006 genomic study the ancestor of extant Leopardus, Lynx, Puma, Prionailurus, and Felis lineages migrated across the Bering land bridge into the Americas approximately 8 to 8.5 million years ago. Members of Felidae are typically characterized by having a long tail, a head with a short nose and round face, large eyes positioned for good binocular vision, usually with short ears, sharp claws that are retractile except in the cheetah, a tongue covered with horny papillae, five toes on their forefeet and four on their hindfeet, with the male larger than the female, possessing a genetic anomaly that prevents them from tasting sweetness, and being the most strictly carnivorous of the mammal families in the order Carnivora. Their closest relatives are thought to be the civets, hyenas, and mongooses."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300265960",
+      "labels": {
+        "en": "Felis catus (species)"
+      },
+      "editorial_label_fr": "Chats domestiques",
+      "broader": [
+        "http://vocab.getty.edu/aat/300265717"
+      ],
+      "definitions": {
+        "en": "Domesticated member of the genus Felis. Domesticated in Egypt ca. 2,000 BCE, in Cyprus by 9,500 years ago, earlier elsewhere in the Middle East. In some taxonomies, Felis catus and Felis sylvestris are the same species. Ancient Egyptian affection and respect for the cat as predator led to the development of religious cat cults and temple worship of cats. Since tabby-like markings appear in the drawings and mummies of ancient Egyptian cats, present-day tabbies probably look much like the sacred cats of Egypt. Other variations of coat and body form have appeared over the centuries of domestication. "
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300266061",
+      "labels": {
+        "en": "vegetation"
+      },
+      "editorial_label_fr": "Végétation",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132294"
+      ],
+      "definitions": {
+        "en": "Plants collectively, usually referring to plants or vegetal growths in a defined area. For the kingdom of plants, use \"Plantae (kingdom).\""
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300266506",
+      "labels": {
+        "en": "Aves (class)"
+      },
+      "editorial_label_fr": "Oiseaux",
+      "broader": [
+        "http://vocab.getty.edu/aat/300310228",
+        "http://vocab.getty.edu/aat/300265720"
+      ],
+      "definitions": {
+        "en": "The class of vertebrate animals that are typically bipedal and warm-blooded, lay large-yolked hardshelled eggs, often arboreal, and possessing feathers, hollow bones, forelimbs adapted for flight (although some have lost the ability to fly) and hindlimbs for perching and locomotion, a four-chambered heart, keen vision, a horny beak without teeth, and a large muscular stomach. Birds arose from theropod dinosaurs, which were an order of carnivorous dinosaurs."
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300387598",
+      "labels": {
+        "en": "forests (plant communities)"
+      },
+      "editorial_label_fr": "Forêts (communautés végétales)",
+      "broader": [
+        "http://vocab.getty.edu/aat/300132439"
+      ],
+      "definitions": {
+        "en": "Plant communities that are dominated by trees and other woody vegetation. A typical forest is composed of the overstory and the understory; the understory may be subdivided into the lower tree layer, shrub layer, herb layer, moss layer, and soil microbes. Today forests occupy approximately one-third of the earth's land area. For forests in the sense of cultural landscape rather than as a plant community, use \"forests (cultural landscapes).\""
+      },
+      "retired": null,
+      "status": "Selected official record; retirement status not fetched"
+    }
+  ]
+}

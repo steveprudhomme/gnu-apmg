@@ -55,10 +55,12 @@ pycparser==3.12
 pycryptodome==4.4.0
 pydantic==2.14.3
 pydantic_core==2.50.4
+pyparsing==3.3.3
 pypdfium2==5.15.2
 python-bidi==0.6.12
 python-dateutil==4.0.0
 PyYAML==6.0.2
+rdflib==7.6.0
 referencing==0.37.0
 requests==2.34.2
 rpds-py==2026.9.1

@@ -17,6 +17,7 @@ dependencies = []
 [project.optional-dependencies]
 preparation = ["Pillow==13.0.0", "pillow-heif==1.8.1", "jsonschema==4.26.0"]
 ocr = ["paddleocr==3.7.0", "paddlepaddle==3.3.1"]
+taxonomy-validation = ["rdflib==7.6.0"]
 
 [project.scripts]
 gnu-apmg = "photosemantique.cli:main"
@@ -26,4 +27,4 @@ photosemantique = "photosemantique.cli:main"
 include = ["photosemantique*"]
 
 [tool.setuptools.package-data]
-photosemantique = ["migrations/*.sql", "schemas/*.json"]
+photosemantique = ["migrations/*.sql", "schemas/*.json", "taxonomies/*.json"]

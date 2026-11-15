@@ -17,6 +17,12 @@ Préparation HEIC vérifiée sur 10 copies. OCR réel testé sur une mire et 3 d
 
 [Guide illustré et scripts Phase 2](docs/tutorial/phase-2.md). Les modèles et dépendances optionnelles sont installés séparément ; aucun média ni modèle binaire dans Git.
 
+## Taxonomie fondée sur des référentiels éprouvés
+
+[Guide des photographies personnelles](docs/ontology/TAXONOMIE-PERSONNELLE.md) et [catalogue local filtrable](docs/ontology/catalogue.html) : **1 059 thèmes IPTC actifs**, 335 retirés conservés, **17 vues de vie personnelle** et 22 concepts Getty AAT complémentaires. Pas d’étiquetage automatique des photos à ce stade.
+
+Les données de vocabulaire gardent leurs licences **CC BY 4.0 (IPTC)** et **ODC-By 1.0 (Getty)**, distinctes de la GPL du code. [Attributions et transformations](third_party/vocabularies/README.md).
+
 ## Mission
 
 Inventorier récursivement des photographies en lecture seule, analyser localement les scènes, objets et textes, puis préparer un enrichissement documentaire pérenne au moyen des standards IPTC/XMP et d'une base de connaissances locale. L'IA doit proposer ; un humain confirme les éléments incertains. Tous les calculs et les données privées restent sur l'ordinateur de l'utilisateur.

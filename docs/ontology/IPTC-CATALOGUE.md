@@ -1,0 +1,1404 @@
+# Catalogue IPTC Media Topics — FR/EN
+
+Données : Copyright IPTC, CC BY 4.0. Version 2026-09-30T12:00:00+00:00.
+Transformation GNU APMG : sélection des langues et présentation ; termes et parents non réécrits.
+Termes retirés conservés pour historique et exclus de la recherche ordinaire. Anglais affiché si français absent.
+
+## Termes actifs
+
+- **Arts, culture, divertissement et médias** — arts, culture, entertainment and media · [medtop:01000000](http://cv.iptc.org/newscodes/mediatopic/01000000) · parents : Sommet officiel
+- **Criminalité, droit et justice** — crime, law and justice · [medtop:02000000](http://cv.iptc.org/newscodes/mediatopic/02000000) · parents : Sommet officiel
+- **Désastres et accidents** — disaster, accident and emergency incident · [medtop:03000000](http://cv.iptc.org/newscodes/mediatopic/03000000) · parents : Sommet officiel
+- **Économie et finances** — economy, business and finance · [medtop:04000000](http://cv.iptc.org/newscodes/mediatopic/04000000) · parents : Sommet officiel
+- **Éducation** — education · [medtop:05000000](http://cv.iptc.org/newscodes/mediatopic/05000000) · parents : Sommet officiel
+- **Environnement** — environment · [medtop:06000000](http://cv.iptc.org/newscodes/mediatopic/06000000) · parents : Sommet officiel
+- **Santé** — health · [medtop:07000000](http://cv.iptc.org/newscodes/mediatopic/07000000) · parents : Sommet officiel
+- **Gens animaux insolite** — human interest · [medtop:08000000](http://cv.iptc.org/newscodes/mediatopic/08000000) · parents : Sommet officiel
+- **Social** — labor · [medtop:09000000](http://cv.iptc.org/newscodes/mediatopic/09000000) · parents : Sommet officiel
+- **Vie quotidienne et loisirs** — lifestyle and leisure · [medtop:10000000](http://cv.iptc.org/newscodes/mediatopic/10000000) · parents : Sommet officiel
+- **Politique** — politics and government · [medtop:11000000](http://cv.iptc.org/newscodes/mediatopic/11000000) · parents : Sommet officiel
+- **Religion et croyance** — religion · [medtop:12000000](http://cv.iptc.org/newscodes/mediatopic/12000000) · parents : Sommet officiel
+- **Science et technologie** — science and technology · [medtop:13000000](http://cv.iptc.org/newscodes/mediatopic/13000000) · parents : Sommet officiel
+- **Société** — society · [medtop:14000000](http://cv.iptc.org/newscodes/mediatopic/14000000) · parents : Sommet officiel
+- **Sport** — sport · [medtop:15000000](http://cv.iptc.org/newscodes/mediatopic/15000000) · parents : Sommet officiel
+- **Conflit, guerre et paix** — conflict, war and peace · [medtop:16000000](http://cv.iptc.org/newscodes/mediatopic/16000000) · parents : Sommet officiel
+- **Météo** — weather · [medtop:17000000](http://cv.iptc.org/newscodes/mediatopic/17000000) · parents : Sommet officiel
+- **Arts et divertissement** — arts and entertainment · [medtop:20000002](http://cv.iptc.org/newscodes/mediatopic/20000002) · parents : Arts, culture, divertissement et médias
+- **Dessin animé** — animation · [medtop:20000003](http://cv.iptc.org/newscodes/mediatopic/20000003) · parents : Arts et divertissement
+- **Bande dessinée** — cartoon · [medtop:20000004](http://cv.iptc.org/newscodes/mediatopic/20000004) · parents : Arts et divertissement
+- **Cinéma** — movies · [medtop:20000005](http://cv.iptc.org/newscodes/mediatopic/20000005) · parents : Arts et divertissement
+- **Festival de cinéma** — film festival · [medtop:20000006](http://cv.iptc.org/newscodes/mediatopic/20000006) · parents : Festival
+- **Danse** — dance · [medtop:20000007](http://cv.iptc.org/newscodes/mediatopic/20000007) · parents : Arts et divertissement
+- **Danse classique** — ballet · [medtop:20000008](http://cv.iptc.org/newscodes/mediatopic/20000008) · parents : Danse
+- **Danse moderne** — modern dance · [medtop:20000009](http://cv.iptc.org/newscodes/mediatopic/20000009) · parents : Danse
+- **Danse folklorique** — traditional dance · [medtop:20000010](http://cv.iptc.org/newscodes/mediatopic/20000010) · parents : Danse
+- **Mode** — fashion · [medtop:20000011](http://cv.iptc.org/newscodes/mediatopic/20000011) · parents : Arts et divertissement
+- **Bijoux** — jewelry · [medtop:20000012](http://cv.iptc.org/newscodes/mediatopic/20000012) · parents : Mode
+- **Littérature** — literature · [medtop:20000013](http://cv.iptc.org/newscodes/mediatopic/20000013) · parents : Arts et divertissement
+- **Œuvre théâtrale** — drama (literature) · [medtop:20000014](http://cv.iptc.org/newscodes/mediatopic/20000014) · parents : Littérature
+- **Fiction** — fiction · [medtop:20000015](http://cv.iptc.org/newscodes/mediatopic/20000015) · parents : Littérature
+- **Récit** — non-fiction · [medtop:20000016](http://cv.iptc.org/newscodes/mediatopic/20000016) · parents : Littérature
+- **Poésie** — poetry · [medtop:20000017](http://cv.iptc.org/newscodes/mediatopic/20000017) · parents : Littérature
+- **Musique** — music · [medtop:20000018](http://cv.iptc.org/newscodes/mediatopic/20000018) · parents : Arts et divertissement
+- **Instrument de musique** — musical instrument · [medtop:20000019](http://cv.iptc.org/newscodes/mediatopic/20000019) · parents : Musique
+- **Concert** — musical performance · [medtop:20000020](http://cv.iptc.org/newscodes/mediatopic/20000020) · parents : Musique
+- **Genre musical** — musical genre · [medtop:20000021](http://cv.iptc.org/newscodes/mediatopic/20000021) · parents : Musique
+- **Classique** — classical music · [medtop:20000022](http://cv.iptc.org/newscodes/mediatopic/20000022) · parents : Genre musical
+- **Country** — country music · [medtop:20000023](http://cv.iptc.org/newscodes/mediatopic/20000023) · parents : Genre musical
+- **Folk** — folk music · [medtop:20000024](http://cv.iptc.org/newscodes/mediatopic/20000024) · parents : Genre musical
+- **Jazz** — jazz music · [medtop:20000025](http://cv.iptc.org/newscodes/mediatopic/20000025) · parents : Genre musical
+- **Pop** — popular music · [medtop:20000026](http://cv.iptc.org/newscodes/mediatopic/20000026) · parents : Genre musical
+- **Rock** — rock and roll music · [medtop:20000027](http://cv.iptc.org/newscodes/mediatopic/20000027) · parents : Genre musical
+- **Opéra** — opera · [medtop:20000028](http://cv.iptc.org/newscodes/mediatopic/20000028) · parents : Théâtre
+- **Théâtre** — theater · [medtop:20000029](http://cv.iptc.org/newscodes/mediatopic/20000029) · parents : Arts et divertissement
+- **Arts visuels** — visual arts · [medtop:20000031](http://cv.iptc.org/newscodes/mediatopic/20000031) · parents : Arts et divertissement
+- **Architecture** — architecture · [medtop:20000032](http://cv.iptc.org/newscodes/mediatopic/20000032) · parents : Arts visuels
+- **Design** — design (visual arts) · [medtop:20000033](http://cv.iptc.org/newscodes/mediatopic/20000033) · parents : Arts visuels
+- **Dessin** — drawing · [medtop:20000034](http://cv.iptc.org/newscodes/mediatopic/20000034) · parents : Arts visuels
+- **Peinture** — painting · [medtop:20000035](http://cv.iptc.org/newscodes/mediatopic/20000035) · parents : Arts visuels
+- **Photographie** — photography · [medtop:20000036](http://cv.iptc.org/newscodes/mediatopic/20000036) · parents : Arts visuels
+- **Sculpture** — sculpture · [medtop:20000037](http://cv.iptc.org/newscodes/mediatopic/20000037) · parents : Arts visuels
+- **Culture** — culture · [medtop:20000038](http://cv.iptc.org/newscodes/mediatopic/20000038) · parents : Arts, culture, divertissement et médias
+- **Histoire de l'art** — cultural development · [medtop:20000039](http://cv.iptc.org/newscodes/mediatopic/20000039) · parents : Culture
+- **Coutumes et traditions** — customs and tradition · [medtop:20000040](http://cv.iptc.org/newscodes/mediatopic/20000040) · parents : Culture
+- **Festivals et commémorations** — festive event (culture) · [medtop:20000041](http://cv.iptc.org/newscodes/mediatopic/20000041) · parents : Culture
+- **Langue** — language · [medtop:20000042](http://cv.iptc.org/newscodes/mediatopic/20000042) · parents : Culture
+- **Bibliothèque et musée** — library and museum · [medtop:20000043](http://cv.iptc.org/newscodes/mediatopic/20000043) · parents : Culture
+- **Patrimoine** — monument and heritage site · [medtop:20000044](http://cv.iptc.org/newscodes/mediatopic/20000044) · parents : Culture
+- **Médias** — mass media · [medtop:20000045](http://cv.iptc.org/newscodes/mediatopic/20000045) · parents : Arts, culture, divertissement et médias
+- **Média d'information** — news media · [medtop:20000046](http://cv.iptc.org/newscodes/mediatopic/20000046) · parents : Médias
+- **Journaux** — newspaper · [medtop:20000047](http://cv.iptc.org/newscodes/mediatopic/20000047) · parents : Médias
+- **Internet** — online media outlet · [medtop:20000048](http://cv.iptc.org/newscodes/mediatopic/20000048) · parents : Médias
+- **Périodiques** — periodical · [medtop:20000049](http://cv.iptc.org/newscodes/mediatopic/20000049) · parents : Médias
+- **Radio** — radio · [medtop:20000050](http://cv.iptc.org/newscodes/mediatopic/20000050) · parents : Médias
+- **Télévision** — television · [medtop:20000051](http://cv.iptc.org/newscodes/mediatopic/20000051) · parents : Médias
+- **Acte de terrorisme** — act of terror · [medtop:20000053](http://cv.iptc.org/newscodes/mediatopic/20000053) · parents : Conflit, guerre et paix
+- **Bioterrorisme** — act of bioterrorism · [medtop:20000054](http://cv.iptc.org/newscodes/mediatopic/20000054) · parents : Acte de terrorisme
+- **Attentat à la bombe** — terrorist bombings · [medtop:20000055](http://cv.iptc.org/newscodes/mediatopic/20000055) · parents : Acte de terrorisme
+- **Conflit armé** — armed conflict · [medtop:20000056](http://cv.iptc.org/newscodes/mediatopic/20000056) · parents : Conflit, guerre et paix
+- **Guérilla** — guerrilla activity · [medtop:20000057](http://cv.iptc.org/newscodes/mediatopic/20000057) · parents : Conflit armé
+- **Intervention militaire internationale** — international military intervention · [medtop:20000058](http://cv.iptc.org/newscodes/mediatopic/20000058) · parents : Conflit armé
+- **Forces de maintien de la paix** — peacekeeping force · [medtop:20000059](http://cv.iptc.org/newscodes/mediatopic/20000059) · parents : Processus de paix
+- **Forces d'occupation** — military occupation · [medtop:20000060](http://cv.iptc.org/newscodes/mediatopic/20000060) · parents : Conflit armé
+- **Disparus au combat** — missing in action · [medtop:20000061](http://cv.iptc.org/newscodes/mediatopic/20000061) · parents : war victims
+- **Guerre** — war · [medtop:20000062](http://cv.iptc.org/newscodes/mediatopic/20000062) · parents : Conflit armé
+- **Guerre civile** — civil war · [medtop:20000063](http://cv.iptc.org/newscodes/mediatopic/20000063) · parents : Guerre
+- **Troubles civils** — civil unrest · [medtop:20000065](http://cv.iptc.org/newscodes/mediatopic/20000065) · parents : Conflit, guerre et paix
+- **Manifestation** — protests and demonstrations · [medtop:20000066](http://cv.iptc.org/newscodes/mediatopic/20000066) · parents : Troubles civils
+- **Rébellion** — rebellion · [medtop:20000067](http://cv.iptc.org/newscodes/mediatopic/20000067) · parents : Troubles civils
+- **Révolution** — revolution · [medtop:20000068](http://cv.iptc.org/newscodes/mediatopic/20000068) · parents : Troubles civils
+- **Emeutes** — riot · [medtop:20000069](http://cv.iptc.org/newscodes/mediatopic/20000069) · parents : Troubles civils
+- **Coup d'Etat** — coup d'etat · [medtop:20000070](http://cv.iptc.org/newscodes/mediatopic/20000070) · parents : Conflit, guerre et paix
+- **Massacre** — massacre · [medtop:20000071](http://cv.iptc.org/newscodes/mediatopic/20000071) · parents : Conflit, guerre et paix
+- **Génocide** — genocide · [medtop:20000072](http://cv.iptc.org/newscodes/mediatopic/20000072) · parents : Criminalité
+- **Processus de paix** — peace process · [medtop:20000073](http://cv.iptc.org/newscodes/mediatopic/20000073) · parents : Conflit, guerre et paix
+- **Émissaire de la paix** — peace envoy · [medtop:20000074](http://cv.iptc.org/newscodes/mediatopic/20000074) · parents : Processus de paix
+- **Plan de paix** — peace plan · [medtop:20000075](http://cv.iptc.org/newscodes/mediatopic/20000075) · parents : Processus de paix
+- **Pourparlers de paix** — peace talks · [medtop:20000076](http://cv.iptc.org/newscodes/mediatopic/20000076) · parents : Processus de paix
+- **Reconstruction** — post-war reconstruction · [medtop:20000077](http://cv.iptc.org/newscodes/mediatopic/20000077) · parents : Conflit, guerre et paix
+- **Désarmement** — disarmament · [medtop:20000078](http://cv.iptc.org/newscodes/mediatopic/20000078) · parents : Processus de paix
+- **Déminage** — ordnance clearance · [medtop:20000079](http://cv.iptc.org/newscodes/mediatopic/20000079) · parents : Reconstruction
+- **Prisonniers de guerre** — prisoners of war · [medtop:20000080](http://cv.iptc.org/newscodes/mediatopic/20000080) · parents : war victims
+- **Criminalité** — crime · [medtop:20000082](http://cv.iptc.org/newscodes/mediatopic/20000082) · parents : Criminalité, droit et justice
+- **Incendie volontaire** — arson · [medtop:20000083](http://cv.iptc.org/newscodes/mediatopic/20000083) · parents : Criminalité
+- **Agression** — assault · [medtop:20000084](http://cv.iptc.org/newscodes/mediatopic/20000084) · parents : Criminalité
+- **Agression sexuelle** — sex crime · [medtop:20000085](http://cv.iptc.org/newscodes/mediatopic/20000085) · parents : Agression
+- **Piratage informatique** — cyber crime · [medtop:20000086](http://cv.iptc.org/newscodes/mediatopic/20000086) · parents : Criminalité
+- **Délinquance financière** — corporate crime · [medtop:20000087](http://cv.iptc.org/newscodes/mediatopic/20000087) · parents : Criminalité
+- **Infraction à la concurrence** — anti-trust crime · [medtop:20000088](http://cv.iptc.org/newscodes/mediatopic/20000088) · parents : Délinquance financière
+- **Violation de contrat** — breach of contract · [medtop:20000089](http://cv.iptc.org/newscodes/mediatopic/20000089) · parents : Délinquance financière
+- **Détournement de fonds** — embezzlement · [medtop:20000090](http://cv.iptc.org/newscodes/mediatopic/20000090) · parents : Délinquance financière
+- **Délit d'initié** — insider trading · [medtop:20000091](http://cv.iptc.org/newscodes/mediatopic/20000091) · parents : Délinquance financière
+- **Infraction commerciale** — restraint of trade · [medtop:20000092](http://cv.iptc.org/newscodes/mediatopic/20000092) · parents : Délinquance financière
+- **Corruption** — corruption · [medtop:20000093](http://cv.iptc.org/newscodes/mediatopic/20000093) · parents : Criminalité
+- **Subornation de témoins** — bribery · [medtop:20000094](http://cv.iptc.org/newscodes/mediatopic/20000094) · parents : Corruption
+- **Crimes liés aux stupéfiants** — drug related crimes · [medtop:20000095](http://cv.iptc.org/newscodes/mediatopic/20000095) · parents : Criminalité
+- **Trafic de drogue** — drug trafficking · [medtop:20000096](http://cv.iptc.org/newscodes/mediatopic/20000096) · parents : Crimes liés aux stupéfiants
+- **Fraude** — fraud · [medtop:20000097](http://cv.iptc.org/newscodes/mediatopic/20000097) · parents : Criminalité
+- **Détournement** — hijacking · [medtop:20000098](http://cv.iptc.org/newscodes/mediatopic/20000098) · parents : Criminalité
+- **Homicide** — homicide · [medtop:20000099](http://cv.iptc.org/newscodes/mediatopic/20000099) · parents : Criminalité
+- **Enlèvement** — kidnapping · [medtop:20000100](http://cv.iptc.org/newscodes/mediatopic/20000100) · parents : Criminalité
+- **Crime organisé** — organized crime · [medtop:20000101](http://cv.iptc.org/newscodes/mediatopic/20000101) · parents : Criminalité
+- **Bandes criminelles** — gang activity · [medtop:20000102](http://cv.iptc.org/newscodes/mediatopic/20000102) · parents : Crime organisé
+- **Terrorisme** — terrorism · [medtop:20000103](http://cv.iptc.org/newscodes/mediatopic/20000103) · parents : Criminalité
+- **Vol** — robbery and theft · [medtop:20000104](http://cv.iptc.org/newscodes/mediatopic/20000104) · parents : Criminalité
+- **Crime de guerre** — war crime · [medtop:20000105](http://cv.iptc.org/newscodes/mediatopic/20000105) · parents : Criminalité
+- **Système judiciaire** — judiciary · [medtop:20000106](http://cv.iptc.org/newscodes/mediatopic/20000106) · parents : Criminalité, droit et justice
+- **Tribunal** — court · [medtop:20000107](http://cv.iptc.org/newscodes/mediatopic/20000107) · parents : Système judiciaire
+- **Appel** — appeal (court) · [medtop:20000108](http://cv.iptc.org/newscodes/mediatopic/20000108) · parents : Tribunal
+- **Juge** — judge · [medtop:20000110](http://cv.iptc.org/newscodes/mediatopic/20000110) · parents : Tribunal
+- **Procès** — trial (court) · [medtop:20000111](http://cv.iptc.org/newscodes/mediatopic/20000111) · parents : Tribunal
+- **Audiences préliminaires** — pre-trial · [medtop:20000112](http://cv.iptc.org/newscodes/mediatopic/20000112) · parents : Procès
+- **Contentieux** — litigation · [medtop:20000114](http://cv.iptc.org/newscodes/mediatopic/20000114) · parents : Procès
+- **Procédures hors tribunal** — out of court procedures · [medtop:20000116](http://cv.iptc.org/newscodes/mediatopic/20000116) · parents : Système judiciaire
+- **Arbitrage** — arbitration and mediation · [medtop:20000117](http://cv.iptc.org/newscodes/mediatopic/20000117) · parents : Procédures hors tribunal
+- **Accusation** — prosecution and prosecutors · [medtop:20000118](http://cv.iptc.org/newscodes/mediatopic/20000118) · parents : Système judiciaire
+- **Droits civiques** — civil rights · [medtop:20000120](http://cv.iptc.org/newscodes/mediatopic/20000120) · parents : Droits fondamentaux
+- **Lois** — law · [medtop:20000121](http://cv.iptc.org/newscodes/mediatopic/20000121) · parents : Criminalité, droit et justice
+- **Droit civil** — civil law · [medtop:20000122](http://cv.iptc.org/newscodes/mediatopic/20000122) · parents : Lois
+- **Droit de la concurrence** — antitrust regulations · [medtop:20000123](http://cv.iptc.org/newscodes/mediatopic/20000123) · parents : Réglementation
+- **Réglementation** — regulations · [medtop:20000124](http://cv.iptc.org/newscodes/mediatopic/20000124) · parents : Droit civil
+- **Droit pénal** — criminal law · [medtop:20000125](http://cv.iptc.org/newscodes/mediatopic/20000125) · parents : Lois
+- **Droit international** — international law · [medtop:20000126](http://cv.iptc.org/newscodes/mediatopic/20000126) · parents : Lois
+- **Extradition** — extradition · [medtop:20000127](http://cv.iptc.org/newscodes/mediatopic/20000127) · parents : Droit international
+- **Cour ou tribunal international** — international court and tribunal · [medtop:20000128](http://cv.iptc.org/newscodes/mediatopic/20000128) · parents : Droit international
+- **Forces de l'ordre** — law enforcement · [medtop:20000129](http://cv.iptc.org/newscodes/mediatopic/20000129) · parents : Criminalité, droit et justice
+- **Arrestation** — arrest · [medtop:20000130](http://cv.iptc.org/newscodes/mediatopic/20000130) · parents : Forces de l'ordre
+- **Enquête** — investigation (criminal) · [medtop:20000131](http://cv.iptc.org/newscodes/mediatopic/20000131) · parents : Forces de l'ordre
+- **Personne disparue** — missing person · [medtop:20000132](http://cv.iptc.org/newscodes/mediatopic/20000132) · parents : Enquête
+- **Police** — police · [medtop:20000133](http://cv.iptc.org/newscodes/mediatopic/20000133) · parents : Forces de l'ordre
+- **Peines** — sentencing (criminal) · [medtop:20000134](http://cv.iptc.org/newscodes/mediatopic/20000134) · parents : Procès
+- **Peine capitale** — capital punishment · [medtop:20000135](http://cv.iptc.org/newscodes/mediatopic/20000135) · parents : Peines
+- **Amende** — fine (penalty) · [medtop:20000136](http://cv.iptc.org/newscodes/mediatopic/20000136) · parents : Peines
+- **Prison** — prison · [medtop:20000137](http://cv.iptc.org/newscodes/mediatopic/20000137) · parents : Peines
+- **Accident** — accident and emergency incident · [medtop:20000139](http://cv.iptc.org/newscodes/mediatopic/20000139) · parents : Désastres et accidents
+- **Explosion accidentelle** — explosion accident and incident · [medtop:20000140](http://cv.iptc.org/newscodes/mediatopic/20000140) · parents : Accident
+- **Accident industriel** — industrial accident and incident · [medtop:20000141](http://cv.iptc.org/newscodes/mediatopic/20000141) · parents : Accident
+- **Accident nucléaire** — nuclear accident and incident · [medtop:20000142](http://cv.iptc.org/newscodes/mediatopic/20000142) · parents : Accident industriel
+- **Accident de transport** — transportation accident and incident · [medtop:20000143](http://cv.iptc.org/newscodes/mediatopic/20000143) · parents : Accident
+- **Accident aérospatial** — air and space accident and incident · [medtop:20000144](http://cv.iptc.org/newscodes/mediatopic/20000144) · parents : Accident de transport
+- **Accident maritime** — maritime accident and incident · [medtop:20000145](http://cv.iptc.org/newscodes/mediatopic/20000145) · parents : Accident de transport
+- **Accident ferroviaire** — railway accident and incident · [medtop:20000146](http://cv.iptc.org/newscodes/mediatopic/20000146) · parents : Accident de transport
+- **Accident routier** — road accident and incident · [medtop:20000147](http://cv.iptc.org/newscodes/mediatopic/20000147) · parents : Accident de transport
+- **Désastres** — disaster · [medtop:20000148](http://cv.iptc.org/newscodes/mediatopic/20000148) · parents : Désastres et accidents
+- **Famine** — famine · [medtop:20000149](http://cv.iptc.org/newscodes/mediatopic/20000149) · parents : Désastres
+- **Incendie** — fire · [medtop:20000150](http://cv.iptc.org/newscodes/mediatopic/20000150) · parents : Désastres
+- **Catastrophe naturelle** — natural disaster · [medtop:20000151](http://cv.iptc.org/newscodes/mediatopic/20000151) · parents : Désastres
+- **Sécheresse** — drought · [medtop:20000152](http://cv.iptc.org/newscodes/mediatopic/20000152) · parents : Catastrophe naturelle
+- **Tremblement de terre** — earthquake · [medtop:20000153](http://cv.iptc.org/newscodes/mediatopic/20000153) · parents : Catastrophe naturelle
+- **Inondation** — flood · [medtop:20000154](http://cv.iptc.org/newscodes/mediatopic/20000154) · parents : Catastrophe naturelle
+- **Glissement de terrain** — landslide · [medtop:20000155](http://cv.iptc.org/newscodes/mediatopic/20000155) · parents : Catastrophe naturelle
+- **Avalanche** — avalanche · [medtop:20000156](http://cv.iptc.org/newscodes/mediatopic/20000156) · parents : Glissement de terrain
+- **Désastre météorologique** — meteorological disaster · [medtop:20000157](http://cv.iptc.org/newscodes/mediatopic/20000157) · parents : Catastrophe naturelle
+- **Tempête** — windstorms · [medtop:20000158](http://cv.iptc.org/newscodes/mediatopic/20000158) · parents : Désastre météorologique
+- **Éruption volcanique** — volcanic eruption · [medtop:20000159](http://cv.iptc.org/newscodes/mediatopic/20000159) · parents : Catastrophe naturelle
+- **Effondrement** — structural failure · [medtop:20000161](http://cv.iptc.org/newscodes/mediatopic/20000161) · parents : Accident
+- **Secours d'urgence** — emergency response · [medtop:20000168](http://cv.iptc.org/newscodes/mediatopic/20000168) · parents : Désastres et accidents
+- **Microéconomie** — business information · [medtop:20000170](http://cv.iptc.org/newscodes/mediatopic/20000170) · parents : Économie et finances
+- **Défaillance d'entreprise** — bankruptcy · [medtop:20000174](http://cv.iptc.org/newscodes/mediatopic/20000174) · parents : Financement et vente d'actions
+- **Rachat d'actions** — stock buyback · [medtop:20000175](http://cv.iptc.org/newscodes/mediatopic/20000175) · parents : Actions
+- **Notation** — credit rating · [medtop:20000176](http://cv.iptc.org/newscodes/mediatopic/20000176) · parents : business reporting and performance
+- **Dividendes** — corporate dividends · [medtop:20000177](http://cv.iptc.org/newscodes/mediatopic/20000177) · parents : Actions
+- **Résultats** — corporate earnings · [medtop:20000178](http://cv.iptc.org/newscodes/mediatopic/20000178) · parents : business reporting and performance
+- **Communiqué de résultats** — financial statement · [medtop:20000180](http://cv.iptc.org/newscodes/mediatopic/20000180) · parents : business reporting and performance
+- **Procurations pour assemblées générales** — proxy filing · [medtop:20000181](http://cv.iptc.org/newscodes/mediatopic/20000181) · parents : Gouvernance
+- **Entreprise en difficulté** — financially distressed company · [medtop:20000182](http://cv.iptc.org/newscodes/mediatopic/20000182) · parents : Financement et vente d'actions
+- **Financement et vente d'actions** — business financing · [medtop:20000183](http://cv.iptc.org/newscodes/mediatopic/20000183) · parents : Microéconomie
+- **Actionnaire** — shareholder activity · [medtop:20000185](http://cv.iptc.org/newscodes/mediatopic/20000185) · parents : Gouvernance
+- **Activité du titre** — stock activity · [medtop:20000186](http://cv.iptc.org/newscodes/mediatopic/20000186) · parents : Actions
+- **Entrée en Bourse** — stock flotation · [medtop:20000187](http://cv.iptc.org/newscodes/mediatopic/20000187) · parents : Actions
+- **Ressources humaines** — human resources · [medtop:20000188](http://cv.iptc.org/newscodes/mediatopic/20000188) · parents : Microéconomie
+- **Restructurations et suppressions d'emplois** — layoffs and downsizing · [medtop:20000189](http://cv.iptc.org/newscodes/mediatopic/20000189) · parents : Ressources humaines
+- **Dirigeants d'entreprise** — executive officer · [medtop:20000190](http://cv.iptc.org/newscodes/mediatopic/20000190) · parents : Ressources humaines
+- **Stratégie et marketing** — business strategy and marketing · [medtop:20000192](http://cv.iptc.org/newscodes/mediatopic/20000192) · parents : Microéconomie
+- **Assemblée générale** — annual and special corporate meeting · [medtop:20000193](http://cv.iptc.org/newscodes/mediatopic/20000193) · parents : Gouvernance
+- **Rapport annuel** — annual report · [medtop:20000194](http://cv.iptc.org/newscodes/mediatopic/20000194) · parents : Gouvernance
+- **Conseil d'administration** — board of directors · [medtop:20000195](http://cv.iptc.org/newscodes/mediatopic/20000195) · parents : Gouvernance
+- **Contrat commercial** — commercial contract · [medtop:20000196](http://cv.iptc.org/newscodes/mediatopic/20000196) · parents : Stratégie et marketing
+- **Scission** — company spin-off · [medtop:20000197](http://cv.iptc.org/newscodes/mediatopic/20000197) · parents : business restructuring
+- **Mondialisation** — economic globalization · [medtop:20000198](http://cv.iptc.org/newscodes/mediatopic/20000198) · parents : Stratégie et marketing
+- **Gouvernance** — business governance · [medtop:20000199](http://cv.iptc.org/newscodes/mediatopic/20000199) · parents : Microéconomie
+- **Joint venture** — joint venture · [medtop:20000200](http://cv.iptc.org/newscodes/mediatopic/20000200) · parents : business restructuring
+- **Rachat d'entreprise par endettement** — leveraged buyout · [medtop:20000201](http://cv.iptc.org/newscodes/mediatopic/20000201) · parents : business restructuring
+- **Rachat par la direction** — management buyout · [medtop:20000203](http://cv.iptc.org/newscodes/mediatopic/20000203) · parents : business restructuring
+- **Fusion ou acquisition** — merger or acquisition · [medtop:20000204](http://cv.iptc.org/newscodes/mediatopic/20000204) · parents : business restructuring
+- **Nouveau produit ou nouveau service** — new product or service · [medtop:20000205](http://cv.iptc.org/newscodes/mediatopic/20000205) · parents : Stratégie et marketing
+- **Brevet, droit d'auteur et marque déposée** — patent, copyright and trademark · [medtop:20000206](http://cv.iptc.org/newscodes/mediatopic/20000206) · parents : Stratégie et marketing
+- **Rappel de marchandise** — product recall · [medtop:20000207](http://cv.iptc.org/newscodes/mediatopic/20000207) · parents : Stratégie et marketing
+- **Recherche et développement** — research and development · [medtop:20000208](http://cv.iptc.org/newscodes/mediatopic/20000208) · parents : Stratégie et marketing
+- **Secteurs économiques** — products and services · [medtop:20000209](http://cv.iptc.org/newscodes/mediatopic/20000209) · parents : Économie et finances
+- **Agriculture** — agriculture · [medtop:20000210](http://cv.iptc.org/newscodes/mediatopic/20000210) · parents : Secteurs économiques
+- **Pêche** — commercial fishing · [medtop:20000213](http://cv.iptc.org/newscodes/mediatopic/20000213) · parents : Secteurs économiques
+- **Exploitation forestière** — forestry and timber · [medtop:20000214](http://cv.iptc.org/newscodes/mediatopic/20000214) · parents : Secteurs économiques
+- **Chimie** — chemicals · [medtop:20000217](http://cv.iptc.org/newscodes/mediatopic/20000217) · parents : Secteurs économiques
+- **Entreprise de biotechnologie** — biotechnology business · [medtop:20000218](http://cv.iptc.org/newscodes/mediatopic/20000218) · parents : Industrie des soins de santé
+- **Pharmacie** — pharmaceutical · [medtop:20000223](http://cv.iptc.org/newscodes/mediatopic/20000223) · parents : Industrie des soins de santé
+- **Plastiques et matières synthétiques** — plastic · [medtop:20000224](http://cv.iptc.org/newscodes/mediatopic/20000224) · parents : Secteurs économiques
+- **Informatique et télécommunications** — computing and information technology · [medtop:20000225](http://cv.iptc.org/newscodes/mediatopic/20000225) · parents : Secteurs économiques
+- **Ordinateurs** — computer and telecommunications hardware · [medtop:20000226](http://cv.iptc.org/newscodes/mediatopic/20000226) · parents : Informatique et télécommunications
+- **Satellites** — satellite technology · [medtop:20000228](http://cv.iptc.org/newscodes/mediatopic/20000228) · parents : Informatique et télécommunications
+- **Semi-conducteurs et composants électroniques** — semiconductor and electronic component · [medtop:20000230](http://cv.iptc.org/newscodes/mediatopic/20000230) · parents : Informatique et télécommunications
+- **Logiciel** — software and applications · [medtop:20000231](http://cv.iptc.org/newscodes/mediatopic/20000231) · parents : Informatique et télécommunications
+- **Service de télécommunication** — telecommunication service · [medtop:20000233](http://cv.iptc.org/newscodes/mediatopic/20000233) · parents : Informatique et télécommunications
+- **Technologies mobiles** — wireless technology · [medtop:20000234](http://cv.iptc.org/newscodes/mediatopic/20000234) · parents : Informatique et télécommunications
+- **Construction et immobilier** — construction and property · [medtop:20000235](http://cv.iptc.org/newscodes/mediatopic/20000235) · parents : Secteurs économiques
+- **Rénovation** — restoration · [medtop:20000242](http://cv.iptc.org/newscodes/mediatopic/20000242) · parents : Patrimoine
+- **Distribution** — consumer goods · [medtop:20000243](http://cv.iptc.org/newscodes/mediatopic/20000243) · parents : Secteurs économiques
+- **Habillement** — clothing · [medtop:20000245](http://cv.iptc.org/newscodes/mediatopic/20000245) · parents : Distribution
+- **Grand magasin** — department store · [medtop:20000246](http://cv.iptc.org/newscodes/mediatopic/20000246) · parents : Vente au détail
+- **Vente en ligne** — online shopping · [medtop:20000247](http://cv.iptc.org/newscodes/mediatopic/20000247) · parents : Vente au détail
+- **Luxe** — luxury good · [medtop:20000249](http://cv.iptc.org/newscodes/mediatopic/20000249) · parents : Distribution
+- **Vente au détail** — retail · [medtop:20000252](http://cv.iptc.org/newscodes/mediatopic/20000252) · parents : Canaux de distribution
+- **Commerce spécialisé** — specialty store · [medtop:20000253](http://cv.iptc.org/newscodes/mediatopic/20000253) · parents : Vente au détail
+- **Jouets** — toy and game · [medtop:20000254](http://cv.iptc.org/newscodes/mediatopic/20000254) · parents : Distribution
+- **Grossiste** — wholesale · [medtop:20000255](http://cv.iptc.org/newscodes/mediatopic/20000255) · parents : Canaux de distribution
+- **Énergie et ressources** — energy and resource · [medtop:20000256](http://cv.iptc.org/newscodes/mediatopic/20000256) · parents : Secteurs économiques
+- **Énergies alternatives** — renewable energy · [medtop:20000257](http://cv.iptc.org/newscodes/mediatopic/20000257) · parents : Énergie et ressources
+- **Charbon** — coal · [medtop:20000258](http://cv.iptc.org/newscodes/mediatopic/20000258) · parents : Énergie et ressources
+- **Gazole** — diesel fuel · [medtop:20000259](http://cv.iptc.org/newscodes/mediatopic/20000259) · parents : Industrie du gaz et du pétrole
+- **Électricité** — electricity · [medtop:20000260](http://cv.iptc.org/newscodes/mediatopic/20000260) · parents : Services des collectivités (eau, gaz, électricité)
+- **Gaz naturel** — natural gas · [medtop:20000263](http://cv.iptc.org/newscodes/mediatopic/20000263) · parents : Industrie du gaz et du pétrole
+- **Énergie nucléaire** — nuclear power · [medtop:20000265](http://cv.iptc.org/newscodes/mediatopic/20000265) · parents : Énergie et ressources
+- **Essence** — gasoline · [medtop:20000268](http://cv.iptc.org/newscodes/mediatopic/20000268) · parents : Industrie du gaz et du pétrole
+- **Traitement des déchets et contrôle de la pollution** — waste management · [medtop:20000269](http://cv.iptc.org/newscodes/mediatopic/20000269) · parents : Services des collectivités (eau, gaz, électricité)
+- **Alimentation en eau** — water supply · [medtop:20000270](http://cv.iptc.org/newscodes/mediatopic/20000270) · parents : Services des collectivités (eau, gaz, électricité)
+- **Comptabilité et Audit** — accountancy and auditing · [medtop:20000272](http://cv.iptc.org/newscodes/mediatopic/20000272) · parents : financial service
+- **Vente aux enchères** — auction · [medtop:20000273](http://cv.iptc.org/newscodes/mediatopic/20000273) · parents : Canaux de distribution
+- **Banque** — banking · [medtop:20000274](http://cv.iptc.org/newscodes/mediatopic/20000274) · parents : financial service
+- **Consultants** — consultancy · [medtop:20000275](http://cv.iptc.org/newscodes/mediatopic/20000275) · parents : business service
+- **Services d'aide à la recherche d'emploi** — employment agency · [medtop:20000276](http://cv.iptc.org/newscodes/mediatopic/20000276) · parents : business service
+- **Services de santé** — health care provider · [medtop:20000278](http://cv.iptc.org/newscodes/mediatopic/20000278) · parents : Industrie des soins de santé
+- **Assurances** — insurance · [medtop:20000279](http://cv.iptc.org/newscodes/mediatopic/20000279) · parents : financial service
+- **Conseil financier** — financial advisory service · [medtop:20000280](http://cv.iptc.org/newscodes/mediatopic/20000280) · parents : financial service
+- **Service juridique** — legal service · [medtop:20000282](http://cv.iptc.org/newscodes/mediatopic/20000282) · parents : business service
+- **Étude de marché** — market research · [medtop:20000283](http://cv.iptc.org/newscodes/mediatopic/20000283) · parents : Stratégie et marketing
+- **Tendance du marché** — market trend · [medtop:20000284](http://cv.iptc.org/newscodes/mediatopic/20000284) · parents : Stratégie et marketing
+- **Placements personnels** — personal finance and investment · [medtop:20000287](http://cv.iptc.org/newscodes/mediatopic/20000287) · parents : financial service
+- **Sociétés de location** — rental service · [medtop:20000290](http://cv.iptc.org/newscodes/mediatopic/20000290) · parents : business service
+- **Messagerie** — shipping and postal service · [medtop:20000291](http://cv.iptc.org/newscodes/mediatopic/20000291) · parents : business service
+- **Courtage d'actions** — stock broking · [medtop:20000292](http://cv.iptc.org/newscodes/mediatopic/20000292) · parents : financial service
+- **Industrie manufacturière** — manufacturing and engineering · [medtop:20000294](http://cv.iptc.org/newscodes/mediatopic/20000294) · parents : Secteurs économiques
+- **Industrie aérospatiale** — aerospace · [medtop:20000295](http://cv.iptc.org/newscodes/mediatopic/20000295) · parents : Industrie manufacturière
+- **Industrie automobile** — automotive · [medtop:20000296](http://cv.iptc.org/newscodes/mediatopic/20000296) · parents : Industrie manufacturière
+- **Industrie de défense** — defense equipment · [medtop:20000297](http://cv.iptc.org/newscodes/mediatopic/20000297) · parents : Industrie manufacturière
+- **Appareils électriques et électroménager** — electrical appliance · [medtop:20000298](http://cv.iptc.org/newscodes/mediatopic/20000298) · parents : Industrie manufacturière
+- **Engins de chantier** — heavy engineering · [medtop:20000299](http://cv.iptc.org/newscodes/mediatopic/20000299) · parents : Industrie manufacturière
+- **Mécanique lourde** — machine manufacturing · [medtop:20000302](http://cv.iptc.org/newscodes/mediatopic/20000302) · parents : Industrie manufacturière
+- **Construction navale** — shipbuilding · [medtop:20000303](http://cv.iptc.org/newscodes/mediatopic/20000303) · parents : Industrie manufacturière
+- **Médias** — media and entertainment industry · [medtop:20000304](http://cv.iptc.org/newscodes/mediatopic/20000304) · parents : Secteurs économiques
+- **Publicité** — advertising · [medtop:20000305](http://cv.iptc.org/newscodes/mediatopic/20000305) · parents : Médias
+- **Édition** — books and publishing · [medtop:20000306](http://cv.iptc.org/newscodes/mediatopic/20000306) · parents : Médias
+- **Industrie du cinéma** — film industry · [medtop:20000307](http://cv.iptc.org/newscodes/mediatopic/20000307) · parents : Médias
+- **Industrie musicale** — music industry · [medtop:20000308](http://cv.iptc.org/newscodes/mediatopic/20000308) · parents : Médias
+- **Relations publiques** — public relations · [medtop:20000312](http://cv.iptc.org/newscodes/mediatopic/20000312) · parents : Médias
+- **Radio** — radio industry · [medtop:20000313](http://cv.iptc.org/newscodes/mediatopic/20000313) · parents : Médias
+- **Diffuseurs par câble ou satellite** — satellite and cable service · [medtop:20000314](http://cv.iptc.org/newscodes/mediatopic/20000314) · parents : Médias
+- **Télévision** — television industry · [medtop:20000315](http://cv.iptc.org/newscodes/mediatopic/20000315) · parents : Médias
+- **Métaux et minéraux** — metal and mineral mining and refining · [medtop:20000316](http://cv.iptc.org/newscodes/mediatopic/20000316) · parents : Secteurs économiques
+- **Matériaux de construction** — building material · [medtop:20000317](http://cv.iptc.org/newscodes/mediatopic/20000317) · parents : Construction et immobilier
+- **Or et métaux précieux** — precious material · [medtop:20000318](http://cv.iptc.org/newscodes/mediatopic/20000318) · parents : Métaux et minéraux
+- **Industries alimentaires** — beverage and grocery · [medtop:20000324](http://cv.iptc.org/newscodes/mediatopic/20000324) · parents : Distribution
+- **Meubles et décoration** — furnishings and furniture · [medtop:20000325](http://cv.iptc.org/newscodes/mediatopic/20000325) · parents : Distribution
+- **Tabac** — tobacco and nicotine · [medtop:20000330](http://cv.iptc.org/newscodes/mediatopic/20000330) · parents : Distribution
+- **Tourisme et loisirs** — tourism and leisure industry · [medtop:20000331](http://cv.iptc.org/newscodes/mediatopic/20000331) · parents : Secteurs économiques
+- **Casinos et jeux d'argent** — casinos and gambling · [medtop:20000332](http://cv.iptc.org/newscodes/mediatopic/20000332) · parents : Tourisme et loisirs
+- **Hôtellerie** — hotel and accommodation · [medtop:20000333](http://cv.iptc.org/newscodes/mediatopic/20000333) · parents : Tourisme et loisirs
+- **Articles de sport et plein air** — recreational and sporting goods · [medtop:20000334](http://cv.iptc.org/newscodes/mediatopic/20000334) · parents : Tourisme et loisirs
+- **Restaurants et traiteurs** — restaurant and catering · [medtop:20000335](http://cv.iptc.org/newscodes/mediatopic/20000335) · parents : Tourisme et loisirs
+- **Voyagiste** — tour operator · [medtop:20000336](http://cv.iptc.org/newscodes/mediatopic/20000336) · parents : Tourisme et loisirs
+- **Transports** — transport · [medtop:20000337](http://cv.iptc.org/newscodes/mediatopic/20000337) · parents : Secteurs économiques
+- **Transport aérien** — air transport · [medtop:20000338](http://cv.iptc.org/newscodes/mediatopic/20000338) · parents : Transports
+- **Transport quotidien** — commuting · [medtop:20000339](http://cv.iptc.org/newscodes/mediatopic/20000339) · parents : Emploi
+- **Transport ferroviaire** — railway transport · [medtop:20000340](http://cv.iptc.org/newscodes/mediatopic/20000340) · parents : Transports
+- **Transport routier** — road transport · [medtop:20000341](http://cv.iptc.org/newscodes/mediatopic/20000341) · parents : Transports
+- **Transport fluvial et maritime** — waterway and maritime transport · [medtop:20000343](http://cv.iptc.org/newscodes/mediatopic/20000343) · parents : Transports
+- **Économie** — economy · [medtop:20000344](http://cv.iptc.org/newscodes/mediatopic/20000344) · parents : Économie et finances
+- **Politique économique** — economic policy · [medtop:20000345](http://cv.iptc.org/newscodes/mediatopic/20000345) · parents : Politique du gouvernement
+- **Macro-économie** — economic trends and indicators · [medtop:20000346](http://cv.iptc.org/newscodes/mediatopic/20000346) · parents : Économie
+- **Entreprises** — business enterprise · [medtop:20000349](http://cv.iptc.org/newscodes/mediatopic/20000349) · parents : Économie et finances
+- **Banque centrale** — central bank · [medtop:20000350](http://cv.iptc.org/newscodes/mediatopic/20000350) · parents : Économie
+- **Confiance des consommateurs** — consumer confidence · [medtop:20000352](http://cv.iptc.org/newscodes/mediatopic/20000352) · parents : Macro-économie
+- **Cours des devises** — currency · [medtop:20000355](http://cv.iptc.org/newscodes/mediatopic/20000355) · parents : Économie
+- **Déflation** — deflation · [medtop:20000356](http://cv.iptc.org/newscodes/mediatopic/20000356) · parents : Macro-économie
+- **Croissance économique** — economic growth · [medtop:20000357](http://cv.iptc.org/newscodes/mediatopic/20000357) · parents : Macro-économie
+- **Produit intérieur brut** — gross domestic product · [medtop:20000359](http://cv.iptc.org/newscodes/mediatopic/20000359) · parents : Macro-économie
+- **Production industrielle** — industrial production · [medtop:20000360](http://cv.iptc.org/newscodes/mediatopic/20000360) · parents : Macro-économie
+- **Stocks** — inventories · [medtop:20000361](http://cv.iptc.org/newscodes/mediatopic/20000361) · parents : Macro-économie
+- **Productivité** — productivity · [medtop:20000362](http://cv.iptc.org/newscodes/mediatopic/20000362) · parents : Macro-économie
+- **Organisation économique** — economic organization · [medtop:20000363](http://cv.iptc.org/newscodes/mediatopic/20000363) · parents : Économie
+- **Marché des pays émergents** — emerging market · [medtop:20000364](http://cv.iptc.org/newscodes/mediatopic/20000364) · parents : Économie
+- **Statistiques de l'emploi** — employment statistics · [medtop:20000365](http://cv.iptc.org/newscodes/mediatopic/20000365) · parents : Macro-économie
+- **Exportations** — exporting · [medtop:20000366](http://cv.iptc.org/newscodes/mediatopic/20000366) · parents : Macro-économie
+- **Dette publique** — government debt · [medtop:20000368](http://cv.iptc.org/newscodes/mediatopic/20000368) · parents : Macro-économie
+- **Importations** — importing · [medtop:20000369](http://cv.iptc.org/newscodes/mediatopic/20000369) · parents : Macro-économie
+- **Inflation** — inflation · [medtop:20000370](http://cv.iptc.org/newscodes/mediatopic/20000370) · parents : Macro-économie
+- **Taux d'intérêts** — interest rates · [medtop:20000371](http://cv.iptc.org/newscodes/mediatopic/20000371) · parents : Politique monétaire
+- **Institution économique internationale** — international economic institution · [medtop:20000372](http://cv.iptc.org/newscodes/mediatopic/20000372) · parents : Économie
+- **Commerce international** — international trade · [medtop:20000373](http://cv.iptc.org/newscodes/mediatopic/20000373) · parents : Économie
+- **Accords commerciaux** — trade agreements · [medtop:20000374](http://cv.iptc.org/newscodes/mediatopic/20000374) · parents : Commerce international
+- **Balance commerciale** — balance of trade · [medtop:20000375](http://cv.iptc.org/newscodes/mediatopic/20000375) · parents : Commerce international
+- **Conflit commercial** — trade dispute · [medtop:20000376](http://cv.iptc.org/newscodes/mediatopic/20000376) · parents : Commerce international
+- **Politique commerciale** — trade policy · [medtop:20000377](http://cv.iptc.org/newscodes/mediatopic/20000377) · parents : Commerce international
+- **Politique monétaire** — monetary policy · [medtop:20000379](http://cv.iptc.org/newscodes/mediatopic/20000379) · parents : Économie
+- **Emprunt immobilier** — mortgages · [medtop:20000380](http://cv.iptc.org/newscodes/mediatopic/20000380) · parents : Macro-économie
+- **Fonds communs de placement** — mutual funds · [medtop:20000381](http://cv.iptc.org/newscodes/mediatopic/20000381) · parents : Économie
+- **Récession** — recession · [medtop:20000383](http://cv.iptc.org/newscodes/mediatopic/20000383) · parents : Macro-économie
+- **Droits de douane** — tariff · [medtop:20000384](http://cv.iptc.org/newscodes/mediatopic/20000384) · parents : Commerce international
+- **Marchés** — market and exchange · [medtop:20000385](http://cv.iptc.org/newscodes/mediatopic/20000385) · parents : Économie et finances
+- **Marché des matières premières** — commodities market · [medtop:20000386](http://cv.iptc.org/newscodes/mediatopic/20000386) · parents : Marchés
+- **Marché de l'énergie** — energy market · [medtop:20000387](http://cv.iptc.org/newscodes/mediatopic/20000387) · parents : Marché des matières premières
+- **Marché des métaux** — metal · [medtop:20000388](http://cv.iptc.org/newscodes/mediatopic/20000388) · parents : Marché des matières premières
+- **Marché obligataire** — debt market · [medtop:20000390](http://cv.iptc.org/newscodes/mediatopic/20000390) · parents : Marchés
+- **Marché des changes** — foreign exchange market · [medtop:20000391](http://cv.iptc.org/newscodes/mediatopic/20000391) · parents : Marchés
+- **Marché monétaire** — loan market · [medtop:20000392](http://cv.iptc.org/newscodes/mediatopic/20000392) · parents : Marchés
+- **Prêts** — loans and lending · [medtop:20000393](http://cv.iptc.org/newscodes/mediatopic/20000393) · parents : financial service
+- **Produits dérivés** — derivatives · [medtop:20000395](http://cv.iptc.org/newscodes/mediatopic/20000395) · parents : Actions
+- **Actions** — stocks and securities · [medtop:20000396](http://cv.iptc.org/newscodes/mediatopic/20000396) · parents : Financement et vente d'actions
+- **Parents d'élèves** — parents group · [medtop:20000398](http://cv.iptc.org/newscodes/mediatopic/20000398) · parents : Éducation
+- **Éducation religieuse** — religious education · [medtop:20000399](http://cv.iptc.org/newscodes/mediatopic/20000399) · parents : Éducation
+- **Écoles, collèges, lycées** — school · [medtop:20000400](http://cv.iptc.org/newscodes/mediatopic/20000400) · parents : Éducation
+- **École primaire** — primary education · [medtop:20000401](http://cv.iptc.org/newscodes/mediatopic/20000401) · parents : Écoles, collèges, lycées
+- **Formation** — adult and continuing education · [medtop:20000403](http://cv.iptc.org/newscodes/mediatopic/20000403) · parents : Écoles, collèges, lycées
+- **Lycées** — upper secondary education · [medtop:20000404](http://cv.iptc.org/newscodes/mediatopic/20000404) · parents : Écoles, collèges, lycées
+- **Éducation supérieure** — college and university · [medtop:20000405](http://cv.iptc.org/newscodes/mediatopic/20000405) · parents : Écoles, collèges, lycées
+- **Collège** — lower secondary education · [medtop:20000408](http://cv.iptc.org/newscodes/mediatopic/20000408) · parents : Écoles, collèges, lycées
+- **Maternelle** — early childhood education · [medtop:20000409](http://cv.iptc.org/newscodes/mediatopic/20000409) · parents : Écoles, collèges, lycées
+- **Apprentissage social** — social learning · [medtop:20000410](http://cv.iptc.org/newscodes/mediatopic/20000410) · parents : Éducation
+- **Programmes d'études** — curriculum · [medtop:20000412](http://cv.iptc.org/newscodes/mediatopic/20000412) · parents : Éducation
+- **Examen** — educational testing and examinations · [medtop:20000413](http://cv.iptc.org/newscodes/mediatopic/20000413) · parents : Éducation
+- **Examen ou concours d'entrée** — entrance examination · [medtop:20000414](http://cv.iptc.org/newscodes/mediatopic/20000414) · parents : Éducation
+- **Étudiants** — students · [medtop:20000415](http://cv.iptc.org/newscodes/mediatopic/20000415) · parents : Éducation
+- **Enseignants** — teachers · [medtop:20000416](http://cv.iptc.org/newscodes/mediatopic/20000416) · parents : Éducation
+- **Changement climatique** — climate change · [medtop:20000418](http://cv.iptc.org/newscodes/mediatopic/20000418) · parents : Environnement
+- **Protection de la nature** — conservation · [medtop:20000420](http://cv.iptc.org/newscodes/mediatopic/20000420) · parents : Environnement
+- **Parcs naturels** — nature preserve · [medtop:20000422](http://cv.iptc.org/newscodes/mediatopic/20000422) · parents : Protection de la nature
+- **Politique de l'environnement** — environmental policy · [medtop:20000423](http://cv.iptc.org/newscodes/mediatopic/20000423) · parents : Politique du gouvernement
+- **Pollution de l'environnement** — environmental pollution · [medtop:20000424](http://cv.iptc.org/newscodes/mediatopic/20000424) · parents : Environnement
+- **Pollution de l'air** — air pollution · [medtop:20000425](http://cv.iptc.org/newscodes/mediatopic/20000425) · parents : Pollution de l'environnement
+- **Dépollution** — environmental clean-up · [medtop:20000426](http://cv.iptc.org/newscodes/mediatopic/20000426) · parents : Pollution de l'environnement
+- **Matières dangereuses** — hazardous material · [medtop:20000427](http://cv.iptc.org/newscodes/mediatopic/20000427) · parents : Pollution de l'environnement
+- **Déchets** — waste material · [medtop:20000428](http://cv.iptc.org/newscodes/mediatopic/20000428) · parents : Pollution de l'environnement
+- **Pollution de l'eau** — water pollution · [medtop:20000429](http://cv.iptc.org/newscodes/mediatopic/20000429) · parents : Pollution de l'environnement
+- **Ressources naturelles** — natural resource · [medtop:20000430](http://cv.iptc.org/newscodes/mediatopic/20000430) · parents : Environnement
+- **Forêts** — forest · [medtop:20000433](http://cv.iptc.org/newscodes/mediatopic/20000433) · parents : Nature
+- **Montagnes** — mountain · [medtop:20000434](http://cv.iptc.org/newscodes/mediatopic/20000434) · parents : Nature
+- **Océans** — ocean · [medtop:20000438](http://cv.iptc.org/newscodes/mediatopic/20000438) · parents : Nature
+- **Rivières** — river · [medtop:20000439](http://cv.iptc.org/newscodes/mediatopic/20000439) · parents : Nature
+- **Marais** — wetland · [medtop:20000440](http://cv.iptc.org/newscodes/mediatopic/20000440) · parents : Nature
+- **Nature** — nature · [medtop:20000441](http://cv.iptc.org/newscodes/mediatopic/20000441) · parents : Environnement
+- **Écosystème** — ecosystem · [medtop:20000442](http://cv.iptc.org/newscodes/mediatopic/20000442) · parents : Nature
+- **Espèce menacée** — endangered species · [medtop:20000443](http://cv.iptc.org/newscodes/mediatopic/20000443) · parents : Nature
+- **Espèces envahissantes** — invasive species · [medtop:20000444](http://cv.iptc.org/newscodes/mediatopic/20000444) · parents : Nature
+- **Maladies et état de santé** — disease and condition · [medtop:20000446](http://cv.iptc.org/newscodes/mediatopic/20000446) · parents : Santé
+- **Cancer** — cancer · [medtop:20000447](http://cv.iptc.org/newscodes/mediatopic/20000447) · parents : Maladies et état de santé
+- **Maladies contagieuses** — communicable disease · [medtop:20000448](http://cv.iptc.org/newscodes/mediatopic/20000448) · parents : Maladies et état de santé
+- **Épidémie** — epidemic and pandemic · [medtop:20000449](http://cv.iptc.org/newscodes/mediatopic/20000449) · parents : Maladies contagieuses
+- **Maladie virale** — viral disease · [medtop:20000451](http://cv.iptc.org/newscodes/mediatopic/20000451) · parents : Maladies contagieuses
+- **SIDA** — HIV and AIDS · [medtop:20000452](http://cv.iptc.org/newscodes/mediatopic/20000452) · parents : Maladie virale
+- **Maladie cardiaque** — heart disease · [medtop:20000454](http://cv.iptc.org/newscodes/mediatopic/20000454) · parents : Maladies et état de santé
+- **Blessure** — injury · [medtop:20000456](http://cv.iptc.org/newscodes/mediatopic/20000456) · parents : Maladies et état de santé
+- **État de santé** — medical condition · [medtop:20000457](http://cv.iptc.org/newscodes/mediatopic/20000457) · parents : Maladies et état de santé
+- **Troubles mentaux et comportementaux** — mental health · [medtop:20000458](http://cv.iptc.org/newscodes/mediatopic/20000458) · parents : Maladies et état de santé
+- **Troubles alimentaires** — eating disorder · [medtop:20000459](http://cv.iptc.org/newscodes/mediatopic/20000459) · parents : Troubles mentaux et comportementaux
+- **Obésité** — obesity · [medtop:20000460](http://cv.iptc.org/newscodes/mediatopic/20000460) · parents : État de santé
+- **Centre de soins** — health facility · [medtop:20000461](http://cv.iptc.org/newscodes/mediatopic/20000461) · parents : Santé
+- **Hôpitaux et cliniques** — hospital · [medtop:20000462](http://cv.iptc.org/newscodes/mediatopic/20000462) · parents : Centre de soins
+- **Organisations de santé** — health organization · [medtop:20000463](http://cv.iptc.org/newscodes/mediatopic/20000463) · parents : Santé
+- **Traitements** — health treatment and procedure · [medtop:20000464](http://cv.iptc.org/newscodes/mediatopic/20000464) · parents : Santé
+- **Régime** — diet · [medtop:20000465](http://cv.iptc.org/newscodes/mediatopic/20000465) · parents : Traitements
+- **Complèments nutritifs** — dietary supplement · [medtop:20000466](http://cv.iptc.org/newscodes/mediatopic/20000466) · parents : Régime
+- **Médicaments** — non-prescription drug · [medtop:20000467](http://cv.iptc.org/newscodes/mediatopic/20000467) · parents : Traitements
+- **Prescription médicale** — prescription drugs · [medtop:20000468](http://cv.iptc.org/newscodes/mediatopic/20000468) · parents : Traitements
+- **Protocole médical** — medical test · [medtop:20000469](http://cv.iptc.org/newscodes/mediatopic/20000469) · parents : Traitements
+- **Remède** — health care approach · [medtop:20000470](http://cv.iptc.org/newscodes/mediatopic/20000470) · parents : Traitements
+- **Phytothérapie** — herbal medicine · [medtop:20000471](http://cv.iptc.org/newscodes/mediatopic/20000471) · parents : Remède
+- **Médecine holistique** — holistic medicine · [medtop:20000472](http://cv.iptc.org/newscodes/mediatopic/20000472) · parents : Remède
+- **Médecine traditionelle chinoise** — traditional Chinese medicine · [medtop:20000473](http://cv.iptc.org/newscodes/mediatopic/20000473) · parents : Remède
+- **Médecine occidentale** — conventional medicine · [medtop:20000474](http://cv.iptc.org/newscodes/mediatopic/20000474) · parents : Remède
+- **Vaccins** — vaccine · [medtop:20000477](http://cv.iptc.org/newscodes/mediatopic/20000477) · parents : Traitements
+- **Thérapie** — therapy · [medtop:20000478](http://cv.iptc.org/newscodes/mediatopic/20000478) · parents : Traitements
+- **Politique de santé** — healthcare policy · [medtop:20000479](http://cv.iptc.org/newscodes/mediatopic/20000479) · parents : Politique du gouvernement
+- **Soins de santé publics** — government health care · [medtop:20000480](http://cv.iptc.org/newscodes/mediatopic/20000480) · parents : Santé
+- **Assurance maladie** — health insurance · [medtop:20000483](http://cv.iptc.org/newscodes/mediatopic/20000483) · parents : Santé
+- **Soins de santé privés** — private health care · [medtop:20000484](http://cv.iptc.org/newscodes/mediatopic/20000484) · parents : Santé
+- **Profession médicale** — medical profession · [medtop:20000485](http://cv.iptc.org/newscodes/mediatopic/20000485) · parents : Santé
+- **Examens médicaux** — medical service · [medtop:20000486](http://cv.iptc.org/newscodes/mediatopic/20000486) · parents : Profession médicale
+- **Spécialisations médicales** — medical specialization · [medtop:20000487](http://cv.iptc.org/newscodes/mediatopic/20000487) · parents : Profession médicale
+- **Pédiatrie** — pediatrics · [medtop:20000490](http://cv.iptc.org/newscodes/mediatopic/20000490) · parents : Spécialisations médicales
+- **Personnel médical** — medical staff · [medtop:20000492](http://cv.iptc.org/newscodes/mediatopic/20000492) · parents : Profession médicale
+- **Maladie animale** — animal disease · [medtop:20000494](http://cv.iptc.org/newscodes/mediatopic/20000494) · parents : Animaux
+- **Maladie végétale** — plant disease · [medtop:20000495](http://cv.iptc.org/newscodes/mediatopic/20000495) · parents : Plantes
+- **Prix et récompenses** — award and prize · [medtop:20000498](http://cv.iptc.org/newscodes/mediatopic/20000498) · parents : Gens animaux insolite
+- **Record** — record and achievement · [medtop:20000499](http://cv.iptc.org/newscodes/mediatopic/20000499) · parents : Gens animaux insolite
+- **Animaux** — animal · [medtop:20000500](http://cv.iptc.org/newscodes/mediatopic/20000500) · parents : Nature
+- **Cérémonie** — ceremony · [medtop:20000501](http://cv.iptc.org/newscodes/mediatopic/20000501) · parents : Gens animaux insolite
+- **Mésaventures** — human mishap · [medtop:20000503](http://cv.iptc.org/newscodes/mediatopic/20000503) · parents : Gens animaux insolite
+- **Mondanités** — high society · [medtop:20000504](http://cv.iptc.org/newscodes/mediatopic/20000504) · parents : Gens animaux insolite
+- **Célébrités** — celebrity · [medtop:20000505](http://cv.iptc.org/newscodes/mediatopic/20000505) · parents : Gens animaux insolite
+- **Royauté** — royalty · [medtop:20000506](http://cv.iptc.org/newscodes/mediatopic/20000506) · parents : Mondanités
+- **Plantes** — flowers and plants · [medtop:20000507](http://cv.iptc.org/newscodes/mediatopic/20000507) · parents : Nature
+- **Emploi** — employment · [medtop:20000509](http://cv.iptc.org/newscodes/mediatopic/20000509) · parents : Social
+- **Apprentissage** — apprenticeship · [medtop:20000510](http://cv.iptc.org/newscodes/mediatopic/20000510) · parents : Emploi
+- **Travail des enfants** — child labor · [medtop:20000511](http://cv.iptc.org/newscodes/mediatopic/20000511) · parents : Emploi
+- **Salarié** — employee · [medtop:20000512](http://cv.iptc.org/newscodes/mediatopic/20000512) · parents : Emploi
+- **Employeur** — employer · [medtop:20000513](http://cv.iptc.org/newscodes/mediatopic/20000513) · parents : Emploi
+- **Formation à l'emploi** — employment training · [medtop:20000514](http://cv.iptc.org/newscodes/mediatopic/20000514) · parents : Emploi
+- **Salaires et pensions ou Salaires et allocations** — wages and benefits · [medtop:20000518](http://cv.iptc.org/newscodes/mediatopic/20000518) · parents : Emploi
+- **Cotisations Vieillesse** — social security · [medtop:20000520](http://cv.iptc.org/newscodes/mediatopic/20000520) · parents : Salaires et pensions ou Salaires et allocations
+- **Législation du travail** — employment legislation · [medtop:20000521](http://cv.iptc.org/newscodes/mediatopic/20000521) · parents : Social
+- **Règles de sécurité au travail** — workplace health and safety · [medtop:20000522](http://cv.iptc.org/newscodes/mediatopic/20000522) · parents : Législation du travail
+- **Marché du travail** — labor market · [medtop:20000523](http://cv.iptc.org/newscodes/mediatopic/20000523) · parents : Social
+- **Relations du travail** — labor relations · [medtop:20000524](http://cv.iptc.org/newscodes/mediatopic/20000524) · parents : Social
+- **Convention collective** — collective agreements · [medtop:20000525](http://cv.iptc.org/newscodes/mediatopic/20000525) · parents : Relations du travail
+- **Conflit social** — labor dispute · [medtop:20000529](http://cv.iptc.org/newscodes/mediatopic/20000529) · parents : Relations du travail
+- **Grèves** — labor strike · [medtop:20000530](http://cv.iptc.org/newscodes/mediatopic/20000530) · parents : Conflit social
+- **Retraite** — retirement · [medtop:20000531](http://cv.iptc.org/newscodes/mediatopic/20000531) · parents : Social
+- **Pension de retraite** — pension · [medtop:20000532](http://cv.iptc.org/newscodes/mediatopic/20000532) · parents : Retraite
+- **Chômage** — unemployment · [medtop:20000533](http://cv.iptc.org/newscodes/mediatopic/20000533) · parents : Social
+- **Allocations chômage** — unemployment benefits · [medtop:20000535](http://cv.iptc.org/newscodes/mediatopic/20000535) · parents : Chômage
+- **Syndicats** — unions · [medtop:20000536](http://cv.iptc.org/newscodes/mediatopic/20000536) · parents : Social
+- **Loisirs** — leisure · [medtop:20000538](http://cv.iptc.org/newscodes/mediatopic/20000538) · parents : Vie quotidienne et loisirs
+- **Associations et clubs** — club and association · [medtop:20000539](http://cv.iptc.org/newscodes/mediatopic/20000539) · parents : Loisirs
+- **Jeux** — game · [medtop:20000540](http://cv.iptc.org/newscodes/mediatopic/20000540) · parents : Loisirs
+- **Jeu de société** — board game · [medtop:20000541](http://cv.iptc.org/newscodes/mediatopic/20000541) · parents : Jeux
+- **Jeux de cartes** — card game · [medtop:20000542](http://cv.iptc.org/newscodes/mediatopic/20000542) · parents : Jeux
+- **Jeux pour enfants** — children's game · [medtop:20000543](http://cv.iptc.org/newscodes/mediatopic/20000543) · parents : Jeux
+- **Jeux de dés** — dice game · [medtop:20000544](http://cv.iptc.org/newscodes/mediatopic/20000544) · parents : Jeux
+- **Jeux de plein air** — outdoor game · [medtop:20000545](http://cv.iptc.org/newscodes/mediatopic/20000545) · parents : Jeux
+- **Casse-tête** — puzzle · [medtop:20000546](http://cv.iptc.org/newscodes/mediatopic/20000546) · parents : Jeux
+- **Jeu de dominos** — tile game · [medtop:20000547](http://cv.iptc.org/newscodes/mediatopic/20000547) · parents : Jeux
+- **Jeux vidéo** — video game · [medtop:20000548](http://cv.iptc.org/newscodes/mediatopic/20000548) · parents : Jeux
+- **Jeux de hasard et loteries** — gaming and lottery · [medtop:20000549](http://cv.iptc.org/newscodes/mediatopic/20000549) · parents : Loisirs
+- **Passe-temps** — hobby · [medtop:20000550](http://cv.iptc.org/newscodes/mediatopic/20000550) · parents : Loisirs
+- **Vacances** — vacation · [medtop:20000551](http://cv.iptc.org/newscodes/mediatopic/20000551) · parents : Loisirs
+- **Jour férié** — public holiday · [medtop:20000552](http://cv.iptc.org/newscodes/mediatopic/20000552) · parents : Vacances
+- **Lieu de loisirs** — leisure venue · [medtop:20000553](http://cv.iptc.org/newscodes/mediatopic/20000553) · parents : Loisirs
+- **Parc d'attractions** — amusement park · [medtop:20000554](http://cv.iptc.org/newscodes/mediatopic/20000554) · parents : Lieu de loisirs
+- **Bar** — bar · [medtop:20000555](http://cv.iptc.org/newscodes/mediatopic/20000555) · parents : Lieu de loisirs
+- **Café** — cafe · [medtop:20000556](http://cv.iptc.org/newscodes/mediatopic/20000556) · parents : Lieu de loisirs
+- **Discothèque** — nightclub · [medtop:20000557](http://cv.iptc.org/newscodes/mediatopic/20000557) · parents : Lieu de loisirs
+- **Restaurant** — restaurant · [medtop:20000558](http://cv.iptc.org/newscodes/mediatopic/20000558) · parents : Lieu de loisirs
+- **Activités récréatives** — outdoor recreational activities · [medtop:20000560](http://cv.iptc.org/newscodes/mediatopic/20000560) · parents : Loisirs
+- **Pêche** — fishing · [medtop:20000561](http://cv.iptc.org/newscodes/mediatopic/20000561) · parents : Activités récréatives
+- **Chasse** — hunting · [medtop:20000562](http://cv.iptc.org/newscodes/mediatopic/20000562) · parents : Activités récréatives
+- **Voyages** — travel and tourism · [medtop:20000563](http://cv.iptc.org/newscodes/mediatopic/20000563) · parents : Loisirs
+- **Mode de vie** — lifestyle · [medtop:20000565](http://cv.iptc.org/newscodes/mediatopic/20000565) · parents : Vie quotidienne et loisirs
+- **Amateur d'automobile** — automobile enthusiasm · [medtop:20000566](http://cv.iptc.org/newscodes/mediatopic/20000566) · parents : Passe-temps
+- **Amateur de vélo** — bicycle enthusiasm · [medtop:20000567](http://cv.iptc.org/newscodes/mediatopic/20000567) · parents : Passe-temps
+- **Gastronomie** — food and drink enthusiasm · [medtop:20000568](http://cv.iptc.org/newscodes/mediatopic/20000568) · parents : Passe-temps
+- **Aliments biologiques** — organic food · [medtop:20000569](http://cv.iptc.org/newscodes/mediatopic/20000569) · parents : Mode de vie
+- **Maison et décoration** — house and home · [medtop:20000570](http://cv.iptc.org/newscodes/mediatopic/20000570) · parents : Mode de vie
+- **Amateur de moto** — motorcycle enthusiasm · [medtop:20000571](http://cv.iptc.org/newscodes/mediatopic/20000571) · parents : Passe-temps
+- **Tendance** — trend · [medtop:20000572](http://cv.iptc.org/newscodes/mediatopic/20000572) · parents : Mode de vie
+- **Élections** — election · [medtop:20000574](http://cv.iptc.org/newscodes/mediatopic/20000574) · parents : Politique
+- **Initative populaire** — citizens' initiative and recall · [medtop:20000575](http://cv.iptc.org/newscodes/mediatopic/20000575) · parents : Élections
+- **Système électoral** — electoral system · [medtop:20000576](http://cv.iptc.org/newscodes/mediatopic/20000576) · parents : Élections
+- **Élections intergouvernementales** — intergovernmental elections · [medtop:20000577](http://cv.iptc.org/newscodes/mediatopic/20000577) · parents : Élections
+- **Élections locales** — local elections · [medtop:20000578](http://cv.iptc.org/newscodes/mediatopic/20000578) · parents : Élections
+- **Élections nationales** — national elections · [medtop:20000579](http://cv.iptc.org/newscodes/mediatopic/20000579) · parents : Élections
+- **Financement de campagne** — campaign finance · [medtop:20000581](http://cv.iptc.org/newscodes/mediatopic/20000581) · parents : Élections
+- **Candidats** — political candidates · [medtop:20000582](http://cv.iptc.org/newscodes/mediatopic/20000582) · parents : Élections
+- **Élections primaires** — primary elections · [medtop:20000583](http://cv.iptc.org/newscodes/mediatopic/20000583) · parents : Élections
+- **Référendum** — referendum · [medtop:20000584](http://cv.iptc.org/newscodes/mediatopic/20000584) · parents : Élections
+- **Élections régionales** — state elections · [medtop:20000585](http://cv.iptc.org/newscodes/mediatopic/20000585) · parents : Élections
+- **Opération de vote** — voting · [medtop:20000586](http://cv.iptc.org/newscodes/mediatopic/20000586) · parents : Élections
+- **Droits fondamentaux** — fundamental rights · [medtop:20000587](http://cv.iptc.org/newscodes/mediatopic/20000587) · parents : Société
+- **Censure** — censorship and freedom of speech · [medtop:20000588](http://cv.iptc.org/newscodes/mediatopic/20000588) · parents : Droits fondamentaux
+- **Liberté de religion** — freedom of religion · [medtop:20000590](http://cv.iptc.org/newscodes/mediatopic/20000590) · parents : Droits fondamentaux
+- **Liberté de la presse** — freedom of the press · [medtop:20000591](http://cv.iptc.org/newscodes/mediatopic/20000591) · parents : Droits fondamentaux
+- **Droits de l'homme** — human rights · [medtop:20000592](http://cv.iptc.org/newscodes/mediatopic/20000592) · parents : Droits fondamentaux
+- **Gouvernement** — government · [medtop:20000593](http://cv.iptc.org/newscodes/mediatopic/20000593) · parents : Politique
+- **Fonctionnaires** — government employee · [medtop:20000595](http://cv.iptc.org/newscodes/mediatopic/20000595) · parents : Gouvernement
+- **Hauts fonctionnaires** — public officials · [medtop:20000596](http://cv.iptc.org/newscodes/mediatopic/20000596) · parents : Gouvernement
+- **Constitution** — constitution (law) · [medtop:20000597](http://cv.iptc.org/newscodes/mediatopic/20000597) · parents : Gouvernement
+- **Défense** — national security · [medtop:20000598](http://cv.iptc.org/newscodes/mediatopic/20000598) · parents : Gouvernement
+- **Forces armées** — armed forces · [medtop:20000599](http://cv.iptc.org/newscodes/mediatopic/20000599) · parents : Défense
+- **Anciens combattants** — veterans' affairs · [medtop:20000600](http://cv.iptc.org/newscodes/mediatopic/20000600) · parents : Forces armées
+- **Armement** — military weaponry and equipment · [medtop:20000602](http://cv.iptc.org/newscodes/mediatopic/20000602) · parents : Défense
+- **Espionnage** — espionage and intelligence · [medtop:20000605](http://cv.iptc.org/newscodes/mediatopic/20000605) · parents : Défense
+- **Pouvoir exécutif** — executive (government) · [medtop:20000606](http://cv.iptc.org/newscodes/mediatopic/20000606) · parents : Gouvernement
+- **Budget du gouvernement** — government budget · [medtop:20000607](http://cv.iptc.org/newscodes/mediatopic/20000607) · parents : Gouvernement
+- **Chef de l'Etat** — head of state · [medtop:20000610](http://cv.iptc.org/newscodes/mediatopic/20000610) · parents : Gouvernement
+- **Procédure de destitution** — impeachment · [medtop:20000611](http://cv.iptc.org/newscodes/mediatopic/20000611) · parents : Gouvernement
+- **Institutions locales** — local government · [medtop:20000612](http://cv.iptc.org/newscodes/mediatopic/20000612) · parents : Gouvernement
+- **Ministres** — minister or secretary (government) · [medtop:20000613](http://cv.iptc.org/newscodes/mediatopic/20000613) · parents : Gouvernement
+- **Gouvernement national** — national government · [medtop:20000614](http://cv.iptc.org/newscodes/mediatopic/20000614) · parents : Gouvernement
+- **Parlement** — legislative body · [medtop:20000615](http://cv.iptc.org/newscodes/mediatopic/20000615) · parents : Gouvernement
+- **Chambre basse** — lower house (legislature) · [medtop:20000616](http://cv.iptc.org/newscodes/mediatopic/20000616) · parents : Parlement
+- **Chambre haute** — upper house (legislature) · [medtop:20000617](http://cv.iptc.org/newscodes/mediatopic/20000617) · parents : Parlement
+- **Institutions régionales** — regional government · [medtop:20000618](http://cv.iptc.org/newscodes/mediatopic/20000618) · parents : Gouvernement
+- **Fiscalité** — taxation policy · [medtop:20000620](http://cv.iptc.org/newscodes/mediatopic/20000620) · parents : Politique du gouvernement
+- **Politique du gouvernement** — government policy · [medtop:20000621](http://cv.iptc.org/newscodes/mediatopic/20000621) · parents : Politique
+- **Nationalisation** — nationalization · [medtop:20000623](http://cv.iptc.org/newscodes/mediatopic/20000623) · parents : Politique économique
+- **Privatisations** — privatization · [medtop:20000624](http://cv.iptc.org/newscodes/mediatopic/20000624) · parents : Politique économique
+- **Entreprise d'Etat** — state-owned enterprise · [medtop:20000625](http://cv.iptc.org/newscodes/mediatopic/20000625) · parents : Politique économique
+- **Confidentialité des données** — data protection policy · [medtop:20000627](http://cv.iptc.org/newscodes/mediatopic/20000627) · parents : Politique du gouvernement
+- **Urbanisme** — housing and urban planning policy · [medtop:20000628](http://cv.iptc.org/newscodes/mediatopic/20000628) · parents : Politique du gouvernement
+- **Autochtones** — policy towards indigenous people · [medtop:20000629](http://cv.iptc.org/newscodes/mediatopic/20000629) · parents : Politique du gouvernement
+- **Assistance sociale** — pension and welfare policy · [medtop:20000630](http://cv.iptc.org/newscodes/mediatopic/20000630) · parents : Politique du gouvernement
+- **Contrôle des armes personnelles** — personal weapon control policy · [medtop:20000632](http://cv.iptc.org/newscodes/mediatopic/20000632) · parents : Politique du gouvernement
+- **Migrations** — immigration policy · [medtop:20000634](http://cv.iptc.org/newscodes/mediatopic/20000634) · parents : Politique du gouvernement
+- **Politique Nucléaire** — nuclear policy · [medtop:20000635](http://cv.iptc.org/newscodes/mediatopic/20000635) · parents : Politique du gouvernement
+- **Médiateur** — regulation of industry · [medtop:20000636](http://cv.iptc.org/newscodes/mediatopic/20000636) · parents : Politique du gouvernement
+- **Règlement sur les aliments et les boissons** — food and drink regulations · [medtop:20000637](http://cv.iptc.org/newscodes/mediatopic/20000637) · parents : Médiateur
+- **Relations internationales** — international relations · [medtop:20000638](http://cv.iptc.org/newscodes/mediatopic/20000638) · parents : Politique
+- **Diplomatie** — diplomacy · [medtop:20000639](http://cv.iptc.org/newscodes/mediatopic/20000639) · parents : Relations internationales
+- **Sommet** — summit meeting · [medtop:20000640](http://cv.iptc.org/newscodes/mediatopic/20000640) · parents : Diplomatie
+- **Traité** — treaty · [medtop:20000641](http://cv.iptc.org/newscodes/mediatopic/20000641) · parents : Diplomatie
+- **Sanction économique** — economic sanction · [medtop:20000642](http://cv.iptc.org/newscodes/mediatopic/20000642) · parents : Relations internationales
+- **Aide internationale** — foreign aid · [medtop:20000643](http://cv.iptc.org/newscodes/mediatopic/20000643) · parents : Relations internationales
+- **Organisation internationale** — international organization · [medtop:20000644](http://cv.iptc.org/newscodes/mediatopic/20000644) · parents : Relations internationales
+- **Réfugiés** — refugees and internally displaced people · [medtop:20000645](http://cv.iptc.org/newscodes/mediatopic/20000645) · parents : Relations internationales
+- **Organisation non gouvernementale** — non-governmental organisation (NGO) · [medtop:20000646](http://cv.iptc.org/newscodes/mediatopic/20000646) · parents : Politique
+- **Dissidence** — political prisoners and dissenters · [medtop:20000648](http://cv.iptc.org/newscodes/mediatopic/20000648) · parents : Politique
+- **Groupe de pression** — lobbying · [medtop:20000650](http://cv.iptc.org/newscodes/mediatopic/20000650) · parents : Gouvernement
+- **Système politique** — political system · [medtop:20000653](http://cv.iptc.org/newscodes/mediatopic/20000653) · parents : Gouvernement
+- **Démocratie** — democracy · [medtop:20000654](http://cv.iptc.org/newscodes/mediatopic/20000654) · parents : Système politique
+- **Dictature** — dictatorship · [medtop:20000655](http://cv.iptc.org/newscodes/mediatopic/20000655) · parents : Système politique
+- **Croyances** — belief systems · [medtop:20000657](http://cv.iptc.org/newscodes/mediatopic/20000657) · parents : Religion et croyance
+- **Bouddhisme** — Buddhism · [medtop:20000658](http://cv.iptc.org/newscodes/mediatopic/20000658) · parents : Croyances
+- **Christianisme** — Christianity · [medtop:20000659](http://cv.iptc.org/newscodes/mediatopic/20000659) · parents : Croyances
+- **Mormon** — Mormonism · [medtop:20000661](http://cv.iptc.org/newscodes/mediatopic/20000661) · parents : Christianisme
+- **Orthodoxie** — Christian Orthodoxy · [medtop:20000663](http://cv.iptc.org/newscodes/mediatopic/20000663) · parents : Christianisme
+- **Protestantisme** — Protestantism · [medtop:20000664](http://cv.iptc.org/newscodes/mediatopic/20000664) · parents : Christianisme
+- **Confucianisme** — Confucianism · [medtop:20000673](http://cv.iptc.org/newscodes/mediatopic/20000673) · parents : Croyances
+- **Cultes et sectes** — cult · [medtop:20000674](http://cv.iptc.org/newscodes/mediatopic/20000674) · parents : Croyances
+- **Hindouisme** — Hinduism · [medtop:20000676](http://cv.iptc.org/newscodes/mediatopic/20000676) · parents : Croyances
+- **Islam** — Islam · [medtop:20000677](http://cv.iptc.org/newscodes/mediatopic/20000677) · parents : Croyances
+- **Jaïnisme** — Jainism · [medtop:20000678](http://cv.iptc.org/newscodes/mediatopic/20000678) · parents : Croyances
+- **Judaïsme** — Judaism · [medtop:20000679](http://cv.iptc.org/newscodes/mediatopic/20000679) · parents : Croyances
+- **Animisme** — nature religion · [medtop:20000680](http://cv.iptc.org/newscodes/mediatopic/20000680) · parents : Croyances
+- **Parsasm** — Zoroastrianism · [medtop:20000681](http://cv.iptc.org/newscodes/mediatopic/20000681) · parents : Croyances
+- **Scientologie** — Scientology · [medtop:20000682](http://cv.iptc.org/newscodes/mediatopic/20000682) · parents : Croyances
+- **Shintoïsme** — Shintoism · [medtop:20000683](http://cv.iptc.org/newscodes/mediatopic/20000683) · parents : Croyances
+- **Sikhisme** — Sikhism · [medtop:20000684](http://cv.iptc.org/newscodes/mediatopic/20000684) · parents : Croyances
+- **Taoïsme** — Taoism · [medtop:20000685](http://cv.iptc.org/newscodes/mediatopic/20000685) · parents : Croyances
+- **Église de l'Unification** — Unificationism · [medtop:20000686](http://cv.iptc.org/newscodes/mediatopic/20000686) · parents : Croyances
+- **Conflit religieux** — religious conflict · [medtop:20000688](http://cv.iptc.org/newscodes/mediatopic/20000688) · parents : Religion et croyance
+- **Fête religieuse** — religious festival and holiday · [medtop:20000690](http://cv.iptc.org/newscodes/mediatopic/20000690) · parents : Religion et croyance
+- **Noël** — Christmas · [medtop:20000691](http://cv.iptc.org/newscodes/mediatopic/20000691) · parents : Fête religieuse
+- **Pâques** — Easter · [medtop:20000692](http://cv.iptc.org/newscodes/mediatopic/20000692) · parents : Fête religieuse
+- **Pentecôte** — Pentecost · [medtop:20000693](http://cv.iptc.org/newscodes/mediatopic/20000693) · parents : Fête religieuse
+- **Ramadan** — Ramadan · [medtop:20000694](http://cv.iptc.org/newscodes/mediatopic/20000694) · parents : Fête religieuse
+- **Yom Kippour** — Yom Kippur · [medtop:20000695](http://cv.iptc.org/newscodes/mediatopic/20000695) · parents : Fête religieuse
+- **Rites religieux** — religious ritual · [medtop:20000696](http://cv.iptc.org/newscodes/mediatopic/20000696) · parents : Religion et croyance
+- **Établissement religieux** — religious facilities · [medtop:20000697](http://cv.iptc.org/newscodes/mediatopic/20000697) · parents : Religion et croyance
+- **Église** — church · [medtop:20000698](http://cv.iptc.org/newscodes/mediatopic/20000698) · parents : Établissement religieux
+- **Mosquée** — mosque · [medtop:20000699](http://cv.iptc.org/newscodes/mediatopic/20000699) · parents : Établissement religieux
+- **Synagogue** — synagogue · [medtop:20000700](http://cv.iptc.org/newscodes/mediatopic/20000700) · parents : Établissement religieux
+- **Relations entre les institutions religieuses et l'Etat** — relations between religion and government · [medtop:20000702](http://cv.iptc.org/newscodes/mediatopic/20000702) · parents : Religion et croyance
+- **Chefs religieux** — religious leader · [medtop:20000703](http://cv.iptc.org/newscodes/mediatopic/20000703) · parents : Religion et croyance
+- **Pape** — pope · [medtop:20000704](http://cv.iptc.org/newscodes/mediatopic/20000704) · parents : Chefs religieux
+- **Textes religieux** — religious text · [medtop:20000705](http://cv.iptc.org/newscodes/mediatopic/20000705) · parents : Religion et croyance
+- **Bible** — Bible · [medtop:20000706](http://cv.iptc.org/newscodes/mediatopic/20000706) · parents : Textes religieux
+- **Coran** — Qur'an · [medtop:20000707](http://cv.iptc.org/newscodes/mediatopic/20000707) · parents : Textes religieux
+- **Torah** — Torah · [medtop:20000708](http://cv.iptc.org/newscodes/mediatopic/20000708) · parents : Textes religieux
+- **Sciences biomédicales** — biomedical science · [medtop:20000710](http://cv.iptc.org/newscodes/mediatopic/20000710) · parents : Science et technologie
+- **Biotechnologie** — biotechnology · [medtop:20000711](http://cv.iptc.org/newscodes/mediatopic/20000711) · parents : Sciences biomédicales
+- **Dentisterie** — dentistry · [medtop:20000712](http://cv.iptc.org/newscodes/mediatopic/20000712) · parents : Spécialisations médicales
+- **Médecine vétérinaire** — veterinary medicine · [medtop:20000714](http://cv.iptc.org/newscodes/mediatopic/20000714) · parents : Spécialisations médicales
+- **Mathématiques** — mathematics · [medtop:20000715](http://cv.iptc.org/newscodes/mediatopic/20000715) · parents : Science et technologie
+- **Génie mécanique** — mechanical engineering · [medtop:20000716](http://cv.iptc.org/newscodes/mediatopic/20000716) · parents : Technologie et ingénierie
+- **Sciences naturelles** — natural science · [medtop:20000717](http://cv.iptc.org/newscodes/mediatopic/20000717) · parents : Science et technologie
+- **Astronomie** — astronomy · [medtop:20000718](http://cv.iptc.org/newscodes/mediatopic/20000718) · parents : Sciences naturelles
+- **Biologie** — biology · [medtop:20000719](http://cv.iptc.org/newscodes/mediatopic/20000719) · parents : Sciences naturelles
+- **Botanique** — botany · [medtop:20000720](http://cv.iptc.org/newscodes/mediatopic/20000720) · parents : Biologie
+- **Génétique** — genetics · [medtop:20000721](http://cv.iptc.org/newscodes/mediatopic/20000721) · parents : Biologie
+- **Paléontologie** — paleontology · [medtop:20000722](http://cv.iptc.org/newscodes/mediatopic/20000722) · parents : Biologie
+- **Physiologie** — physiology · [medtop:20000723](http://cv.iptc.org/newscodes/mediatopic/20000723) · parents : Biologie
+- **Zoologie** — zoology · [medtop:20000724](http://cv.iptc.org/newscodes/mediatopic/20000724) · parents : Biologie
+- **Chimie** — chemistry · [medtop:20000725](http://cv.iptc.org/newscodes/mediatopic/20000725) · parents : Sciences naturelles
+- **Cosmologie** — cosmology · [medtop:20000726](http://cv.iptc.org/newscodes/mediatopic/20000726) · parents : Sciences naturelles
+- **Géologie** — geology · [medtop:20000727](http://cv.iptc.org/newscodes/mediatopic/20000727) · parents : Sciences naturelles
+- **Horticulture** — horticulture · [medtop:20000728](http://cv.iptc.org/newscodes/mediatopic/20000728) · parents : Sciences naturelles
+- **Océanographie** — marine science · [medtop:20000729](http://cv.iptc.org/newscodes/mediatopic/20000729) · parents : Sciences naturelles
+- **Climatologie** — meteorology · [medtop:20000730](http://cv.iptc.org/newscodes/mediatopic/20000730) · parents : Sciences naturelles
+- **Physique** — physics · [medtop:20000731](http://cv.iptc.org/newscodes/mediatopic/20000731) · parents : Sciences naturelles
+- **Électromagnétisme** — electromagnetism · [medtop:20000732](http://cv.iptc.org/newscodes/mediatopic/20000732) · parents : Physique
+- **Physique nucléaire** — nuclear physics · [medtop:20000733](http://cv.iptc.org/newscodes/mediatopic/20000733) · parents : Physique
+- **Physique des particules** — particle physics · [medtop:20000734](http://cv.iptc.org/newscodes/mediatopic/20000734) · parents : Physique nucléaire
+- **Recherche scientifique** — scientific research · [medtop:20000735](http://cv.iptc.org/newscodes/mediatopic/20000735) · parents : Science et technologie
+- **Innovation scientifique** — scientific innovation · [medtop:20000736](http://cv.iptc.org/newscodes/mediatopic/20000736) · parents : Recherche scientifique
+- **Recherche médicale** — medical research · [medtop:20000737](http://cv.iptc.org/newscodes/mediatopic/20000737) · parents : Recherche scientifique
+- **Exploration scientifique** — scientific exploration · [medtop:20000738](http://cv.iptc.org/newscodes/mediatopic/20000738) · parents : Recherche scientifique
+- **Exploration de l'Espace** — space exploration · [medtop:20000739](http://cv.iptc.org/newscodes/mediatopic/20000739) · parents : Exploration scientifique
+- **Publication scientifique** — scientific publication · [medtop:20000740](http://cv.iptc.org/newscodes/mediatopic/20000740) · parents : Recherche scientifique
+- **Institution scientifique** — scientific institution · [medtop:20000741](http://cv.iptc.org/newscodes/mediatopic/20000741) · parents : Science et technologie
+- **Sciences sociales** — social sciences · [medtop:20000742](http://cv.iptc.org/newscodes/mediatopic/20000742) · parents : Science et technologie
+- **Anthropologie** — anthropology · [medtop:20000743](http://cv.iptc.org/newscodes/mediatopic/20000743) · parents : Sciences sociales
+- **Archéologie** — archeology · [medtop:20000744](http://cv.iptc.org/newscodes/mediatopic/20000744) · parents : Sciences sociales
+- **Sciences économiques** — economics · [medtop:20000745](http://cv.iptc.org/newscodes/mediatopic/20000745) · parents : Sciences sociales
+- **Géographie** — geography · [medtop:20000746](http://cv.iptc.org/newscodes/mediatopic/20000746) · parents : Sciences sociales
+- **Histoire** — history · [medtop:20000747](http://cv.iptc.org/newscodes/mediatopic/20000747) · parents : Sciences sociales
+- **Sciences de l'information** — information science · [medtop:20000748](http://cv.iptc.org/newscodes/mediatopic/20000748) · parents : Sciences sociales
+- **Le droit** — study of law · [medtop:20000749](http://cv.iptc.org/newscodes/mediatopic/20000749) · parents : Sciences sociales
+- **Linguistique** — linguistics · [medtop:20000750](http://cv.iptc.org/newscodes/mediatopic/20000750) · parents : Sciences sociales
+- **Philosophie** — philosophy · [medtop:20000751](http://cv.iptc.org/newscodes/mediatopic/20000751) · parents : Sciences sociales
+- **Sciences politiques** — political science · [medtop:20000752](http://cv.iptc.org/newscodes/mediatopic/20000752) · parents : Sciences sociales
+- **Psychologie** — psychology · [medtop:20000753](http://cv.iptc.org/newscodes/mediatopic/20000753) · parents : Sciences sociales
+- **Sociologie** — sociology · [medtop:20000754](http://cv.iptc.org/newscodes/mediatopic/20000754) · parents : Sciences sociales
+- **Standards** — scientific standards · [medtop:20000755](http://cv.iptc.org/newscodes/mediatopic/20000755) · parents : Science et technologie
+- **Technologie et ingénierie** — technology and engineering · [medtop:20000756](http://cv.iptc.org/newscodes/mediatopic/20000756) · parents : Science et technologie
+- **Ingénierie aérospatiale** — aerospace engineering · [medtop:20000757](http://cv.iptc.org/newscodes/mediatopic/20000757) · parents : Technologie et ingénierie
+- **Fuséologie** — rocketry · [medtop:20000758](http://cv.iptc.org/newscodes/mediatopic/20000758) · parents : Ingénierie aérospatiale
+- **Agronomie** — agricultural technology · [medtop:20000759](http://cv.iptc.org/newscodes/mediatopic/20000759) · parents : Technologie et ingénierie
+- **Ingénierie civile** — civil engineering · [medtop:20000760](http://cv.iptc.org/newscodes/mediatopic/20000760) · parents : Technologie et ingénierie
+- **Ingénierie électronique** — electronic engineering · [medtop:20000761](http://cv.iptc.org/newscodes/mediatopic/20000761) · parents : Technologie et ingénierie
+- **Technologie de l'identification** — identification technology · [medtop:20000762](http://cv.iptc.org/newscodes/mediatopic/20000762) · parents : Technologie et ingénierie
+- **Technologie de l'information et Informatique** — information technology and computer science · [medtop:20000763](http://cv.iptc.org/newscodes/mediatopic/20000763) · parents : Technologie et ingénierie
+- **Science des matériaux** — materials science · [medtop:20000764](http://cv.iptc.org/newscodes/mediatopic/20000764) · parents : Technologie et ingénierie
+- **Science de l'infiniment petit** — micro science · [medtop:20000765](http://cv.iptc.org/newscodes/mediatopic/20000765) · parents : Technologie et ingénierie
+- **Nanotechnologie** — nanotechnology · [medtop:20000766](http://cv.iptc.org/newscodes/mediatopic/20000766) · parents : Science de l'infiniment petit
+- **Communauté** — communities · [medtop:20000768](http://cv.iptc.org/newscodes/mediatopic/20000768) · parents : Société
+- **Réseaux sociaux** — social networking · [medtop:20000769](http://cv.iptc.org/newscodes/mediatopic/20000769) · parents : Communauté
+- **Démographie** — demographics · [medtop:20000770](http://cv.iptc.org/newscodes/mediatopic/20000770) · parents : Société
+- **Immigration** — immigration · [medtop:20000771](http://cv.iptc.org/newscodes/mediatopic/20000771) · parents : Société
+- **Émigrés** — emigration · [medtop:20000772](http://cv.iptc.org/newscodes/mediatopic/20000772) · parents : Société
+- **Immigration clandestine** — illegal immigration · [medtop:20000773](http://cv.iptc.org/newscodes/mediatopic/20000773) · parents : Immigration
+- **Recensement** — population and census · [medtop:20000774](http://cv.iptc.org/newscodes/mediatopic/20000774) · parents : Démographie
+- **Discrimination** — discrimination · [medtop:20000775](http://cv.iptc.org/newscodes/mediatopic/20000775) · parents : Société
+- **Agisme** — ageism · [medtop:20000776](http://cv.iptc.org/newscodes/mediatopic/20000776) · parents : Discrimination
+- **Racisme** — racism · [medtop:20000777](http://cv.iptc.org/newscodes/mediatopic/20000777) · parents : Discrimination
+- **Discrimination religieuse** — religious discrimination · [medtop:20000778](http://cv.iptc.org/newscodes/mediatopic/20000778) · parents : Discrimination
+- **Sexisme** — sexism · [medtop:20000779](http://cv.iptc.org/newscodes/mediatopic/20000779) · parents : Discrimination
+- **Famille** — family · [medtop:20000780](http://cv.iptc.org/newscodes/mediatopic/20000780) · parents : Société
+- **Adoption** — adoption · [medtop:20000781](http://cv.iptc.org/newscodes/mediatopic/20000781) · parents : Famille
+- **Relation amoureuse** — Dating and Relationships · [medtop:20000782](http://cv.iptc.org/newscodes/mediatopic/20000782) · parents : Famille
+- **Divorce** — divorce · [medtop:20000783](http://cv.iptc.org/newscodes/mediatopic/20000783) · parents : Famille
+- **Contrôle des naissances** — family planning · [medtop:20000784](http://cv.iptc.org/newscodes/mediatopic/20000784) · parents : Famille
+- **Avortement** — abortion · [medtop:20000785](http://cv.iptc.org/newscodes/mediatopic/20000785) · parents : Contrôle des naissances
+- **Mariage** — marriage · [medtop:20000786](http://cv.iptc.org/newscodes/mediatopic/20000786) · parents : Famille
+- **Relation parent-enfant** — parenting · [medtop:20000787](http://cv.iptc.org/newscodes/mediatopic/20000787) · parents : Famille
+- **L'humanité** — demographic group · [medtop:20000788](http://cv.iptc.org/newscodes/mediatopic/20000788) · parents : Société
+- **Adultes** — adults · [medtop:20000789](http://cv.iptc.org/newscodes/mediatopic/20000789) · parents : L'humanité
+- **Enfants** — children · [medtop:20000790](http://cv.iptc.org/newscodes/mediatopic/20000790) · parents : L'humanité
+- **Handicapés** — disabilities · [medtop:20000791](http://cv.iptc.org/newscodes/mediatopic/20000791) · parents : L'humanité
+- **Homosexualité** — LGBTQ · [medtop:20000792](http://cv.iptc.org/newscodes/mediatopic/20000792) · parents : L'humanité
+- **Identité sexuelle** — gender · [medtop:20000793](http://cv.iptc.org/newscodes/mediatopic/20000793) · parents : L'humanité
+- **Bébé** — infants · [medtop:20000794](http://cv.iptc.org/newscodes/mediatopic/20000794) · parents : L'humanité
+- **Minorité ethnique ou nationale** — national or ethnic minority · [medtop:20000795](http://cv.iptc.org/newscodes/mediatopic/20000795) · parents : L'humanité
+- **Personnes âgées** — senior citizens · [medtop:20000797](http://cv.iptc.org/newscodes/mediatopic/20000797) · parents : L'humanité
+- **Adolescents** — teenagers · [medtop:20000798](http://cv.iptc.org/newscodes/mediatopic/20000798) · parents : L'humanité
+- **Condition sociale** — social condition · [medtop:20000799](http://cv.iptc.org/newscodes/mediatopic/20000799) · parents : Société
+- **Sans abris** — homelessness · [medtop:20000800](http://cv.iptc.org/newscodes/mediatopic/20000800) · parents : Condition sociale
+- **Pauvreté** — poverty · [medtop:20000801](http://cv.iptc.org/newscodes/mediatopic/20000801) · parents : Condition sociale
+- **Problèmes sociaux** — social problem · [medtop:20000802](http://cv.iptc.org/newscodes/mediatopic/20000802) · parents : Société
+- **Harcèlement** — abusive behavior · [medtop:20000803](http://cv.iptc.org/newscodes/mediatopic/20000803) · parents : Problèmes sociaux
+- **Toxicomanie** — addiction · [medtop:20000804](http://cv.iptc.org/newscodes/mediatopic/20000804) · parents : Problèmes sociaux
+- **Délinquance juvénile** — juvenile delinquency · [medtop:20000805](http://cv.iptc.org/newscodes/mediatopic/20000805) · parents : Problèmes sociaux
+- **Prostitution** — prostitution · [medtop:20000806](http://cv.iptc.org/newscodes/mediatopic/20000806) · parents : Problèmes sociaux
+- **Esclavage** — slavery · [medtop:20000807](http://cv.iptc.org/newscodes/mediatopic/20000807) · parents : Problèmes sociaux
+- **Valeurs** — values · [medtop:20000808](http://cv.iptc.org/newscodes/mediatopic/20000808) · parents : Société
+- **Fin de vie et mort** — death and dying · [medtop:20000810](http://cv.iptc.org/newscodes/mediatopic/20000810) · parents : Valeurs
+- **Euthanasie** — euthanasia · [medtop:20000811](http://cv.iptc.org/newscodes/mediatopic/20000811) · parents : Fin de vie et mort
+- **Suicide assisté** — assisted suicide · [medtop:20000812](http://cv.iptc.org/newscodes/mediatopic/20000812) · parents : Euthanasie
+- **Suicide** — suicide · [medtop:20000813](http://cv.iptc.org/newscodes/mediatopic/20000813) · parents : Fin de vie et mort
+- **Éthique** — ethics · [medtop:20000814](http://cv.iptc.org/newscodes/mediatopic/20000814) · parents : Valeurs
+- **Pornographie** — pornography · [medtop:20000815](http://cv.iptc.org/newscodes/mediatopic/20000815) · parents : Valeurs
+- **Comportement sexuel** — sexual behavior · [medtop:20000816](http://cv.iptc.org/newscodes/mediatopic/20000816) · parents : Valeurs
+- **Protection sociale** — welfare · [medtop:20000817](http://cv.iptc.org/newscodes/mediatopic/20000817) · parents : Société
+- **Activités caritatives** — charity · [medtop:20000818](http://cv.iptc.org/newscodes/mediatopic/20000818) · parents : Protection sociale
+- **Soins de longue durée** — long-term care · [medtop:20000819](http://cv.iptc.org/newscodes/mediatopic/20000819) · parents : Protection sociale
+- **Services sociaux** — social services · [medtop:20000820](http://cv.iptc.org/newscodes/mediatopic/20000820) · parents : Protection sociale
+- **Discipline** — competitive sport · [medtop:20000822](http://cv.iptc.org/newscodes/mediatopic/20000822) · parents : Sport
+- **Football américain** — American football · [medtop:20000823](http://cv.iptc.org/newscodes/mediatopic/20000823) · parents : Discipline
+- **Tir à l'arc** — archery · [medtop:20000824](http://cv.iptc.org/newscodes/mediatopic/20000824) · parents : Discipline
+- **Athlétisme** — track and field · [medtop:20000827](http://cv.iptc.org/newscodes/mediatopic/20000827) · parents : Discipline
+- **Cross-country** — cross-country running · [medtop:20000828](http://cv.iptc.org/newscodes/mediatopic/20000828) · parents : Athlétisme
+- **Decathlon** — decathlon · [medtop:20000829](http://cv.iptc.org/newscodes/mediatopic/20000829) · parents : Athlétisme
+- **Lancer du disque** — discus throw · [medtop:20000830](http://cv.iptc.org/newscodes/mediatopic/20000830) · parents : Athlétisme
+- **Lancer de marteau** — hammer throw · [medtop:20000831](http://cv.iptc.org/newscodes/mediatopic/20000831) · parents : Athlétisme
+- **Heptathlon** — heptathlon · [medtop:20000832](http://cv.iptc.org/newscodes/mediatopic/20000832) · parents : Athlétisme
+- **Saut en hauteur** — high jump · [medtop:20000833](http://cv.iptc.org/newscodes/mediatopic/20000833) · parents : Athlétisme
+- **Course de haies** — hurdles · [medtop:20000834](http://cv.iptc.org/newscodes/mediatopic/20000834) · parents : Athlétisme
+- **Lancer de javelot** — javelin throw · [medtop:20000835](http://cv.iptc.org/newscodes/mediatopic/20000835) · parents : Athlétisme
+- **Course d'endurance** — long distance running · [medtop:20000836](http://cv.iptc.org/newscodes/mediatopic/20000836) · parents : Athlétisme
+- **Saut en longueur** — long jump · [medtop:20000837](http://cv.iptc.org/newscodes/mediatopic/20000837) · parents : Athlétisme
+- **Demi-fond** — middle distance running · [medtop:20000838](http://cv.iptc.org/newscodes/mediatopic/20000838) · parents : Athlétisme
+- **Saut à la perche** — pole vault · [medtop:20000840](http://cv.iptc.org/newscodes/mediatopic/20000840) · parents : Athlétisme
+- **Marche** — race walking · [medtop:20000841](http://cv.iptc.org/newscodes/mediatopic/20000841) · parents : Athlétisme
+- **Relais** — relay running · [medtop:20000842](http://cv.iptc.org/newscodes/mediatopic/20000842) · parents : Athlétisme
+- **Lancer du poids** — shot put · [medtop:20000843](http://cv.iptc.org/newscodes/mediatopic/20000843) · parents : Athlétisme
+- **Course de vitesse** — sprinting · [medtop:20000844](http://cv.iptc.org/newscodes/mediatopic/20000844) · parents : Athlétisme
+- **Triple saut** — triple jump · [medtop:20000845](http://cv.iptc.org/newscodes/mediatopic/20000845) · parents : Athlétisme
+- **Football australien** — Australian rules football · [medtop:20000846](http://cv.iptc.org/newscodes/mediatopic/20000846) · parents : Discipline
+- **Badminton** — badminton · [medtop:20000847](http://cv.iptc.org/newscodes/mediatopic/20000847) · parents : Discipline
+- **Bandy** — bandy · [medtop:20000848](http://cv.iptc.org/newscodes/mediatopic/20000848) · parents : Discipline
+- **Baseball** — baseball · [medtop:20000849](http://cv.iptc.org/newscodes/mediatopic/20000849) · parents : Discipline
+- **Basket-ball** — basketball · [medtop:20000851](http://cv.iptc.org/newscodes/mediatopic/20000851) · parents : Discipline
+- **Biathlon** — biathlon · [medtop:20000852](http://cv.iptc.org/newscodes/mediatopic/20000852) · parents : Discipline
+- **Billard** — billiards · [medtop:20000853](http://cv.iptc.org/newscodes/mediatopic/20000853) · parents : Discipline
+- **Bobsleigh** — bobsled · [medtop:20000854](http://cv.iptc.org/newscodes/mediatopic/20000854) · parents : Discipline
+- **Boule anglaise et pétanque** — boules · [medtop:20000855](http://cv.iptc.org/newscodes/mediatopic/20000855) · parents : Discipline
+- **Boxe** — boxing · [medtop:20000856](http://cv.iptc.org/newscodes/mediatopic/20000856) · parents : Discipline
+- **Tauromachie** — bullfighting · [medtop:20000875](http://cv.iptc.org/newscodes/mediatopic/20000875) · parents : Discipline
+- **Football canadien** — Canadian football · [medtop:20000876](http://cv.iptc.org/newscodes/mediatopic/20000876) · parents : Discipline
+- **Canoë** — canoeing · [medtop:20000877](http://cv.iptc.org/newscodes/mediatopic/20000877) · parents : Discipline
+- **Casting (pêche)** — casting (fishing) · [medtop:20000883](http://cv.iptc.org/newscodes/mediatopic/20000883) · parents : Discipline
+- **Alpinisme** — mountaineering · [medtop:20000886](http://cv.iptc.org/newscodes/mediatopic/20000886) · parents : Discipline
+- **Escalade** — sport climbing · [medtop:20000887](http://cv.iptc.org/newscodes/mediatopic/20000887) · parents : Discipline
+- **Cricket** — cricket · [medtop:20000888](http://cv.iptc.org/newscodes/mediatopic/20000888) · parents : Discipline
+- **Croquet** — croquet · [medtop:20000889](http://cv.iptc.org/newscodes/mediatopic/20000889) · parents : Discipline
+- **Curling** — curling · [medtop:20000890](http://cv.iptc.org/newscodes/mediatopic/20000890) · parents : Discipline
+- **Crosse sur glace** — icestock sport · [medtop:20000891](http://cv.iptc.org/newscodes/mediatopic/20000891) · parents : Curling
+- **Cyclisme** — cycling · [medtop:20000892](http://cv.iptc.org/newscodes/mediatopic/20000892) · parents : Discipline
+- **Cyclisme artistique** — artistic cycling · [medtop:20000893](http://cv.iptc.org/newscodes/mediatopic/20000893) · parents : Cyclisme
+- **Bmx** — bmx racing · [medtop:20000895](http://cv.iptc.org/newscodes/mediatopic/20000895) · parents : Cyclisme
+- **Cycle balle** — cycle ball · [medtop:20000896](http://cv.iptc.org/newscodes/mediatopic/20000896) · parents : Cyclisme
+- **VTT** — mountain biking · [medtop:20000903](http://cv.iptc.org/newscodes/mediatopic/20000903) · parents : Cyclisme
+- **Danse sportive** — competitive dancing · [medtop:20000911](http://cv.iptc.org/newscodes/mediatopic/20000911) · parents : Discipline
+- **Fléchettes** — darts · [medtop:20000912](http://cv.iptc.org/newscodes/mediatopic/20000912) · parents : Discipline
+- **Plongeon** — diving · [medtop:20000913](http://cv.iptc.org/newscodes/mediatopic/20000913) · parents : Discipline
+- **Plongeon plate-forme** — platform diving · [medtop:20000914](http://cv.iptc.org/newscodes/mediatopic/20000914) · parents : Plongeon
+- **Plongeon tremplin** — springboard diving · [medtop:20000915](http://cv.iptc.org/newscodes/mediatopic/20000915) · parents : Plongeon
+- **Plongeon synchronisé** — synchronized diving · [medtop:20000916](http://cv.iptc.org/newscodes/mediatopic/20000916) · parents : Plongeon
+- **Plongée sous-marine** — scuba diving · [medtop:20000917](http://cv.iptc.org/newscodes/mediatopic/20000917) · parents : Activités récréatives
+- **Course de chiens** — dog racing · [medtop:20000919](http://cv.iptc.org/newscodes/mediatopic/20000919) · parents : Discipline
+- **Duathlon** — duathlon · [medtop:20000922](http://cv.iptc.org/newscodes/mediatopic/20000922) · parents : Discipline
+- **Équitation** — equestrian · [medtop:20000923](http://cv.iptc.org/newscodes/mediatopic/20000923) · parents : Discipline
+- **Escrime** — fencing · [medtop:20000929](http://cv.iptc.org/newscodes/mediatopic/20000929) · parents : Discipline
+- **Hockey sur gazon** — field hockey · [medtop:20000933](http://cv.iptc.org/newscodes/mediatopic/20000933) · parents : Discipline
+- **Patinage artistique** — figure skating · [medtop:20000934](http://cv.iptc.org/newscodes/mediatopic/20000934) · parents : Discipline
+- **Fist ball** — fistball · [medtop:20000936](http://cv.iptc.org/newscodes/mediatopic/20000936) · parents : Discipline
+- **Floorball** — floorball · [medtop:20000937](http://cv.iptc.org/newscodes/mediatopic/20000937) · parents : Discipline
+- **Frisbee** — flying disc sport · [medtop:20000938](http://cv.iptc.org/newscodes/mediatopic/20000938) · parents : Discipline
+- **Football gaélique** — Gaelic football · [medtop:20000939](http://cv.iptc.org/newscodes/mediatopic/20000939) · parents : Discipline
+- **Golf** — golf · [medtop:20000940](http://cv.iptc.org/newscodes/mediatopic/20000940) · parents : Discipline
+- **Mini golf** — mini golf · [medtop:20000941](http://cv.iptc.org/newscodes/mediatopic/20000941) · parents : Golf
+- **Gymnastique** — gymnastics · [medtop:20000942](http://cv.iptc.org/newscodes/mediatopic/20000942) · parents : Discipline
+- **Gymnastique rythmique** — rhythmic gymnastics · [medtop:20000951](http://cv.iptc.org/newscodes/mediatopic/20000951) · parents : Gymnastique
+- **Trampoline** — trampoline · [medtop:20000955](http://cv.iptc.org/newscodes/mediatopic/20000955) · parents : Gymnastique
+- **Handball** — handball · [medtop:20000958](http://cv.iptc.org/newscodes/mediatopic/20000958) · parents : Discipline
+- **Hippisme** — horse racing · [medtop:20000960](http://cv.iptc.org/newscodes/mediatopic/20000960) · parents : Discipline
+- **Hockey sur glace** — ice hockey · [medtop:20000965](http://cv.iptc.org/newscodes/mediatopic/20000965) · parents : Discipline
+- **Pelote basque** — Jai Alai (Pelota) · [medtop:20000968](http://cv.iptc.org/newscodes/mediatopic/20000968) · parents : Discipline
+- **Judo** — judo · [medtop:20000969](http://cv.iptc.org/newscodes/mediatopic/20000969) · parents : Arts martiaux
+- **Jukendo** — jukendo · [medtop:20000977](http://cv.iptc.org/newscodes/mediatopic/20000977) · parents : Arts martiaux
+- **Kabaddi** — kabaddi · [medtop:20000978](http://cv.iptc.org/newscodes/mediatopic/20000978) · parents : Discipline
+- **Kayak** — kayaking · [medtop:20000979](http://cv.iptc.org/newscodes/mediatopic/20000979) · parents : Discipline
+- **Karaté** — karate · [medtop:20000983](http://cv.iptc.org/newscodes/mediatopic/20000983) · parents : Arts martiaux
+- **Kendo** — kendo · [medtop:20000984](http://cv.iptc.org/newscodes/mediatopic/20000984) · parents : Arts martiaux
+- **Kyudo** — kyudo · [medtop:20000985](http://cv.iptc.org/newscodes/mediatopic/20000985) · parents : Arts martiaux
+- **Lacrosse** — lacrosse · [medtop:20000986](http://cv.iptc.org/newscodes/mediatopic/20000986) · parents : Discipline
+- **Luge** — luge · [medtop:20000987](http://cv.iptc.org/newscodes/mediatopic/20000987) · parents : Discipline
+- **Marathon** — marathon · [medtop:20000988](http://cv.iptc.org/newscodes/mediatopic/20000988) · parents : Discipline
+- **Pentathlon moderne** — modern pentathlon · [medtop:20000989](http://cv.iptc.org/newscodes/mediatopic/20000989) · parents : Discipline
+- **Bateau à moteur** — motorboat racing · [medtop:20000990](http://cv.iptc.org/newscodes/mediatopic/20000990) · parents : Discipline
+- **Automobile** — motor racing · [medtop:20000991](http://cv.iptc.org/newscodes/mediatopic/20000991) · parents : Discipline
+- **Moto** — motorcycle racing · [medtop:20000998](http://cv.iptc.org/newscodes/mediatopic/20000998) · parents : Discipline
+- **Naginata** — naginata · [medtop:20001009](http://cv.iptc.org/newscodes/mediatopic/20001009) · parents : Arts martiaux
+- **Netball** — netball · [medtop:20001010](http://cv.iptc.org/newscodes/mediatopic/20001010) · parents : Discipline
+- **Course d'orientation** — orienteering · [medtop:20001011](http://cv.iptc.org/newscodes/mediatopic/20001011) · parents : Discipline
+- **Course d'orientation à skis** — ski orienteering · [medtop:20001012](http://cv.iptc.org/newscodes/mediatopic/20001012) · parents : Course d'orientation
+- **Parachutisme** — parachuting and skydiving · [medtop:20001013](http://cv.iptc.org/newscodes/mediatopic/20001013) · parents : Discipline
+- **Polo** — polo · [medtop:20001014](http://cv.iptc.org/newscodes/mediatopic/20001014) · parents : Discipline
+- **Billard américain** — pool · [medtop:20001015](http://cv.iptc.org/newscodes/mediatopic/20001015) · parents : Discipline
+- **Rodéo** — rodeo · [medtop:20001017](http://cv.iptc.org/newscodes/mediatopic/20001017) · parents : Discipline
+- **Roller hockey** — roller hockey · [medtop:20001025](http://cv.iptc.org/newscodes/mediatopic/20001025) · parents : Roller sports
+- **Aviron** — rowing · [medtop:20001026](http://cv.iptc.org/newscodes/mediatopic/20001026) · parents : Discipline
+- **Rugby à XIII** — rugby league · [medtop:20001035](http://cv.iptc.org/newscodes/mediatopic/20001035) · parents : Rugby
+- **Rugby à XV** — rugby union · [medtop:20001036](http://cv.iptc.org/newscodes/mediatopic/20001036) · parents : Rugby
+- **Rugby à VII** — rugby sevens · [medtop:20001037](http://cv.iptc.org/newscodes/mediatopic/20001037) · parents : Rugby
+- **Voile** — sailing · [medtop:20001038](http://cv.iptc.org/newscodes/mediatopic/20001038) · parents : Discipline
+- **Sepak takraw** — sepak takraw · [medtop:20001047](http://cv.iptc.org/newscodes/mediatopic/20001047) · parents : Discipline
+- **Shinty** — shinty · [medtop:20001048](http://cv.iptc.org/newscodes/mediatopic/20001048) · parents : Discipline
+- **Tir** — sport shooting · [medtop:20001049](http://cv.iptc.org/newscodes/mediatopic/20001049) · parents : Discipline
+- **Skeleton** — skeleton · [medtop:20001055](http://cv.iptc.org/newscodes/mediatopic/20001055) · parents : Discipline
+- **Ski** — skiing · [medtop:20001056](http://cv.iptc.org/newscodes/mediatopic/20001056) · parents : Discipline
+- **Ski alpin** — alpine skiing · [medtop:20001057](http://cv.iptc.org/newscodes/mediatopic/20001057) · parents : Ski
+- **Ski acrobatique** — freestyle skiing · [medtop:20001058](http://cv.iptc.org/newscodes/mediatopic/20001058) · parents : Ski
+- **Saut à skis** — ski jumping · [medtop:20001061](http://cv.iptc.org/newscodes/mediatopic/20001061) · parents : Ski
+- **Snooker** — snooker · [medtop:20001063](http://cv.iptc.org/newscodes/mediatopic/20001063) · parents : Discipline
+- **Snowboard** — snowboarding · [medtop:20001064](http://cv.iptc.org/newscodes/mediatopic/20001064) · parents : Discipline
+- **Football** — soccer · [medtop:20001065](http://cv.iptc.org/newscodes/mediatopic/20001065) · parents : Discipline
+- **Softball** — softball · [medtop:20001066](http://cv.iptc.org/newscodes/mediatopic/20001066) · parents : Discipline
+- **Patinage de vitesse** — speed skating · [medtop:20001067](http://cv.iptc.org/newscodes/mediatopic/20001067) · parents : Discipline
+- **Squash** — squash and racquetball · [medtop:20001068](http://cv.iptc.org/newscodes/mediatopic/20001068) · parents : Discipline
+- **Sumo** — sumo wrestling · [medtop:20001069](http://cv.iptc.org/newscodes/mediatopic/20001069) · parents : Discipline
+- **Surf** — surfing · [medtop:20001070](http://cv.iptc.org/newscodes/mediatopic/20001070) · parents : Discipline
+- **Natation** — swimming · [medtop:20001071](http://cv.iptc.org/newscodes/mediatopic/20001071) · parents : Discipline
+- **Marathon de natation** — marathon swimming · [medtop:20001077](http://cv.iptc.org/newscodes/mediatopic/20001077) · parents : Natation
+- **Tennis de table** — table tennis · [medtop:20001083](http://cv.iptc.org/newscodes/mediatopic/20001083) · parents : Discipline
+- **Taekwondo** — Taekwon-Do · [medtop:20001084](http://cv.iptc.org/newscodes/mediatopic/20001084) · parents : Arts martiaux
+- **Tennis** — tennis · [medtop:20001085](http://cv.iptc.org/newscodes/mediatopic/20001085) · parents : Discipline
+- **Bowling** — bowling · [medtop:20001086](http://cv.iptc.org/newscodes/mediatopic/20001086) · parents : Discipline
+- **Triathlon** — triathlon · [medtop:20001087](http://cv.iptc.org/newscodes/mediatopic/20001087) · parents : Discipline
+- **Volley-ball** — volleyball · [medtop:20001089](http://cv.iptc.org/newscodes/mediatopic/20001089) · parents : Discipline
+- **Beach volley** — beach volleyball · [medtop:20001090](http://cv.iptc.org/newscodes/mediatopic/20001090) · parents : Volley-ball
+- **Water polo** — water polo · [medtop:20001091](http://cv.iptc.org/newscodes/mediatopic/20001091) · parents : Discipline
+- **Ski nautique** — water skiing · [medtop:20001092](http://cv.iptc.org/newscodes/mediatopic/20001092) · parents : Discipline
+- **Haltérophilie** — weightlifting and powerlifting · [medtop:20001093](http://cv.iptc.org/newscodes/mediatopic/20001093) · parents : Discipline
+- **Planche à voile** — windsurfing · [medtop:20001097](http://cv.iptc.org/newscodes/mediatopic/20001097) · parents : Discipline
+- **Lutte** — wrestling · [medtop:20001098](http://cv.iptc.org/newscodes/mediatopic/20001098) · parents : Discipline
+- **Wushu** — wushu · [medtop:20001102](http://cv.iptc.org/newscodes/mediatopic/20001102) · parents : Arts martiaux
+- **Mesures disciplinaires dans le sport** — disciplinary action in sport · [medtop:20001103](http://cv.iptc.org/newscodes/mediatopic/20001103) · parents : Sport
+- **Médicaments autorisés dans le sport** — drug use in sport · [medtop:20001104](http://cv.iptc.org/newscodes/mediatopic/20001104) · parents : Sport
+- **Évènement sportif** — sport event · [medtop:20001108](http://cv.iptc.org/newscodes/mediatopic/20001108) · parents : Sport
+- **Industrie du sport** — sport industry · [medtop:20001124](http://cv.iptc.org/newscodes/mediatopic/20001124) · parents : Sport
+- **Organisation sportive** — sport organization · [medtop:20001125](http://cv.iptc.org/newscodes/mediatopic/20001125) · parents : Sport
+- **Site sportif** — sport venue · [medtop:20001126](http://cv.iptc.org/newscodes/mediatopic/20001126) · parents : Sport
+- **Prévisions météorologiques** — weather forecast · [medtop:20001128](http://cv.iptc.org/newscodes/mediatopic/20001128) · parents : Météo
+- **Phénomène météorologique** — weather phenomena · [medtop:20001129](http://cv.iptc.org/newscodes/mediatopic/20001129) · parents : Météo
+- **Statistiques météorologiques** — weather statistic · [medtop:20001130](http://cv.iptc.org/newscodes/mediatopic/20001130) · parents : Météo
+- **Alertes météorologiques** — weather warning · [medtop:20001131](http://cv.iptc.org/newscodes/mediatopic/20001131) · parents : Météo
+- **Politique culturelle** — cultural policy · [medtop:20001132](http://cv.iptc.org/newscodes/mediatopic/20001132) · parents : Politique du gouvernement
+- **Comédie musicale** — musical · [medtop:20001133](http://cv.iptc.org/newscodes/mediatopic/20001133) · parents : Théâtre
+- **Opérette** — operetta · [medtop:20001134](http://cv.iptc.org/newscodes/mediatopic/20001134) · parents : Théâtre
+- **Exposition artistique** — art exhibition · [medtop:20001135](http://cv.iptc.org/newscodes/mediatopic/20001135) · parents : Culture
+- **Foires et salons** — trade show or expo · [medtop:20001136](http://cv.iptc.org/newscodes/mediatopic/20001136) · parents : business service
+- **Alpinisme (loisir)** — recreational hiking and climbing · [medtop:20001142](http://cv.iptc.org/newscodes/mediatopic/20001142) · parents : Activités récréatives
+- **Soirée (fête)** — party · [medtop:20001143](http://cv.iptc.org/newscodes/mediatopic/20001143) · parents : Mode de vie
+- **Service militaire** — military service · [medtop:20001145](http://cv.iptc.org/newscodes/mediatopic/20001145) · parents : Forces armées
+- **Politique sportive** — sports policies · [medtop:20001147](http://cv.iptc.org/newscodes/mediatopic/20001147) · parents : Politique du gouvernement
+- **Transfert (sport)** — sports transaction · [medtop:20001148](http://cv.iptc.org/newscodes/mediatopic/20001148) · parents : Sport
+- **Ski de fond** — cross-country skiing · [medtop:20001149](http://cv.iptc.org/newscodes/mediatopic/20001149) · parents : Ski
+- **Combiné nordique** — Nordic combined · [medtop:20001150](http://cv.iptc.org/newscodes/mediatopic/20001150) · parents : Ski
+- **Short-track** — short track speed skating · [medtop:20001151](http://cv.iptc.org/newscodes/mediatopic/20001151) · parents : Discipline
+- **Gymnastique artistique** — artistic gymnastics · [medtop:20001152](http://cv.iptc.org/newscodes/mediatopic/20001152) · parents : Gymnastique
+- **Télémark (ski)** — Telemark skiing · [medtop:20001153](http://cv.iptc.org/newscodes/mediatopic/20001153) · parents : Ski
+- **Échecs** — chess · [medtop:20001154](http://cv.iptc.org/newscodes/mediatopic/20001154) · parents : Discipline
+- **Roller sports** — roller sports · [medtop:20001155](http://cv.iptc.org/newscodes/mediatopic/20001155) · parents : Discipline
+- **Skateboard** — skateboarding · [medtop:20001156](http://cv.iptc.org/newscodes/mediatopic/20001156) · parents : Roller sports
+- **Arts martiaux** — martial arts · [medtop:20001157](http://cv.iptc.org/newscodes/mediatopic/20001157) · parents : Discipline
+- **Entrepreneuriat** — start-up and entrepreneurial business · [medtop:20001158](http://cv.iptc.org/newscodes/mediatopic/20001158) · parents : Entreprises
+- **Marchés publics** — public contract · [medtop:20001159](http://cv.iptc.org/newscodes/mediatopic/20001159) · parents : Stratégie et marketing
+- **Artisanat** — handicrafts · [medtop:20001160](http://cv.iptc.org/newscodes/mediatopic/20001160) · parents : Distribution
+- **Gestion d*actifs** — asset management · [medtop:20001162](http://cv.iptc.org/newscodes/mediatopic/20001162) · parents : financial service
+- **Relation client** — client relationship management · [medtop:20001163](http://cv.iptc.org/newscodes/mediatopic/20001163) · parents : Stratégie et marketing
+- **Services de paiement** — payment service · [medtop:20001164](http://cv.iptc.org/newscodes/mediatopic/20001164) · parents : business service
+- **Industrie ferroviaire** — railway manufacturing · [medtop:20001166](http://cv.iptc.org/newscodes/mediatopic/20001166) · parents : Industrie manufacturière
+- **Équipement médical** — medical equipment · [medtop:20001167](http://cv.iptc.org/newscodes/mediatopic/20001167) · parents : Industrie des soins de santé
+- **Services et produits pour animaux domestiques** — pet product and service · [medtop:20001168](http://cv.iptc.org/newscodes/mediatopic/20001168) · parents : Distribution
+- **Logistique** — logistics · [medtop:20001170](http://cv.iptc.org/newscodes/mediatopic/20001170) · parents : Transports
+- **Économie du partage** — sharing economy · [medtop:20001171](http://cv.iptc.org/newscodes/mediatopic/20001171) · parents : Économie
+- **Petites et moyennes entreprises** — small and medium enterprise · [medtop:20001172](http://cv.iptc.org/newscodes/mediatopic/20001172) · parents : Entreprises
+- **Politique d'aménagement du territoire** — regional development policy · [medtop:20001174](http://cv.iptc.org/newscodes/mediatopic/20001174) · parents : Politique du gouvernement
+- **Natation synchronisée** — synchronized swimming · [medtop:20001175](http://cv.iptc.org/newscodes/mediatopic/20001175) · parents : Discipline
+- **Rugby** — rugby · [medtop:20001176](http://cv.iptc.org/newscodes/mediatopic/20001176) · parents : Discipline
+- **Jeux olympiques** — Olympic Games · [medtop:20001177](http://cv.iptc.org/newscodes/mediatopic/20001177) · parents : Évènement sportif
+- **Jeux paralympiques** — Paralympic Games · [medtop:20001178](http://cv.iptc.org/newscodes/mediatopic/20001178) · parents : Évènement sportif
+- **Série** — series · [medtop:20001179](http://cv.iptc.org/newscodes/mediatopic/20001179) · parents : Arts et divertissement
+- **Pièce de théâtre** — drama (theatre) · [medtop:20001180](http://cv.iptc.org/newscodes/mediatopic/20001180) · parents : Théâtre
+- **Festival** — festival · [medtop:20001181](http://cv.iptc.org/newscodes/mediatopic/20001181) · parents : Arts et divertissement
+- **Réseaux sociaux** — social media · [medtop:20001182](http://cv.iptc.org/newscodes/mediatopic/20001182) · parents : Médias
+- **eSports** — esports · [medtop:20001183](http://cv.iptc.org/newscodes/mediatopic/20001183) · parents : Discipline
+- **Hip-hop** — hip hop · [medtop:20001184](http://cv.iptc.org/newscodes/mediatopic/20001184) · parents : Genre musical
+- **R&B** — r&b · [medtop:20001185](http://cv.iptc.org/newscodes/mediatopic/20001185) · parents : Genre musical
+- **Heavy metal** — heavy metal · [medtop:20001186](http://cv.iptc.org/newscodes/mediatopic/20001186) · parents : Genre musical
+- **Musique de danse** — dance band music · [medtop:20001187](http://cv.iptc.org/newscodes/mediatopic/20001187) · parents : Genre musical
+- **Electronic dance music** — electronic dance music · [medtop:20001188](http://cv.iptc.org/newscodes/mediatopic/20001188) · parents : Genre musical
+- **Musique pour enfants** — children's music · [medtop:20001189](http://cv.iptc.org/newscodes/mediatopic/20001189) · parents : Genre musical
+- **Stand-up** — stand-up comedy · [medtop:20001190](http://cv.iptc.org/newscodes/mediatopic/20001190) · parents : Théâtre
+- **Cabaret** — cabaret · [medtop:20001191](http://cv.iptc.org/newscodes/mediatopic/20001191) · parents : Théâtre
+- **Influenceurs** — influencers · [medtop:20001192](http://cv.iptc.org/newscodes/mediatopic/20001192) · parents : Réseaux sociaux
+- **Harcèlement sexuel** — sexual misconduct · [medtop:20001193](http://cv.iptc.org/newscodes/mediatopic/20001193) · parents : Problèmes sociaux
+- **Fraude comptable** — accounting crime · [medtop:20001194](http://cv.iptc.org/newscodes/mediatopic/20001194) · parents : Délinquance financière
+- **Fraude fiscale** — tax evasion · [medtop:20001195](http://cv.iptc.org/newscodes/mediatopic/20001195) · parents : Fraude
+- **Conduite dangereuse** — reckless driving · [medtop:20001196](http://cv.iptc.org/newscodes/mediatopic/20001196) · parents : Criminalité
+- **Droit administratif** — administrative law · [medtop:20001197](http://cv.iptc.org/newscodes/mediatopic/20001197) · parents : Lois
+- **Traitement psychiatrique ordonné par le tribunal** — court-ordered psychiatric treatment · [medtop:20001198](http://cv.iptc.org/newscodes/mediatopic/20001198) · parents : Peines
+- **Sursis** — suspended sentence · [medtop:20001199](http://cv.iptc.org/newscodes/mediatopic/20001199) · parents : Peines
+- **Abandon d'enquête criminelle** — dropped criminal investigation · [medtop:20001200](http://cv.iptc.org/newscodes/mediatopic/20001200) · parents : Enquête
+- **Accident de la circulation de la faune** — wildlife traffic accident · [medtop:20001201](http://cv.iptc.org/newscodes/mediatopic/20001201) · parents : Accident routier
+- **Feu de forêt** — wildfire · [medtop:20001202](http://cv.iptc.org/newscodes/mediatopic/20001202) · parents : Incendie
+- **Arts textiles** — textile arts · [medtop:20001203](http://cv.iptc.org/newscodes/mediatopic/20001203) · parents : Arts visuels
+- **Travail du bois** — woodworking · [medtop:20001204](http://cv.iptc.org/newscodes/mediatopic/20001204) · parents : Arts visuels
+- **Forgeage** — forging · [medtop:20001205](http://cv.iptc.org/newscodes/mediatopic/20001205) · parents : Arts visuels
+- **Auto-entrepreneur** — self-employment · [medtop:20001206](http://cv.iptc.org/newscodes/mediatopic/20001206) · parents : Emploi
+- **Biocarburant** — biofuel · [medtop:20001207](http://cv.iptc.org/newscodes/mediatopic/20001207) · parents : Énergie et ressources
+- **Énergie géothermique** — geothermal power · [medtop:20001208](http://cv.iptc.org/newscodes/mediatopic/20001208) · parents : Énergies alternatives
+- **Énergie solaire** — solar power · [medtop:20001209](http://cv.iptc.org/newscodes/mediatopic/20001209) · parents : Énergies alternatives
+- **Énergie hydroélectrique** — hydroelectric power · [medtop:20001210](http://cv.iptc.org/newscodes/mediatopic/20001210) · parents : Énergies alternatives
+- **Énergie éolienne** — wind power · [medtop:20001211](http://cv.iptc.org/newscodes/mediatopic/20001211) · parents : Énergies alternatives
+- **Écoles religieuses** — religious school · [medtop:20001212](http://cv.iptc.org/newscodes/mediatopic/20001212) · parents : Écoles, collèges, lycées
+- **Écoles publiques** — public school · [medtop:20001213](http://cv.iptc.org/newscodes/mediatopic/20001213) · parents : Écoles, collèges, lycées
+- **Écoles privées** — private school · [medtop:20001214](http://cv.iptc.org/newscodes/mediatopic/20001214) · parents : Écoles, collèges, lycées
+- **Écoles indépendantes** — independent and charter school · [medtop:20001215](http://cv.iptc.org/newscodes/mediatopic/20001215) · parents : Écoles, collèges, lycées
+- **Enseignement professionnel** — vocational education · [medtop:20001216](http://cv.iptc.org/newscodes/mediatopic/20001216) · parents : Éducation
+- **Classement scolaire** — educational grading · [medtop:20001217](http://cv.iptc.org/newscodes/mediatopic/20001217) · parents : Éducation
+- **Cure de désintoxication** — drug rehabilitation · [medtop:20001219](http://cv.iptc.org/newscodes/mediatopic/20001219) · parents : Traitements
+- **Médecine d'urgence** — emergency care · [medtop:20001221](http://cv.iptc.org/newscodes/mediatopic/20001221) · parents : Traitements
+- **Ophtalmologie** — eye care · [medtop:20001225](http://cv.iptc.org/newscodes/mediatopic/20001225) · parents : Spécialisations médicales
+- **Opération de chirurgie** — surgery · [medtop:20001228](http://cv.iptc.org/newscodes/mediatopic/20001228) · parents : Traitements
+- **Clinique** — healthcare clinic · [medtop:20001229](http://cv.iptc.org/newscodes/mediatopic/20001229) · parents : Centre de soins
+- **Responsabilité sociétale des entreprises** — environmental, social and governance policy (ESG) · [medtop:20001230](http://cv.iptc.org/newscodes/mediatopic/20001230) · parents : Gouvernance
+- **Arts martiaux mixtes** — mixed martial arts · [medtop:20001231](http://cv.iptc.org/newscodes/mediatopic/20001231) · parents : Arts martiaux
+- **Soins aux personnes âgées** — elderly care · [medtop:20001232](http://cv.iptc.org/newscodes/mediatopic/20001232) · parents : Protection sociale
+- **Baptême civil** — name ceremony · [medtop:20001233](http://cv.iptc.org/newscodes/mediatopic/20001233) · parents : Cérémonie
+- **Remise de diplôme** — graduation · [medtop:20001234](http://cv.iptc.org/newscodes/mediatopic/20001234) · parents : Cérémonie
+- **Service funèbre et commémoratif** — funeral and memorial service · [medtop:20001235](http://cv.iptc.org/newscodes/mediatopic/20001235) · parents : Cérémonie
+- **Mariage** — wedding · [medtop:20001236](http://cv.iptc.org/newscodes/mediatopic/20001236) · parents : Cérémonie
+- **Anniversaire** — anniversary · [medtop:20001237](http://cv.iptc.org/newscodes/mediatopic/20001237) · parents : Gens animaux insolite
+- **Anniversaire (jour de naissance)** — birthday · [medtop:20001238](http://cv.iptc.org/newscodes/mediatopic/20001238) · parents : Gens animaux insolite
+- **Activité physique et fitness** — exercise and fitness · [medtop:20001239](http://cv.iptc.org/newscodes/mediatopic/20001239) · parents : Bien-être
+- **Culturisme** — bodybuilding · [medtop:20001240](http://cv.iptc.org/newscodes/mediatopic/20001240) · parents : Discipline
+- **Équitation (loisir)** — horseback riding · [medtop:20001241](http://cv.iptc.org/newscodes/mediatopic/20001241) · parents : Activités récréatives
+- **Steeple** — steeplechase (athletics) · [medtop:20001242](http://cv.iptc.org/newscodes/mediatopic/20001242) · parents : Athlétisme
+- **Industrie du gaz et du pétrole** — oil and gas · [medtop:20001243](http://cv.iptc.org/newscodes/mediatopic/20001243) · parents : Énergie et ressources
+- **Services des collectivités (eau, gaz, électricité)** — utilities · [medtop:20001244](http://cv.iptc.org/newscodes/mediatopic/20001244) · parents : Secteurs économiques
+- **Projets d'infrastructure** — infrastructure projects · [medtop:20001245](http://cv.iptc.org/newscodes/mediatopic/20001245) · parents : Construction et immobilier
+- **Collections (loisir)** — collecting · [medtop:20001247](http://cv.iptc.org/newscodes/mediatopic/20001247) · parents : Passe-temps
+- **Produits cosmétiques** — cosmetics · [medtop:20001248](http://cv.iptc.org/newscodes/mediatopic/20001248) · parents : Mode
+- **Coiffure** — hairstyles · [medtop:20001249](http://cv.iptc.org/newscodes/mediatopic/20001249) · parents : Mode
+- **Modification corporelle** — body modification · [medtop:20001250](http://cv.iptc.org/newscodes/mediatopic/20001250) · parents : Tendance
+- **Tatouage** — tattooing · [medtop:20001251](http://cv.iptc.org/newscodes/mediatopic/20001251) · parents : Modification corporelle
+- **Piercing** — piercing · [medtop:20001252](http://cv.iptc.org/newscodes/mediatopic/20001252) · parents : Modification corporelle
+- **Cuisine (loisir)** — cooking and baking · [medtop:20001253](http://cv.iptc.org/newscodes/mediatopic/20001253) · parents : Gastronomie
+- **Bières, vins et spiritueux (centre d'intérêt)** — beer, wine and spirits · [medtop:20001254](http://cv.iptc.org/newscodes/mediatopic/20001254) · parents : Gastronomie
+- **Travaux de rénovation** — home renovation · [medtop:20001255](http://cv.iptc.org/newscodes/mediatopic/20001255) · parents : Maison et décoration
+- **Décoration intérieure** — interior decoration · [medtop:20001256](http://cv.iptc.org/newscodes/mediatopic/20001256) · parents : Maison et décoration
+- **Jardinage** — gardening · [medtop:20001257](http://cv.iptc.org/newscodes/mediatopic/20001257) · parents : Maison et décoration
+- **Électronique grand public** — consumer electronics · [medtop:20001258](http://cv.iptc.org/newscodes/mediatopic/20001258) · parents : Distribution
+- **Congrès politique** — political party convention · [medtop:20001259](http://cv.iptc.org/newscodes/mediatopic/20001259) · parents : Gouvernement
+- **Commissions parlementaires** — political committee · [medtop:20001260](http://cv.iptc.org/newscodes/mediatopic/20001260) · parents : Gouvernement
+- **Chef du gouvernement** — head of government · [medtop:20001261](http://cv.iptc.org/newscodes/mediatopic/20001261) · parents : Gouvernement
+- **Enquête publique** — public inquiry · [medtop:20001262](http://cv.iptc.org/newscodes/mediatopic/20001262) · parents : Gouvernement
+- **Politique d'infrastructure** — infrastructure policy · [medtop:20001264](http://cv.iptc.org/newscodes/mediatopic/20001264) · parents : Politique du gouvernement
+- **Politique de gouvernement local** — local government policy · [medtop:20001265](http://cv.iptc.org/newscodes/mediatopic/20001265) · parents : Politique du gouvernement
+- **Débat politique** — political debates · [medtop:20001266](http://cv.iptc.org/newscodes/mediatopic/20001266) · parents : Élections
+- **Midsommar** — Midsummer · [medtop:20001267](http://cv.iptc.org/newscodes/mediatopic/20001267) · parents : Jour férié
+- **Fête nationale** — National day · [medtop:20001268](http://cv.iptc.org/newscodes/mediatopic/20001268) · parents : Jour férié
+- **Nouvel an** — New year · [medtop:20001269](http://cv.iptc.org/newscodes/mediatopic/20001269) · parents : Jour férié
+- **Halloween** — Halloween · [medtop:20001270](http://cv.iptc.org/newscodes/mediatopic/20001270) · parents : Vacances
+- **Toussaint** — All Saints Day · [medtop:20001271](http://cv.iptc.org/newscodes/mediatopic/20001271) · parents : Fête religieuse
+- **Nuit de Walpurgis** — Walpurgis night · [medtop:20001272](http://cv.iptc.org/newscodes/mediatopic/20001272) · parents : Fête religieuse
+- **Baptême** — baptism · [medtop:20001273](http://cv.iptc.org/newscodes/mediatopic/20001273) · parents : Rites religieux
+- **Contraception** — contraception · [medtop:20001274](http://cv.iptc.org/newscodes/mediatopic/20001274) · parents : Contrôle des naissances
+- **Gig economy** — gig economy · [medtop:20001275](http://cv.iptc.org/newscodes/mediatopic/20001275) · parents : Marché du travail
+- **Congé parental** — parental leave · [medtop:20001276](http://cv.iptc.org/newscodes/mediatopic/20001276) · parents : Emploi
+- **Bénévolat** — volunteering · [medtop:20001277](http://cv.iptc.org/newscodes/mediatopic/20001277) · parents : Emploi
+- **Coopérative** — cooperative · [medtop:20001278](http://cv.iptc.org/newscodes/mediatopic/20001278) · parents : Entreprises
+- **Cryptomonnaie** — cryptocurrency · [medtop:20001279](http://cv.iptc.org/newscodes/mediatopic/20001279) · parents : Cours des devises
+- **Ouragan** — hurricane · [medtop:20001280](http://cv.iptc.org/newscodes/mediatopic/20001280) · parents : Désastre météorologique
+- **Ringuette** — ringette · [medtop:20001282](http://cv.iptc.org/newscodes/mediatopic/20001282) · parents : Discipline
+- **Trafic d'êtres humains** — human smuggling and trafficking · [medtop:20001283](http://cv.iptc.org/newscodes/mediatopic/20001283) · parents : Criminalité
+- **Harcèlement** — bullying · [medtop:20001284](http://cv.iptc.org/newscodes/mediatopic/20001284) · parents : Problèmes sociaux
+- **Vandalisme** — vandalism · [medtop:20001285](http://cv.iptc.org/newscodes/mediatopic/20001285) · parents : Criminalité
+- **Bras de fer** — arm wrestling · [medtop:20001286](http://cv.iptc.org/newscodes/mediatopic/20001286) · parents : Discipline
+- **Cour suprême et Haute Cour** — supreme and high court · [medtop:20001287](http://cv.iptc.org/newscodes/mediatopic/20001287) · parents : Tribunal
+- **Autochtones** — indigenous people · [medtop:20001288](http://cv.iptc.org/newscodes/mediatopic/20001288) · parents : L'humanité
+- **Canaux de distribution** — sales channel · [medtop:20001289](http://cv.iptc.org/newscodes/mediatopic/20001289) · parents : Secteurs économiques
+- **Logement social** — public housing · [medtop:20001290](http://cv.iptc.org/newscodes/mediatopic/20001290) · parents : Protection sociale
+- **Chauffage et climatisation** — heating and cooling · [medtop:20001291](http://cv.iptc.org/newscodes/mediatopic/20001291) · parents : Services des collectivités (eau, gaz, électricité)
+- **Aide publique** — economic development incentive · [medtop:20001292](http://cv.iptc.org/newscodes/mediatopic/20001292) · parents : Politique économique
+- **Service de streaming** — streaming service · [medtop:20001293](http://cv.iptc.org/newscodes/mediatopic/20001293) · parents : Médias
+- **Financement participatif** — crowdfunding · [medtop:20001294](http://cv.iptc.org/newscodes/mediatopic/20001294) · parents : Financement et vente d'actions
+- **Externalisation** — outsourcing · [medtop:20001295](http://cv.iptc.org/newscodes/mediatopic/20001295) · parents : Stratégie et marketing
+- **Centre commercial** — shopping mall · [medtop:20001296](http://cv.iptc.org/newscodes/mediatopic/20001296) · parents : Vente au détail
+- **Zone commerciale** — shopping district and high street · [medtop:20001297](http://cv.iptc.org/newscodes/mediatopic/20001297) · parents : Vente au détail
+- **Intelligence artificielle** — artificial intelligence · [medtop:20001298](http://cv.iptc.org/newscodes/mediatopic/20001298) · parents : Technologie de l'information et Informatique
+- **Surveillance** — surveillance · [medtop:20001299](http://cv.iptc.org/newscodes/mediatopic/20001299) · parents : Forces de l'ordre
+- **Droit au respect de la vie privée** — privacy · [medtop:20001300](http://cv.iptc.org/newscodes/mediatopic/20001300) · parents : Droits fondamentaux
+- **Exploit sportif** — sport achievement · [medtop:20001301](http://cv.iptc.org/newscodes/mediatopic/20001301) · parents : Sport
+- **Record sportif** — sports record · [medtop:20001302](http://cv.iptc.org/newscodes/mediatopic/20001302) · parents : Exploit sportif
+- **Médaille sportive** — sports medal and trophy · [medtop:20001303](http://cv.iptc.org/newscodes/mediatopic/20001303) · parents : Exploit sportif
+- **Prix sportif** — sports honor · [medtop:20001304](http://cv.iptc.org/newscodes/mediatopic/20001304) · parents : Exploit sportif
+- **Padel-tennis** — padel · [medtop:20001305](http://cv.iptc.org/newscodes/mediatopic/20001305) · parents : Discipline
+- **Kiteboarding** — kiting · [medtop:20001306](http://cv.iptc.org/newscodes/mediatopic/20001306) · parents : Discipline
+- **Stand up paddle** — stand up paddleboarding (SUP) · [medtop:20001307](http://cv.iptc.org/newscodes/mediatopic/20001307) · parents : Discipline
+- **Krav maga** — krav maga · [medtop:20001308](http://cv.iptc.org/newscodes/mediatopic/20001308) · parents : Arts martiaux
+- **Cheerleading** — cheerleading · [medtop:20001309](http://cv.iptc.org/newscodes/mediatopic/20001309) · parents : Discipline
+- **Kick-boxing** — kickboxing · [medtop:20001310](http://cv.iptc.org/newscodes/mediatopic/20001310) · parents : Arts martiaux
+- **Sambo (art martial)** — sombo (martial art) · [medtop:20001311](http://cv.iptc.org/newscodes/mediatopic/20001311) · parents : Arts martiaux
+- **Dirigeants politiques** — political leadership · [medtop:20001312](http://cv.iptc.org/newscodes/mediatopic/20001312) · parents : Gouvernement
+- **Fusillade** — shootings · [medtop:20001313](http://cv.iptc.org/newscodes/mediatopic/20001313) · parents : Criminalité
+- **Maltraitance animale** — animal abuse · [medtop:20001314](http://cv.iptc.org/newscodes/mediatopic/20001314) · parents : Criminalité
+- **Parc zoologique** — zoo · [medtop:20001315](http://cv.iptc.org/newscodes/mediatopic/20001315) · parents : Lieu de loisirs
+- **Conflit frontalier** — border dispute · [medtop:20001316](http://cv.iptc.org/newscodes/mediatopic/20001316) · parents : Relations internationales
+- **Garde d'enfants** — child care · [medtop:20001317](http://cv.iptc.org/newscodes/mediatopic/20001317) · parents : Protection sociale
+- **Organisme nuisible** — pest and pest control · [medtop:20001318](http://cv.iptc.org/newscodes/mediatopic/20001318) · parents : Animaux
+- **Désinformation** — disinformation and misinformation · [medtop:20001319](http://cv.iptc.org/newscodes/mediatopic/20001319) · parents : Médias
+- **Torture** — torture · [medtop:20001320](http://cv.iptc.org/newscodes/mediatopic/20001320) · parents : Criminalité
+- **Noyade** — drowning · [medtop:20001321](http://cv.iptc.org/newscodes/mediatopic/20001321) · parents : Accident
+- **Empoisonnement** — poisoning · [medtop:20001322](http://cv.iptc.org/newscodes/mediatopic/20001322) · parents : Maladies et état de santé
+- **Entraînement sportif** — sports coaching · [medtop:20001323](http://cv.iptc.org/newscodes/mediatopic/20001323) · parents : Sport
+- **Dirigeants sportifs** — sports management and ownership · [medtop:20001324](http://cv.iptc.org/newscodes/mediatopic/20001324) · parents : Sport
+- **Arbitrage sportif** — sports officiating · [medtop:20001325](http://cv.iptc.org/newscodes/mediatopic/20001325) · parents : Sport
+- **Droits des femmes** — women's rights · [medtop:20001326](http://cv.iptc.org/newscodes/mediatopic/20001326) · parents : Droits fondamentaux
+- **Femmes** — women · [medtop:20001327](http://cv.iptc.org/newscodes/mediatopic/20001327) · parents : L'humanité
+- **Hommes** — men · [medtop:20001328](http://cv.iptc.org/newscodes/mediatopic/20001328) · parents : L'humanité
+- **Basket-ball 3x3** — 3x3 basketball · [medtop:20001329](http://cv.iptc.org/newscodes/mediatopic/20001329) · parents : Basket-ball
+- **Canoë-kayak - Slalom** — canoe slalom · [medtop:20001330](http://cv.iptc.org/newscodes/mediatopic/20001330) · parents : Canoë
+- **Canoë-kayak - Ligne** — canoe sprint · [medtop:20001331](http://cv.iptc.org/newscodes/mediatopic/20001331) · parents : Canoë
+- **BMX Freestyle** — bmx freestyle · [medtop:20001332](http://cv.iptc.org/newscodes/mediatopic/20001332) · parents : Cyclisme
+- **Cyclisme sur route** — road cycling · [medtop:20001333](http://cv.iptc.org/newscodes/mediatopic/20001333) · parents : Cyclisme
+- **Cyclisme sur piste** — track cycling · [medtop:20001334](http://cv.iptc.org/newscodes/mediatopic/20001334) · parents : Discipline
+- **Foot à 5** — football 5-a-side · [medtop:20001335](http://cv.iptc.org/newscodes/mediatopic/20001335) · parents : Football
+- **Goalball** — goalball · [medtop:20001336](http://cv.iptc.org/newscodes/mediatopic/20001336) · parents : Discipline
+- **Enseignement à distance** — online and remote learning · [medtop:20001337](http://cv.iptc.org/newscodes/mediatopic/20001337) · parents : Éducation
+- **Politique de l'éducation** — education policy · [medtop:20001338](http://cv.iptc.org/newscodes/mediatopic/20001338) · parents : Politique du gouvernement
+- **Bien-être** — wellness · [medtop:20001339](http://cv.iptc.org/newscodes/mediatopic/20001339) · parents : Vie quotidienne et loisirs
+- **Bien-être mental** — mental wellbeing · [medtop:20001340](http://cv.iptc.org/newscodes/mediatopic/20001340) · parents : Bien-être
+- **Saison sportive** — regular competition · [medtop:20001341](http://cv.iptc.org/newscodes/mediatopic/20001341) · parents : Évènement sportif
+- **Série éliminatoire** — playoff championship · [medtop:20001342](http://cv.iptc.org/newscodes/mediatopic/20001342) · parents : Évènement sportif
+- **Finale** — final game · [medtop:20001343](http://cv.iptc.org/newscodes/mediatopic/20001343) · parents : Évènement sportif
+- **Catholicisme** — Catholicism · [medtop:20001344](http://cv.iptc.org/newscodes/mediatopic/20001344) · parents : Christianisme
+- **Bar Mitzvah et Bat Mitzvah** — bar and bat mitzvah · [medtop:20001345](http://cv.iptc.org/newscodes/mediatopic/20001345) · parents : Rites religieux
+- **Canonisation** — canonization · [medtop:20001346](http://cv.iptc.org/newscodes/mediatopic/20001346) · parents : Rites religieux
+- **Chiisme** — Shia Islam · [medtop:20001347](http://cv.iptc.org/newscodes/mediatopic/20001347) · parents : Islam
+- **Sunnisme** — Sunni Islam · [medtop:20001348](http://cv.iptc.org/newscodes/mediatopic/20001348) · parents : Islam
+- **Athéisme et agnosticisme** — atheism and agnosticism · [medtop:20001349](http://cv.iptc.org/newscodes/mediatopic/20001349) · parents : Croyances
+- **Aïd al-Adha** — Eid al-Adha · [medtop:20001350](http://cv.iptc.org/newscodes/mediatopic/20001350) · parents : Fête religieuse
+- **Hassidisme** — Hasidism · [medtop:20001351](http://cv.iptc.org/newscodes/mediatopic/20001351) · parents : Judaïsme
+- **Hanouka** — Hanukkah · [medtop:20001352](http://cv.iptc.org/newscodes/mediatopic/20001352) · parents : Fête religieuse
+- **Tsunami** — tsunami · [medtop:20001353](http://cv.iptc.org/newscodes/mediatopic/20001353) · parents : Catastrophe naturelle
+- **Industrie des soins de santé** — healthcare industry · [medtop:20001354](http://cv.iptc.org/newscodes/mediatopic/20001354) · parents : Secteurs économiques
+- **Trouble du développement** — developmental disorder · [medtop:20001355](http://cv.iptc.org/newscodes/mediatopic/20001355) · parents : Maladies et état de santé
+- **Dépression** — depression · [medtop:20001356](http://cv.iptc.org/newscodes/mediatopic/20001356) · parents : Troubles mentaux et comportementaux
+- **Anxiété et stress** — anxiety and stress · [medtop:20001357](http://cv.iptc.org/newscodes/mediatopic/20001357) · parents : Troubles mentaux et comportementaux
+- **Santé publique** — public health · [medtop:20001358](http://cv.iptc.org/newscodes/mediatopic/20001358) · parents : Santé
+- **Grossesse et accouchement** — pregnancy and childbirth · [medtop:20001359](http://cv.iptc.org/newscodes/mediatopic/20001359) · parents : Famille
+- **fraternal and community group** — fraternal and community group · [medtop:20001360](http://cv.iptc.org/newscodes/mediatopic/20001360) · parents : Communauté
+- **cyber warfare** — cyber warfare · [medtop:20001361](http://cv.iptc.org/newscodes/mediatopic/20001361) · parents : Conflit, guerre et paix
+- **public transport** — public transport · [medtop:20001362](http://cv.iptc.org/newscodes/mediatopic/20001362) · parents : Transports
+- **taxi and ride-hailing** — taxi and ride-hailing · [medtop:20001363](http://cv.iptc.org/newscodes/mediatopic/20001363) · parents : Transports
+- **shared transport** — shared transport · [medtop:20001364](http://cv.iptc.org/newscodes/mediatopic/20001364) · parents : Transports
+- **business reporting and performance** — business reporting and performance · [medtop:20001365](http://cv.iptc.org/newscodes/mediatopic/20001365) · parents : Microéconomie
+- **business restructuring** — business restructuring · [medtop:20001366](http://cv.iptc.org/newscodes/mediatopic/20001366) · parents : Microéconomie
+- **commercial real estate:** — commercial real estate: · [medtop:20001367](http://cv.iptc.org/newscodes/mediatopic/20001367) · parents : Construction et immobilier
+- **residential real estate** — residential real estate · [medtop:20001368](http://cv.iptc.org/newscodes/mediatopic/20001368) · parents : Construction et immobilier
+- **podcast** — podcast · [medtop:20001369](http://cv.iptc.org/newscodes/mediatopic/20001369) · parents : Médias
+- **financial service** — financial service · [medtop:20001370](http://cv.iptc.org/newscodes/mediatopic/20001370) · parents : Secteurs économiques
+- **business service** — business service · [medtop:20001371](http://cv.iptc.org/newscodes/mediatopic/20001371) · parents : Secteurs économiques
+- **news industry** — news industry · [medtop:20001372](http://cv.iptc.org/newscodes/mediatopic/20001372) · parents : Médias
+- **diversity, equity and inclusion** — diversity, equity and inclusion · [medtop:20001373](http://cv.iptc.org/newscodes/mediatopic/20001373) · parents : Société
+- **sustainability** — sustainability · [medtop:20001374](http://cv.iptc.org/newscodes/mediatopic/20001374) · parents : Environnement
+- **profit sharing** — profit sharing · [medtop:20001375](http://cv.iptc.org/newscodes/mediatopic/20001375) · parents : Salaires et pensions ou Salaires et allocations
+- **corporate bond** — corporate bond · [medtop:20001376](http://cv.iptc.org/newscodes/mediatopic/20001376) · parents : Financement et vente d'actions
+- **war victims** — war victims · [medtop:20001377](http://cv.iptc.org/newscodes/mediatopic/20001377) · parents : Conflit, guerre et paix
+- **breaking (breakdance)** — breaking (breakdance) · [medtop:20001379](http://cv.iptc.org/newscodes/mediatopic/20001379) · parents : Danse sportive
+- **special election** — special election · [medtop:20001380](http://cv.iptc.org/newscodes/mediatopic/20001380) · parents : Élections
+- **recall election** — recall election · [medtop:20001381](http://cv.iptc.org/newscodes/mediatopic/20001381) · parents : Élections
+- **coalition building** — coalition building · [medtop:20001382](http://cv.iptc.org/newscodes/mediatopic/20001382) · parents : Élections
+- **zoning policy** — zoning policy · [medtop:20001383](http://cv.iptc.org/newscodes/mediatopic/20001383) · parents : Politique du gouvernement
+- **political party** — political party · [medtop:20001384](http://cv.iptc.org/newscodes/mediatopic/20001384) · parents : Gouvernement
+- **political movement and association** — political movement and association · [medtop:20001385](http://cv.iptc.org/newscodes/mediatopic/20001385) · parents : Gouvernement
+- **communism** — communism · [medtop:20001386](http://cv.iptc.org/newscodes/mediatopic/20001386) · parents : Système politique
+- **democratic socialism** — democratic socialism · [medtop:20001387](http://cv.iptc.org/newscodes/mediatopic/20001387) · parents : Système politique
+- **theocracy** — theocracy · [medtop:20001388](http://cv.iptc.org/newscodes/mediatopic/20001388) · parents : Système politique
+- **absolute monarchy** — absolute monarchy · [medtop:20001389](http://cv.iptc.org/newscodes/mediatopic/20001389) · parents : Système politique
+- **ski mountaineering** — ski mountaineering · [medtop:20001390](http://cv.iptc.org/newscodes/mediatopic/20001390) · parents : Ski
+- **vegetarianism and veganism** — vegetarianism and veganism · [medtop:20001391](http://cv.iptc.org/newscodes/mediatopic/20001391) · parents : Mode de vie
+- **park and playground** — park and playground · [medtop:20001392](http://cv.iptc.org/newscodes/mediatopic/20001392) · parents : Lieu de loisirs
+- **futsal** — futsal · [medtop:20001393](http://cv.iptc.org/newscodes/mediatopic/20001393) · parents : Football
+- **beach soccer** — beach soccer · [medtop:20001394](http://cv.iptc.org/newscodes/mediatopic/20001394) · parents : Football
+- **pesticide and herbicide** — pesticide and herbicide · [medtop:20001395](http://cv.iptc.org/newscodes/mediatopic/20001395) · parents : Chimie
+- **physical security** —  · [medtop:20001396](http://cv.iptc.org/newscodes/mediatopic/20001396) · parents : business service
+- **para sport** — para sport · [medtop:20001397](http://cv.iptc.org/newscodes/mediatopic/20001397) · parents : Discipline
+## Termes retirés — historique
+
+- **Théâtre musical** — music theater · [medtop:20000030](http://cv.iptc.org/newscodes/mediatopic/20000030) · parents : Théâtre
+- **Crime de guerre** — war crime action · [medtop:20000064](http://cv.iptc.org/newscodes/mediatopic/20000064) · parents : Guerre
+- **Greffe** — court administration · [medtop:20000109](http://cv.iptc.org/newscodes/mediatopic/20000109) · parents : Tribunal
+- **Accusé** — defendant · [medtop:20000113](http://cv.iptc.org/newscodes/mediatopic/20000113) · parents : Procès
+- **Témoin** — witness · [medtop:20000115](http://cv.iptc.org/newscodes/mediatopic/20000115) · parents : Procès
+- **Droits juridiques** — justice · [medtop:20000119](http://cv.iptc.org/newscodes/mediatopic/20000119) · parents : Criminalité, droit et justice
+- **Situation d'urgence** — emergency incident · [medtop:20000160](http://cv.iptc.org/newscodes/mediatopic/20000160) · parents : Désastres et accidents
+- **Incident de transport** — transport incident · [medtop:20000162](http://cv.iptc.org/newscodes/mediatopic/20000162) · parents : Situation d'urgence
+- **Incident aérien** — air and space incident · [medtop:20000163](http://cv.iptc.org/newscodes/mediatopic/20000163) · parents : Incident de transport
+- **Incident maritime** — maritime incident · [medtop:20000164](http://cv.iptc.org/newscodes/mediatopic/20000164) · parents : Incident de transport
+- **Incident ferroviaire** — railway incident · [medtop:20000165](http://cv.iptc.org/newscodes/mediatopic/20000165) · parents : Incident de transport
+- **Incident routier** — road incident · [medtop:20000166](http://cv.iptc.org/newscodes/mediatopic/20000166) · parents : Incident de transport
+- **Prévention et organisation des secours** — emergency planning · [medtop:20000167](http://cv.iptc.org/newscodes/mediatopic/20000167) · parents : Désastres et accidents
+- **Vie des entreprises** — business finance · [medtop:20000171](http://cv.iptc.org/newscodes/mediatopic/20000171) · parents : Microéconomie
+- **Comptabilité et audit** — accounting and audit · [medtop:20000172](http://cv.iptc.org/newscodes/mediatopic/20000172) · parents : business reporting and performance
+- **Commentaires d'analystes** — analysts comment · [medtop:20000173](http://cv.iptc.org/newscodes/mediatopic/20000173) · parents : Vie des entreprises
+- **Prévisions de résultats** — earnings forecast · [medtop:20000179](http://cv.iptc.org/newscodes/mediatopic/20000179) · parents : business reporting and performance
+- **Restructuration et recapitalisation** — restructuring and recapitalization · [medtop:20000184](http://cv.iptc.org/newscodes/mediatopic/20000184) · parents : Financement et vente d'actions
+- **Options sur titres** — stock option · [medtop:20000191](http://cv.iptc.org/newscodes/mediatopic/20000191) · parents : Bourse
+- **Accords de licence** — licensing agreement · [medtop:20000202](http://cv.iptc.org/newscodes/mediatopic/20000202) · parents : Stratégie et marketing
+- **Aquaculture** — aquaculture · [medtop:20000211](http://cv.iptc.org/newscodes/mediatopic/20000211) · parents : Agriculture
+- **Cultures** — arable farming · [medtop:20000212](http://cv.iptc.org/newscodes/mediatopic/20000212) · parents : Agriculture
+- **Élevage** — livestock farming · [medtop:20000215](http://cv.iptc.org/newscodes/mediatopic/20000215) · parents : Agriculture
+- **Viticulture** — viniculture · [medtop:20000216](http://cv.iptc.org/newscodes/mediatopic/20000216) · parents : Agriculture
+- **Engrais** — fertilizer · [medtop:20000219](http://cv.iptc.org/newscodes/mediatopic/20000219) · parents : Chimie
+- **Hygiène et Cosmétiques** — health and beauty product · [medtop:20000220](http://cv.iptc.org/newscodes/mediatopic/20000220) · parents : Chimie
+- **Chimie inorganique** — inorganic chemical · [medtop:20000221](http://cv.iptc.org/newscodes/mediatopic/20000221) · parents : Chimie
+- **Chimie organique** — organic chemical · [medtop:20000222](http://cv.iptc.org/newscodes/mediatopic/20000222) · parents : Chimie
+- **Réseaux de communication** — computer networking · [medtop:20000227](http://cv.iptc.org/newscodes/mediatopic/20000227) · parents : Informatique et télécommunications
+- **Sécurité informatique** — computer security · [medtop:20000229](http://cv.iptc.org/newscodes/mediatopic/20000229) · parents : Informatique et télécommunications
+- **Équipement de télécommunication** — telecommunication equipment · [medtop:20000232](http://cv.iptc.org/newscodes/mediatopic/20000232) · parents : Informatique et télécommunications
+- **Architecture et ingénierie industrielles** — design and engineering · [medtop:20000236](http://cv.iptc.org/newscodes/mediatopic/20000236) · parents : Construction et immobilier
+- **Terres agricoles** — farms · [medtop:20000237](http://cv.iptc.org/newscodes/mediatopic/20000237) · parents : Construction et immobilier
+- **Travaux publics** — heavy construction · [medtop:20000238](http://cv.iptc.org/newscodes/mediatopic/20000238) · parents : Construction et immobilier
+- **Bâtiment** — house building · [medtop:20000239](http://cv.iptc.org/newscodes/mediatopic/20000239) · parents : Construction et immobilier
+- **Prix foncier** — land price · [medtop:20000240](http://cv.iptc.org/newscodes/mediatopic/20000240) · parents : Construction et immobilier
+- **Immobilier** — real estate · [medtop:20000241](http://cv.iptc.org/newscodes/mediatopic/20000241) · parents : Construction et immobilier
+- **Boissons** — beverage · [medtop:20000244](http://cv.iptc.org/newscodes/mediatopic/20000244) · parents : Distribution
+- **Distribution alimentaire** — grocery · [medtop:20000248](http://cv.iptc.org/newscodes/mediatopic/20000248) · parents : Distribution
+- **Vente par correspondance** — mail order · [medtop:20000250](http://cv.iptc.org/newscodes/mediatopic/20000250) · parents : Vente au détail
+- **Biens de consommation courante** — non-durable good · [medtop:20000251](http://cv.iptc.org/newscodes/mediatopic/20000251) · parents : Distribution
+- **Énergie** — energy industry · [medtop:20000261](http://cv.iptc.org/newscodes/mediatopic/20000261) · parents : Énergie et ressources
+- **Kérosène** — kerosene/paraffin · [medtop:20000262](http://cv.iptc.org/newscodes/mediatopic/20000262) · parents : Industrie du gaz et du pétrole
+- **Distribution de pétrole et gaz** — oil and gas - downstream activities · [medtop:20000266](http://cv.iptc.org/newscodes/mediatopic/20000266) · parents : Énergie et ressources
+- **Production de pétrole et gaz** — oil and gas - upstream activities · [medtop:20000267](http://cv.iptc.org/newscodes/mediatopic/20000267) · parents : Énergie et ressources
+- **Services** — financial and business service · [medtop:20000271](http://cv.iptc.org/newscodes/mediatopic/20000271) · parents : Secteurs économiques
+- **Pompes funèbres** — funeral home and crematorium · [medtop:20000277](http://cv.iptc.org/newscodes/mediatopic/20000277) · parents : Services
+- **Société de nettoyage** — janitorial service · [medtop:20000281](http://cv.iptc.org/newscodes/mediatopic/20000281) · parents : business service
+- **Épargne personnelle** — personal finance · [medtop:20000285](http://cv.iptc.org/newscodes/mediatopic/20000285) · parents : Services
+- **Revenus personnels** — personal income · [medtop:20000286](http://cv.iptc.org/newscodes/mediatopic/20000286) · parents : Services
+- **Soins de beauté** — personal service · [medtop:20000288](http://cv.iptc.org/newscodes/mediatopic/20000288) · parents : business service
+- **Imprimerie et reprographie** — printing service · [medtop:20000289](http://cv.iptc.org/newscodes/mediatopic/20000289) · parents : Services
+- **Services matrimoniaux** — wedding service · [medtop:20000293](http://cv.iptc.org/newscodes/mediatopic/20000293) · parents : business service
+- **Composants industriels** — industrial component · [medtop:20000300](http://cv.iptc.org/newscodes/mediatopic/20000300) · parents : Industrie manufacturière
+- **Construction d'instruments** — instrument engineering · [medtop:20000301](http://cv.iptc.org/newscodes/mediatopic/20000301) · parents : Industrie manufacturière
+- **Agence de presse** — news agency · [medtop:20000309](http://cv.iptc.org/newscodes/mediatopic/20000309) · parents : Médias
+- **Journaux et périodiques** — newspaper and magazine · [medtop:20000310](http://cv.iptc.org/newscodes/mediatopic/20000310) · parents : Médias
+- **Presse en ligne** — online media industry · [medtop:20000311](http://cv.iptc.org/newscodes/mediatopic/20000311) · parents : Médias
+- **Sidérurgie** — iron and steel · [medtop:20000319](http://cv.iptc.org/newscodes/mediatopic/20000319) · parents : Métaux et minéraux
+- **Mines** — mining · [medtop:20000320](http://cv.iptc.org/newscodes/mediatopic/20000320) · parents : Métaux et minéraux
+- **Métaux non-ferreux** — non-ferrous metal · [medtop:20000321](http://cv.iptc.org/newscodes/mediatopic/20000321) · parents : Métaux et minéraux
+- **Industrie de transformation** — process industry · [medtop:20000322](http://cv.iptc.org/newscodes/mediatopic/20000322) · parents : Secteurs économiques
+- **Brasseries et distilleries** — distiller and brewer · [medtop:20000323](http://cv.iptc.org/newscodes/mediatopic/20000323) · parents : Industrie de transformation
+- **Papier et emballage** — paper and packaging product · [medtop:20000326](http://cv.iptc.org/newscodes/mediatopic/20000326) · parents : Industrie de transformation
+- **Caoutchouc** — rubber product · [medtop:20000327](http://cv.iptc.org/newscodes/mediatopic/20000327) · parents : Industrie de transformation
+- **Boissons non-alcoolisées** — soft drinks · [medtop:20000328](http://cv.iptc.org/newscodes/mediatopic/20000328) · parents : Industrie de transformation
+- **Textile** — textile and clothing · [medtop:20000329](http://cv.iptc.org/newscodes/mediatopic/20000329) · parents : Industrie de transformation
+- **Information routière** — traffic · [medtop:20000342](http://cv.iptc.org/newscodes/mediatopic/20000342) · parents : Transports
+- **Obligations** — bonds · [medtop:20000347](http://cv.iptc.org/newscodes/mediatopic/20000347) · parents : Macro-économie
+- **Budget** — budgets and budgeting · [medtop:20000348](http://cv.iptc.org/newscodes/mediatopic/20000348) · parents : Macro-économie
+- **Consommation** — consumers · [medtop:20000351](http://cv.iptc.org/newscodes/mediatopic/20000351) · parents : Macro-économie
+- **Questions de consommation** — consumer issue · [medtop:20000353](http://cv.iptc.org/newscodes/mediatopic/20000353) · parents : Consommation
+- **Crédit et endettement** — credit and debt · [medtop:20000354](http://cv.iptc.org/newscodes/mediatopic/20000354) · parents : Macro-économie
+- **Indicateur économique** — economic indicator · [medtop:20000358](http://cv.iptc.org/newscodes/mediatopic/20000358) · parents : Macro-économie
+- **Aide publique** — government aid · [medtop:20000367](http://cv.iptc.org/newscodes/mediatopic/20000367) · parents : Macro-économie
+- **Investissements** — investments · [medtop:20000378](http://cv.iptc.org/newscodes/mediatopic/20000378) · parents : Macro-économie
+- **Prix** — prices · [medtop:20000382](http://cv.iptc.org/newscodes/mediatopic/20000382) · parents : Macro-économie
+- **Marchés agricoles** — soft commodities market · [medtop:20000389](http://cv.iptc.org/newscodes/mediatopic/20000389) · parents : Marché des matières premières
+- **Bourse** — securities · [medtop:20000394](http://cv.iptc.org/newscodes/mediatopic/20000394) · parents : Financement et vente d'actions
+- **Enseignement post-scolaire** — further education · [medtop:20000402](http://cv.iptc.org/newscodes/mediatopic/20000402) · parents : Écoles, collèges, lycées
+- **Lycées professionnels** — college · [medtop:20000406](http://cv.iptc.org/newscodes/mediatopic/20000406) · parents : Éducation supérieure
+- **Université** — university · [medtop:20000407](http://cv.iptc.org/newscodes/mediatopic/20000407) · parents : Éducation supérieure
+- **Pédagogie** — teaching and learning · [medtop:20000411](http://cv.iptc.org/newscodes/mediatopic/20000411) · parents : Éducation
+- **Réchauffement climatique** — global warming · [medtop:20000419](http://cv.iptc.org/newscodes/mediatopic/20000419) · parents : Changement climatique
+- **Économies d'énergie** — energy saving · [medtop:20000421](http://cv.iptc.org/newscodes/mediatopic/20000421) · parents : Protection de la nature
+- **Énergie** — energy resources · [medtop:20000431](http://cv.iptc.org/newscodes/mediatopic/20000431) · parents : Ressources naturelles
+- **Réserve naturelle** — land resources · [medtop:20000432](http://cv.iptc.org/newscodes/mediatopic/20000432) · parents : Ressources naturelles
+- **Croissance de la population** — population growth · [medtop:20000435](http://cv.iptc.org/newscodes/mediatopic/20000435) · parents : Ressources naturelles
+- **Énergies renouvelables** — renewable energy · [medtop:20000436](http://cv.iptc.org/newscodes/mediatopic/20000436) · parents : Ressources naturelles
+- **Distribution de l'eau** — water · [medtop:20000437](http://cv.iptc.org/newscodes/mediatopic/20000437) · parents : Ressources naturelles
+- **Peste** — plague (disease) · [medtop:20000450](http://cv.iptc.org/newscodes/mediatopic/20000450) · parents : Épidémie
+- **Retrovirus** — retrovirus · [medtop:20000453](http://cv.iptc.org/newscodes/mediatopic/20000453) · parents : Maladie virale
+- **Maladie** — illness · [medtop:20000455](http://cv.iptc.org/newscodes/mediatopic/20000455) · parents : Maladies et état de santé
+- **État physique** — physical fitness · [medtop:20000475](http://cv.iptc.org/newscodes/mediatopic/20000475) · parents : Traitements
+- **Médecine préventive** — preventative medicine · [medtop:20000476](http://cv.iptc.org/newscodes/mediatopic/20000476) · parents : Traitements
+- **Medicaid** — Medicaid · [medtop:20000481](http://cv.iptc.org/newscodes/mediatopic/20000481) · parents : Soins de santé publics
+- **Medicare** — Medicare · [medtop:20000482](http://cv.iptc.org/newscodes/mediatopic/20000482) · parents : Soins de santé publics
+- **Gériatrie** — geriatric medicine · [medtop:20000488](http://cv.iptc.org/newscodes/mediatopic/20000488) · parents : Spécialisations médicales
+- **Gynécologie** — obstetrics/gynecology · [medtop:20000489](http://cv.iptc.org/newscodes/mediatopic/20000489) · parents : Spécialisations médicales
+- **Médecine de la reproduction** — reproductive medicine · [medtop:20000491](http://cv.iptc.org/newscodes/mediatopic/20000491) · parents : Spécialisations médicales
+- **Maladies non-humaines** — non-human diseases · [medtop:20000493](http://cv.iptc.org/newscodes/mediatopic/20000493) · parents : Santé
+- **Succès** — accomplishment · [medtop:20000497](http://cv.iptc.org/newscodes/mediatopic/20000497) · parents : Gens animaux insolite
+- **Gens** — people · [medtop:20000502](http://cv.iptc.org/newscodes/mediatopic/20000502) · parents : Gens animaux insolite
+- **Formation continue** — advanced training · [medtop:20000515](http://cv.iptc.org/newscodes/mediatopic/20000515) · parents : Formation à l'emploi
+- **Reconversion** — retraining · [medtop:20000516](http://cv.iptc.org/newscodes/mediatopic/20000516) · parents : Formation à l'emploi
+- **Profession** — occupations · [medtop:20000517](http://cv.iptc.org/newscodes/mediatopic/20000517) · parents : Emploi
+- **Avantages sociaux** — employee benefits · [medtop:20000519](http://cv.iptc.org/newscodes/mediatopic/20000519) · parents : Salaires et pensions ou Salaires et allocations
+- **Conditions de travail** — contract issue-healthcare · [medtop:20000526](http://cv.iptc.org/newscodes/mediatopic/20000526) · parents : Convention collective
+- **Accords salariaux** — contract issue-wages · [medtop:20000527](http://cv.iptc.org/newscodes/mediatopic/20000527) · parents : Convention collective
+- **Règlement intérieur d'entreprises** — contract issue-work rules · [medtop:20000528](http://cv.iptc.org/newscodes/mediatopic/20000528) · parents : Convention collective
+- **Plan social** — job layoffs · [medtop:20000534](http://cv.iptc.org/newscodes/mediatopic/20000534) · parents : Chômage
+- **Complexe sportif** — sports facilities · [medtop:20000559](http://cv.iptc.org/newscodes/mediatopic/20000559) · parents : Lieu de loisirs
+- **Tourisme** — tourism · [medtop:20000564](http://cv.iptc.org/newscodes/mediatopic/20000564) · parents : Voyages
+- **Campagne électorale** — political campaigns · [medtop:20000580](http://cv.iptc.org/newscodes/mediatopic/20000580) · parents : Élections
+- **Service public** — civil and public service · [medtop:20000594](http://cv.iptc.org/newscodes/mediatopic/20000594) · parents : Gouvernement
+- **Équipement militaire** — military equipment · [medtop:20000601](http://cv.iptc.org/newscodes/mediatopic/20000601) · parents : Défense
+- **Mesures de sécurité** — security measures (defense) · [medtop:20000603](http://cv.iptc.org/newscodes/mediatopic/20000603) · parents : Défense
+- **Sécurité nationale** — national security · [medtop:20000604](http://cv.iptc.org/newscodes/mediatopic/20000604) · parents : Mesures de sécurité
+- **Finances publiques** — public finance · [medtop:20000608](http://cv.iptc.org/newscodes/mediatopic/20000608) · parents : Budget du gouvernement
+- **Ministère** — government department · [medtop:20000609](http://cv.iptc.org/newscodes/mediatopic/20000609) · parents : Gouvernement
+- **Sécurité publique** — safety of citizens · [medtop:20000619](http://cv.iptc.org/newscodes/mediatopic/20000619) · parents : Politique du gouvernement
+- **Politique Intérieure** — interior policy · [medtop:20000626](http://cv.iptc.org/newscodes/mediatopic/20000626) · parents : Politique du gouvernement
+- **Données personnelles** — personal data collection policy · [medtop:20000631](http://cv.iptc.org/newscodes/mediatopic/20000631) · parents : Politique du gouvernement
+- **Enquête d'utilité publique** — planning inquiries · [medtop:20000633](http://cv.iptc.org/newscodes/mediatopic/20000633) · parents : Politique du gouvernement
+- **Crise politique** — political crisis · [medtop:20000647](http://cv.iptc.org/newscodes/mediatopic/20000647) · parents : Politique
+- **Participation politique** — political process · [medtop:20000649](http://cv.iptc.org/newscodes/mediatopic/20000649) · parents : Politique
+- **Partis politiques** — political parties and movements · [medtop:20000651](http://cv.iptc.org/newscodes/mediatopic/20000651) · parents : Gouvernement
+- **Histoire politique** — political development · [medtop:20000652](http://cv.iptc.org/newscodes/mediatopic/20000652) · parents : Gouvernement
+- **Oecuménisme** — ecumenism · [medtop:20000660](http://cv.iptc.org/newscodes/mediatopic/20000660) · parents : Christianisme
+- **Vieux Catholique** — Old Catholic · [medtop:20000662](http://cv.iptc.org/newscodes/mediatopic/20000662) · parents : Christianisme
+- **Anglicanisme** — Anglican · [medtop:20000665](http://cv.iptc.org/newscodes/mediatopic/20000665) · parents : Protestantisme
+- **Église Baptiste** — Baptist · [medtop:20000666](http://cv.iptc.org/newscodes/mediatopic/20000666) · parents : Protestantisme
+- **Luthérianisme** — Lutheran · [medtop:20000667](http://cv.iptc.org/newscodes/mediatopic/20000667) · parents : Protestantisme
+- **Mennonisme** — Mennonite · [medtop:20000668](http://cv.iptc.org/newscodes/mediatopic/20000668) · parents : Protestantisme
+- **Méthodisme** — Methodist · [medtop:20000669](http://cv.iptc.org/newscodes/mediatopic/20000669) · parents : Protestantisme
+- **Calvinisme** — Reformed · [medtop:20000670](http://cv.iptc.org/newscodes/mediatopic/20000670) · parents : Protestantisme
+- **Catholicisme romain** — Roman Catholic · [medtop:20000671](http://cv.iptc.org/newscodes/mediatopic/20000671) · parents : Christianisme
+- **Concordat** — concordat · [medtop:20000672](http://cv.iptc.org/newscodes/mediatopic/20000672) · parents : Catholicisme romain
+- **Franc-maçonnerie** — Freemasonry · [medtop:20000675](http://cv.iptc.org/newscodes/mediatopic/20000675) · parents : Croyances
+- **Dialogue interreligieux** — interreligious dialog · [medtop:20000687](http://cv.iptc.org/newscodes/mediatopic/20000687) · parents : Religion et croyance
+- **Événement religieux** — religious event · [medtop:20000689](http://cv.iptc.org/newscodes/mediatopic/20000689) · parents : Religion et croyance
+- **Temple** — temple · [medtop:20000701](http://cv.iptc.org/newscodes/mediatopic/20000701) · parents : Établissement religieux
+- **Pharmacologie** — pharmacology · [medtop:20000713](http://cv.iptc.org/newscodes/mediatopic/20000713) · parents : Spécialisations médicales
+- **Victimes irradiées** — nuclear radiation victims · [medtop:20000796](http://cv.iptc.org/newscodes/mediatopic/20000796) · parents : L'humanité
+- **Corruption** — corrupt practices · [medtop:20000809](http://cv.iptc.org/newscodes/mediatopic/20000809) · parents : Valeurs
+- **Tir à l'arbalète** — crossbow shooting · [medtop:20000825](http://cv.iptc.org/newscodes/mediatopic/20000825) · parents : Tir à l'arc
+- **Arc long** — longbow · [medtop:20000826](http://cv.iptc.org/newscodes/mediatopic/20000826) · parents : Tir à l'arc
+- **Pentathlon** — pentathlon · [medtop:20000839](http://cv.iptc.org/newscodes/mediatopic/20000839) · parents : Athlétisme
+- **Rubberball baseball** — rubberball baseball · [medtop:20000850](http://cv.iptc.org/newscodes/mediatopic/20000850) · parents : Baseball
+- **Coq (boxe)** — bantamweight (boxing) · [medtop:20000857](http://cv.iptc.org/newscodes/mediatopic/20000857) · parents : Boxe
+- **Mi-lourds (boxe)** — cruiserweight (boxing) · [medtop:20000858](http://cv.iptc.org/newscodes/mediatopic/20000858) · parents : Boxe
+- **Poids-plume (boxe)** — featherweight (boxing) · [medtop:20000859](http://cv.iptc.org/newscodes/mediatopic/20000859) · parents : Boxe
+- **Mouches (boxe)** — flyweight (boxing) · [medtop:20000860](http://cv.iptc.org/newscodes/mediatopic/20000860) · parents : Boxe
+- **Lourds (boxe)** — heavyweight (boxing) · [medtop:20000861](http://cv.iptc.org/newscodes/mediatopic/20000861) · parents : Boxe
+- **Mi-mouches (boxe)** — light flyweight (boxing) · [medtop:20000862](http://cv.iptc.org/newscodes/mediatopic/20000862) · parents : Boxe
+- **Moyens (boxe)** — light-heavyweight (boxing) · [medtop:20000863](http://cv.iptc.org/newscodes/mediatopic/20000863) · parents : Boxe
+- **Super légers (boxe)** — light-middleweight (boxing) · [medtop:20000864](http://cv.iptc.org/newscodes/mediatopic/20000864) · parents : Boxe
+- **Super-plumes (boxe)** — light-welterweight (boxing) · [medtop:20000865](http://cv.iptc.org/newscodes/mediatopic/20000865) · parents : Boxe
+- **Plumes (boxe)** — lightweight (boxing) · [medtop:20000866](http://cv.iptc.org/newscodes/mediatopic/20000866) · parents : Boxe
+- **Mi-moyens (boxe)** — middleweight (boxing) · [medtop:20000867](http://cv.iptc.org/newscodes/mediatopic/20000867) · parents : Boxe
+- **Poids pailles (boxe)** — straw weight (boxing) · [medtop:20000868](http://cv.iptc.org/newscodes/mediatopic/20000868) · parents : Boxe
+- **Super coq (boxe)** — super-bantamweight (boxing) · [medtop:20000869](http://cv.iptc.org/newscodes/mediatopic/20000869) · parents : Boxe
+- **Super-poids plumes (boxe)** — super-featherweight (boxing) · [medtop:20000870](http://cv.iptc.org/newscodes/mediatopic/20000870) · parents : Boxe
+- **Super-mouches (boxe)** — super-flyweight (boxing) · [medtop:20000871](http://cv.iptc.org/newscodes/mediatopic/20000871) · parents : Boxe
+- **Super-lourds (boxe)** — super-heavyweight (boxing) · [medtop:20000872](http://cv.iptc.org/newscodes/mediatopic/20000872) · parents : Boxe
+- **Super mi-moyens (boxe)** — super-middleweight (boxing) · [medtop:20000873](http://cv.iptc.org/newscodes/mediatopic/20000873) · parents : Boxe
+- **Légers (boxe)** — welterweight (boxing) · [medtop:20000874](http://cv.iptc.org/newscodes/mediatopic/20000874) · parents : Boxe
+- **C1 (canoë)** — C1 (canoeing) · [medtop:20000878](http://cv.iptc.org/newscodes/mediatopic/20000878) · parents : Canoë
+- **C2 (canoë)** — C2 (canoeing) · [medtop:20000879](http://cv.iptc.org/newscodes/mediatopic/20000879) · parents : Canoë
+- **C4 (canoë)** — C4 (canoeing) · [medtop:20000880](http://cv.iptc.org/newscodes/mediatopic/20000880) · parents : Canoë
+- **Canoë à voile** — canoe sailing · [medtop:20000881](http://cv.iptc.org/newscodes/mediatopic/20000881) · parents : Canoë
+- **Pontoniering** — pontoniering · [medtop:20000882](http://cv.iptc.org/newscodes/mediatopic/20000882) · parents : Canoë
+- **Alpinisme et escalade** — mountain climbing · [medtop:20000884](http://cv.iptc.org/newscodes/mediatopic/20000884) · parents : Discipline
+- **Escalade glaciaire** — ice climbing · [medtop:20000885](http://cv.iptc.org/newscodes/mediatopic/20000885) · parents : Alpinisme et escalade
+- **Bicross** — bi-crossing · [medtop:20000894](http://cv.iptc.org/newscodes/mediatopic/20000894) · parents : Cyclisme
+- **Vitesse** — cycle sprint race · [medtop:20000897](http://cv.iptc.org/newscodes/mediatopic/20000897) · parents : Cyclisme
+- **Cyclo-cross** — cyclo-cross · [medtop:20000898](http://cv.iptc.org/newscodes/mediatopic/20000898) · parents : Cyclisme
+- **Poursuite individuelle** — individual pursuit (cycling) · [medtop:20000899](http://cv.iptc.org/newscodes/mediatopic/20000899) · parents : Cyclisme
+- **Contre-la-montre individuel** — individual time trial (cycling) · [medtop:20000900](http://cv.iptc.org/newscodes/mediatopic/20000900) · parents : Cyclisme
+- **Keirin** — Keirin · [medtop:20000901](http://cv.iptc.org/newscodes/mediatopic/20000901) · parents : Cyclisme
+- **Course à l'Américaine** — Madison race · [medtop:20000902](http://cv.iptc.org/newscodes/mediatopic/20000902) · parents : Cyclisme
+- **Course aux points** — points race (cycling) · [medtop:20000904](http://cv.iptc.org/newscodes/mediatopic/20000904) · parents : Cyclisme
+- **Course en ligne** — road cycling · [medtop:20000905](http://cv.iptc.org/newscodes/mediatopic/20000905) · parents : Cyclisme
+- **Course à étapes** — cycling staging race · [medtop:20000906](http://cv.iptc.org/newscodes/mediatopic/20000906) · parents : Cyclisme
+- **Vitesse par équipes** — team cycle sprint · [medtop:20000907](http://cv.iptc.org/newscodes/mediatopic/20000907) · parents : Cyclisme
+- **Poursuite par équipes** — road cycling team pursuit · [medtop:20000908](http://cv.iptc.org/newscodes/mediatopic/20000908) · parents : Cyclisme
+- **Contre-la-montre par équipes** — team time trial (cycling) · [medtop:20000909](http://cv.iptc.org/newscodes/mediatopic/20000909) · parents : Cyclisme
+- **Cyclisme sur piste** — track race (cycling) · [medtop:20000910](http://cv.iptc.org/newscodes/mediatopic/20000910) · parents : Cyclisme
+- **Subaquatique** — underwater sports · [medtop:20000918](http://cv.iptc.org/newscodes/mediatopic/20000918) · parents : Discipline
+- **Course de lévriers** — oval track dog racing · [medtop:20000920](http://cv.iptc.org/newscodes/mediatopic/20000920) · parents : Course de chiens
+- **Course de chiens de traîneaux** — dog sled racing · [medtop:20000921](http://cv.iptc.org/newscodes/mediatopic/20000921) · parents : Course de chiens
+- **Cross-country à cheval** — cross-country horse riding · [medtop:20000924](http://cv.iptc.org/newscodes/mediatopic/20000924) · parents : Équitation
+- **Dressage** — dressage · [medtop:20000925](http://cv.iptc.org/newscodes/mediatopic/20000925) · parents : Équitation
+- **Saut d'obstacles** — horse jumping · [medtop:20000926](http://cv.iptc.org/newscodes/mediatopic/20000926) · parents : Équitation
+- **Concours complet** — three day eventing · [medtop:20000927](http://cv.iptc.org/newscodes/mediatopic/20000927) · parents : Équitation
+- **Attelage** — horse driving · [medtop:20000928](http://cv.iptc.org/newscodes/mediatopic/20000928) · parents : Équitation
+- **Épée** — epee · [medtop:20000930](http://cv.iptc.org/newscodes/mediatopic/20000930) · parents : Escrime
+- **Fleuret** — foil · [medtop:20000931](http://cv.iptc.org/newscodes/mediatopic/20000931) · parents : Escrime
+- **Sabre** — sabre · [medtop:20000932](http://cv.iptc.org/newscodes/mediatopic/20000932) · parents : Escrime
+- **Danse sur glace** — ice dance · [medtop:20000935](http://cv.iptc.org/newscodes/mediatopic/20000935) · parents : Patinage artistique
+- **Ballon** — ball (rhythmic gymnastics) · [medtop:20000943](http://cv.iptc.org/newscodes/mediatopic/20000943) · parents : Gymnastique rythmique
+- **Poutre** — beam (artistic gymnastics) · [medtop:20000944](http://cv.iptc.org/newscodes/mediatopic/20000944) · parents : Gymnastique artistique
+- **Massues** — clubs (rhythmic gymnastics) · [medtop:20000945](http://cv.iptc.org/newscodes/mediatopic/20000945) · parents : Gymnastique rythmique
+- **Sol** — floor exercise (artistic gymnastics) · [medtop:20000946](http://cv.iptc.org/newscodes/mediatopic/20000946) · parents : Gymnastique artistique
+- **Cerceau** — hoop (rhythmic gymnastics) · [medtop:20000947](http://cv.iptc.org/newscodes/mediatopic/20000947) · parents : Gymnastique rythmique
+- **Barre fixe** — horizontal bar (artistic gymnastics) · [medtop:20000948](http://cv.iptc.org/newscodes/mediatopic/20000948) · parents : Gymnastique artistique
+- **Barres parallèles** — parallel bars (artistic gymnastics) · [medtop:20000949](http://cv.iptc.org/newscodes/mediatopic/20000949) · parents : Gymnastique artistique
+- **Cheval d'arçon** — pommel horse (artistic gymnastics) · [medtop:20000950](http://cv.iptc.org/newscodes/mediatopic/20000950) · parents : Gymnastique artistique
+- **Ruban** — ribbon (rhythmic gymnastics) · [medtop:20000952](http://cv.iptc.org/newscodes/mediatopic/20000952) · parents : Gymnastique rythmique
+- **Anneaux** — rings (artistic gymnastics) · [medtop:20000953](http://cv.iptc.org/newscodes/mediatopic/20000953) · parents : Gymnastique artistique
+- **Corde** — rope (rhythmic gymnastics) · [medtop:20000954](http://cv.iptc.org/newscodes/mediatopic/20000954) · parents : Gymnastique rythmique
+- **Barres asymétriques** — uneven bars (artistic gymnastics) · [medtop:20000956](http://cv.iptc.org/newscodes/mediatopic/20000956) · parents : Gymnastique artistique
+- **Saut de cheval** — vault (artistic gymnastics) · [medtop:20000957](http://cv.iptc.org/newscodes/mediatopic/20000957) · parents : Gymnastique artistique
+- **Hornuss** — hornuss · [medtop:20000959](http://cv.iptc.org/newscodes/mediatopic/20000959) · parents : Discipline
+- **Course de plat** — flat racing · [medtop:20000961](http://cv.iptc.org/newscodes/mediatopic/20000961) · parents : Hippisme
+- **Course sous harnais** — harness racing · [medtop:20000962](http://cv.iptc.org/newscodes/mediatopic/20000962) · parents : Hippisme
+- **Course d'obstacles** — steeple chase · [medtop:20000963](http://cv.iptc.org/newscodes/mediatopic/20000963) · parents : Hippisme
+- **Hurling** — hurling · [medtop:20000964](http://cv.iptc.org/newscodes/mediatopic/20000964) · parents : Discipline
+- **Hockey sur luge** — sledge hockey · [medtop:20000966](http://cv.iptc.org/newscodes/mediatopic/20000966) · parents : Hockey sur glace
+- **Roller** — inline skating · [medtop:20000967](http://cv.iptc.org/newscodes/mediatopic/20000967) · parents : Discipline
+- **Super-légers (judo)** — extra lightweight (judo) · [medtop:20000970](http://cv.iptc.org/newscodes/mediatopic/20000970) · parents : Judo
+- **Mi-lourds (judo)** — half-heavyweight (judo) · [medtop:20000971](http://cv.iptc.org/newscodes/mediatopic/20000971) · parents : Judo
+- **Mi-légers (judo)** — half-lightweight (judo) · [medtop:20000972](http://cv.iptc.org/newscodes/mediatopic/20000972) · parents : Judo
+- **Mi-moyens (judo)** — half-middleweight (judo) · [medtop:20000973](http://cv.iptc.org/newscodes/mediatopic/20000973) · parents : Judo
+- **Lourds (judo)** — heavyweight (judo) · [medtop:20000974](http://cv.iptc.org/newscodes/mediatopic/20000974) · parents : Judo
+- **Légers (judo)** — lightweight (judo) · [medtop:20000975](http://cv.iptc.org/newscodes/mediatopic/20000975) · parents : Judo
+- **Moyens (judo)** — middleweight (judo) · [medtop:20000976](http://cv.iptc.org/newscodes/mediatopic/20000976) · parents : Judo
+- **K1 (kayak)** — K1 (kayaking) · [medtop:20000980](http://cv.iptc.org/newscodes/mediatopic/20000980) · parents : Kayak
+- **K2 (kayak)** — K2 (kayaking) · [medtop:20000981](http://cv.iptc.org/newscodes/mediatopic/20000981) · parents : Kayak
+- **K4 (kayak)** — K4 (kayaking) · [medtop:20000982](http://cv.iptc.org/newscodes/mediatopic/20000982) · parents : Kayak
+- **Course d'endurance** — endurance race · [medtop:20000992](http://cv.iptc.org/newscodes/mediatopic/20000992) · parents : Automobile
+- **F3000** — F3000 · [medtop:20000993](http://cv.iptc.org/newscodes/mediatopic/20000993) · parents : Automobile
+- **F1** — Formula One · [medtop:20000994](http://cv.iptc.org/newscodes/mediatopic/20000994) · parents : Automobile
+- **Formule Indy** — Indy Racing · [medtop:20000995](http://cv.iptc.org/newscodes/mediatopic/20000995) · parents : Automobile
+- **Rallycross** — motor car rallycross · [medtop:20000996](http://cv.iptc.org/newscodes/mediatopic/20000996) · parents : Automobile
+- **Rallye automobile** — motor car rallying · [medtop:20000997](http://cv.iptc.org/newscodes/mediatopic/20000997) · parents : Automobile
+- **Course d'endurance moto** — motorcycle endurance · [medtop:20000999](http://cv.iptc.org/newscodes/mediatopic/20000999) · parents : Moto
+- **Enduro** — enduro · [medtop:20001000](http://cv.iptc.org/newscodes/mediatopic/20001000) · parents : Moto
+- **Course sur herbe** — grass-track · [medtop:20001001](http://cv.iptc.org/newscodes/mediatopic/20001001) · parents : Moto
+- **Moto-ball** — moto-ball · [medtop:20001002](http://cv.iptc.org/newscodes/mediatopic/20001002) · parents : Moto
+- **Motocross** — moto-cross · [medtop:20001003](http://cv.iptc.org/newscodes/mediatopic/20001003) · parents : Moto
+- **MotoGP** — motoGP · [medtop:20001004](http://cv.iptc.org/newscodes/mediatopic/20001004) · parents : Moto
+- **Rallye** — motorcycle rallying · [medtop:20001005](http://cv.iptc.org/newscodes/mediatopic/20001005) · parents : Moto
+- **Side-Car** — side-cars · [medtop:20001006](http://cv.iptc.org/newscodes/mediatopic/20001006) · parents : Moto
+- **Speedway** — speedway · [medtop:20001007](http://cv.iptc.org/newscodes/mediatopic/20001007) · parents : Moto
+- **Trial** — motorcycling trial · [medtop:20001008](http://cv.iptc.org/newscodes/mediatopic/20001008) · parents : Moto
+- **Motonautisme** — power boating · [medtop:20001016](http://cv.iptc.org/newscodes/mediatopic/20001016) · parents : Discipline
+- **Bareback (rodéo)** — bareback bronc · [medtop:20001018](http://cv.iptc.org/newscodes/mediatopic/20001018) · parents : Rodéo
+- **Barrel racing (rodéo)** — barrel racing · [medtop:20001019](http://cv.iptc.org/newscodes/mediatopic/20001019) · parents : Rodéo
+- **Bull riding (rodéo)** — bull riding · [medtop:20001020](http://cv.iptc.org/newscodes/mediatopic/20001020) · parents : Rodéo
+- **Bulldogging (rodéo)** — bulldogging · [medtop:20001021](http://cv.iptc.org/newscodes/mediatopic/20001021) · parents : Rodéo
+- **Calf roping (rodéo)** — calf roping · [medtop:20001022](http://cv.iptc.org/newscodes/mediatopic/20001022) · parents : Rodéo
+- **Goat roping (rodéo)** — goat roping · [medtop:20001023](http://cv.iptc.org/newscodes/mediatopic/20001023) · parents : Rodéo
+- **Saddle bronc (rodéo)** — saddle bronc · [medtop:20001024](http://cv.iptc.org/newscodes/mediatopic/20001024) · parents : Rodéo
+- **Quatre barré (aviron)** — coxed four · [medtop:20001027](http://cv.iptc.org/newscodes/mediatopic/20001027) · parents : Aviron
+- **Deux barré (aviron)** — coxed pair · [medtop:20001028](http://cv.iptc.org/newscodes/mediatopic/20001028) · parents : Aviron
+- **Quatre sans barreur (aviron)** — coxless four · [medtop:20001029](http://cv.iptc.org/newscodes/mediatopic/20001029) · parents : Aviron
+- **Deux sans barreur (aviron)** — coxless pair · [medtop:20001030](http://cv.iptc.org/newscodes/mediatopic/20001030) · parents : Aviron
+- **Deux de couple (aviron)** — double sculls · [medtop:20001031](http://cv.iptc.org/newscodes/mediatopic/20001031) · parents : Aviron
+- **Huit (aviron)** — coxed eight · [medtop:20001032](http://cv.iptc.org/newscodes/mediatopic/20001032) · parents : Aviron
+- **Quatre de couple (aviron)** — quadruple sculls · [medtop:20001033](http://cv.iptc.org/newscodes/mediatopic/20001033) · parents : Aviron
+- **Skiff (aviron)** — single sculls · [medtop:20001034](http://cv.iptc.org/newscodes/mediatopic/20001034) · parents : Aviron
+- **Multicoques** — multihull · [medtop:20001039](http://cv.iptc.org/newscodes/mediatopic/20001039) · parents : Voile
+- **Dériveur** — dinghy · [medtop:20001040](http://cv.iptc.org/newscodes/mediatopic/20001040) · parents : Voile
+- **Quillard** — keelboat · [medtop:20001041](http://cv.iptc.org/newscodes/mediatopic/20001041) · parents : Voile
+- **Régate** — sailing regatta · [medtop:20001042](http://cv.iptc.org/newscodes/mediatopic/20001042) · parents : Voile
+- **Course transatlantique** — ocean sailing · [medtop:20001043](http://cv.iptc.org/newscodes/mediatopic/20001043) · parents : Voile
+- **Course autour du monde** — round the world race · [medtop:20001044](http://cv.iptc.org/newscodes/mediatopic/20001044) · parents : Voile
+- **Course en solitaire** — solo ocean sailing · [medtop:20001045](http://cv.iptc.org/newscodes/mediatopic/20001045) · parents : Voile
+- **Course autour du monde sans escale en solitaire** — non-stop solo race · [medtop:20001046](http://cv.iptc.org/newscodes/mediatopic/20001046) · parents : Voile
+- **Tir au pistolet** — pistol shooting · [medtop:20001050](http://cv.iptc.org/newscodes/mediatopic/20001050) · parents : Tir
+- **Tir à la carabine** — rifle shooting · [medtop:20001051](http://cv.iptc.org/newscodes/mediatopic/20001051) · parents : Tir
+- **Tir à la cible mobile** — running target shooting · [medtop:20001052](http://cv.iptc.org/newscodes/mediatopic/20001052) · parents : Tir
+- **Tir au fusil** — shotgun shooting · [medtop:20001053](http://cv.iptc.org/newscodes/mediatopic/20001053) · parents : Tir
+- **Tir aux plateaux d'argile** — clay pigeon shooting · [medtop:20001054](http://cv.iptc.org/newscodes/mediatopic/20001054) · parents : Tir
+- **Ski sur herbe** — grass skiing · [medtop:20001059](http://cv.iptc.org/newscodes/mediatopic/20001059) · parents : Ski
+- **Ski nordique** — Nordic skiing · [medtop:20001060](http://cv.iptc.org/newscodes/mediatopic/20001060) · parents : Ski
+- **Chute libre** — sky diving · [medtop:20001062](http://cv.iptc.org/newscodes/mediatopic/20001062) · parents : Discipline
+- **Dos** — backstroke · [medtop:20001072](http://cv.iptc.org/newscodes/mediatopic/20001072) · parents : Natation
+- **Brasse** — breaststroke · [medtop:20001073](http://cv.iptc.org/newscodes/mediatopic/20001073) · parents : Natation
+- **Papillon** — butterfly swimming · [medtop:20001074](http://cv.iptc.org/newscodes/mediatopic/20001074) · parents : Natation
+- **Nage libre** — freestyle swimming · [medtop:20001075](http://cv.iptc.org/newscodes/mediatopic/20001075) · parents : Natation
+- **4 nages** — medley swimming · [medtop:20001076](http://cv.iptc.org/newscodes/mediatopic/20001076) · parents : Natation
+- **Relais nage libre** — relay freestyle swimming · [medtop:20001078](http://cv.iptc.org/newscodes/mediatopic/20001078) · parents : Natation
+- **Relais 4 nages** — relay medley swimming · [medtop:20001079](http://cv.iptc.org/newscodes/mediatopic/20001079) · parents : Natation
+- **Petit bassin** — short course swimming · [medtop:20001080](http://cv.iptc.org/newscodes/mediatopic/20001080) · parents : Natation
+- **Natation synchronisée programme libre** — synchronized free routine · [medtop:20001081](http://cv.iptc.org/newscodes/mediatopic/20001081) · parents : Natation synchronisée
+- **Natation synchronisée programme technique** — synchronized technical routine · [medtop:20001082](http://cv.iptc.org/newscodes/mediatopic/20001082) · parents : Natation synchronisée
+- **Tir à la corde** — tug-of-war · [medtop:20001088](http://cv.iptc.org/newscodes/mediatopic/20001088) · parents : Discipline
+- **Épaulé-jeté** — clean and jerk (weightlifting) · [medtop:20001094](http://cv.iptc.org/newscodes/mediatopic/20001094) · parents : Haltérophilie
+- **Force athlétique** — powerlifting · [medtop:20001095](http://cv.iptc.org/newscodes/mediatopic/20001095) · parents : Haltérophilie
+- **Arrachée** — snatch (weightlifting) · [medtop:20001096](http://cv.iptc.org/newscodes/mediatopic/20001096) · parents : Haltérophilie
+- **Lutte libre** — freestyle wrestling · [medtop:20001099](http://cv.iptc.org/newscodes/mediatopic/20001099) · parents : Lutte
+- **Lutte gréco-romaine** — greco-roman · [medtop:20001100](http://cv.iptc.org/newscodes/mediatopic/20001100) · parents : Lutte
+- **Lutte suisse** — Swiss wrestling · [medtop:20001101](http://cv.iptc.org/newscodes/mediatopic/20001101) · parents : Lutte
+- **Dopage** — drug abuse in sport · [medtop:20001105](http://cv.iptc.org/newscodes/mediatopic/20001105) · parents : Médicaments autorisés dans le sport
+- **Contrôle antidopage** — drug testing in sport · [medtop:20001106](http://cv.iptc.org/newscodes/mediatopic/20001106) · parents : Médicaments autorisés dans le sport
+- **Traitements médicaux dans le sport** — medical drug use in sport · [medtop:20001107](http://cv.iptc.org/newscodes/mediatopic/20001107) · parents : Médicaments autorisés dans le sport
+- **Championnat continental** — continental championship · [medtop:20001109](http://cv.iptc.org/newscodes/mediatopic/20001109) · parents : Évènement sportif
+- **Coupe continentale** — continental cup · [medtop:20001110](http://cv.iptc.org/newscodes/mediatopic/20001110) · parents : Évènement sportif
+- **Jeux continentaux** — continental games · [medtop:20001111](http://cv.iptc.org/newscodes/mediatopic/20001111) · parents : Évènement sportif
+- **Championnat intercontinental** — international championship · [medtop:20001112](http://cv.iptc.org/newscodes/mediatopic/20001112) · parents : Évènement sportif
+- **Coupe internationale** — international cup · [medtop:20001113](http://cv.iptc.org/newscodes/mediatopic/20001113) · parents : Évènement sportif
+- **Jeux internationaux** — international games · [medtop:20001114](http://cv.iptc.org/newscodes/mediatopic/20001114) · parents : Évènement sportif
+- **Championnat national** — national championship · [medtop:20001115](http://cv.iptc.org/newscodes/mediatopic/20001115) · parents : Évènement sportif
+- **Coupe nationale** — national cup · [medtop:20001116](http://cv.iptc.org/newscodes/mediatopic/20001116) · parents : Évènement sportif
+- **Jeux nationaux** — national games · [medtop:20001117](http://cv.iptc.org/newscodes/mediatopic/20001117) · parents : Évènement sportif
+- **Championnat régional** — regional championship · [medtop:20001118](http://cv.iptc.org/newscodes/mediatopic/20001118) · parents : Évènement sportif
+- **Coupe régionale** — regional cup · [medtop:20001119](http://cv.iptc.org/newscodes/mediatopic/20001119) · parents : Évènement sportif
+- **Jeux régionaux** — regional games · [medtop:20001120](http://cv.iptc.org/newscodes/mediatopic/20001120) · parents : Évènement sportif
+- **Championnat du monde** — world championship · [medtop:20001121](http://cv.iptc.org/newscodes/mediatopic/20001121) · parents : Évènement sportif
+- **Coupe du monde** — world cup · [medtop:20001122](http://cv.iptc.org/newscodes/mediatopic/20001122) · parents : Évènement sportif
+- **Mondiaux** — world games · [medtop:20001123](http://cv.iptc.org/newscodes/mediatopic/20001123) · parents : Évènement sportif
+- **Recommandation boursière** — stock recommendation · [medtop:20001137](http://cv.iptc.org/newscodes/mediatopic/20001137) · parents : Actions
+- **Recommandation d'achat (bourse)** — buy recommendation · [medtop:20001138](http://cv.iptc.org/newscodes/mediatopic/20001138) · parents : Recommandation boursière
+- **Recommandation de conserver (bourse)** — hold recommendation · [medtop:20001139](http://cv.iptc.org/newscodes/mediatopic/20001139) · parents : Recommandation boursière
+- **Recommandation de vente (bourse)** — sell recommendation · [medtop:20001140](http://cv.iptc.org/newscodes/mediatopic/20001140) · parents : Recommandation boursière
+- **Actions en hausse (hot stock)** — hot stock · [medtop:20001141](http://cv.iptc.org/newscodes/mediatopic/20001141) · parents : Actions
+- **Service civil** — civilian service · [medtop:20001144](http://cv.iptc.org/newscodes/mediatopic/20001144) · parents : Service public
+- **Politique d'intégration** — integration policy · [medtop:20001146](http://cv.iptc.org/newscodes/mediatopic/20001146) · parents : Politique du gouvernement
+- **Objets connectés** — Internet of Things · [medtop:20001161](http://cv.iptc.org/newscodes/mediatopic/20001161) · parents : Informatique et télécommunications
+- **Biens d'équipement** — capital goods · [medtop:20001165](http://cv.iptc.org/newscodes/mediatopic/20001165) · parents : Industrie manufacturière
+- **E-cigarette** — e-cigarette · [medtop:20001169](http://cv.iptc.org/newscodes/mediatopic/20001169) · parents : Industrie de transformation
+- **Autorité de régulation** — regulatory authority · [medtop:20001173](http://cv.iptc.org/newscodes/mediatopic/20001173) · parents : Gouvernement
+- **Pandémie** — pandemic · [medtop:20001218](http://cv.iptc.org/newscodes/mediatopic/20001218) · parents : Épidémie
+- **Médecine générale** — general practice · [medtop:20001220](http://cv.iptc.org/newscodes/mediatopic/20001220) · parents : Spécialisations médicales
+- **Orthopédie** — orthopedics · [medtop:20001222](http://cv.iptc.org/newscodes/mediatopic/20001222) · parents : Spécialisations médicales
+- **Oncologie** — oncology · [medtop:20001223](http://cv.iptc.org/newscodes/mediatopic/20001223) · parents : Spécialisations médicales
+- **Radiologie médicale** — radiology · [medtop:20001224](http://cv.iptc.org/newscodes/mediatopic/20001224) · parents : Spécialisations médicales
+- **Chirurgie** — surgical medicine · [medtop:20001226](http://cv.iptc.org/newscodes/mediatopic/20001226) · parents : Spécialisations médicales
+- **Psychiatrie** — psychiatry · [medtop:20001227](http://cv.iptc.org/newscodes/mediatopic/20001227) · parents : Spécialisations médicales
+- **Construction de bâtiments destinés au commerce** — commercial building · [medtop:20001246](http://cv.iptc.org/newscodes/mediatopic/20001246) · parents : Construction et immobilier
+- **Élections paroissiales** — church elections · [medtop:20001263](http://cv.iptc.org/newscodes/mediatopic/20001263) · parents : Élections
+- **Racquetball** — racquetball · [medtop:20001281](http://cv.iptc.org/newscodes/mediatopic/20001281) · parents : Discipline
+- **missing in action** — missing in action · [medtop:20001378](http://cv.iptc.org/newscodes/mediatopic/20001378) · parents : war victims

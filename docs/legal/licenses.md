@@ -30,3 +30,8 @@ Références officielles :
 `REUSE`/SPDX vérifie nos notices de copyright ; `pip-licenses`, ScanCode Toolkit/ORT et CycloneDX peuvent aider à inventorier licences et composants. Un script génère `NOTICE` depuis `third_party/manifest.json` **pour le socle de conception seulement**. En release, remplacer ce manifeste statique par un SBOM CycloneDX généré depuis dépendances verrouillées, modèles (repo, révision, poids/digest) et binaires tiers.
 
 Fail closed : licence `UNKNOWN`, famille de copyleft incompatible, poids sans preuve de provenance, texte de licence non livré ou obligation non satisfaite **bloquent la release** jusqu'à revue humaine. Aucun outil ne peut garantir seul une compatibilité juridique complète. Ajouter les licences tierces, notices et sources correspondantes quand elles sont redistribuées, et distinguer outils non embarqués des binaires inclus.
+
+
+## Données de vocabulaire redistribuées
+
+Les snapshots et dérivés IPTC Media Topics sont sous CC BY 4.0 ; les extraits Getty AAT sous ODC-By 1.0. Ces données publiques sont réellement incluses dans le dépôt et gardent leur licence propre, distincte de la GPL du code. Attribution, sources, modifications et empreintes : `third_party/vocabularies/README.md` et `provenance.json`. Les logiciels tiers restent installés séparément ; cette inclusion de données n’est pas une redistribution de leurs binaires.

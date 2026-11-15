@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 430" role="img" aria-labelledby="title desc">
+<title id="title">GNU APMG — vocabulaire standard et facettes privées</title>
+<desc id="desc">Illustration sans photo : IPTC pour les thèmes, Getty AAT pour les objets, champs distincts pour lieux et personnes. La validation humaine relie les propositions aux concepts.</desc>
+<rect width="1100" height="430" rx="22" fill="#101c30"/>
+<g font-family="Arial,sans-serif" fill="#edf4ff">
+<text x="35" y="48" font-size="27">GNU APMG · décrire une photo sous plusieurs angles</text>
+<text x="35" y="80" font-size="17">Référentiels éprouvés · identifiants stables · aucune équivalence automatique</text>
+<g fill="#233d59" stroke="#7599bf" stroke-width="2"><rect x="35" y="120" width="490" height="105" rx="12"/><rect x="565" y="120" width="500" height="105" rx="12"/><rect x="35" y="250" width="490" height="100" rx="12"/><rect x="565" y="250" width="500" height="100" rx="12"/></g>
+<text x="60" y="155" font-size="22">Thème et situation — IPTC Media Topics</text>
+<text x="60" y="185" font-size="17">1 059 actifs · 335 retirés conservés pour l’historique</text>
+<text x="60" y="210" font-size="17">Mariage, jardinage, voyages, école, sports…</text>
+<text x="590" y="155" font-size="22">Objets et nature — sélection Getty AAT</text>
+<text x="590" y="185" font-size="17">22 concepts vérifiés · vocabulaire spécialisé</text>
+<text x="590" y="210" font-size="17">Oiseaux, plantes, bâtiments, avions, planeurs…</text>
+<text x="60" y="286" font-size="22">Lieux et personnes — données privées</text>
+<text x="60" y="316" font-size="17">Ville/pays, identités et événements distincts</text>
+<text x="590" y="286" font-size="22">Prise de vue et contexte — autres facettes</text>
+<text x="590" y="316" font-size="17">Portrait, macro, date, moment, rôle documentaire</text>
+<text x="35" y="394" font-size="18" fill="#ffd393">La présence d’un lieu de culte ne prouve pas la croyance d’une personne.</text>
+</g></svg>

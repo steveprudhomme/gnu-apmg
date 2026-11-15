@@ -1,0 +1,1 @@
+SELECT DISTINCT ?s ?label WHERE { ?s <http://www.w3.org/2000/01/rdf-schema#label> ?label . FILTER(LANG(?label)="en") FILTER(REGEX(STR(?label),"^(animals|plants|buildings|birds|dogs|cats|trees|flowers|bridges|airplanes|gliders|automobiles|boats|mountains|lakes|rivers|forests|vegetation)( |$)")) FILTER(STRSTARTS(STR(?s),"http://vocab.getty.edu/aat/")) } LIMIT 40

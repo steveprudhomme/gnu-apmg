@@ -187,11 +187,24 @@ OBJECTIVE : couvrir les situations de vie en réutilisant un vocabulaire éprouv
 
 | ID | Sous-étape avant travail | Critère de sortie | État |
 | --- | --- | --- | --- |
-| T1 | Vérifier sources et réutilisation | IPTC Media Topics officiel, licence/attribution, version et empreinte ; Getty AAT comme complément spécialisé | Planifié |
-| T2 | Importer la base officielle | Identifiants et hiérarchie d'origine préservés, FR/EN, source figée et conversion locale reproductible | Planifié |
-| T3 | Organiser la lecture personnelle | Guide par situations de vie et facettes ; distinguer thèmes, objets, activités, événements, lieux et personnes privées | Planifié |
-| T4 | Précision spécialisée | Examiner animaux/plantes/architecture/transports ; pas de mapping exactMatch inventé ni de fausse identification d'espèce | Planifié |
-| T5 | Contrôler et expliquer | Tests sur références et relations, tutoriel illustré, catalogue consultable ; aucun étiquetage automatique de photos ni géocodage à ce jalon | Planifié |
+| T1 | Vérifier sources et réutilisation | IPTC Media Topics officiel, licence/attribution, version et empreinte ; Getty AAT comme complément spécialisé | Fait |
+| T2 | Importer la base officielle | Identifiants et hiérarchie d'origine préservés, FR/EN, source figée et conversion locale reproductible | Fait |
+| T3 | Organiser la lecture personnelle | Guide par situations de vie et facettes ; distinguer thèmes, objets, activités, événements, lieux et personnes privées | Fait |
+| T4 | Précision spécialisée | Examiner animaux/plantes/architecture/transports ; pas de mapping exactMatch inventé ni de fausse identification d'espèce | Fait |
+| T5 | Contrôler et expliquer | Tests sur références et relations, tutoriel illustré, catalogue consultable ; aucun étiquetage automatique de photos ni géocodage à ce jalon | Fait |
 | T6 | Mettre à jour et publier | ROADMAP/README/ontologie/NOTICE si nécessaire, commits après vérifications, publication et CI | Planifié |
 
 SUCCESS CRITERIA : termes officiels identifiables, provenance/version conservées, absence de cycles ou références cassées dans la hiérarchie exploitée, limites de couverture explicites. Les personnes, adresses et événements propres à la famille sont des entités privées, pas des ajouts au vocabulaire public. La liaison automatique des sorties de vision aux concepts et l'export IPTC/XMP restent des travaux ultérieurs. Les identifiants locaux éventuels ne seront pas présentés comme des termes IPTC/Getty.
+
+
+### Bilan du jalon T — 15 novembre 2026
+
+- Commit préalable `09c2ef5`. IPTC Media Topics version 2026-09-30 : 1 394 concepts, 1 059 actifs, 335 retirés, 17 sommets officiels conservés. Parmi les actifs, 37 n'ont pas de libellé français source : anglais de repli explicite.
+- Snapshot multilingue original figé ; export FR/EN et SKOS générés hors ligne, identifiants/parents inchangés. HTTP officiel utilisé après échec HTTPS local, empreinte locale consignée, aucune signature d'éditeur revendiquée.
+- Getty : sélection de 22 concepts d'animaux, plantes, paysages, bâtiments et véhicules, après exclusion d'homonymes. Fragment ouvert avec parents extérieurs ; pas de hiérarchie complète ni de statut de retrait Getty vérifié. Présentations françaises éditoriales séparées des libellés officiels.
+- 17 collections éditoriales pour la photographie personnelle, sans réécriture de la hiérarchie IPTC. Guide couvrant situations de vie, facettes et règles de précision. Pas d'exactMatch automatique IPTC–Getty, pas d'identification d'espèce ou d'attribution aux photos.
+- Livrables : catalogue HTML local filtrable, catalogues Markdown IPTC/Getty, guide personnel, JSON de consultation embarqués, export SKOS/Turtle et tutoriel illustré. Données CC BY 4.0 et ODC-By 1.0 attribuées séparément de la GPL du code.
+- Contrôles : tests de hiérarchie, retraits, langues/identifiants, homonymes, parsing RDF réel et reconstruction déterministe ; HTML vérifié pour 1 394 lignes et 17 vues, JavaScript contrôlé syntaxiquement. Aucun test visuel dans un navigateur n'est revendiqué.
+- Suite locale : 35 tests exécutés, 33 réussis, 2 ignorés pour permissions de liens symboliques. Aucun média ni donnée privée nécessaire à ce jalon.
+
+Travaux suivants distincts : catalogue biologique plus détaillé, extension contrôlée des objets Getty, liaison des propositions IA aux concepts, interface de validation, géocodage et export IPTC/XMP. Ne pas déclarer ces fonctions déjà implémentées.

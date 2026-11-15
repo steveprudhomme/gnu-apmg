@@ -73,3 +73,8 @@ ExifTool réel et le pilote privé de 200 copies (dont 100 HEIC) sont maintenant
 ## Phase 2 expérimentale
 
 Le [tutoriel illustré Phase 2](tutorial/phase-2.md) décrit les plans préalables, l’environnement déplacé, les modèles, les corrections CPU et de génération, les essais HEIC, les scripts et les limites observées. Les résultats restent des propositions privées à relire.
+
+
+## Taxonomie et référentiels
+
+Le [tutoriel illustré de taxonomie](tutorial/taxonomie.md) explique les sources IPTC/Getty, les licences propres aux données, les retraits, les homonymes, les filtres et la reconstruction hors ligne. Le [guide personnel](ontology/TAXONOMIE-PERSONNELLE.md) décrit les situations de vie et les limites.

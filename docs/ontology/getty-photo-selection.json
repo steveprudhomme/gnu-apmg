@@ -1,0 +1,93 @@
+{
+  "note": "French labels are GNU APMG editorial translations, not asserted as official Getty preferred terms; selection is not exhaustive.",
+  "concepts": [
+    {
+      "uri": "http://vocab.getty.edu/aat/300249525",
+      "editorial_label_fr": "Animaux (terme général)"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300249395",
+      "editorial_label_fr": "Règne animal"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300266506",
+      "editorial_label_fr": "Oiseaux"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300250055",
+      "editorial_label_fr": "Rapaces"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300250130",
+      "editorial_label_fr": "Chiens"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300265960",
+      "editorial_label_fr": "Chats domestiques"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300265716",
+      "editorial_label_fr": "Félidés"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132360",
+      "editorial_label_fr": "Plantes vivantes"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132410",
+      "editorial_label_fr": "Arbres"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300132399",
+      "editorial_label_fr": "Fleurs (organes végétaux)"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300266061",
+      "editorial_label_fr": "Végétation"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300387598",
+      "editorial_label_fr": "Forêts (communautés végétales)"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008863",
+      "editorial_label_fr": "Forêts (paysages culturels)"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008795",
+      "editorial_label_fr": "Montagnes"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008680",
+      "editorial_label_fr": "Lacs"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300008707",
+      "editorial_label_fr": "Rivières"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300004792",
+      "editorial_label_fr": "Bâtiments"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300007836",
+      "editorial_label_fr": "Ponts"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300211102",
+      "editorial_label_fr": "Planeurs"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300212616",
+      "editorial_label_fr": "Avions"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300178739",
+      "editorial_label_fr": "Automobiles"
+    },
+    {
+      "uri": "http://vocab.getty.edu/aat/300178749",
+      "editorial_label_fr": "Bateaux"
+    }
+  ]
+}

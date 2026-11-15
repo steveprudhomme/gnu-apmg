@@ -1,0 +1,155 @@
+{
+  "version": "1.0-draft",
+  "status": "GNU APMG editorial browsing collections, not official IPTC hierarchy or automatic tagging rules",
+  "groups": [
+    {
+      "id": "famille",
+      "label_fr": "Famille, enfants et étapes de vie",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000780",
+        "http://cv.iptc.org/newscodes/mediatopic/20000501",
+        "http://cv.iptc.org/newscodes/mediatopic/20001238",
+        "http://cv.iptc.org/newscodes/mediatopic/20001237"
+      ],
+      "scope": "Naissance, grossesse, anniversaires, mariage, départ à la retraite et commémorations : contexte à confirmer, jamais déduit de la seule apparence."
+    },
+    {
+      "id": "ecole",
+      "label_fr": "École, études et apprentissage",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/05000000",
+        "http://cv.iptc.org/newscodes/mediatopic/20001234"
+      ],
+      "scope": "Rentrée, classe, activités scolaires, remise de diplôme et apprentissages."
+    },
+    {
+      "id": "travail",
+      "label_fr": "Travail, métiers et bénévolat",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/09000000"
+      ],
+      "scope": "Vie professionnelle ; distinguer objet visible, métier confirmé et thème social."
+    },
+    {
+      "id": "maison",
+      "label_fr": "Maison, décoration et jardin",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000570",
+        "http://cv.iptc.org/newscodes/mediatopic/20001255",
+        "http://cv.iptc.org/newscodes/mediatopic/20001257"
+      ],
+      "scope": "Habitat, rénovation, aménagement et jardinage ; pas une classification des types de bâtiments."
+    },
+    {
+      "id": "repas",
+      "label_fr": "Repas, cuisine et découvertes culinaires",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000568",
+        "http://cv.iptc.org/newscodes/mediatopic/20001253"
+      ],
+      "scope": "Repas familiaux, cuisine, pâtisserie, dégustation et gastronomie ; ne pas inférer un régime médical."
+    },
+    {
+      "id": "voyages",
+      "label_fr": "Voyages, vacances et sorties",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000563"
+      ],
+      "scope": "Voyages et tourisme ; ville et pays restent des champs géographiques distincts."
+    },
+    {
+      "id": "nature",
+      "label_fr": "Animaux, plantes et nature",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000441"
+      ],
+      "scope": "Nature et écosystèmes ; identifications d’espèces à confirmer dans un référentiel taxonomique spécialisé."
+    },
+    {
+      "id": "sports",
+      "label_fr": "Sports, activités physiques et compétitions",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/15000000"
+      ],
+      "scope": "Distinguer pratique, compétition, résultat, équipement et simple présence à un événement."
+    },
+    {
+      "id": "loisirs",
+      "label_fr": "Loisirs, jeux, collections et artisanat",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000550",
+        "http://cv.iptc.org/newscodes/mediatopic/20001160",
+        "http://cv.iptc.org/newscodes/mediatopic/20000543"
+      ],
+      "scope": "Loisirs et créations ; les types d’objets nécessitent parfois un vocabulaire complémentaire."
+    },
+    {
+      "id": "culture",
+      "label_fr": "Arts, musique, spectacles et patrimoine",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/01000000"
+      ],
+      "scope": "Concerts, théâtre, danse, musée, patrimoine et architecture ; sujet artistique distinct de l’identité des personnes."
+    },
+    {
+      "id": "science",
+      "label_fr": "Sciences, astronomie et technologie",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/13000000"
+      ],
+      "scope": "Observations du ciel, musées scientifiques, expériences et appareils ; types d’objets à préciser séparément."
+    },
+    {
+      "id": "ceremonies",
+      "label_fr": "Fêtes, cérémonies et souvenirs",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000501",
+        "http://cv.iptc.org/newscodes/mediatopic/20001237",
+        "http://cv.iptc.org/newscodes/mediatopic/20001238",
+        "http://cv.iptc.org/newscodes/mediatopic/20001181"
+      ],
+      "scope": "Anniversaire, mariage, diplôme, fête et commémoration ; l’événement familial précis est une entité privée."
+    },
+    {
+      "id": "croyances",
+      "label_fr": "Spiritualité, traditions et rites",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/12000000"
+      ],
+      "scope": "Thèmes à attribuer volontairement ; voir un bâtiment religieux ne prouve jamais la croyance des personnes."
+    },
+    {
+      "id": "sante",
+      "label_fr": "Santé, soins et étapes sensibles",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/07000000"
+      ],
+      "scope": "Attribution manuelle privilégiée ; ne pas diagnostiquer une maladie ni déduire une situation intime depuis une photo."
+    },
+    {
+      "id": "incidents",
+      "label_fr": "Accidents, incidents et documents de constat",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/03000000"
+      ],
+      "scope": "Souvenirs d’incident et constats ; conserver les détails privés localement."
+    },
+    {
+      "id": "transports",
+      "label_fr": "Déplacements et transports",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/20000337"
+      ],
+      "scope": "Thèmes de transport ; le secteur économique du transport n’est pas synonyme d’un avion ou d’un véhicule visible."
+    },
+    {
+      "id": "meteo",
+      "label_fr": "Météo, saisons et phénomènes naturels",
+      "concepts": [
+        "http://cv.iptc.org/newscodes/mediatopic/17000000",
+        "http://cv.iptc.org/newscodes/mediatopic/20000441"
+      ],
+      "scope": "Phénomènes visibles et nature ; saison et date ne doivent pas être déduites avec certitude de l’image seule."
+    }
+  ]
+}

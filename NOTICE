@@ -11,6 +11,18 @@ Voir COPYING pour la GNU GPL v3 du code original du projet.
   Embarqué : non
   Réserve : local CLI prerequisite
 
+- Getty AAT selected public records (2026-11-15)
+  Licence : ODC-By-1.0
+  Source : https://www.getty.edu/research-conservation/tools-databases/vocabularies/data-services/
+  Embarqué : oui
+  Réserve : restricted attributed selection; editorial French display labels separate; see third_party/vocabularies/README.md
+
+- IPTC Media Topics snapshot (2026-09-30)
+  Licence : CC-BY-4.0
+  Source : https://cv.iptc.org/newscodes/mediatopic/
+  Embarqué : oui
+  Réserve : attributed public vocabulary snapshot; FR/EN transformed outputs; see third_party/vocabularies/README.md
+
 - jsonschema
   Licence : MIT
   Source : https://github.com/python-jsonschema/jsonschema
@@ -70,6 +82,12 @@ Voir COPYING pour la GNU GPL v3 du code original du projet.
   Source : https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct
   Embarqué : non
   Réserve : candidate; verify exact weights
+
+- RDFLib
+  Licence : BSD-3-Clause
+  Source : https://github.com/RDFLib/rdflib
+  Embarqué : non
+  Réserve : optional validation dependency, 7.6.0 observed; not bundled in code repository
 
 - SQLite
   Licence : Public-Domain

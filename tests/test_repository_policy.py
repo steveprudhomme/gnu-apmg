@@ -22,6 +22,7 @@ class RepositoryPolicyTests(unittest.TestCase):
     def test_legal_manifest_has_no_bundled_software(self):
         components = json.loads((ROOT / "third_party/manifest.json").read_text(encoding="utf-8"))["components"]
         self.assertTrue(components)
-        self.assertFalse(any(c["bundled"] for c in components))
+        self.assertFalse(any(c["bundled"] for c in components if c.get('kind') != 'data'))
+        self.assertTrue(all(c['license'] and c['source'] for c in components if c.get('kind') == 'data'))
 
 if __name__ == "__main__": unittest.main()

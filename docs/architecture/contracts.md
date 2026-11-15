@@ -30,3 +30,10 @@ La préparation produit `image.png` et `manifest.json`. Les observations suivent
 Sorties privées et nouvelles à chaque run ; fichiers existants refusés. Chaque phase renvoie 0 si son exécution et sa validation technique aboutissent, 1 sinon. Une absence de texte OCR peut être une sortie vide valide ; elle ne prouve pas l'absence de texte dans la photo. Une réponse de vision tronquée est refusée avec incomplete_response. Une réussite technique n'est pas une validation documentaire humaine.
 
 Les observations sont dans des JSONL privés, pas encore dans SQLite. Pas de reprise fine, cache d'inférence, UI de validation ou index vectoriel à ce stade. Relancer dans un nouveau dossier. Les erreurs de backend sont résumées par type sans afficher les textes ou descriptions privés.
+
+
+## Contrat de consultation du vocabulaire (15 novembre 2026)
+
+`python -m photosemantique.taxonomy QUERY [--source iptc|getty] [--include-retired]` interroge seulement les JSON embarqués. Réponse : identifiant officiel, libellés, définitions et parents conservés. Les traductions Getty de présentation sont dans `editorial_label_fr`, pas dans les libellés officiels.
+
+La recherche n’est pas un moteur d’annotation. Une égalité de mots ne produit pas d’exactMatch et ne convertit aucune observation suggested en validated. Les profils de vie personnelle sont des collections de consultation, sans mutation de la hiérarchie officielle. Getty est un fragment ouvert : une référence à un parent hors sélection n’est pas une erreur ni une racine inventée.

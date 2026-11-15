@@ -1,9 +1,20 @@
-# Vocabulaire et ontologie — premier cadrage
+# Vocabulaire contrôlé — GNU APMG
 
-SKOS organise une taxonomie bilingue évolutive : concepts `transport`, `transport aérien`, `avion`, `planeur`, avec `skos:prefLabel` FR/EN et des liens `skos:broader`/`skos:narrower`. Un concept stable conserve son URI même si son libellé change.
+Le cadrage initial ci-dessous est désormais complété par un import réel de référentiels.
 
-RDF/OWL sert aux liens entre photos, objets, lieux, événements et personnes, **après** avoir établi la provenance et la révocabilité. PROV-O relie assertion (`prov:Entity`), activité d'analyse (`prov:Activity`) et moteur/humain responsable (`prov:Agent`).
+- [Guide des photographies personnelles](TAXONOMIE-PERSONNELLE.md) : facettes, situations de vie et règles de précision.
+- [Catalogue HTML hors ligne](catalogue.html) : recherche FR/EN, 17 vues éditoriales, parents et identifiants officiels.
+- [Catalogue IPTC complet](IPTC-CATALOGUE.md) : actifs et retirés séparés.
+- [Complément Getty AAT](GETTY-SELECTION.md) : objets et nature, homonymes exclus.
+- [IPTC en SKOS/Turtle](iptc-mediatopics.fr-en.ttl) et JSON embarqués dans `photosemantique/taxonomies/`.
+- [Sources et licences propres aux données](../../third_party/vocabularies/README.md).
 
-Propagation interimages : une immatriculation OCR validée sur photo A peut donner une **hypothèse** sur la photo B prise au même lieu et au même moment. Jamais copier la chaîne de A vers B comme « fait validé » sans critère d'identité ou revue. Toute hypothèse conserve l'identifiant des observations qui la justifient.
+Version IPTC du 30 septembre 2026 : 1 394 concepts, dont 1 059 actifs, 335 retirés ; 37 actifs sans traduction française dans la source affichent l’anglais. Getty : 22 concepts sélectionnés, pas le thesaurus complet ; traductions françaises de présentation GNU APMG séparées des libellés officiels.
 
-Attention : ne pas inventer d'URI institutionnelle. Les IRIs locales du vocabulaire pilote restent `urn:photosemantique:...` jusqu'à décision de namespace pérenne.
+SKOS sert de modèle de représentation ; ce n’est pas une liste universelle de tous les sujets. La hiérarchie IPTC originale et ses identifiants sont conservés. Les vues « vie personnelle » sont des collections de consultation locales, pas de nouveaux parents SKOS. Les liens entre IPTC et Getty ne sont pas déclarés exactMatch.
+
+Le fichier historique `transport.ttl` reste un exemple local de conception, non une extension normative intégrée à la nouvelle base. Aucun de ses URNs n’est présenté comme un identifiant IPTC ou Getty.
+
+Reconstruction : `python scripts/build_taxonomy.py`, contrôle `--check`. Consultation : `python -m photosemantique.taxonomy mariage` ou `python -m photosemantique.taxonomy planeur --source getty`. Aucun de ces appels ne lit de photos, ne contacte un serveur ou n’attribue des mots-clés.
+
+Les personnes, événements familiaux, adresses et coordonnées sont des entités privées distinctes. Le graphe RDF/OWL de relations, PROV-O complet, la correspondance automatique des observations aux concepts, la validation humaine et l’export XMP restent à implémenter.

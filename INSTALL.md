@@ -129,3 +129,16 @@ Tests dans cet environnement :
 ```
 
 29 tests exécutés localement : 27 réussis, 2 ignorés. OCR CPU : `enable_mkldnn=False` contourne l'erreur oneDNN observée. La wheel de développement a été construite avec le schéma embarqué ; aucune release ni installation globale du paquet n'a été effectuée.
+
+
+## Taxonomie locale — sans modèles ni connexion réseau
+
+Ouvrir `docs/ontology/catalogue.html` par double-clic dans un navigateur. Le catalogue contient seulement les vocabulaires publics ; recherche et filtres fonctionnent hors ligne. La version Markdown est dans `docs/ontology/TAXONOMIE-PERSONNELLE.md`.
+
+```powershell
+python -X utf8 -m photosemantique.taxonomy mariage
+python -X utf8 -m photosemantique.taxonomy planeur --source getty
+python -X utf8 scripts/build_taxonomy.py --check
+```
+
+La consultation et la reconstruction utilisent uniquement la bibliothèque standard Python et les sources figées. `rdflib==7.6.0` est optionnel pour valider l’export RDF/SKOS ; il est installé dans l’environnement Phase 2 et dans la CI, et disponible via l’extra `taxonomy-validation`. Les données distribuées conservent leurs licences séparées, expliquées dans `third_party/vocabularies/README.md`.

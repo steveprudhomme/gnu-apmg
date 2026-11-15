@@ -8,3 +8,6 @@ COPYING text eol=lf
 *.sql text eol=lf
 *.svg text eol=lf
 *.toml text eol=lf
+# Preserve upstream vocabulary bytes for provenance hashes, including upstream whitespace.
+third_party/vocabularies/*.json -text -whitespace
+third_party/vocabularies/*.rq -text -whitespace
