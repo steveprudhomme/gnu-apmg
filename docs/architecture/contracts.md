@@ -1,5 +1,15 @@
 # Contrats d'échange v0 — proposition
 
+## Export XMP implémenté au jalon X
+
+L'absence d'export des états antérieurs est historique. CLI : `python -m photosemantique.xmp_export plan --session SESSION --images IMAGES --output PLAN_JSON`, `export` avec les mêmes options et un dossier de sortie nouveau, puis `rollback DOSSIER_EXPORT` si souhaité. Seuls les derniers accept/correct de la revue contribuent des concepts ; leurs identifiants sont regroupés par photo et dédupliqués.
+
+Plan privé : identité/révision de session, digest de catalogue, sources retrouvées par SHA-256, concepts/libellés/hiérarchies et sidecars antérieurs. Lot : files (copies et image.ext.xmp), backups (octets XMP antérieurs), journal.json (empreintes, chemins relatifs et état exported/rolling_back/rolled_back). Aucun chemin du journal ne doit sortir du lot pendant l'annulation.
+
+Champs : dc:subject pour les libellés, lr:hierarchicalSubject (extension Adobe) pour les chemins connus, Iptc4xmpExt:AboutCvTerm pour CvId/CvTermId/CvTermName. Aucun Media Topic écrit comme SubjectCode. Les champs inconnus des XMP préexistants sont préservés sémantiquement ; structures ambiguës refusées. L'annulation restaure les octets antérieurs ou retire le compagnon nouveau, sans effacer les copies de photos.
+
+Validation ExifTool réelle réussie sur deux copies HEIC ; aucune garantie d'interopérabilité GUI digiKam à ce stade. Les métadonnées intégrées originales restent présentes dans les copies ; elles ne sont pas une sortie anonymisée.
+
 ## Mise à jour : revue des mots-clés implémentée au jalon V
 
 Les limites d'interface des sections antérieures sont historiques. CLI distincte : `python -m photosemantique.review create --input OBSERVATIONS --output SESSION [--prepared DERIVE]` (input/prepared répétables), `apply SESSION --decisions LOT_JSON --actor ACTEUR`, `render SESSION`, `status SESSION`.

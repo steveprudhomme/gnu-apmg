@@ -1,5 +1,7 @@
 # Tutoriel illustré de reprise
 
+Le [tutoriel illustré d'export XMP](tutorial/export-xmp.md) décrit le plan, les copies, les sidecars, la relecture et l'annulation du jalon X.
+
 Pour le jalon V, consulter le [tutoriel illustré de revue des mots-clés](tutorial/revue-mots-cles.md) : candidats, aperçus, choix humains, export/import et historique privé. Aucune décision n'a été prise à la place de l'utilisateur sur ses photos.
 
 Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement GNU APMG.

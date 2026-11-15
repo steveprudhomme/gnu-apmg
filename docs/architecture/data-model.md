@@ -1,5 +1,7 @@
 # Trois niveaux de persistance
 
+**Mise à jour jalon X :** le niveau compagnon XMP est maintenant implémenté pour les seuls mots-clés validés, dans un lot privé de copies. Le journal JSON d'export et les sauvegardes rendent l'annulation possible ; la base d'inventaire et les décisions ne sont pas modifiées. Les champs descriptions, OCR, personnes et géolocalisation ne sont pas exportés par ce jalon. Les limites d'export indiquées dans les états historiques ci-dessous ne décrivent pas cette nouvelle fonction.
+
 ## Ajout implémenté au jalon V : revue des mots-clés
 
 Une base privée `review.sqlite`, distincte de l'inventaire, contient metadata (snapshot JSON et révision), batches (identité et digest d'import) et decisions (événements accept/correct/reject, concepts, observation, acteur déclaré, note, date et révision). Le dernier événement par observation donne l'état courant ; les événements précédents et analyses source ne sont pas écrasés. L'absence de validations humaines mentionnée dans l'état Phase 1 ci-dessous est historique. Le graphe RDF/OWL et l'export dans les images restent non implémentés.

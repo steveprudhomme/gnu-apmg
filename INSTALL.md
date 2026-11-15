@@ -1,5 +1,17 @@
 # Installation de GNU APMG — Phase 1, Windows 11
 
+## Export XMP sur copies — jalon X
+
+Le [tutoriel illustré d'export](docs/tutorial/export-xmp.md) décrit la simulation, les champs standards, la relecture et l'annulation. Pas de dépendance nouvelle ; utiliser l'environnement Phase 2 et ExifTool déjà installé.
+
+```powershell
+& .\scripts\Export-ValidatedKeywords.ps1 -SessionDirectory 'D:\EtatPrive\revue-001' -ImagesDirectory 'D:\Photos\Pilote' -Output 'D:\EtatPrive\plan-xmp.json' -PlanOnly
+& .\scripts\Export-ValidatedKeywords.ps1 -SessionDirectory 'D:\EtatPrive\revue-001' -ImagesDirectory 'D:\Photos\Pilote' -Output 'D:\EtatPrive\export-001'
+& .\scripts\Undo-KeywordExport.ps1 -ExportDirectory 'D:\EtatPrive\export-001'
+```
+
+Ces chemins sont fictifs. Choisir de nouveaux fichiers/dossiers privés, hors Git, de la session et des images sources. L'annulation est optionnelle : ne pas lancer la troisième commande si l'on souhaite conserver les XMP exportés. Les copies restent présentes après annulation. Les images copiées conservent leurs métadonnées intégrées et doivent rester privées.
+
 ## Revue des mots-clés — ajout du jalon V
 
 Voir le [tutoriel illustré](docs/tutorial/revue-mots-cles.md). Utiliser l'environnement Phase 2 existant ; aucune installation ni relance de modèle supplémentaire n'est nécessaire.

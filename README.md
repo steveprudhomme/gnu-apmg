@@ -25,6 +25,8 @@ Les données de vocabulaire gardent leurs licences **CC BY 4.0 (IPTC)** et **ODC
 
 ## Mission
 
+Les mots-clés validés peuvent désormais être [exportés en compagnons XMP sur des copies](docs/tutorial/export-xmp.md), avec plan préalable, identifiants de concepts, contrôle d'intégrité et journal d'annulation. Relecture ExifTool vérifiée sur deux HEIC ; compatibilité GUI digiKam encore à tester. Les originaux restent inchangés.
+
 La [revue privée des mots-clés](docs/tutorial/revue-mots-cles.md) est disponible : propositions lexicales, sélection manuelle, correction ou rejet, export du brouillon puis import explicite dans un journal local. Aucune proposition n'est acceptée automatiquement et les analyses/images initiales restent inchangées.
 
 Inventorier récursivement des photographies en lecture seule, analyser localement les scènes, objets et textes, puis préparer un enrichissement documentaire pérenne au moyen des standards IPTC/XMP et d'une base de connaissances locale. L'IA doit proposer ; un humain confirme les éléments incertains. Tous les calculs et les données privées restent sur l'ordinateur de l'utilisateur.

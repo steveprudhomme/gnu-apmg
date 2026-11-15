@@ -249,12 +249,25 @@ OBJECTIVE : rendre les mots-clés humainement validés portables sans écrire le
 
 | ID | Sous-étape avant travail | Critère de sortie | État |
 | --- | --- | --- | --- |
-| X1 | Contrat et commit préalable | Décisions courantes accept/correct uniquement ; aucune description/OCR/note/GPS ajouté ; sorties hors sources/Git | Planifié |
-| X2 | Simulation privée | Plan lisible avec photos résolues par SHA-256, concepts et champs futurs ; aucune écriture source | Planifié |
-| X3 | Correspondances standards | dc:subject pour libellés ; lr:hierarchicalSubject pour navigation (extension Adobe), AboutCvTerm IPTC pour URI/schéma/nom ; pas de faux SubjectCode | Planifié |
-| X4 | Écriture sur copies | Nouveau lot exclusif, copies identiques, nom image.ext.xmp, XML valide ; préserver les champs d'un sidecar existant et sauvegarder ses octets ; refuser ambiguïtés/collisions | Planifié |
-| X5 | Vérification et annulation | Journal avec empreintes, source/révision/vocabulaire ; relecture réelle ExifTool, intégrité avant/après ; rollback seulement des sidecars de ce lot et refus si modifiés depuis | Planifié |
-| X6 | Tests et pilote HEIC | Tests synthétiques déduplication/fusion/XML/annulation ; copie des deux photos validées ; digiKam seulement si disponible, jamais prétendre à une validation GUI absente | Planifié |
+| X1 | Contrat et commit préalable | Décisions courantes accept/correct uniquement ; aucune description/OCR/note/GPS ajouté ; sorties hors sources/Git | Fait |
+| X2 | Simulation privée | Plan lisible avec photos résolues par SHA-256, concepts et champs futurs ; aucune écriture source | Fait |
+| X3 | Correspondances standards | dc:subject pour libellés ; lr:hierarchicalSubject pour navigation (extension Adobe), AboutCvTerm IPTC pour URI/schéma/nom ; pas de faux SubjectCode | Fait |
+| X4 | Écriture sur copies | Nouveau lot exclusif, copies identiques, nom image.ext.xmp, XML valide ; préserver les champs d'un sidecar existant et sauvegarder ses octets ; refuser ambiguïtés/collisions | Fait |
+| X5 | Vérification et annulation | Journal avec empreintes, source/révision/vocabulaire ; relecture réelle ExifTool, intégrité avant/après ; rollback seulement des sidecars de ce lot et refus si modifiés depuis | Fait |
+| X6 | Tests et pilote HEIC | Tests synthétiques déduplication/fusion/XML/annulation ; copie des deux photos validées ; digiKam seulement si disponible, jamais prétendre à une validation GUI absente | Fait |
 | X7 | Documentation et publication | Tutoriel illustré, scripts, README/INSTALL/contrats/ROADMAP ; aucune image, XMP ou décision privée dans Git ; commits puis CI | Planifié |
 
 Les huit décisions importées sont la source humaine ; elles concernent des liens photo–concept, pas les phrases du modèle. Le lot exporté peut être supprimé manuellement mais le rollback applicatif n'efface pas les copies de photos : il retire les sidecars neufs ou restaure les sidecars antérieurs dans ce lot privé. Aucune annulation sur les sources originales. Les lieux/GPS et identités ne font pas partie de cet export. Un sidecar peut ne pas être lu automatiquement par tous les logiciels : relecture ExifTool distincte du test digiKam. Les hiérarchies Getty incomplètes restent limitées au fragment connu, sans parents inventés.
+
+
+### Bilan X — 15 novembre 2026
+
+- Plan préalable `0c9b4be`, avant implémentation. Export limité aux derniers concepts acceptés/corrigés de la revue, regroupés par SHA-256 et sans doublon d'identifiant.
+- XML : dc:subject, lr:hierarchicalSubject (extension Adobe) et IPTC AboutCvTerm/CvId/CvTermId/CvTermName. Pas de faux SubjectCode, pas de nouveaux GPS/noms/notes/OCR/descriptions.
+- Plan privé puis lot nouveau : copies byte-identiques, image.ext.xmp, sauvegardes et journal. Un XML existant est préservé sémantiquement et sauvegardé exactement ; ambiguïtés, liens, DTD et conflits refusés. Zone de construction temporaire vérifiée puis renommée, aucun original écrit.
+- Relecture réelle ExifTool 13.63 : deux copies HEIC et deux XMP ; 4 concepts pour une photo et 3 pour l'autre, libellés/hiérarchies/URI conformes au plan. Empreintes source/copie inchangées. Les fichiers privés restent hors Git.
+- Annulation testée seulement sur synthétique : compagnon nouveau retiré ou ancien restauré octet pour octet, copies retenues, refus si empreinte modifiée, reprise après interruption. Le lot réel est conservé pour l'utilisateur.
+- digiKam non trouvé dans le PATH et les deux emplacements courants vérifiés ; aucun test GUI ou garantie d'aller-retour digiKam revendiqué.
+- Suite locale : 56 tests exécutés, 54 réussis, 2 ignorés (permissions liens symboliques). Les copies conservent leurs métadonnées intégrées et restent privées ; le journal n'est pas cryptographiquement inviolable.
+
+Prochaine porte distincte : test manuel sur copies dans digiKam si installé, puis décision de convention d'export/de fusion avant toute écriture auprès des originaux. Ce jalon n'autorise pas une écriture intégrée dans les photos.

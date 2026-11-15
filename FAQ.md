@@ -24,3 +24,6 @@ Dix copies ont été décodées en dérivés RGB réduits sans métadonnées. Tr
 ## Comment valider les mots-clés proposés ?
 
 Créer une session de revue privée et ouvrir review.html. Choisir des concepts puis valider, corriger ou rejeter. Exporter le lot JSON et l'importer explicitement avec le script fourni. Les clics seuls ne modifient pas la base ; les mots-clés ne sont pas encore écrits dans les images. Voir le [tutoriel de revue](docs/tutorial/revue-mots-cles.md).
+## Les mots-clés validés sont-ils portables ?
+
+Un export XMP sur copies est disponible : libellés, hiérarchies et identifiants de concepts, avec contrôle d'intégrité et annulation. Il n'écrit pas les originaux et ne rend pas leurs copies anonymes. La relecture ExifTool est testée ; la lecture GUI digiKam reste à vérifier. Voir le [tutoriel XMP](docs/tutorial/export-xmp.md).
