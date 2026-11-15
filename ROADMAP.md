@@ -96,7 +96,7 @@ OBJECTIVE : valider la lecture documentaire réelle avant tout pilote privé. GO
 | E5 | Tester l'extraction réelle | Tags attendus retrouvés dans SQLite, erreurs de corruption séparées, SHA-256 source avant/après identiques ; scan répété stable | Fait |
 | E6 | Corriger les défauts réels | Régression automatisée si défaut ; ne pas masquer les erreurs ni altérer les originaux | Fait |
 | E7 | Préparer le pilote 100–200 photos | Procédure explicite, source fournie par l'utilisateur, sorties privées hors Git, contrôle indépendant avant/après et seuils d'arrêt | Fait |
-| E8 | Documenter et publier | Tutoriel illustré avec schéma honnête, INSTALL/README/ROADMAP synchronisés, rapport agrégé sans chemins privés, commits et contrôles CI | À faire |
+| E8 | Documenter et publier | Tutoriel illustré avec schéma honnête, INSTALL/README/ROADMAP synchronisés, rapport agrégé sans chemins privés, commits et contrôles CI | Fait |
 
 Le traitement des photos privées attend leur emplacement précis. Il ne sera pas lancé sur un dossier choisi arbitrairement. Les binaires téléchargés, images synthétiques générées et bases restent hors des fichiers versionnés. Le test ExifTool doit être facultatif en CI si aucun outil réel n'y est installé, avec indication explicite du saut.
 
@@ -130,3 +130,5 @@ Le manque de place initial a été résolu par l'utilisateur. ExifTool portable 
 - HEIC : lecture des métadonnées et hachage validés ; décodage des pixels, miniatures, conversion, OCR, vision et export encore non validés. Aucun traitement IA ou écriture documentaire sur les sources.
 
 Voir [le tutoriel](docs/tutorial/phase-1.md#11-exiftool-réel-et-pilote-heic--bilan-du-15-novembre-2026) et [le protocole de relance privée](docs/validation/pilot-runbook.md).
+
+Publication vérifiée : commit de code `56bc201`. [Contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43687539029). Le présent complément est exclusivement documentaire ; les tests ExifTool réels restent vérifiés localement, et peuvent être ignorés en CI lorsque l’exécutable est absent.

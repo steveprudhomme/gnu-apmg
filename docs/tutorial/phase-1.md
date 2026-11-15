@@ -200,3 +200,5 @@ Illustration vectorielle fondée uniquement sur ces métriques : elle ne contien
 La lecture de métadonnées et le hachage sont vérifiés pour ces 100 fichiers. Cela ne valide ni tous les HEIC/HEIF, ni leur décodage visuel, ni les miniatures, ni l'OCR/vision ou l'export. ExifTool répertorie HEIC/HEIF parmi les [formats pris en charge](https://exiftool.org/). Les étapes futures devront tester le décodage et traiter correctement orientation, couleurs et éventuelles images multiples.
 
 Le [guide du pilote privé](../validation/pilot-runbook.md) décrit les conditions de relance ; aucune nouvelle analyse privée n'est déclenchée par le script de tests.
+
+Publication du code et de ce tutoriel : commit `56bc201`. Les [contrôles GitHub Windows et Linux](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43687539029) ont réussi. La validation ExifTool réelle est celle du PC local ; la suite CI ignore explicitement ce test si l’outil y est absent. Les noms, chemins, bases et relevés du pilote ne figurent pas dans les commits.
