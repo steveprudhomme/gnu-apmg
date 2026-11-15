@@ -1,5 +1,18 @@
 # Installation de GNU APMG — Phase 1, Windows 11
 
+## Revue des mots-clés — ajout du jalon V
+
+Voir le [tutoriel illustré](docs/tutorial/revue-mots-cles.md). Utiliser l'environnement Phase 2 existant ; aucune installation ni relance de modèle supplémentaire n'est nécessaire.
+
+```powershell
+& .\scripts\New-KeywordReview.ps1 -Observations @('D:\EtatPrive\photo-vision.jsonl') -SessionDirectory 'D:\EtatPrive\revue-001'
+& .\scripts\Import-KeywordDecisions.ps1 -SessionDirectory 'D:\EtatPrive\revue-001' -DecisionsFile 'C:\Telechargements\decisions.json' -Actor 'moi'
+```
+
+Adapter ces chemins fictifs. `-PreparedDirectory` fournit les dérivés à inclure comme aperçus et `-Open` ouvre la page. Choisir un nouveau dossier privé, hors Git et des sources. Les clics dans le navigateur ne modifient pas la base : exporter puis importer le fichier de décisions. Fermer puis rouvrir `review.html` après l'import pour charger la nouvelle révision.
+
+Pour régénérer la page sans modifier les choix, utiliser le Python de `.venv-phase2` avec `-m photosemantique.review render SESSION`. Le sous-ordre `status SESSION` affiche seulement un état agrégé. Aucun serveur HTTP à démarrer.
+
 **Version :** `0.2.0a1` · CLI Python fonctionnelle ; modèles IA et OCR de Phase 2 **non intégrés**.
 
 ## 1. Prérequis

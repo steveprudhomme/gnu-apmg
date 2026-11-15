@@ -21,3 +21,6 @@ La Phase 1 inventorie et extrait les métadonnées des HEIC via ExifTool. Le pil
 ## Les HEIC peuvent-ils servir à la Phase 2 ?
 
 Dix copies ont été décodées en dérivés RGB réduits sans métadonnées. Trois ont servi aux essais OCR et vision ; une réponse de vision tronquée a été refusée. HDR, couleur et qualité sémantique nécessitent encore une validation humaine. Voir le tutoriel Phase 2.
+## Comment valider les mots-clés proposés ?
+
+Créer une session de revue privée et ouvrir review.html. Choisir des concepts puis valider, corriger ou rejeter. Exporter le lot JSON et l'importer explicitement avec le script fourni. Les clics seuls ne modifient pas la base ; les mots-clés ne sont pas encore écrits dans les images. Voir le [tutoriel de revue](docs/tutorial/revue-mots-cles.md).

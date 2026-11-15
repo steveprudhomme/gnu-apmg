@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 490" role="img" aria-labelledby="title desc">
+<title id="title">GNU APMG — proposition et validation humaine des mots-clés</title>
+<desc id="desc">Illustration synthétique, sans photo privée. Le mot planeur conduit à un concept candidat, jamais accepté automatiquement. La personne choisit, exporte un brouillon JSON puis l'importe dans le journal local.</desc>
+<rect width="1120" height="490" rx="20" fill="#101c30"/>
+<g font-family="Arial,sans-serif" fill="#eef5ff">
+<text x="35" y="48" font-size="26">GNU APMG · revue privée des mots-clés</text>
+<text x="35" y="80" font-size="17">Exemple fictif · aucune identité ni photographie personnelle</text>
+<g fill="#233d59" stroke="#7398bf" stroke-width="2"><rect x="35" y="115" width="300" height="160" rx="12"/><rect x="400" y="115" width="320" height="160" rx="12"/><rect x="785" y="115" width="300" height="160" rx="12"/></g>
+<text x="55" y="151" font-size="21">1 · Observation existante</text>
+<text x="55" y="186" font-size="18">« planeur »</text><text x="55" y="219" font-size="16">Pas de relance du modèle</text><text x="55" y="246" font-size="16">Photo et texte restent privés</text>
+<text x="420" y="151" font-size="21">2 · Candidat à vérifier</text>
+<text x="420" y="186" font-size="18">Getty AAT · 300211102</text><text x="420" y="219" font-size="17">gliders (aircraft)</text><text x="420" y="246" font-size="16">Libellé, définition, parents</text>
+<text x="805" y="151" font-size="21">3 · Votre choix</text>
+<text x="805" y="186" font-size="18">Valider · Corriger · Rejeter</text><text x="805" y="219" font-size="16">Plusieurs concepts possibles</text><text x="805" y="246" font-size="16">Aucune présélection validée</text>
+<g stroke="#bed3e6" stroke-width="2"><path d="M340 195H390 M725 195H775"/></g>
+<text x="35" y="328" font-size="22" fill="#ffd393">Clics dans la page → brouillon exporté → import explicite → journal SQLite</text>
+<text x="35" y="370" font-size="18">Avant import : rien n'est enregistré dans la base de validation.</text>
+<text x="35" y="407" font-size="18">Après import : révision contrôlée, acteur déclaré et historique conservé.</text>
+<text x="35" y="448" font-size="17">Aucune écriture de mots-clés dans les images ou sidecars à ce jalon.</text>
+</g></svg>

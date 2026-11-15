@@ -1,5 +1,7 @@
 # Vocabulaire contrôlé — GNU APMG
 
+**Mise à jour jalon V :** le rapprochement lexical limité et la [revue humaine des mots-clés](../tutorial/revue-mots-cles.md) sont désormais disponibles. Les mentions de validation à implémenter ci-dessous décrivent l'état antérieur. Cela ne crée ni équivalence automatique entre référentiels ni export dans les photos.
+
 Le cadrage initial ci-dessous est désormais complété par un import réel de référentiels.
 
 - [Guide des photographies personnelles](TAXONOMIE-PERSONNELLE.md) : facettes, situations de vie et règles de précision.

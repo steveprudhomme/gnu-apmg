@@ -1,9 +1,7 @@
-# Contrat préliminaire : semantic
+# Composant sémantique — état réel
 
-**Statut : non implémenté.** Futur graphe de faits et hypothèses révocables.
+Implémentés : vocabulaires IPTC/Getty figés, consultation SKOS/JSON, rapprochement lexical limité des observations d'objets et revue humaine privée des concepts. Voir le [tutoriel de revue](../../docs/tutorial/revue-mots-cles.md).
 
-- Entrée prévue : Observations + confirmations.
-- Sortie prévue : Relations RDF/PROV-O.
-- Aucun appel réseau externe, aucune donnée du pilote dans Git.
-- Les schémas sont documentés dans `schemas/` et `docs/architecture/contracts.md`.
-- Contrats de CLI et tests indépendants à rédiger avant implémentation.
+Les décisions sont journalisées dans une base de revue distincte avec snapshot, acteur déclaré, révision et historique. Aucune acceptation automatique ni modification des analyses initiales.
+
+Non implémentés : graphe de relations RDF/OWL inter-images, PROV-O complet, inférences d'événements, migration des validations entre catalogues et export IPTC/XMP.

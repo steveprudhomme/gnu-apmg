@@ -218,12 +218,24 @@ OBJECTIVE : transformer les observations existantes en propositions de concepts 
 
 | ID | Sous-étape avant implémentation | Critère de sortie | État |
 | --- | --- | --- | --- |
-| V1 | Contrats et protections | Commit préalable ; entrées JSONL validées et identités stables ; sorties privées hors sources/Git ; aucune approbation automatique | Planifié |
-| V2 | Candidats déterministes | Correspondances lexicales bornées, quelques alias explicites révisés, termes IPTC retirés exclus ; homonymes et absence de candidat visibles | Planifié |
-| V3 | Présentation humaine | Rapport HTML local privé : aperçu réduit si fourni, texte source, concepts/définitions/provenance ; accepter/corriger/rejeter avec recherche manuelle | Planifié |
-| V4 | Journal des décisions | Export JSON depuis navigateur puis import explicite ; identifiant de session, révision anti-écrasement, acteur déclaré, horodatage et historique append-only SQLite | Planifié |
-| V5 | Reprise et tests | Rejet des modifications d'identité, concepts inconnus/retirés, décisions contradictoires ou obsolètes ; transaction atomique, rejouabilité contrôlée ; tests synthétiques | Planifié |
-| V6 | Pilote privé existant | Construire une session depuis les analyses déjà présentes, aucune identité/personne/GPS publiée ; aucune décision humaine prise à la place de l'utilisateur | Planifié |
+| V1 | Contrats et protections | Commit préalable ; entrées JSONL validées et identités stables ; sorties privées hors sources/Git ; aucune approbation automatique | Fait |
+| V2 | Candidats déterministes | Correspondances lexicales bornées, quelques alias explicites révisés, termes IPTC retirés exclus ; homonymes et absence de candidat visibles | Fait |
+| V3 | Présentation humaine | Rapport HTML local privé : aperçu réduit si fourni, texte source, concepts/définitions/provenance ; accepter/corriger/rejeter avec recherche manuelle | Fait |
+| V4 | Journal des décisions | Export JSON depuis navigateur puis import explicite ; identifiant de session, révision anti-écrasement, acteur déclaré, horodatage et historique append-only SQLite | Fait |
+| V5 | Reprise et tests | Rejet des modifications d'identité, concepts inconnus/retirés, décisions contradictoires ou obsolètes ; transaction atomique, rejouabilité contrôlée ; tests synthétiques | Fait |
+| V6 | Pilote privé existant | Construire une session depuis les analyses déjà présentes, aucune identité/personne/GPS publiée ; aucune décision humaine prise à la place de l'utilisateur | Fait |
 | V7 | Documentation et livraison | Tutoriel illustré, README/INSTALL/contrats/ROADMAP à jour, scripts utilisateur, commits et contrôles GitHub | Planifié |
 
 Les descriptions et textes OCR sont du contexte de revue ; seules les observations d'objets déclenchent le rapprochement lexical automatique initial. Les thèmes sensibles restent en choix manuel. Une similarité lexicale n'est pas une probabilité et ne crée pas d'exactMatch entre vocabulaires. La validation humaine porte sur le lien photo–concept proposé, pas sur une réécriture du texte d'origine. Les résultats validés restent dans l'état privé ; aucun export dans les images ou sidecars à ce jalon. Le HTML n'héberge pas de serveur, ne charge aucun CDN et ne transmet aucun média ; le transfert des décisions passe par un fichier choisi explicitement par l'utilisateur.
+
+
+### Bilan V — 15 novembre 2026
+
+- Plan préalable `c1a5ba4`. Rapprochement lexical sans IA : libellés bornés, alias explicites, exclusion des retirés et branches sensibles, recherche manuelle du snapshot.
+- Revue HTML privée avec aperçus vérifiés, définitions et provenance. Sélections multiples, correction et rejet ; aucune confirmation par défaut. Les modifications d'un brouillon confirmé exigent une nouvelle confirmation.
+- Export JSON puis import explicite : transaction atomique, acteur déclaré, révision, empreinte du catalogue, historique append-only via l'application. Rejeu identique idempotent ; lots contradictoires/obsolètes et concepts inconnus/retirés refusés.
+- Session réelle créée depuis deux analyses existantes : 47 observations, 15 objets, 3 avec candidats, 2 aperçus. Révision 0, zéro décision ; aucune acceptation au nom de l'utilisateur. Modèles non relancés.
+- Session synthétique distincte : interactions testées en DOM simulé (sélection, invalidation, acceptation/rejet, recherche/correction/export), puis import réel du seul lot fictif via le script PowerShell. La session réelle est restée intacte.
+- Navigateur de test indisponible au lancement ; aucune inspection visuelle réelle n'est revendiquée. jsdom est seulement un outil de test hors dépôt.
+- Suite locale : 47 tests, 45 réussis, 2 ignorés pour permissions de liens symboliques. Scripts de création/import exécutés, modèle HTML embarqué et vérifié dans la wheel construite (aucune release publiée).
+- Limites : pas d'export vers photos/XMP, pas de migration inter-catalogues, pas de reprise de brouillons non exportés après fermeture du navigateur, pas d'authentification ni d'inaltérabilité cryptographique de l'acteur/journal.

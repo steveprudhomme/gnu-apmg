@@ -27,4 +27,4 @@ photosemantique = "photosemantique.cli:main"
 include = ["photosemantique*"]
 
 [tool.setuptools.package-data]
-photosemantique = ["migrations/*.sql", "schemas/*.json", "taxonomies/*.json"]
+photosemantique = ["migrations/*.sql", "schemas/*.json", "taxonomies/*.json", "templates/*.html"]

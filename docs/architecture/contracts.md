@@ -1,5 +1,15 @@
 # Contrats d'échange v0 — proposition
 
+## Mise à jour : revue des mots-clés implémentée au jalon V
+
+Les limites d'interface des sections antérieures sont historiques. CLI distincte : `python -m photosemantique.review create --input OBSERVATIONS --output SESSION [--prepared DERIVE]` (input/prepared répétables), `apply SESSION --decisions LOT_JSON --actor ACTEUR`, `render SESSION`, `status SESSION`.
+
+Une session privée conserve observations/candidats/vocabulaire, digest de catalogue, identifiant UUID et révision entière. Lot JSON v1 : version, batch_id, session_id, base_revision, catalogue_digest et decisions. Une décision contient observation_id, action (accept/correct/reject), concept_uris et note. Accept exige des candidats proposés ; correct permet des concepts connus choisis manuellement ; reject ne contient aucun concept. L'acteur déclaré à l'import n'est pas une identité authentifiée.
+
+Les tables metadata, batches et decisions de review.sqlite sont distinctes de l'inventaire. La transaction rejette un lot incohérent en entier. L'historique est append-only via l'application ; le dernier événement par observation donne l'état courant. Un rejeu identique est idempotent ; une ancienne révision différente est refusée. Une modification du catalogue exige une nouvelle session, sans migration automatique.
+
+Les observations source restent suggested et inchangées ; les décisions portent sur leurs liens photo–concept. Pas d'export dans les images, pas de validation de phrases ou d'identités. Le HTML privé fonctionne sans serveur ni chargement réseau ; les aperçus sont embarqués et les textes affichés via textContent.
+
 Un `photo_id` stable est dérivé d'une empreinte SHA-256 des octets, non d'un chemin (mutable). Un `scan_id` est distinct de `photo_id` ; chaque emplacement local reçoit un `file_instance_id`. Le manifeste phase 1 est un flux JSONL UTF-8 avec `photo_id`, `path_private` **local uniquement**, `size`, `sha256`, `mtime`, `exif_raw`, `errors`.
 
 Phase 2 produit des observations immuables séparées : `observation_id`, `photo_id`, `type`, `literal` ou `concept_uri`, `geometry`, `status` (`suggested|validated|rejected|inferred`), `origin` (`human|model|ocr|exif|rule`), `tool_name`, `model_digest`, `created_at`, `evidence`, `confidence` (nullable, seulement si calibrée), `supersedes_id`.

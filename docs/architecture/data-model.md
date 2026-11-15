@@ -1,5 +1,9 @@
 # Trois niveaux de persistance
 
+## Ajout implémenté au jalon V : revue des mots-clés
+
+Une base privée `review.sqlite`, distincte de l'inventaire, contient metadata (snapshot JSON et révision), batches (identité et digest d'import) et decisions (événements accept/correct/reject, concepts, observation, acteur déclaré, note, date et révision). Le dernier événement par observation donne l'état courant ; les événements précédents et analyses source ne sont pas écrasés. L'absence de validations humaines mentionnée dans l'état Phase 1 ci-dessous est historique. Le graphe RDF/OWL et l'export dans les images restent non implémentés.
+
 | Niveau | Nature | Ce qu'on y met | Quand |
 |---|---|---|---|
 | 1 — fichier original | EXIF/IPTC/XMP intégrés, lorsque le format le permet | Valeurs d'origine, puis **uniquement** champs explicitement confirmés | Phases 1/2 : lecture seule ; écriture en phase ultérieure sur copies testées |

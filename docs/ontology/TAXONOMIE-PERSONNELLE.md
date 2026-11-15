@@ -1,5 +1,7 @@
 # Taxonomie des photographies personnelles — GNU APMG
 
+**Mise à jour jalon V :** la [revue privée des mots-clés](../tutorial/revue-mots-cles.md) propose des correspondances lexicales et conserve les décisions humaines. Les limites d'interface décrites plus bas sont historiques ; reconnaissance fine, attribution sans contrôle humain et export restent non livrés.
+
 ## Choix : référentiels éprouvés et facettes complémentaires
 
 Version de travail 1.0, 15 novembre 2026. Cette base réutilise **IPTC Media Topics** pour les thèmes, événements et contextes ; **Getty AAT** pour une première sélection d'objets/nature ; **SKOS** pour les identifiants, libellés et relations. Elle ne prétend pas qu'une taxonomie de presse remplace une classification exhaustive de tous les objets ou de toutes les espèces.

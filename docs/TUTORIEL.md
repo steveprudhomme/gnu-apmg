@@ -1,5 +1,7 @@
 # Tutoriel illustré de reprise
 
+Pour le jalon V, consulter le [tutoriel illustré de revue des mots-clés](tutorial/revue-mots-cles.md) : candidats, aperçus, choix humains, export/import et historique privé. Aucune décision n'a été prise à la place de l'utilisateur sur ses photos.
+
 Projet : **GNU Automatic Picture Metadata generator (GNU APMG)**, anciennement GNU APMG.
 
 Le nom est mis à jour dans README.md, ROADMAP.md et ce tutoriel. Les références historiques au bundle et à l'ancien dépôt sont conservées pour retrouver les sources.
