@@ -92,3 +92,6 @@ Tests synthétiques : sélection des seules validations courantes, fusion sans p
 
 
 Suite locale complète : **56 tests exécutés, 54 réussis, 2 ignorés** (permissions de liens symboliques). Le lot réel et son journal sont conservés ; aucune annulation des données de l’utilisateur n’a été exécutée.
+
+
+Publication : commit `6da22a7`. Les [contrôles GitHub Windows et Linux](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43764456464) ont réussi. Les fichiers privés du pilote (copies, XMP, plan, journal et vérification) ne sont pas versionnés ; seule l’implémentation, les tests et la documentation sont publiés.

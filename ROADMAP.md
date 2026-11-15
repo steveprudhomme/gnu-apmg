@@ -255,7 +255,7 @@ OBJECTIVE : rendre les mots-clés humainement validés portables sans écrire le
 | X4 | Écriture sur copies | Nouveau lot exclusif, copies identiques, nom image.ext.xmp, XML valide ; préserver les champs d'un sidecar existant et sauvegarder ses octets ; refuser ambiguïtés/collisions | Fait |
 | X5 | Vérification et annulation | Journal avec empreintes, source/révision/vocabulaire ; relecture réelle ExifTool, intégrité avant/après ; rollback seulement des sidecars de ce lot et refus si modifiés depuis | Fait |
 | X6 | Tests et pilote HEIC | Tests synthétiques déduplication/fusion/XML/annulation ; copie des deux photos validées ; digiKam seulement si disponible, jamais prétendre à une validation GUI absente | Fait |
-| X7 | Documentation et publication | Tutoriel illustré, scripts, README/INSTALL/contrats/ROADMAP ; aucune image, XMP ou décision privée dans Git ; commits puis CI | Planifié |
+| X7 | Documentation et publication | Tutoriel illustré, scripts, README/INSTALL/contrats/ROADMAP ; aucune image, XMP ou décision privée dans Git ; commits puis CI | Fait |
 
 Les huit décisions importées sont la source humaine ; elles concernent des liens photo–concept, pas les phrases du modèle. Le lot exporté peut être supprimé manuellement mais le rollback applicatif n'efface pas les copies de photos : il retire les sidecars neufs ou restaure les sidecars antérieurs dans ce lot privé. Aucune annulation sur les sources originales. Les lieux/GPS et identités ne font pas partie de cet export. Un sidecar peut ne pas être lu automatiquement par tous les logiciels : relecture ExifTool distincte du test digiKam. Les hiérarchies Getty incomplètes restent limitées au fragment connu, sans parents inventés.
 
@@ -271,3 +271,5 @@ Les huit décisions importées sont la source humaine ; elles concernent des lie
 - Suite locale : 56 tests exécutés, 54 réussis, 2 ignorés (permissions liens symboliques). Les copies conservent leurs métadonnées intégrées et restent privées ; le journal n'est pas cryptographiquement inviolable.
 
 Prochaine porte distincte : test manuel sur copies dans digiKam si installé, puis décision de convention d'export/de fusion avant toute écriture auprès des originaux. Ce jalon n'autorise pas une écriture intégrée dans les photos.
+
+Publication X : commit `6da22a7`, [contrôles GitHub Windows et Linux réussis](https://github.com/steveprudhomme/gnu-apmg/actions/runs/43764456464). Les deux copies, XMP, sauvegardes éventuelles et journaux restent privés ; aucune écriture sur les originaux. Le test digiKam reste ouvert.
