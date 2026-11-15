@@ -152,3 +152,15 @@ OBJECTIVE : produire des propositions documentaires locales traçables, sans cha
 Constats préalables : Ollama 0.40.13 disponible, RTX 4070 12 Go détectée ; Qwen3-VL 8B absent, Qwen3.5 9B déjà présent. Python 3.13 et Pillow 12.0 sont disponibles ; paddleocr/paddlepaddle/pillow-heif absents. Environ 9 Go libres sur C: lors du contrôle. Ne pas déduire la compatibilité GPU ou Python des seuls noms ; tester les paquets exacts. Pas de reconnaissance faciale, géocodage ni export XMP à ce jalon.
 
 La validation de qualité finale exige une vérité terrain privée et une revue humaine. Une réponse JSON valide et un test de fonctionnement ne constituent pas une preuve de précision OCR/vision ni de décodage HDR fidèle. Les photos du pilote ne seront envoyées qu'au service local explicitement vérifié.
+
+
+### Reprise Phase 2 après arrêt et nettoyage — 15 novembre 2026
+
+- Vérifier l'environnement Python déplacé sur D: et son lien local avant relance : imports Python 3.13.6 / Pillow 13.0.0 / PaddleOCR 3.7.0 réussis. Le code Phase 2 reste non publié à ce stade.
+- Reprendre le téléchargement Qwen3-VL 8B explicitement choisi ; le cache partiel a été supprimé pendant le nettoyage, mais le composant complet déjà reçu est conservé.
+- Valider d'abord une image synthétique à texte connu avec vision et OCR réels ; observer temps et mémoire, sauvegarder les détails uniquement dans l'état privé.
+- Tester ensuite au plus trois dérivés HEIC déjà préparés, sans nouvelle recherche de photos ; vérifier intégrité, absence de métadonnées et validité des propositions.
+- Ajouter les régressions nécessaires pour refus des modèles distants, sorties invalides, provenance et non-écrasement. Conserver la validation humaine comme porte de qualité non automatisable.
+- Finaliser les scripts PowerShell et leur documentation illustrée, puis publier le code seulement après les tests locaux et contrôles de confidentialité ; suivre la CI.
+
+Ce complément est commité avant la reprise du travail. Environ 18,5 Go libres sur C: au contrôle ; aucun autre nettoyage ni déplacement d'installation n'est prévu.
