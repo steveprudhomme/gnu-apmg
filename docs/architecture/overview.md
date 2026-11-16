@@ -14,7 +14,8 @@
 | `faces` (futur) | Photo et bibliothèque opt-in | Vecteurs, identités candidates | Moteur facial dédié et contrôlé |
 | `geo` (futur) | GPS EXIF | Coordonnées validées, région et adresse approximative | Référentiel OSM local ; Nominatim auto-hébergé facultatif |
 | `semantic` (futur) | Observations + confirmations | Relations versionnées et graphe RDF | SKOS/PROV-O, stockage local |
-| `export` (futur) | Assertions autorisées | Sidecars XMP, copies enrichies si demandé | ExifTool |
+| `xmp_export` | Concepts acceptés/corrigés | Copies identiques, sidecars XMP, journal réversible | Python ; relecture ExifTool séparée |
+| `digikam_lab` | Lot exporté privé | Nouvelles copies, empreintes, comparaison XML | Python ; observation digiKam manuelle séparée |
 
 Éviter les imports directs entre modules de haut niveau. Fournir à chacun une CLI ou un adaptateur de processus ; contrats versionnés dans `schemas/`. L'orchestrateur gère files d'attente, limitation de la mémoire, retries et persistance d'état ; il ne contient pas d'algorithmes IA.
 
@@ -40,4 +41,4 @@ Références : https://www.iptc.org/std/photometadata/specification/ ; https://w
 
 L'orchestrateur de l'inventaire réside actuellement dans `photosemantique/inventory.py` et n'utilise aucun serveur réseau. Le service ExifTool est un sous-processus local et `photosemantique/storage.py` possède la persistance SQLite. Ce monolithe modulaire est intentionnel pour limiter la charge de maintenance au début. Voir le [tutoriel illustré](../tutorial/phase-1.md).
 
-**Phase 2 non implémentée :** les modules vision/OCR/faces/geo/semantic/export restent des contrats et devront être intégrés par interfaces plutôt qu'au moyen de dépendances circulaires.
+**Phase 2 expérimentale :** préparation HEIC, vision locale et OCR sont disponibles dans `phase2.py`. La revue humaine et l'export XMP sur copies sont implémentés ; le laboratoire d'interopérabilité prépare les preuves de fichiers sans certifier une validation visuelle. Les modules faces/geo et le graphe sémantique restent futurs. Voir les tutoriels [Phase 2](../tutorial/phase-2.md), [revue](../tutorial/revue-mots-cles.md), [export](../tutorial/export-xmp.md) et [digiKam](../tutorial/digikam-lab.md).

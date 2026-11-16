@@ -281,11 +281,21 @@ OBJECTIVE : vérifier l'association HEIC/XMP, les mots-clés et l'aller-retour d
 
 | ID | Sous-étape avant travail | Critère de sortie | État |
 | --- | --- | --- | --- |
-| D1 | Inventorier et choisir la version | Installation existante vérifiée ; sinon paquet officiel stable/portable, version, espace, empreintes et disponibilité du contrôle UI | Planifié |
-| D2 | Préparer un laboratoire privé | Copies supplémentaires du lot XMP, collection/base/configuration séparées, empreintes de référence ; aucune photothèque personnelle ajoutée | Planifié |
-| D3 | Vérifier la lecture | Reconnaissance HEIC et sidecar image.ext.xmp, libellés et hiérarchie ; noter ce que l'interface expose ou non des URI AboutCvTerm | Planifié |
-| D4 | Tester l'aller-retour | Écriture des métadonnées seulement dans les compagnons du laboratoire, comparaison avant/après des champs et des octets images ; aucun résultat déduit d'une simple relecture ExifTool | Planifié |
-| D5 | Analyser et corriger si nécessaire | Comparaison sémantique et diagnostic des pertes ; modifier le code seulement si défaut vérifié et test de régression pertinent | Planifié |
-| D6 | Documenter et publier | Tutoriel illustré sans photos privées, MD synchronisés, scripts/protocole de relance, résultats/limites vérifiés, commits et CI | Planifié |
+| D1 | Inventorier et choisir la version | Installation existante vérifiée ; sinon paquet officiel stable/portable, version, espace, empreintes et disponibilité du contrôle UI | Fait ; contrôle UI indisponible |
+| D2 | Préparer un laboratoire privé | Copies supplémentaires du lot XMP, collection/base/configuration séparées, empreintes de référence ; aucune photothèque personnelle ajoutée | Fait |
+| D3 | Vérifier la lecture | Reconnaissance HEIC et sidecar image.ext.xmp, libellés et hiérarchie ; noter ce que l'interface expose ou non des URI AboutCvTerm | À observer par l’utilisateur |
+| D4 | Tester l'aller-retour | Écriture des métadonnées seulement dans les compagnons du laboratoire, comparaison avant/après des champs et des octets images ; aucun résultat déduit d'une simple relecture ExifTool | Comparateur prêt ; essai digiKam en attente |
+| D5 | Analyser et corriger si nécessaire | Comparaison sémantique et diagnostic des pertes ; modifier le code seulement si défaut vérifié et test de régression pertinent | En attente de D3–D4 |
+| D6 | Documenter et publier | Tutoriel illustré sans photos privées, MD synchronisés, scripts/protocole de relance, résultats/limites vérifiés, commits et CI | Documentation et scripts prêts ; publication en cours |
 
 Constats initiaux : digiKam non trouvé dans le PATH, les emplacements Windows courants et les clés de désinstallation consultées. Un contrôle supplémentaire via les apps accessibles précédera toute installation. Environ 17,6 Go libres sur C: et 27,3 Go sur D:. Préférer une distribution portable officielle et un profil isolé. Si le contrôle GUI est indisponible, préparer le laboratoire et le script utilisateur, consigner le blocage et ne pas déclarer un test digiKam réussi. Les captures publiques doivent utiliser uniquement des données synthétiques ; les observations détaillées du laboratoire privé restent locales. Pas de reconnaissance faciale, géocodage, synchronisation distante ou écritures sur les originaux.
+
+
+### Bilan de préparation D — 15 novembre 2026
+
+- Plan distinct `ed8a94f` avant code. Paquet portable officiel digiKam 9.1.0 Qt6 Win64 extrait hors dépôt ; SHA-256 conforme à la page KDE. Signature détachée récupérée mais non vérifiée cryptographiquement. Options de configuration/base confirmées dans la source 9.1.0 ; aucun réglage global remplacé par les scripts du projet.
+- Deux nouvelles copies HEIC et deux compagnons XMP dans un laboratoire privé distinct. Comparaison initiale : référence, images et propriétés XMP inchangées ; aucune écriture digiKam exécutée par le protocole.
+- Lanceur PowerShell, module de préparation/comparaison conservatrice XML, état initial et formulaire d’observations privés. Une configuration principale et une base dédiées ne garantissent pas le confinement de tous les caches et réglages auxiliaires de digiKam.
+- 61 tests synthétiques exécutés : 59 réussis, 2 ignorés (permissions de liens symboliques). Détection des modifications/pertes et refus des XML dangereux, sorties Git et paires incomplètes vérifiés. Pas de test de décodage digiKam dans cette suite.
+- [Tutoriel illustré](docs/tutorial/digikam-lab.md), README, INSTALL et architecture synchronisés ; diagramme sans photographie privée.
+- Contrôle Windows automatique indisponible à son initialisation. D3–D4 restent ouverts : l’utilisateur doit observer les aperçus, l’association des sidecars, les étiquettes et l’écriture limitée aux XMP. Aucun résultat GUI ni compatibilité d’aller-retour revendiqué. Aucun changement du moteur d’export sans défaut observé.

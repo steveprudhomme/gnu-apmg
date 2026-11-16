@@ -167,3 +167,7 @@ python -X utf8 scripts/build_taxonomy.py --check
 ```
 
 La consultation et la reconstruction utilisent uniquement la bibliothèque standard Python et les sources figées. `rdflib==7.6.0` est optionnel pour valider l’export RDF/SKOS ; il est installé dans l’environnement Phase 2 et dans la CI, et disponible via l’extra `taxonomy-validation`. Les données distribuées conservent leurs licences séparées, expliquées dans `third_party/vocabularies/README.md`.
+
+## Laboratoire digiKam facultatif sous Windows
+
+La distribution portable officielle 9.1.0 Qt6 Windows 64 bits a été préparée hors dépôt sur le poste pilote. Elle n'est ni embarquée ni téléchargée automatiquement par le script du projet. Le [guide illustré](docs/tutorial/digikam-lab.md) précise provenance, empreinte vérifiée, limites d'isolation et procédure sur copies. `scripts/Invoke-DigiKamLab.ps1` propose `Prepare`, `Open` et `Compare` ; son lancement par défaut utilise le laboratoire privé déjà préparé. L'environnement `.venv-phase2` doit exister pour les opérations Python ; la comparaison XML elle-même n'exige aucune bibliothèque supplémentaire.

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="410" viewBox="0 0 1040 410" role="img" aria-labelledby="title desc">
+ <title id="title">Laboratoire digiKam sur copies privées</title>
+ <desc id="desc">L'export de référence est copié dans une collection distincte. Un contrôle de fichiers et une observation humaine apportent deux preuves séparées.</desc>
+ <rect width="1040" height="410" fill="#f4f7fb"/>
+ <g font-family="Segoe UI, sans-serif" fill="#17324d">
+  <text x="30" y="44" font-size="26" font-weight="bold">Essai digiKam : une collection séparée</text>
+  <rect x="30" y="82" width="275" height="145" rx="12" fill="#e0ebfa" stroke="#527ba5"/>
+  <text x="50" y="115" font-size="21" font-weight="bold">Export de référence</text>
+  <text x="50" y="150" font-size="18">2 HEIC + 2 XMP</text>
+  <text x="50" y="183" font-size="18">Lecture seule • SHA-256</text>
+  <text x="50" y="210" font-size="17">Conservé hors de Git</text>
+  <path d="M320 153 H385" stroke="#527ba5" stroke-width="4"/>
+  <path d="M375 145 L389 153 L375 161" fill="none" stroke="#527ba5" stroke-width="4"/>
+  <rect x="400" y="82" width="270" height="145" rx="12" fill="#e3f2ec" stroke="#49836b"/>
+  <text x="420" y="115" font-size="21" font-weight="bold">Laboratoire neuf</text>
+  <text x="420" y="150" font-size="18">Copies supplémentaires</text>
+  <text x="420" y="183" font-size="18">Base + configuration dédiées</text>
+  <text x="420" y="210" font-size="17">Écriture dans les XMP seuls</text>
+  <path d="M685 153 H740" stroke="#527ba5" stroke-width="4"/>
+  <path d="M730 145 L744 153 L730 161" fill="none" stroke="#527ba5" stroke-width="4"/>
+  <rect x="758" y="82" width="250" height="145" rx="12" fill="#fff0d9" stroke="#a97937"/>
+  <text x="778" y="115" font-size="21" font-weight="bold">Preuves séparées</text>
+  <text x="778" y="150" font-size="18">Vous : aperçu et étiquettes</text>
+  <text x="778" y="183" font-size="18">Script : octets et XML</text>
+  <text x="778" y="210" font-size="17">Aucun succès GUI déduit</text>
+  <text x="30" y="291" font-size="21" font-weight="bold">Avant → essai visuel → écriture XMP → comparaison</text>
+  <text x="30" y="334" font-size="19">Les originaux restent en dehors du laboratoire.</text>
+  <text x="30" y="368" font-size="19">Schéma du protocole — aucun média privé, aucune capture simulée.</text>
+ </g>
+</svg>

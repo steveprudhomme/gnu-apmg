@@ -56,6 +56,8 @@ export-xmp-001/
 
 Le nom `image.ext.xmp` évite les collisions entre formats partageant un même nom de base. digiKam dispose aussi d'un mode `image.xmp` : ce réglage doit être adapté lors d'un essai manuel. Le lot n'est pas écrit aux côtés des originaux et ne modifie pas leurs compagnons.
 
+Le [protocole digiKam sur une nouvelle collection de copies](digikam-lab.md) fournit désormais un lanceur et une comparaison avant/après. Le test visuel et l'aller-retour restent ouverts ; ne pas utiliser le lot de référence directement comme collection.
+
 Un sidecar existant est recherché avec ces deux conventions ; si les deux existent, l'export est refusé. Les champs XML non ciblés sont conservés sémantiquement, avec sauvegarde des octets initiaux. Les listes sont fusionnées ; les libellés identiques sont dédupliqués mais des concepts distincts portant le même libellé gardent leurs identifiants séparés. Les XML invalides, DTD/entités et formes de propriétés non prises en charge sont refusés plutôt que réécrits silencieusement.
 
 La fusion accepte les compagnons UTF-8 (BOM éventuel inclus). Les autres encodages, notamment UTF-16, sont refusés à ce stade ; aucune conversion implicite d'un XML non pris en charge.
